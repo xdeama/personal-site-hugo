@@ -1,0 +1,25 @@
+{{ if eq .Site.Language.Lang "de" }}
+    {{ $found := false }}
+    {{ range .Translations }}
+        {{ if eq .Lang "en" }}
+            <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ $found = true }}
+            {{ break }}
+        {{ end }}
+    {{ end }}
+    {{ if not $found }}
+        <a href="{{ .Site.BaseURL }}en/">English</a>
+    {{ end }}
+{{ else if eq .Site.Language.Lang "en" }}
+    {{ $found := false }}
+    {{ range .Translations }}
+        {{ if eq .Lang "de" }}
+            <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{ $found = true }}
+            {{ break }}
+        {{ end }}
+    {{ end }}
+    {{ if not $found }}
+        <a href="{{ .Site.BaseURL }}de/">Deutsch</a>
+    {{ end }}
+{{ end }}

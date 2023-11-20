@@ -1,0 +1,14 @@
+{{ define "main" }}
+    <article class="wrapper region prose flow">
+        {{ .Content }}
+
+        <h2>Blog</h2>
+        <div>
+            <ul class="flow" role="list">
+                {{ range (where .Site.RegularPages "Section" "posts") }}
+                    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+    </article>
+{{ end }}

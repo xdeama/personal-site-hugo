@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <article class="wrapper region prose flow">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+
+        <ul>
+        {{ range .Pages }}
+            <li>
+                <strong><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></strong>
+                <br> {{ .Description }}
+            </li>
+
+        {{ end }}
+        </ul>
+    </article>
+{{ end }}

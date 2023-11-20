@@ -1,0 +1,42 @@
+baseURL: https://dmalo.de
+theme: scrapyard
+
+title: Denis Malolepszy Software Engineering
+
+defaultContentLanguage: de
+defaultContentLanguageInSubdir: true
+languages:
+  de:
+    contentDir: content/de
+    disabled: false
+    languageCode: de-DE
+    languageDirection: ltr
+    languageName: Deutsch
+    weight: 1
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    weight: 2
+
+disableKinds:
+  - taxonomy
+  - term
+  - sitemap
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: false
+    noHl: false
+    tabWidth: 4

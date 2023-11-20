@@ -1,0 +1,189 @@
+.box {
+    box-sizing: border-box;
+    padding: var(--s1);
+    border: var(--border-thin) solid;
+    color: var(--color-dark);
+    background-color: var(--color-light);
+
+    /*border-top: 0.1rem dotted;*/
+    /*border-color: var(--color-primary);*/
+}
+
+.box * {
+    color: inherit;
+}
+
+.box.invert {
+    color: var(--color-light);
+    background-color: var(--color-dark);
+}
+
+.cluster {
+    display: flex;
+    flex-wrap: var(--cluster-flex-wrap, wrap);
+    gap: var(--gutter, var(--space-s-l));
+    justify-content: var(--cluster-horizontal-alignment, flex-start);
+    align-items: var(--cluster-vertical-alignment, center);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(
+    var(--grid-placement, auto-fill),
+    minmax(var(--grid-min-item-size, 14rem), 1fr)
+  );
+    gap: var(--gutter, var(--space-s-l));
+}
+
+.grid[data-fit='auto-fit'] {
+    --grid-placement: auto-fit;
+}
+
+.grid[data-rows='masonry'] {
+    align-items: start;
+    grid-template-rows: masonry;
+}
+
+.reel {
+    --reel-space: 2rem;
+    display: flex;
+    height: auto;
+    max-width: 100%;
+    margin-inline: auto;
+
+    /* Padding allows child element hover states to show */
+    padding: 0.5rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.reel > * {
+    flex-basis: var(--reel-item-width, calc(33.333% - var(--reel-space)));
+    flex-shrink: 0;
+}
+
+.reel > * + * {
+    margin-inline-start: var(--reel-space);
+}
+
+/* SCROLL TYPE EXCEPTION
+   Sets the reel to snap on each item on scroll */
+.reel[data-scroll='snap'] {
+    scroll-snap-type: x mandatory;
+}
+
+.reel[data-scroll='snap'] > * {
+    scroll-snap-align: start;
+}
+
+.repel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: var(--repel-vertical-alignment, center);
+    gap: var(--gutter, var(--space-s-l));
+}
+
+.repel[data-nowrap] {
+    flex-wrap: nowrap;
+}
+
+.sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gutter, var(--space-s-l));
+}
+
+.sidebar:not([data-direction]) > :first-child {
+    flex-basis: var(--sidebar-target-width, 20rem);
+    flex-grow: 1;
+}
+
+.sidebar:not([data-direction]) > :last-child {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: var(--sidebar-content-min-width, 50%);
+}
+
+/*
+A flipped version where the sidebar is on the right
+*/
+.sidebar[data-direction='rtl'] > :last-child {
+    flex-basis: var(--sidebar-target-width, 20rem);
+    flex-grow: 1;
+}
+
+.sidebar[data-direction='rtl'] > :first-child {
+    flex-basis: 0;
+    flex-grow: 999;
+    min-width: var(--sidebar-content-min-width, 50%);
+}
+
+.switcher {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-s, var(--space-s-l));
+    align-items: var(--switcher-vertical-alignment, flex-start);
+    --treshold: 45rem; /*var(--switcher-target-container-width)*/
+}
+
+.switcher > * {
+    flex-grow: 1;
+    flex-basis: calc((var(--treshold, 45rem) - 100%) * 999);
+}
+
+/* Max 2 items,
+so we target everything *after* those */
+.switcher > :nth-last-child(n + 4),
+.switcher > :nth-last-child(n + 4) ~ * {
+    flex-basis: 100%;
+}
+
+.switcher > :nth-child(2) {
+    flex-grow: 45;
+}
+
+.switcher > :nth-child(3) {
+    flex-grow: 45;
+}
+
+.center {
+    box-sizing: content-box;
+    max-inline-size: 60ch;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+FLOW UTILITY
+Like the Every Layout stack: https://every-layout.dev/layouts/stack/
+Info about this implementation: https://piccalil.li/quick-tip/flow-utility/
+*/
+.flow > * + * {
+    margin-top: var(--flow-space, 1em);
+}
+
+/*
+REGION UTILITY
+Consistent block padding for page sections
+*/
+.region {
+    padding-block: var(--region-space, var(--space-l-xl));
+}
+
+/**
+ * WRAPPER
+ * Sets a max width, adds a consistent gutter and horizontally
+ * centers the contents
+ * Info: https://piccalil.li/quick-tip/use-css-clamp-to-create-a-more-flexible-wrapper-utility/
+ */
+.wrapper {
+    width: var(--wrapper-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--gutter);
+    padding-right: var(--gutter);
+    position: relative;
+}

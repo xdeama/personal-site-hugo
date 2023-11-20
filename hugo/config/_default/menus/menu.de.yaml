@@ -1,0 +1,22 @@
+main:
+  - name: Hallo
+    pageRef: /
+    weight: 10
+  - name: Über mich
+    pageRef: /about
+    weight: 20
+  - name: Beratung
+    pageRef: /consulting
+    weight: 30
+  - name: DenktMit
+    pageRef: /denktmit
+    weight: 40
+  - name: Blog
+    pageRef: /posts
+    weight: 50
+  - name: Kontakt
+    pageRef: /contact
+    weight: 50
+#    - name: Tags
+#      pageRef: /tags
+#      weight: 30

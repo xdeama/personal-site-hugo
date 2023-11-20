@@ -1,0 +1,34 @@
+<div class="wrapper region switcher footer">
+    <div class="dark-mode-icon">
+        <div class="center">
+            {{ partial "dark-mode-button.html" . }}
+        </div>
+
+    </div>
+    <div style="text-align:center">
+        {{ T "companyName" }}
+    </div>
+
+    <nav aria-label="secondary">
+        <ul role="list" class="cluster margin-workaround">
+            <li>
+                {{ partial "language-switch-link.html" . }}
+            </li>
+            <li>
+                <a href="{{ (site.GetPage "legal/privacy.md").Permalink }}">
+                    {{ T "privacyPolicy" }}
+                </a>
+            </li>
+            <li>
+                <a href="{{ (site.GetPage "legal.md").Permalink }}">
+                    {{ T "legalNotice" }}
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/xdeama/personal-site-hugo">
+                    {{ T "sourceCode" }}
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>

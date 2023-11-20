@@ -1,0 +1,203 @@
+:root {
+  --font-base: 'Noto Sans',sans-serif;
+  --font-base-strong: "Noto Sans Bold";
+  --font-mono: 'JetBrains Mono','Courier New',monospace;
+  --font-mono-strong: 'JetBrains Mono Bold','Courier New',monospace;
+
+  /* light mode colors */
+  --lightmode-color-dark: #252525;
+  --lightmode-color-light: #e8e8e8;
+  --lightmode-color-mid: #666;
+  --lightmode-color-mid-glare: #b3b3b3;
+  --lightmode-color-primary: #089ce7;
+  --lightmode-color-primary-shade: #167caf;
+  --lightmode-color-primary-glare: #83c7ea;
+  --lightmode-color-hover: var(--lightmode-color-primary-shade);
+
+  /* light mode icon colors */
+  --lightmode-color-linkedIn-logo: #252525;
+
+  /* light mode chroma syntax highlighting colors */
+  --lightmode-chroma-color-background: #ffffff;
+  --lightmode-chroma-color-error-text: #a61717;
+  --lightmode-chroma-color-error-background: #e3d2d2;
+  --lightmode-chroma-color-highlight: #e5e5e5;
+  --lightmode-chroma-color-linenumbers: #7f7f7f;
+  --lightmode-chroma-color-keyword: #000000;
+  --lightmode-chroma-color-keyword-type: #445588;
+  --lightmode-chroma-color-name-attribute: #008080;
+  --lightmode-chroma-color-name-builtin: #0086b3;
+  --lightmode-chroma-color-builtin-pseudo: #999999;
+  --lightmode-chroma-color-name-exception: #990000;
+  --lightmode-chroma-color-string: #dd1144;
+  --lightmode-chroma-color-regex: #009926;
+  --lightmode-chroma-color-number: #009999;
+  --lightmode-chroma-color-comment: #999988;
+  --lightmode-chroma-color-special-comment: #999999;
+  --lightmode-chroma-color-generic-deleted: #ffdddd;
+  --lightmode-chroma-color-generic-inserted: #ddffdd;
+  --lightmode-chroma-color-generic-output: #888888;
+  --lightmode-chroma-color-generic-prompt: #555555;
+
+  /* dark mode colors */
+  --darkmode-color-dark: #252525;
+  --darkmode-color-light: #e8e8e8;
+  --darkmode-color-mid: #8C8C8CFF;
+  --darkmode-color-mid-glare: #b3b3b3;
+  --darkmode-color-primary: #089ce7;
+  --darkmode-color-primary-glare: #167caf;
+  --darkmode-color-primary-shade: #83c7ea;
+  --darkmode-color-hover: var(--lightmode-color-primary);
+
+  /* light mode icon colors */
+  --darkmode-color-linkedIn-logo: #0077B5;
+
+  /* dark mode chroma syntax highlighting colors */
+  --darkmode-chroma-color-background: #292929;
+  --darkmode-chroma-color-error-text: #f85149;
+  --darkmode-chroma-color-error-background: #0d1117;
+  --darkmode-chroma-color-highlight: #6e7681;
+  --darkmode-chroma-color-linenumbers: #737679;
+  --darkmode-chroma-color-keyword: #ff7b72;
+  --darkmode-chroma-color-keyword-type: #79c0ff;
+  --darkmode-chroma-color-name-attribute: #79c0ff;
+  --darkmode-chroma-color-name-builtin: #f0883e;
+  --darkmode-chroma-color-builtin-pseudo: #d2a8ff;
+  --darkmode-chroma-color-name-exception: #ffa657;
+  --darkmode-chroma-color-string: #a5d6ff;
+  --darkmode-chroma-color-regex: #79c0ff;
+  --darkmode-chroma-color-number: #a5d6ff;
+  --darkmode-chroma-color-comment: #8b949e;
+  --darkmode-chroma-color-special-comment: #79c0ff;
+  --darkmode-chroma-color-generic-deleted: #ffa198;
+  --darkmode-chroma-color-generic-inserted: #56d364;
+  --darkmode-chroma-color-generic-output: #8b949e;
+  --darkmode-chroma-color-generic-prompt: #8b949e;
+
+  /* layout variables */
+  --gutter: var(--space-s-m);
+  --region-space: var(--space-l-xl);
+
+  --border-radius: 0.75rem;
+  --border-radius-inner: 0.5rem;
+  --border-thin: 0rem;
+
+  --wrapper-width: clamp(16rem, 93vw, 85rem);
+
+  --cluster-horizontal-alignment: flex-start;
+  --cluster-vertical-alignment: center;
+
+  --show-decoration: 57em; /*seems not to work in mq, also not with fallback var(--show-decoration, 57em)*/
+
+  /* @link https://utopia.fyi/space/calculator?c=1,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --space-3xs: clamp(0.3125rem, 0.3125rem + 0vw, 0.3125rem);
+  --space-2xs: clamp(0.5625rem, 0.5624rem + 0.0807vw, 0.625rem);
+  --space-xs: clamp(0.875rem, 0.8749rem + 0.0807vw, 0.9375rem);
+  --space-s: clamp(1.125rem, 1.1249rem + 0.1614vw, 1.25rem);
+  --space-m: clamp(1.6875rem, 1.6873rem + 0.2421vw, 1.875rem);
+  --space-l: clamp(2.25rem, 2.2498rem + 0.3228vw, 2.5rem);
+  --space-xl: clamp(3.375rem, 3.3747rem + 0.4843vw, 3.75rem);
+  --space-2xl: clamp(4.5rem, 4.4996rem + 0.6457vw, 5rem);
+  --space-3xl: clamp(6.75rem, 6.7494rem + 0.9685vw, 7.5rem);
+  --space-3xs-2xs: clamp(0.3125rem, 0.3122rem + 0.4036vw, 0.625rem);
+  --space-2xs-xs: clamp(0.5625rem, 0.5622rem + 0.4843vw, 0.9375rem);
+  --space-xs-s: clamp(0.875rem, 0.8747rem + 0.4843vw, 1.25rem);
+  --space-s-m: clamp(1.125rem, 1.1244rem + 0.9685vw, 1.875rem);
+  --space-s-l: clamp(1.125rem, 1.1239rem + 1.7756vw, 2.5rem);
+  --space-m-l: clamp(1.6875rem, 1.6868rem + 1.0492vw, 2.5rem);
+  --space-l-xl: clamp(2.25rem, 2.2488rem + 1.937vw, 3.75rem);
+  --space-xl-2xl: clamp(3.375rem, 3.3737rem + 2.0985vw, 5rem);
+  --space-2xl-3xl: clamp(4.5rem, 4.4976rem + 3.8741vw, 7.5rem);
+
+  --size-base: clamp(1rem,0.96rem + 0.22vw,1.125rem);
+  --size-step-0: clamp(0.8125rem,0.79rem + 0.11vw,0.875rem);
+  --size-step-0-5: clamp(0.95rem,0.85rem + 0.20vw,1.175rem);
+  --size-step-1: clamp(1.1875rem,1.12rem + 0.33vw,1.375rem);
+  --size-step-2: clamp(1.4375rem,1.33rem + 0.54vw,1.75rem);
+  --size-step-3: clamp(1.6875rem,1.51rem + 0.87vw,2.1875rem);
+  --size-step-4: clamp(2.0625rem,1.85rem + 1.09vw,2.6875rem);
+
+
+  --ratio: 1.5;
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s0: 1rem;
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
+
+
+  /* dark and light mode switching with proxy variables */
+  --color-dark: var(--lightmode-color-dark);
+  --color-light: var(--lightmode-color-light);
+  --color-mid: var(--lightmode-color-mid);
+  --color-mid-glare: var(--lightmode-color-mid-glare);
+  --color-primary: var(--lightmode-color-primary);
+  --color-primary-glare: var(--lightmode-color-primary-glare);
+  --color-primary-shade: var(--lightmode-color-primary-shade);
+  --color-hover: var(--lightmode-color-hover);
+  --color-header-logo: var(--lightmode-color-dark);
+
+  --color-linkedIn-logo: var(--lightmode-color-linkedIn-logo);
+
+  --chroma-color-background: var(--lightmode-chroma-color-background);
+  --chroma-color-error-text: var(--lightmode-chroma-color-error-text);
+  --chroma-color-error-background: var(--lightmode-chroma-color-error-background);
+  --chroma-color-highlight: var(--lightmode-chroma-color-highlight);
+  --chroma-color-linenumbers: var(--lightmode-chroma-color-linenumbers);
+  --chroma-color-keyword: var(--lightmode-chroma-color-keyword);
+  --chroma-color-keyword-type: var(--lightmode-chroma-color-keyword-type);
+  --chroma-color-name-attribute: var(--lightmode-chroma-color-name-attribute);
+  --chroma-color-name-builtin: var(--lightmode-chroma-color-name-builtin);
+  --chroma-color-builtin-pseudo: var(--lightmode-chroma-color-builtin-pseudo);
+  --chroma-color-name-exception: var(--lightmode-chroma-color-name-exception);
+  --chroma-color-string: var(--lightmode-chroma-color-string);
+  --chroma-color-regex: var(--lightmode-chroma-color-regex);
+  --chroma-color-number: var(--lightmode-chroma-color-number);
+  --chroma-color-comment: var(--lightmode-chroma-color-comment);
+  --chroma-color-special-comment: var(--lightmode-chroma-color-special-comment);
+  --chroma-color-generic-deleted: var(--lightmode-chroma-color-generic-deleted);
+  --chroma-color-generic-inserted: var(--lightmode-chroma-color-generic-inserted);
+  --chroma-color-generic-output: var(--lightmode-chroma-color-generic-output);
+  --chroma-color-generic-prompt: var(--lightmode-chroma-color-generic-prompt);
+}
+
+.dark-mode {
+  --color-dark: var(--darkmode-color-light);
+  --color-light: var(--darkmode-color-dark);
+  --color-mid: var(--darkmode-color-mid);
+  --color-mid-glare: var(--darkmode-color-mid-glare);
+  --color-primary: var(--darkmode-color-primary);
+  --color-primary-glare: var(--darkmode-color-primary-glare);
+  --color-primary-shade: var(--darkmode-color-primary-shade);
+  --color-hover: var(--darkmode-color-hover);
+  --color-header-logo: var(--darkmode-color-light);
+
+  --color-linkedIn-logo: var(--darkmode-color-linkedIn-logo);
+
+  --chroma-color-background: var(--darkmode-chroma-color-background);
+  --chroma-color-error-text: var(--darkmode-chroma-color-error-text);
+  --chroma-color-error-background: var(--darkmode-chroma-color-error-background);
+  --chroma-color-highlight: var(--darkmode-chroma-color-highlight);
+  --chroma-color-linenumbers: var(--darkmode-chroma-color-linenumbers);
+  --chroma-color-keyword: var(--darkmode-chroma-color-keyword);
+  --chroma-color-keyword-type: var(--darkmode-chroma-color-keyword-type);
+  --chroma-color-name-attribute: var(--darkmode-chroma-color-name-attribute);
+  --chroma-color-name-builtin: var(--darkmode-chroma-color-name-builtin);
+  --chroma-color-builtin-pseudo: var(--darkmode-chroma-color-builtin-pseudo);
+  --chroma-color-name-exception: var(--darkmode-chroma-color-name-exception);
+  --chroma-color-string: var(--darkmode-chroma-color-string);
+  --chroma-color-regex: var(--darkmode-chroma-color-regex);
+  --chroma-color-number: var(--darkmode-chroma-color-number);
+  --chroma-color-comment: var(--darkmode-chroma-color-comment);
+  --chroma-color-special-comment: var(--darkmode-chroma-color-special-comment);
+  --chroma-color-generic-deleted: var(--darkmode-chroma-color-generic-deleted);
+  --chroma-color-generic-inserted: var(--darkmode-chroma-color-generic-inserted);
+  --chroma-color-generic-output: var(--darkmode-chroma-color-generic-output);
+  --chroma-color-generic-prompt: var(--darkmode-chroma-color-generic-prompt);
+}

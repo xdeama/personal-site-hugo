@@ -1,0 +1,12 @@
+{
+  "short_name": "dmalo",
+  "name": "Denis Malolepszy Software Engineering",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#bafdde",
+  "theme_color": "#bafdde"
+}

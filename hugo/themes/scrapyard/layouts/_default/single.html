@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="wrapper region prose flow">
+        <h1>{{ .Title }}</h1>
+        {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+        {{ $dateHuman := .Date | time.Format ":date_long" }}
+        <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+
+        {{ .Content }}
+        {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+
+             {{ if eq $.Site.Language.LanguageName "English" }}
+                {{ partial "blog-author.en.html" . }}
+            {{ else if eq $.Site.Language.LanguageName "Deutsch" }}
+                {{ partial "blog-author.de.html" . }}
+            {{ end }}
+
+    <div>
+        <a href="{{ (site.GetPage "posts.md").Permalink }}">{{ T "backToBlog" }}</a>
+    </div>
+</article>
+{{ end }}

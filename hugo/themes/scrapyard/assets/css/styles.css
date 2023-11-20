@@ -1,0 +1,189 @@
+.m-\[0\] {
+  margin: 0
+}
+
+.bg-primary {
+  background-color: var(--color-primary-glare);
+}
+
+.p-m {
+  padding: clamp(1.5rem, 1.43rem + .33vw, 1.6875rem)
+}
+
+.pb-m {
+  padding-bottom: clamp(1.5rem, 1.43rem + .33vw, 1.6875rem)
+}
+
+.pt-s {
+  padding-top: clamp(1rem, .96rem + .22vw, 1.125rem)
+}
+
+.text-base {
+  font-size: clamp(1rem, .96rem + .22vw, 1.125rem)
+}
+
+.prose {
+  --flow-space: var(--space-s-m);
+
+  max-width: 50rem;
+  line-height: 1.8;
+}
+
+.prose p {
+  margin-top: var(--flow-space)
+}
+
+.prose > img,
+.prose > table {
+  width: 100%;
+}
+
+.prose figure img {
+  border: 1px dashed var(--color-mid);
+  margin-inline: auto;
+}
+
+.prose ul li::marker {
+  content: '- ';
+  color: var(--color-mid);
+  font-weight: bold;
+}
+
+.prose :is(ol, ul) {
+  padding-inline-start: 1.1em;
+}
+
+.prose ol li::marker {
+  color: var(--color-mid);
+}
+
+.prose li + li {
+  margin-top: var(--space-s);
+}
+
+/* More space after and around certain elements */
+/*pre, pre + *, */
+.prose :is(figure, figure + *, h2, h3, h4) {
+  --flow-space: var(--space-l-xl);
+}
+
+/* Less space for items that follow headings */
+.prose h1 + * {
+  --flow-space: 0.5em;
+}
+
+.prose :is(h2 + *, h3 + *, h4 + *) {
+  --flow-space: var(--space-s);
+}
+
+/* Break out embeds and code */
+/*.prose :is(.wp-block-cp-codepen-gutenberg-embed-block, pre, .wp-block-image) {*/
+/*  width: 100vw;*/
+/*  max-width: 60rem;*/
+/*  margin-left: 50%;*/
+/*  transform: translateX(-50%);*/
+/*}*/
+
+@media (max-width: 49em) {
+  /* break long words */
+  .prose > *,
+  .prose a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    hyphens: auto;
+  }
+}
+
+@media (min-width: 58em) {
+  .prose :is(ul, ol) {
+    padding-inline-start: 1.5ch;
+  }
+}
+
+.site-header .repel {
+  --gutter: 0.5rem var(--space-m);
+  padding-block: var(--space-m);
+}
+
+.site-header nav ul {
+  margin: 0;
+}
+
+.site-header-logo {
+  display: inline-block;
+  font-size: 1.8rem;
+  height: 2.5rem;
+  color: var(--color-header-logo);
+}
+
+@media screen and (max-width: 50em) {
+  .site-header-logo {
+    display: none;
+  }
+}
+
+.flow-space-s {
+  --flow-space: var(--space-s);
+}
+
+.footer {
+  --flow-space: var(--space-m-l);
+
+  max-width: 60rem;
+  line-height: 1.8;
+  font-size: var(--size-step-0);
+  --cluster-horizontal-alignment: center;
+
+  --switcher-vertical-alignment: flex-start;
+  --switcher-target-container-width: 45rem;
+  --gutter: var(--space-xs)
+}
+
+.margin-workaround {
+  margin-top: 0;
+}
+
+.icon {
+  width: 1ex;
+  height: 1ex;
+}
+
+.monospaced {
+  font-family: var(--font-mono);
+}
+
+
+.dark-mode-icon {
+  display: inline-block;
+  font-size: 1rem;
+  height: 1.5rem;
+
+  & svg {
+    color: var(--color-primary);
+    display: inline-block;
+    font-size: 1rem;
+    transform: translateY(0.1em);
+
+    :hover {
+      color: var(--color-primary-shade);
+    }
+  }
+}
+
+#dark-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.chroma {
+  border-radius: 1.5em;
+}
+
+.linkedin-svg {
+  display: inline-block;
+  transform: translateY(0.14em);
+  color: var(--color-linkedIn-logo);
+}

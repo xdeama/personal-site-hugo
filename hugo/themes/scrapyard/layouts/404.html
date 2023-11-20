@@ -1,0 +1,17 @@
+{{ define "main" }}
+<main id="main">
+    <article class="wrapper region prose flow">
+        <div>
+            <h1 id="title">404 NOT FOUND</h1>
+        </div>
+        <div>
+            <h2>Unter dieser Adresse existiert keine Seite</h2>
+            <a href="{{ "" | relLangURL }}">Zurück zur Startseite</a>
+        </div>
+        <div>
+            <h2>There's no page for this address</h2>
+            <a href="{{ .Site.BaseURL }}en/">Zurück zur Startseite</a>
+        </div>
+    </article>
+</main>
+{{ end }}
