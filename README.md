@@ -1,5 +1,8 @@
 # personal-site-hugo
-Personal website with Hugo, custom theme and fluid responsive CSS
+Personal website with Hugo, custom theme and fluid responsive CSS. Inspired by https://andy-bell.co.uk/ and his guide on CSS https://every-layout.dev. Actually, I made this website mainly because I needed an excuse to start a css project scratch.
+
+# status
+Theme and CSS in need of cleanup
 
 # features
 - language switcher that keeps you on the current page
