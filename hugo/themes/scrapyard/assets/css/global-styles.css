@@ -74,7 +74,7 @@ a {
 @media (hover: hover) {
   a:hover {
     /* text-underline-offset: 0.1ex; */
-    font-weight: 600;
+    /*font-weight: 600;*/
     color: var(--color-hover)
   }
 }

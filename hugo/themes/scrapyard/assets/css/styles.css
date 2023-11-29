@@ -169,6 +169,10 @@
   color: var(--color-linkedIn-logo);
 }
 
+.linkedin-svg:hover {
+  color: var(--color-primary);
+}
+
 .dark-mode-icon {
   display: inline-block;
   font-size: 1rem;
@@ -177,7 +181,7 @@
   & svg {
     color: var(--color-primary);
     display: inline-block;
-    font-size: 2rem;
+    font-size: rem;
 
     :hover {
       color: var(--color-primary-shade);

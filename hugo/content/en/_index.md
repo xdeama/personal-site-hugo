@@ -5,7 +5,7 @@ date: 2023-01-01T08:00:00-07:00
 draft: false
 ---
 
-# Hi, I'm Denis {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}
+# Hi, I'm Denis
 
 I am a freelance [Software Architect, Full Stack Developer]({{< ref "/consulting" >}}) and co-founder of [DenktMit]({{< ref "/denktmit" >}}), a network of independent IT experts.
 

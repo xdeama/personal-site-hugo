@@ -5,7 +5,7 @@ date: 2023-01-01T08:00:00-07:00
 draft: false
 ---
 
-# Hallo, ich bin Denis{{< rawhtml >}}<a href="https://andy-bell.co.uk/why-pay-8-for-a-check-mark-when-you-can-get-one-for-for-free/"><check-mark></check-mark></a>{{< /rawhtml >}} 
+# Hallo, ich bin Denis
 
 Ich bin freiberuflicher [Software Architekt, Full Stack Developer]({{< ref "/consulting" >}}) und Mitgründer von [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
