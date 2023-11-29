@@ -44,7 +44,7 @@ h3 {
 }
 
 b, strong {
-  font-family: "Noto Sans Bold";
+  font-family: "Noto Sans Bold", serif;
 }
 
 :is(h1, h2, h3) {
@@ -89,7 +89,7 @@ li,
 dl,
 blockquote,
 figcaption {
-  max-width: 65ch;
+  max-width: 70ch;
 }
 
 figcaption {

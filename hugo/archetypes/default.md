@@ -5,5 +5,5 @@ heading: heading
 description: This is a markdown frontmatter archetype
 
 date: {{ .Date }}
-draft: true
+draft: false
 ---

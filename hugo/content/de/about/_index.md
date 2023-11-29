@@ -6,9 +6,9 @@ draft: false
 layout: standalone
 ---
 
-Ich bin seit 2010 in der IT-Branche unterwegs. Seit 2022 bin ich freiberuflicher IT-Architekt und Mitgründer von [DenktMit]({{< ref "/denktmit" >}}). 
+Ich bin seit 2010 in der IT-Branche unterwegs. Seit 2022 bin ich freiberuflicher IT-Architekt und Mitgründer von [DenktMit]({{< relref "/denktmit" >}}). 
 
-{{< rawhtml >}}<div class="profile frame"><img src="denis.png"></div>{{< /rawhtml >}}
+{{< rawhtml >}}<div class="profile-img frame"><img src="denis.png"></div>{{< /rawhtml >}}
 
 Zuvor war ich:
 - Head of IT bei Habona Invest, einem Asset Manager aus Frankfurt am Main,

@@ -8,7 +8,7 @@ layout: standalone
 
 I have been active in the IT industry from 2010 and, starting from 2022, I became a freelance IT architect and co-founder of [DenktMit]({{< ref "/denktmit" >}}).
 
-{{< rawhtml >}}<div class="profile frame"><img src="denis.png"></div>{{< /rawhtml >}}
+{{< rawhtml >}}<div class="profile-img frame"><img src="denis.png"></div>{{< /rawhtml >}}
 
 Previously, I was:
 - Head of IT at Habona Invest, an asset manager from Frankfurt am Main,
