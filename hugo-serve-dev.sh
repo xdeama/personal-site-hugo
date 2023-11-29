@@ -16,7 +16,7 @@ if [ "$EXPOSE_NETWORK" = "true" ]; then
     echo "hugo starting on $IPADDR:1313 (network exposed)"
     HUGO_BIND="$IPADDR"
 else
-    echo "hugo starting on 127.0.0.1:1313 (local only)"
+    echo "hugo starting on 127.0.0.1:1313 (local only, use -n flag to expose to local network en0"
     HUGO_BIND="127.0.0.1"
 fi
 

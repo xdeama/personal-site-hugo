@@ -5,7 +5,7 @@
         <h2>Blog</h2>
         <div>
             <ul class="flow" role="list">
-                {{ range (where .Site.RegularPages "Section" "posts") }}
+                {{ range (where .Site.RegularPages "Section" "blog") }}
                     <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
                 {{ end }}
             </ul>

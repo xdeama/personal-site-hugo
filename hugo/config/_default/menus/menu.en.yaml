@@ -12,7 +12,7 @@ main:
     pageRef: /denktmit
     weight: 40
   - name: blog
-    pageRef: /posts
+    pageRef: /blog
     weight: 50
   - name: contact
     pageRef: /contact

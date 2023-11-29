@@ -1,6 +1,6 @@
 {{ define "main" }}
     <article class="wrapper region prose flow">
-        <h1>{{ .Title }}</h1>
+        {{ partial "heading.html" . }}
         {{ .Content }}
 
         <ul>

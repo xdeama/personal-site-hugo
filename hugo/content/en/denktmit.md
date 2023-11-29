@@ -1,7 +1,6 @@
 ---
 translationKey: denktmit
 title: DenktMit eG
-
 date: 2023-11-10T13:59:19+01:00
 draft: true
 layout: standalone
@@ -17,12 +16,14 @@ Individual freelancers often face difficulties in being considered for large pro
 The cooperative is a special legal form with high equality among members, a democratic approach, and the purpose of promoting its members. Therefore, we are not a startup vehicle dreaming of quick money but a cooperative network in a corporate form.
 
 ## Advertisement
-Are you an IT specialist looking for new challenges and networking opportunities? Then you are at the right place with us! We are a cooperative of IT experts who have chosen a participative form of collaboration. 
+You are an IT specialist looking for new challenges and networking opportunities? 
+
+You are at the right place! We are a cooperative of IT experts supporting each other in technical and business challenges. 
 
 At DenktMit, you remain independent but benefit from a strong network, grassroots democracy, resources, and the opportunity for larger projects that would be challenging to implement alone.
 
 ## DenktMit Tech Blog
-In the [DenktMit Tech Blog](https://denktmit.de/blog/), we write about IT and software development. Worthwhile examples:
+The [DenktMit Tech Blog](https://denktmit.de/blog/) is about IT and software development. Worthwhile examples:
 - [Release and ship your e2e tests as containers alongside your product
   ](https://denktmit.de/blog/2021/11/21/release-and-ship-your-e2e-tests-as-containers-alongside-your-product/) von [Marius Schmidt](https://www.linkedin.com/in/marius-schmidt-36a36a74/)
 - [Plaintext ist Trumpf](https://denktmit.de/blog/2021/06/08/plaintext-ist-trumpf/) von [Dr. Sven Köppel](https://svenk.org) 

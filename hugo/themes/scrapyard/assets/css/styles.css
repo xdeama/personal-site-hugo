@@ -50,7 +50,8 @@
 }
 
 .prose :is(ol, ul) {
-  padding-inline-start: 1.1em;
+  padding-inline-start: var(--space-s);
+  margin-block-start: var(--space-xs);
 }
 
 .prose ol li::marker {
@@ -58,7 +59,7 @@
 }
 
 .prose li + li {
-  margin-top: var(--space-s);
+  margin-top: var(--space-2xs);
 }
 
 /* More space after and around certain elements */
@@ -163,7 +164,7 @@
   & svg {
     color: var(--color-primary);
     display: inline-block;
-    font-size: 1rem;
+    font-size: 2rem;
 
     :hover {
       color: var(--color-primary-shade);
@@ -187,9 +188,11 @@
   color: var(--color-linkedIn-logo);
 }
 
-.profile > img {
+.profile {
+  --n: 420;
+  --d: 630;
+  max-width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }

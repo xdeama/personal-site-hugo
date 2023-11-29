@@ -22,8 +22,25 @@ h2 {
 }
 
 h3 {
-  font-size: var(--size-step-0-5);
+  font-size: var(--size-step-0-75);
   line-height: 1.2;
+}
+
+@media (min-width: 58em) {
+  h1::before {
+    content: '#';
+    margin-inline-start: -2ch;
+  }
+
+  h2::before {
+    content: '##';
+    margin-inline-start: -3ch;
+  }
+
+  h3::before {
+    content: '###';
+    margin-inline-start: -4ch;
+  }
 }
 
 b, strong {
@@ -197,21 +214,4 @@ button:hover {
 pre code ::selection {
   background: var(--color-primary) !important;
   color: var(--color-dark) !important;
-}
-
-@media (min-width: 58em) {
-  h1::before {
-    content: '#';
-    margin-inline-start: -2ch;
-  }
-
-  h2::before {
-    content: '##';
-    margin-inline-start: -3ch;
-  }
-
-  h3::before {
-    content: '###';
-    margin-inline-start: -4ch;
-  }
 }
