@@ -25,4 +25,4 @@ Die Server-Logs speichern folgende Informationen:
 - Ihr Webbrowser und Betriebssystem
 - Ihre IP-Adresse
 
-- Die Server-Logs werden automatisch nach 14 Tagen gelöscht.
+Die Server-Logs werden automatisch nach 14 Tagen gelöscht.

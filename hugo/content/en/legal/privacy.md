@@ -21,4 +21,5 @@ The server logs save the following information:
 - Source/Origin (how you found this site)
 - Your web browser and operating system
 - Your IP address
+
 The server logs are automatically deleted after 14 days.
