@@ -58,11 +58,11 @@ jobs:
       - name: Deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          server: ${{ vars.ftp_server }}
-          username: ${{ vars.ftp_username }}
-          #ssh_private_key: ${{ secrets.ftp_password }}
+          server: ${{ vars.FTP_SERVER }}
+          username: ${{ vars.FTP_USERNAME }}
+          ssh_private_key: ${{ secrets.FTP_SSH_PRIVATE_KEY }}
           sftp_only: true
-          password: ${{ secrets.ftp_password }}
-          port: ${{ vars.ftp_port }}
-          remote_path: '/dmalo.de/public_html'
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ vars.FTP_PORT }}
+          remote_path: '/www/dmalo.de/public_html'
           local_path: './public/*'
