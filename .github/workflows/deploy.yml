@@ -62,7 +62,7 @@ jobs:
           username: ${{ vars.FTP_USERNAME }}
           ssh_private_key: ${{ secrets.FTP_SSH_PRIVATE_KEY }}
           sftp_only: true
-          password: ${{ secrets.FTP_PASSWORD }}
+          #password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ vars.FTP_PORT }}
           remote_path: '/www/dmalo.de/public_html'
           local_path: './public/*'
