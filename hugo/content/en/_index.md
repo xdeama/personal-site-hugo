@@ -11,5 +11,6 @@ I am a freelance [Software Architect, Full Stack Developer]({{< ref "/consulting
 
 I develop [sophisticated custom software]({{< ref "/consulting" >}}) for the finance industry that stands the test of time through maintainability, resilience, and observability.
 
-If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}
+If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linkedin.com/in/dmalolepszy) 
+{{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}} 
 or by [email](mailto:kontakt@dmalo.de).

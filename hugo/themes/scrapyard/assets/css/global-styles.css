@@ -92,6 +92,8 @@ figcaption {
   max-width: 70ch;
 }
 
+p:empty {display:none;}
+
 figcaption {
   font-size: 0.8em;
   font-style: italic;
