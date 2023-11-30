@@ -6,19 +6,27 @@ draft: false
 layout: standalone
 ---
 
-DenktMit ist ein Netzwerk von unabhängigen IT-Experten, das auf gegenseitige Unterstützung setzt. Unsere Mitglieder teilen Wissen, Erfahrungen und helfen bei der Vermittlung von Projekten. Wir investieren gemeinsam in unternehmerische Infrastrukturen – von angestellten Softwareentwicklern für Projektunterstützung bis hin zu gemeinsam genutzter Cloud-Infrastruktur und Steuerberatung. 
+[DenktMit](https://denktmit.de) ist ein flexibles Experten-Netzwerk erfahrener IT-Spezialisten. Gefährten - mehr als nur Berater.
+
+{{< embed-svg "static/svg/denktmit-logo.svg" >}}
+
+Unsere Mitglieder teilen Wissen, Erfahrungen und helfen bei der Vermittlung von Projekten. Wir investieren gemeinsam in unternehmerische Infrastrukturen – von angestellten Softwareentwicklern für Projektunterstützung bis hin zu gemeinsam genutzter Cloud-Infrastruktur und Steuerberatung. 
 
 So bauen wir bei DenktMit gemeinsam auf, was alleine zu riskant, kostspielig oder unerschwinglich wäre, während jeder von uns seine unternehmerische Unabhängigkeit behält.
+
+[Zur DenktMit Webseite](https://denktmit.de)
 
 ## Warum eine Genossenschaft? 
 Einzelne Selbstständige haben oft Schwierigkeiten, bei großen Projektausschreibungen der Privatwirtschaft oder öffentlichen Hand berücksichtigt zu werden. Gründe sind komplexe Vertragsanforderungen und mangelnde Sichtbarkeit. 
 
 Durch unsere Kooperations- und Verwertungsgesellschaft sind wir in einer stärkeren Marktposition. Gemeinsam bauen wir eine Marke auf und profitieren von einem Empfehlungsnetzwerk unter den Genossinnen und Genossen.
 
+{{< embed-svg "static/svg/team.svg" >}}
+
 Die Genossenschaft ist eine besondere Rechtsform mit hoher Gleichberechtigung der einzelnen Genossen, demokratischem Ansatz und dem Zweck ihre Genossen zu fördern. Wir sind daher kein Startup Vehikel mit dem Traum vom schnellen Geld, sondern ein Kooperationsnetzwerk in Unternehmensform.
 
 ## Werbeblock
-Du bist IT-Spezialist auf der Suche nach neuen Herausforderungen und Netzwerkmöglichkeiten? Dann bist Du bei uns genau richtig! 
+Du bist IT-Spezialist auf der Suche nach neuen Herausforderungen und Netzwerkmöglichkeiten? Dann bist Du [bei uns](https://denktmit.de) genau richtig! 
 
 Wir sind eine Genossenschaft aus IT-Experten, die sich für eine partizipative Form der Zusammenarbeit entschieden haben. Bei uns bleibst Du selbstständig, profitierst aber von einem starken Netzwerk, Basisdemokratie, Ressourcen und der Chance auf größere Projekte, die alleine nur schwer umsetzbar wären.
 

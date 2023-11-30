@@ -4,11 +4,14 @@ title: 'Aufstieg und Fall der Micro Services'
 description: 'Entwickler wenden sich zunehmend von Microservices Architektur ab. Eine Erklärung für Nicht-Entwickler.'
 date: 2023-11-17T10:15:00-01:00
 draft: false
-tags: microservices
+tags: 
+  - microservices
 ---
 ## Was sind Micro Services
 Microservices sind eine Architekturform, bei der eine Anwendung als Sammlung kleiner, unabhängiger Dienste konzipiert ist, die jeweils spezifische Geschäftslogik oder Funktionen umsetzen. 
 Diese Architektur ermöglicht eine hohe Skalierbarkeit und Flexibilität, da einzelne Dienste unabhängig voneinander entwickelt, bereitgestellt und skaliert werden können. Allerdings führt diese Verteilung auch zu Herausforderungen in Bezug auf Integration, Management und Sicherheit der Dienste.
+
+{{< embed-svg "static/svg/microservices.svg" >}}
 
 ## Aufstieg und Fall der Micro Services
 Entwickler wenden sich zunehmend von Microservices ab, da diese Architektur komplexe Herausforderungen in Bezug auf Integration, Netzwerklatenz, Datenkonsistenz und das Management mehrerer unabhängiger Dienste mit sich bringt. Zudem kann die erhöhte Komplexität bei der Fehlersuche und dem Monitoring, sowie der Bedarf an fortgeschrittenen DevOps-Fähigkeiten, einige Teams von der Verwendung von Microservices abhalten.
@@ -23,6 +26,8 @@ Eine Bank vergibt Kredite und zur Prüfung dieser müssen fünf Abteilungen Date
 Diese fünf Abteilungen erhalten ihre Anfragen jeweils per E-Mail vom Front Office. So vergehen Tage, bis der Kunde eine Antwort erhält. In jeder Abteilung sitzen Fachbearbeiter und kümmern sich um das Tagesgeschäft: die Daten aus den E-Mails in ihre Bewertungsmatrix eintragen und die Ergebnisse per E-Mail an das Front Office zurück übermitteln.
 
 In allen Fällen handelt es sich bei der Bewertungsmatrix um ein komplexes Excel Sheet, welches täglich auf die neusten Parameter wie Zinsen, Währungswechselkurse, und der dergleichen aktualisiert wird.
+
+{{< embed-svg "static/svg/spreadsheet.svg" >}}
 
 Um die Kreditpüfung zu Beschleunigen, wird vereinbart ein einziges zusammengeführtes Exceldokument zu erstellen, welches eine Eingabemaske enthält. Die Eingabemaske wird vom Front Office mit den Daten des Kunden befüllt. Die enthaltene Logik berechnet und ermittelt die bisher von den fünf Abteilungen per E-Mail übermittelten Daten und weist diese auf der Ausgabemaske aus. Die Abteilungen sollen die Logik und verwendeten Daten stets aktuell halten, sodass die Kreditantragsprüfung in den meisten Fällen ohne Rückfragen direkt vom Front Office durchgeführt werden kann.
 
@@ -65,6 +70,9 @@ Nach Diskussion und Verhandlung wird entschieden:
 - die verteilte Architektur wird an allen Stellen entfernt, in denen die Gesamthoheit über alle verteilten Exceldokumente in einer einzigen Abteilung liegt, keine Probleme durch die sequentielle Arbeit am Dokument entstehen und die Dokumente eine Maximalgröße nicht überschreiten
 
 Die Bank prüft nun vor der Entwicklung jedes neuen Systems und während der Weiterentwicklung, ob die gewählte Architektur zum Anwendungsfall passt.
+
+{{< embed-svg "static/svg/pros-cons.svg" >}}
+
 ## Fazit
 Die Vorteile:
 * Ownership dezentral
@@ -74,5 +82,3 @@ Die Vorteile:
 kommen nicht ohne Nachteile in organisatorischer und technischer Komplexität.
 
 Zudem sind Monolith und Micro Service nur zwei von vielen Architekturmustern, die Vorteile und Nachteile für Ihr System bieten.
-
-Sind Sie an einer unabhängigen Architekturberatung interessiert? Ich empfehle Ihnen den Kontakt zur [DenktMit eG](/denktmit).

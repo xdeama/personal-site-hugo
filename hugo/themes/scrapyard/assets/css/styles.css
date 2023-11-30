@@ -53,6 +53,16 @@
   font-weight: bold;
 }
 
+.prose > svg {
+  width: 10rem;
+  height: 10rem;
+  display: block;
+  margin-top: var(--flow-space);
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--color-dark);
+}
+
 .prose :is(ol, ul) {
   padding-inline-start: var(--space-s);
   margin-block-start: var(--space-xs);
@@ -181,7 +191,6 @@
   & svg {
     color: var(--color-primary);
     display: inline-block;
-    font-size: rem;
 
     :hover {
       color: var(--color-primary-shade);

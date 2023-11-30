@@ -47,3 +47,28 @@ inserts
     - index.md
     - filename.png
 ```
+## Shortcodes
+
+### rawhtml
+Does exactly what it says. Beware: **hugo --minify** might delete your whitespace after the shortcode.
+```
+{{< rawhtml >}} {{< /rawhtml >}}
+```
+
+### to-img
+```
+{{< to-img src="image.png" class="profile-img frame" alt="Alt description" >}}
+```
+Creates an img tag with classes, style and alt text.
+
+### embed-svg
+Embed is used to embed the SVG code into the HTML code, with the advantage of supporting dark mode by fill color through CSS.
+```
+{{< embed-svg "static/svg/denktmit-logo.svg" >}}
+```
+
+### to-svg
+Like the **img** shortcode, but with fixed CSS. SVGs in <img> tags do not support dark mode by fill color through CSS.
+```
+{{< to-svg src="/svg/software-engineering.svg" alt="Software Engineering" >}}
+```

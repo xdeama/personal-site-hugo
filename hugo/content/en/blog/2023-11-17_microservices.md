@@ -4,7 +4,8 @@ title: 'The Rise and Fall of Micro Services'
 description: 'Developers are increasingly turning away from microservices. Explaining why to non-developers.'
 date: 2023-11-17T10:15:00-01:00
 draft: false
-tags: microservices
+tags: 
+  - microservices
 ---
 ## What are Microservices
 Microservices are a form of architecture where an application is designed as a collection of small, independent services, each implementing specific business logic or functionalities. This architecture allows for high scalability and flexibility since individual services can be developed, deployed, and scaled independently. However, this distribution also leads to challenges in terms of integration, management, and security of the services.
@@ -22,6 +23,8 @@ A bank issues loans, and to evaluate these loans, five departments need to recei
 These five departments each receive their requests via email from the front office. Thus, days pass before the customer receives a response. In each department, specialists are tasked with daily operations: entering data from emails into their evaluation matrix and sending the results back to the front office via email.
 
 In all cases, the evaluation matrix is a complex Excel sheet, updated daily with the latest parameters like interest rates, currency exchange rates, and the like.
+
+{{< embed-svg "static/svg/spreadsheet.svg" >}}
 
 To expedite the loan approval process, it is agreed to create a single merged Excel document containing an input form. The front office fills this form with customer data. The embedded logic calculates and determines the data previously transmitted by the five departments via email and displays it on the output form. The departments are to keep the logic and used data up to date so that most loan applications can be processed directly by the front office without further inquiries.
 
@@ -75,5 +78,3 @@ The advantages:
 do not come without disadvantages in organizational and technical complexity.
 
 Moreover, Monolith and Micro Service are just two of many architectural patterns that offer advantages and disadvantages for your system.
-
-Are you interested in independent architectural consulting? I recommend contacting DenktMit eG.

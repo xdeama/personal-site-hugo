@@ -189,7 +189,6 @@ Consistent block padding for page sections
 }
 
 .frame {
-
     aspect-ratio: var(--n) / var(--d);
     overflow: hidden;
     display: flex;
