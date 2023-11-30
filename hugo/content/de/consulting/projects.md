@@ -9,4 +9,4 @@ robots:
   follow: false
 ---
 
-Die Projektliste ist noch nicht in Markdown überführt. Bei Interesse können Sie gerne [Kontakt]({{< ref "/contact" >}}) aufnehmens.
+Die Projektliste ist noch nicht in Markdown überführt. Bei Interesse gerne [Kontakt]({{< ref "/contact" >}}) aufnehmen.

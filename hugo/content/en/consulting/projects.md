@@ -9,4 +9,4 @@ robots:
   follow: false
 ---
 
-The project list has not yet been converted to Markdown. If you are interested, feel free to [contact]({{< ref "/contact" >}}) me.
+The project list has not yet been converted to Markdown. Still interested? [Contact]({{< ref "/contact" >}}) me.
