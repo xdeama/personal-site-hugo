@@ -60,8 +60,10 @@ jobs:
         with:
           server: ${{ vars.ftp_server }}
           username: ${{ vars.ftp_username }}
-          sftp_only: true
-          password: ${{ secrets.ftp_password }}
+          ssh_private_key: ${{ secrets.ftp_password }}
+          # or if you only use a password
+          #sftp_only: true
+          #password: ${{ secrets.ftp_password }}
           port: ${{ vars.ftp_port }}
           remote_path: '/dmalo.de/public_html'
           local_path: './public/*'
