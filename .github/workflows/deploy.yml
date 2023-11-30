@@ -1,0 +1,76 @@
+name: Deploy to prod
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Hugo site
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.111.2
+    steps:
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+
+      - name: Install Dart Sass Embedded
+        run: sudo snap install dart-sass-embedded
+
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Install Node.js dependencies
+        run: '[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true'
+
+      - name: Build with Hugo
+        env:
+          # For maximum backward compatibility with Hugo modules
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          cd hugo \
+          hugo \
+            --gc \
+            --minify          
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: release-artifact
+          path: './hugo/public'
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: release-artifact
+          path: './public' # This is the path where the artifact will be downloaded to
+
+      - name: Deploy file
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          server: ${{ vars.ftp_server }}
+          username: ${{ vars.ftp_username }}
+          # ssh_private_key: ${{ secrets.ftp_password }}
+          # or if you only use a password
+          sftp_only: true
+          password: ${{ secrets.ftp_password }}
+          port: ${{ vars.ftp_port }}
+          remote_path: '/dmalo.de/public_html'
+          local_path: './public/*'

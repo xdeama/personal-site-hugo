@@ -11,4 +11,5 @@ Ich bin freiberuflicher [Software Architekt, Full Stack Developer]({{< ref "/con
 
 Ich entwickle [anspruchsvolle Individualsoftware]({{< ref "/consulting" >}}) für die Finanzindustrie, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
 
-Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}} oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
+Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}
+oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
