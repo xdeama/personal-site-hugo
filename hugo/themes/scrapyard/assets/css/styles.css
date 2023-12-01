@@ -189,8 +189,8 @@
   display: block;
   margin: 3rem auto;
   box-shadow:
-    -50px -50px 0 -40px var(--color-primary-glare),
-    50px 50px 0 -40px var(--color-primary-glare);
+    -50px -50px 0 -40px var(--color-primary),
+    50px 50px 0 -40px var(--color-primary);
 }
 
 .linkedin-svg {
