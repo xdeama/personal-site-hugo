@@ -6,4 +6,4 @@ draft: false
 layout: reverse-list
 ---
 
-{{< embed-svg "static/svg/penguin.svg" >}}
+{{< embed-svg "static/svg/penguin2.svg" >}}

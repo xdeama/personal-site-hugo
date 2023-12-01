@@ -19,7 +19,7 @@ If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linked
 ## Software Development
 I assist my clients in the financial sector to solve complex problems through automation. My primary focus is to meet business needs and [develop systems]({{< ref "/projects" >}}) that can be operated and evolved efficiently and effectively in the long term.
 
-{{< embed-svg "static/svg/microservices-light.svg" >}}
+{{< embed-svg "static/svg/microservices.svg" >}}
 
 I guide [custom software]({{< ref "/consulting" >}}) throughout its entire lifecycle: from requirement analysis, IT architecture, design, implementation, and rollout to maintenance and support.
 

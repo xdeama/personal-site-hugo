@@ -10,7 +10,7 @@ Als Software Architekt und Full Stack Developer helfe ich meinen Kunden aus der 
 
 Dabei kommt es primär darauf an, die Geschäftsbedürfnisse zu erfüllen und Systeme aufzubauen, die langfristig und effizient betrieben, als auch weiterentwickelt werden können.
 
-{{< embed-svg "static/svg/software-engineering.svg" >}}
+{{< embed-svg "static/svg/microservices.svg" >}}
 
 Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Scrum Master, Softwareentwickler und DevOps Engineer Erfahrungen sammeln.
 

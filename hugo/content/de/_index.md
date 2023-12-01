@@ -19,7 +19,7 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 ## Softwareentwicklung
 Ich helfe meinen Kunden aus der Finanzwirtschaft komplexe Probleme durch Automatisierung zu lösen. Dabei kommt es primär darauf an, die Geschäftsbedürfnisse zu erfüllen und [Systeme aufzubauen]({{< ref "/projects" >}}), die langfristig und effizient betrieben, als auch weiterentwickelt werden können.
 
-{{< embed-svg "static/svg/microservices-light.svg" >}}
+{{< embed-svg "static/svg/software-engineering.svg" >}}
 
 Ich begleite [Individualsoftware]({{< ref "/consulting" >}}) durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Pflege und Wartung.
 
@@ -28,6 +28,8 @@ Ich begleite [Individualsoftware]({{< ref "/consulting" >}}) durch den gesamten 
 In 2022 und 2023 habe ich als DevOps Engineer mit Azure DevOps, Java, Spring, Angular, Ansible, OpenShift und Helm die Private Cloud Migration einer großen internationalen Bank unterstützt.
 
 Zuvor habe ich einen schweizer Softwarehersteller mit einem Webcrawler-basierten Archivsystem bei der Migration eines Intranet-Systems unterstützt. Für den Webcrawler kamen Kotlin und Selenium zum Einsatz, während das Archivsystem mit Apache Solr eine leistungsfähige Suchfunktion bekam.
+
+{{< embed-svg "static/svg/team.svg" >}}
 
 Mein [Projektportfolio]({{< ref "/projects" >}}) und mein [CV]({{< ref "/about/cv" >}}) geben eine Übersicht über die Projekte meiner letzten Jahre. 
 

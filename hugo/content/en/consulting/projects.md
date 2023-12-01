@@ -10,3 +10,5 @@ robots:
 ---
 
 The project list has not yet been converted to Markdown. Still interested? [Contact]({{< ref "/contact" >}}) me.
+
+{{< embed-svg "static/svg/cloud.svg" >}}

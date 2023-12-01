@@ -10,3 +10,5 @@ robots:
 ---
 
 Die Projektliste ist noch nicht in Markdown überführt. Bei Interesse gerne [Kontakt]({{< ref "/contact" >}}) aufnehmen.
+
+{{< embed-svg "static/svg/cloud.svg" >}}

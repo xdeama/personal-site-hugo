@@ -56,14 +56,8 @@ function initializeThemeToggle() {
     }
 
     toggleButton.addEventListener('click', () => {
-        console.log("click")
         const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
-        if (newTheme !== (prefersDarkScheme.matches ? 'dark' : 'light')) {
-            setTheme(newTheme);
-        } else {
-            setTheme(newTheme, false);
-        }
-        console.log("theme: " + newTheme)
+        setTheme(newTheme);
     });
 
     prefersDarkScheme.addEventListener('change', (e) => {
