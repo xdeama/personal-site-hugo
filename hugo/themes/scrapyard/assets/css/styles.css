@@ -47,10 +47,22 @@
   margin-inline: auto;
 }
 
-.prose ul li::marker {
+.prose ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prose ul li {
+  position: relative;
+  padding-left: 10px;
+}
+
+.prose ul li::before {
   content: '- ';
   color: var(--color-mid);
   font-weight: bold;
+  position: absolute;
+  left: 0;
 }
 
 .prose > svg {
