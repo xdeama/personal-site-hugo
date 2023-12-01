@@ -8,15 +8,18 @@ main:
   - name: consulting
     pageRef: /consulting
     weight: 30
+  - name: projects
+    pageRef: /consulting/projects
+    weight: 40
   - name: denktmit
     pageRef: /denktmit
-    weight: 40
+    weight: 50
   - name: blog
     pageRef: /blog
-    weight: 50
+    weight: 60
   - name: contact
     pageRef: /contact
-    weight: 50
+    weight: 70
 #    - name: Tags
 #      pageRef: /tags
 #      weight: 30

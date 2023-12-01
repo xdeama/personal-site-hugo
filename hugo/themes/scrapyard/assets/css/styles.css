@@ -29,7 +29,7 @@
 .prose {
   --flow-space: var(--space-s-m);
 
-  max-width: 50rem;
+  max-width:62rem;
   line-height: 1.8;
 }
 
@@ -65,7 +65,8 @@
   left: 0;
 }
 
-.prose > svg {
+.prose > svg,
+.prose > a > svg {
   width: 10rem;
   height: 10rem;
   display: block;
@@ -73,6 +74,10 @@
   margin-right: auto;
   margin-left: auto;
   color: var(--color-dark);
+}
+
+.prose > a > svg:hover {
+  color: var(--color-primary);
 }
 
 .prose :is(ol, ul) {
@@ -177,12 +182,15 @@
 }
 
 .profile-img {
-  --n: 420;
-  --d: 630;
-  max-width: 300px;
+  --n: 100;
+  --d: 81;
+  max-width: 13rem;
+  border-radius: 2%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 3rem auto;
+  box-shadow:
+    -50px -50px 0 -40px var(--color-primary-glare),
+    50px 50px 0 -40px var(--color-primary-glare);
 }
 
 .linkedin-svg {
@@ -218,4 +226,11 @@
 
 .chroma {
   border-radius: 1.5em;
+}
+
+.grid-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  gap: 1rem;
 }

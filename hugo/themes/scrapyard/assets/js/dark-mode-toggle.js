@@ -1,4 +1,11 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', function () {
+    initializeThemeToggle();
+});
+
+// window.addEventListener('load', initializeThemeToggle);
+
+function initializeThemeToggle() {
+    console.log("initializeThemeToggle")
     const toggleButton = document.getElementById('dark-mode-toggle');
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
@@ -15,16 +22,56 @@ document.addEventListener('DOMContentLoaded', () => {
             sunIcon.style.display = 'none';
             moonIcon.style.display = 'block';
         }
+        updateUrlParam(mode);
     }
 
-    setTheme(prefersDarkScheme.matches ? 'dark' : 'light');
+    function getThemeFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('theme');
+    }
+
+    function updateUrlParam(theme) {
+        const params = new URLSearchParams(window.location.search);
+        params.set('theme', theme);
+        window.history.replaceState({}, '', `${window.location.pathname}?${params}`);
+        updateAllInternalLinks();
+    }
+
+    function updateAllInternalLinks() {
+        console.log("updateAllInternalLinks")
+        const currentParams = new URLSearchParams(window.location.search);
+
+        document.querySelectorAll('a').forEach(link => {
+            const url = new URL(link.href);
+
+            if (url.origin === window.location.origin) {
+                currentParams.forEach((value, key) => {
+                    url.searchParams.set(key, value);
+                });
+                link.href = url.toString();
+            }
+        });
+    }
+
+    const urlTheme = getThemeFromUrl();
+    if (urlTheme) {
+        setTheme(urlTheme);
+    } else {
+        setTheme(prefersDarkScheme.matches ? 'dark' : 'light');
+    }
 
     toggleButton.addEventListener('click', () => {
-        const currentTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
-        setTheme(currentTheme);
+        console.log("click")
+        const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+        setTheme(newTheme);
+        console.log("theme: " + newTheme)
     });
 
     prefersDarkScheme.addEventListener('change', (e) => {
-        setTheme(e.matches ? 'dark' : 'light');
+        if (!getThemeFromUrl()) {
+            setTheme(e.matches ? 'dark' : 'light');
+        }
     });
-});
+
+    updateAllInternalLinks();
+}

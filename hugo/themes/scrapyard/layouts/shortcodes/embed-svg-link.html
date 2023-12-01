@@ -1,0 +1,11 @@
+{{ $path := .Get "path" }}
+{{ $url := .Get "url" }}
+{{ $svgContent := readFile $path | safeHTML }}
+
+{{ if $url }}
+<a href="{{ $url }}">
+    {{ $svgContent }}
+</a>
+{{ else }}
+{{ $svgContent }}
+{{ end }}

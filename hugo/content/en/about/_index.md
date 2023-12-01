@@ -6,9 +6,11 @@ draft: false
 layout: standalone
 ---
 
-I have been active in the IT industry from 2010 and, starting from 2022, I became a freelance IT architect and co-founder of [DenktMit]({{< ref "/denktmit" >}}).
+I am Denis Malolepszy. Based in Frankfurt, Germany. Active in the IT industry since 2010.
 
-{{< to-img src="denis.png" class="profile-img frame" alt="Denis" >}}
+In 2022, I started my own business as an IT architect and took over the chairmanship of the supervisory board of [DenktMit]({{< relref "/denktmit" >}}), a cooperative that I co-founded in 2021.
+
+{{< to-img src="/denis.jpeg" class="profile-img frame" alt="Denis" >}}
 
 Previously, I was:
 - Head of IT at Habona Invest, an asset manager from Frankfurt am Main,
@@ -19,4 +21,4 @@ Previously, I was:
 
 I have gained experience as an IT architect, team leader, project manager, Scrum Master, software developer, and as responsible for IT operations of bespoke and standard software. For more details, see my [CV]({{< ref "/about/cv" >}}) or [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}.
 
-Today, I focus on the [development of bespoke software and cloud infrastructure]({{< ref "/consulting" >}}).
+Today, I focus on [developing software and cloud infrastructure]({{< ref "/consulting" >}}).

@@ -8,13 +8,11 @@ layout: standalone
 
 [DenktMit](https://denktmit.de) ist ein flexibles Experten-Netzwerk erfahrener IT-Spezialisten. Gefährten - mehr als nur Berater.
 
-{{< embed-svg "static/svg/denktmit-logo.svg" >}}
+{{< embed-svg-link path="static/svg/denktmit-logo.svg" url="https://denktmit.de">}}
 
 Unsere Mitglieder teilen Wissen, Erfahrungen und helfen bei der Vermittlung von Projekten. Wir investieren gemeinsam in unternehmerische Infrastrukturen – von angestellten Softwareentwicklern für Projektunterstützung bis hin zu gemeinsam genutzter Cloud-Infrastruktur und Steuerberatung. 
 
 So bauen wir bei DenktMit gemeinsam auf, was alleine zu riskant, kostspielig oder unerschwinglich wäre, während jeder von uns seine unternehmerische Unabhängigkeit behält.
-
-[Zur DenktMit Webseite](https://denktmit.de)
 
 ## Warum eine Genossenschaft? 
 Einzelne Selbstständige haben oft Schwierigkeiten, bei großen Projektausschreibungen der Privatwirtschaft oder öffentlichen Hand berücksichtigt zu werden. Gründe sind komplexe Vertragsanforderungen und mangelnde Sichtbarkeit. 
@@ -29,6 +27,8 @@ Die Genossenschaft ist eine besondere Rechtsform mit hoher Gleichberechtigung de
 Du bist IT-Spezialist auf der Suche nach neuen Herausforderungen und Netzwerkmöglichkeiten? Dann bist Du [bei uns](https://denktmit.de) genau richtig! 
 
 Wir sind eine Genossenschaft aus IT-Experten, die sich für eine partizipative Form der Zusammenarbeit entschieden haben. Bei uns bleibst Du selbstständig, profitierst aber von einem starken Netzwerk, Basisdemokratie, Ressourcen und der Chance auf größere Projekte, die alleine nur schwer umsetzbar wären.
+
+[Zu denktmit.de](https://denktmit.de)
 
 ## DenktMit Tech Blog
 Im [DenktMit Tech Blog](https://denktmit.de/blog/) schreiben wir rund um das Thema IT und Softwarentwicklung. Lesenswerte Beispiele:

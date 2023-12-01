@@ -29,17 +29,17 @@ h3 {
 @media (min-width: 58em) {
   h1::before {
     content: '#';
-    margin-inline-start: -2ch;
+    /*margin-inline-start: -2ch;*/
   }
 
   h2::before {
     content: '##';
-    margin-inline-start: -3ch;
+    /*margin-inline-start: -3ch;*/
   }
 
   h3::before {
     content: '###';
-    margin-inline-start: -4ch;
+    /*margin-inline-start: -4ch;*/
   }
 }
 
@@ -84,13 +84,13 @@ time {
   font-style: italic;
 }
 
-p,
-li,
-dl,
-blockquote,
-figcaption {
-  max-width: 70ch;
-}
+/*p,*/
+/*li,*/
+/*dl,*/
+/*blockquote,*/
+/*figcaption {*/
+/*  max-width: 70ch;*/
+/*}*/
 
 p:empty {display:none;}
 

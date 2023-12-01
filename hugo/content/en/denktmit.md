@@ -8,7 +8,7 @@ layout: standalone
 
 [DenktMit](https://denktmit.de) is a versatile network of experienced IT professionals. Partners - more than just consultants.
 
-{{< embed-svg "static/svg/denktmit-logo.svg" >}}
+{{< embed-svg-link path="static/svg/denktmit-logo.svg" url="https://denktmit.de">}}
 
 We share knowledge, experience, and assist in the mediation of projects. We collectively invest in entrepreneurial infrastructures – from employed software developers for project support to shared cloud infrastructure and tax advisory services. 
 
@@ -27,6 +27,8 @@ You are an IT specialist looking for new challenges and networking opportunities
 You are [at the right place](https://denktmit.de)! We are a cooperative of IT experts supporting each other in technical and business challenges. 
 
 At DenktMit, you remain independent but benefit from a strong network, grassroots democracy, resources, and the opportunity for larger projects that would be challenging to implement alone.
+
+[Visit denktmit.de](https://denktmit.de)
 
 ## DenktMit Tech Blog
 The [DenktMit Tech Blog](https://denktmit.de/blog/) is about IT and software development. Worthwhile examples:
