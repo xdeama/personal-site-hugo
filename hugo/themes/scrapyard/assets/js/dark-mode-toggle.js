@@ -2,14 +2,12 @@ document.addEventListener('DOMContentLoaded', function () {
     initializeThemeToggle();
 });
 
-// window.addEventListener('load', initializeThemeToggle);
-
 function initializeThemeToggle() {
     console.log("initializeThemeToggle")
     const toggleButton = document.getElementById('dark-mode-toggle');
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
-    function setTheme(mode) {
+    function setTheme(mode, updateUrl = true) {
         const sunIcon = document.getElementById('icon-sun');
         const moonIcon = document.getElementById('icon-moon');
 
@@ -22,12 +20,9 @@ function initializeThemeToggle() {
             sunIcon.style.display = 'none';
             moonIcon.style.display = 'block';
         }
-        updateUrlParam(mode);
-    }
-
-    function getThemeFromUrl() {
-        const params = new URLSearchParams(window.location.search);
-        return params.get('theme');
+        if (updateUrl) {
+            updateUrlParam(mode);
+        }
     }
 
     function updateUrlParam(theme) {
@@ -55,15 +50,19 @@ function initializeThemeToggle() {
 
     const urlTheme = getThemeFromUrl();
     if (urlTheme) {
-        setTheme(urlTheme);
+        setTheme(urlTheme, false);
     } else {
-        setTheme(prefersDarkScheme.matches ? 'dark' : 'light');
+        setTheme(prefersDarkScheme.matches ? 'dark' : 'light', false);
     }
 
     toggleButton.addEventListener('click', () => {
         console.log("click")
         const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
-        setTheme(newTheme);
+        if (newTheme !== (prefersDarkScheme.matches ? 'dark' : 'light')) {
+            setTheme(newTheme);
+        } else {
+            setTheme(newTheme, false);
+        }
         console.log("theme: " + newTheme)
     });
 
@@ -74,4 +73,9 @@ function initializeThemeToggle() {
     });
 
     updateAllInternalLinks();
+}
+
+function getThemeFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('theme');
 }
