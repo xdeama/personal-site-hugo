@@ -34,4 +34,4 @@ I have over six years of full-time experience working with Java in various proje
 
 
 ## Let's Collaborate
-Looking for assistance with your project? Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}, or you can directly contact me via [E-Mail](mailto:kontakt@dmalo.de). I am eager to discuss how I can contribute to your project's success.
+Looking for assistance with your project? Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}, or you can directly contact me via [E-Mail](mailto:kontakt@dmalo.de). I am eager to discuss how I can contribute to your project's success.

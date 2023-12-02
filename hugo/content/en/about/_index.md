@@ -17,6 +17,6 @@ Previously, I was:
 
 {{< embed-svg "static/svg/maze.svg" >}}
 
-I have gained experience as an IT architect, team leader, project manager, Scrum Master, software developer, and as responsible for IT operations of bespoke and standard software. For more details, see my [CV]({{< ref "/about/cv" >}}) or [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}.
+I have gained experience as an IT architect, team leader, project manager, Scrum Master, software developer, and as responsible for IT operations of bespoke and standard software. For more details, see my [CV]({{< ref "/about/cv" >}}) or [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}.
 
 Today, I focus on [developing software and cloud infrastructure]({{< ref "/consulting" >}}).

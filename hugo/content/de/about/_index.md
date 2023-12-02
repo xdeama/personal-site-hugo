@@ -17,6 +17,6 @@ Zuvor war ich:
 
 {{< embed-svg "static/svg/puzzle1.svg" >}}
 
-Ich konnte als IT-Architekt, Teamleiter, Projektleiter, Scrum Master, Softwareentwickler und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln. Näheres in meinem [CV]({{< ref "/about/cv" >}}) oder [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}.
+Ich konnte als IT-Architekt, Teamleiter, Projektleiter, Scrum Master, Softwareentwickler und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln. Näheres in meinem [CV]({{< ref "/about/cv" >}}) oder [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}.
 
 Heute fokussiere ich mich auf die [Entwicklung von Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}).

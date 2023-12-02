@@ -34,4 +34,4 @@ Ich bringe mehr als sechs Jahre Vollzeiterfahrung mit Java in verschiedenen Proj
 
 
 ## Angebot
-Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}} oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
+Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
