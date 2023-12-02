@@ -7,7 +7,7 @@ draft: false
 
 # Hi, I'm Denis
 
-I am a freelance software architect from Frankfurt am Main, full stack developer and co-founder of [DenktMit]({{< ref "/denktmit" >}}), an expert network of self-employed IT specialists.
+I am a freelance software architect, full stack developer and co-founder of [DenktMit]({{< ref "/denktmit" >}}), an expert network of self-employed IT specialists.
 
 {{< to-img src="denis.jpeg" class="profile-img frame" alt="Denis" >}}
 

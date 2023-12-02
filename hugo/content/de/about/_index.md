@@ -6,7 +6,7 @@ draft: false
 layout: standalone
 ---
 
-Ich bin Denis Malolepszy, in Frankfurt zu Hause und seit 2010 in der IT-Branche unterwegs. 
+Ich heiße Denis Malolepszy und bin seit 2010 in der IT-Branche tätig. Derzeit lebe und arbeite ich in Frankfurt am Main. 
 
 In 2022 habe ich mich als IT-Architekt selbständig gemacht und den Vorsitz des Aufsichtsrates von [DenktMit]({{< relref "/denktmit" >}}) übernommen, einer Genossenschaft die ich 2021 mitgegründet habe.
 

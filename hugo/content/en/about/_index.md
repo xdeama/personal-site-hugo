@@ -6,7 +6,7 @@ draft: false
 layout: standalone
 ---
 
-I am Denis Malolepszy. Based in Frankfurt, Germany. Active in the IT industry since 2010.
+My name is Denis Malolepszy, and I have been active in the IT industry since 2010. Currently, I am based in Frankfurt am Main.
 
 In 2022, I started my own business as an IT architect and took over the chairmanship of the supervisory board of [DenktMit]({{< relref "/denktmit" >}}), a cooperative that I co-founded in 2021.
 

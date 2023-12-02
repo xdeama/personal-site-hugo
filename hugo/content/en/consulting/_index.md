@@ -18,19 +18,20 @@ I accompany individual software through the entire life cycle: from requirements
 
 My [project portfolio]({{< ref "/projects" >}}) and my [CV]({{< ref "/about/cv" >}}) provide an overview of the projects I have worked on in recent years.
 
+
 ## Freelancer but not a One-Man-Show
 In collaboration with [DenktMit]({{< ref "/denktmit" >}}), a network of independent IT experts, I restore real substance to the overused buzzword "digitalization" and put you back in the driver's seat of your digitalization strategy.
 
 
-
 ## Tech Stack
-I focus on the Java ecosystem, especially Spring Framework, relational databases, and private cloud architectures based on Kubernetes.
+My technical focus is on the Java ecosystem, particularly the Spring Framework, relational databases, and private cloud architectures based on Kubernetes.
 
 {{< embed-svg "static/svg/tech-stack.svg" >}}
 
-This includes a wide range of products and open source software, frameworks and libraries such as Camunda, Kafka, Solr, Angular, Swagger, Kibana and others.
+This includes a wide range of products and open-source software, frameworks, and libraries such as Camunda, Kafka, Solr, Angular, Swagger, Kibana, and more.
 
-My previous experiences regarding technologies are listed in the [project portfolio]({{< ref "/projects" >}}). I am very open to learning new technologies for projects.
+I have over six years of full-time experience working with Java in various projects. Detailed information about my technological expertise can be found in my [project portfolio]({{< ref "/projects" >}}). I am very open to learning and applying new technologies in projects.
 
-## Hire me
-Does your project need support? Write to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}} or contact me directly via [E-Mail](mailto:kontakt@dmalo.de).
+
+## Let's Collaborate
+Looking for assistance with your project? Feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}, or you can directly contact me via [E-Mail](mailto:kontakt@dmalo.de). I am eager to discuss how I can contribute to your project's success.

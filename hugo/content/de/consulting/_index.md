@@ -18,17 +18,19 @@ Ich begleite Individualsoftware durch den gesamten Lebenszyklus: von der Anforde
 
 Mein [Projektportfolio]({{< ref "/projects" >}}) und mein [CV]({{< ref "/about/cv" >}}) geben eine Übersicht über die Projekte meiner letzten Jahre.
 
+
 ## Freiberufler, aber keine One-Man-Show
 Gemeinsam mit [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten, gebe ich dem ausgelutschten Buzzword Digitalisierung wieder Biss. Wir setzen unsere Kunden zurück in den Fahrersitz deiner Digitalisierungsstrategie.
 
+
 ## Tech Stack
-Technisch fokussiere ich mich auf das Java Ökosystem, insbesondere Spring Framework, relationale Datenbanken und Private Cloud Architekturen auf Basis von Kubernetes. 
+Technisch konzentriere ich mich auf das Java-Ökosystem, insbesondere das Spring Framework, relationale Datenbanken und Private Cloud-Architekturen basierend auf Kubernetes.
 
 {{< embed-svg "static/svg/tech-stack.svg" >}}
 
-Dies umfasst eine breite Auswahl an Produkten und Open Source Software, Frameworks und Libraries wie Camunda, Kafka, Solr, Angular, Swagger, Kibana und Co. 
+Das Java Ökosystem umfasst eine breite Auswahl an Produkten und Open Source Software, Frameworks und Libraries wie Camunda, Kafka, Solr, Angular, Swagger, Kibana und Co. 
 
-Meine bisherigen Erfahrungen hinsichtlich Technologien sind im [Projektportfolio]({{< ref "/projects" >}}) aufgeführt. Ich bin sehr aufgeschlossen für Projekte neue Technologien zu erlernen.
+Ich bringe mehr als sechs Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten mit. Details zu meinen technologischen Erfahrungen finden Sie in meinem [Projektportfolio]({{< ref "/projects" >}}). Ich bin sehr offen dafür, in Projekten neue Technologien zu erlernen und anzuwenden.
 
 
 ## Angebot
