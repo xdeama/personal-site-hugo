@@ -7,13 +7,13 @@ layout: standalone
 ---
 
 ## Address
+{{< div class="no-top-margin" >}}
 Denis Malolepszy Software Engineering
 
-Inhaber Denis Malolepszy\
-Postfachanlage:\
-Triebstr. 33\
-60388 Frankfurt am Main
+Postfach 62 01 39
 
+60350 Frankfurt
+{{< /div >}}
 ## Contact
 Please direct general contact inquiries to kontakt@dmalo.de.
 

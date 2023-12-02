@@ -34,7 +34,11 @@
 }
 
 .prose p {
-  margin-top: var(--flow-space)
+  margin-top: var(--flow-space);
+}
+
+.no-top-margin > p {
+  --flow-space: 0;
 }
 
 .prose em {
@@ -107,16 +111,26 @@
   column-count: 1;
 }
 
+.prose ul li:first-child {
+  margin-top: -0.5rem;
+}
+
 @media screen and (min-width: 450px) {
   .list-with-columns > ul {
     column-count: 2;
     column-gap: 1rem;
+  }
+  .prose ul li:first-child {
+    margin-top: 0;
   }
 }
 
 @media screen and (min-width: 715px) {
   .list-with-columns > ul {
     column-count: 3;
+  }
+  .prose ul li:first-child {
+    margin-top: 0;
   }
 }
 
@@ -221,8 +235,8 @@
   display: block;
   margin: 3rem auto;
   box-shadow:
-    -50px -50px 0 -40px var(--color-primary),
-    50px 50px 0 -40px var(--color-primary);
+    -50px -50px 0 -35px var(--color-profile-frame),
+    50px 50px 0 -35px var(--color-profile-frame);
 }
 
 .linkedin-svg {

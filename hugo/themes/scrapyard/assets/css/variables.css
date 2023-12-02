@@ -17,6 +17,7 @@
 
   /* light mode icon colors */
   --lightmode-color-linkedIn-logo: #252525;
+  --lightmode-color-profile-frame: var(--lightmode-color-dark);
 
   /* light mode chroma syntax highlighting colors */
   --lightmode-chroma-color-background: #ffffff;
@@ -53,6 +54,7 @@
 
   /* light mode icon colors */
   --darkmode-color-linkedIn-logo: #0077B5;
+  --darkmode-color-profile-frame: var(--color-mid);
 
   /* dark mode chroma syntax highlighting colors */
   --darkmode-chroma-color-background: #292929;
@@ -113,8 +115,9 @@
 
   --size-base: clamp(1rem,0.96rem + 0.22vw,1.125rem);
   --size-step-0: clamp(0.8125rem,0.79rem + 0.11vw,0.875rem);
-  --size-step-0-5: clamp(0.95rem,0.85rem + 0.20vw,1.175rem);
-  --size-step-0-75: clamp(1.15rem,1.1rem + 0.20vw,1.275rem);
+  --size-step-05: clamp(0.95rem,0.85rem + 0.20vw,1.175rem);
+  --size-step-06: clamp(1rem,0.95rem + 0.20vw,1.2rem);
+  --size-step-075: clamp(1.15rem,1.1rem + 0.20vw,1.275rem);
   --size-step-1: clamp(1.2875rem,1.22rem + 0.33vw,1.475rem);
   --size-step-2: clamp(1.4375rem,1.33rem + 0.54vw,1.75rem);
   --size-step-3: clamp(1.6875rem,1.51rem + 0.87vw,2.1875rem);
@@ -147,6 +150,7 @@
   --color-header-logo: var(--lightmode-color-dark);
 
   --color-linkedIn-logo: var(--lightmode-color-linkedIn-logo);
+  --color-profile-frame: var(--lightmode-color-profile-frame);
 
   --chroma-color-background: var(--lightmode-chroma-color-background);
   --chroma-color-error-text: var(--lightmode-chroma-color-error-text);
@@ -183,6 +187,7 @@
   --color-header-logo: var(--darkmode-color-light);
 
   --color-linkedIn-logo: var(--darkmode-color-linkedIn-logo);
+  --color-profile-frame: var(--darkmode-color-profile-frame);
 
   --chroma-color-background: var(--darkmode-chroma-color-background);
   --chroma-color-error-text: var(--darkmode-chroma-color-error-text);
