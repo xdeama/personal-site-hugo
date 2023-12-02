@@ -37,6 +37,16 @@
   margin-top: var(--flow-space)
 }
 
+.prose em {
+  color: var(--color-mid);
+  font-family: "Noto Sans Bold", serif;
+  font-style: normal;
+  font-weight: bold;
+  /*background-color: var(--chroma-color-highlight);*/
+  /*border-radius: 7px;*/
+  /*padding: 5px;*/
+}
+
 .prose > img,
 .prose > table {
   width: 100%;
@@ -90,8 +100,30 @@
 }
 
 .prose li + li {
-  margin-top: var(--space-2xs);
+  margin-top: var(--space-3xs);
 }
+
+.list-with-columns > ul {
+  column-count: 1;
+}
+
+@media screen and (min-width: 450px) {
+  .list-with-columns > ul {
+    column-count: 2;
+    column-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 715px) {
+  .list-with-columns > ul {
+    column-count: 3;
+  }
+}
+
+.list-with-columns > ul > li {
+    break-inside: avoid;
+}
+
 
 /* More space after and around certain elements */
 /*pre, pre + *, */
@@ -101,7 +133,7 @@
 
 /* Less space for items that follow headings */
 .prose h1 + * {
-  --flow-space: 0.5em;
+  --flow-space: 0.7em;
 }
 
 .prose :is(h2 + *, h3 + *, h4 + *) {

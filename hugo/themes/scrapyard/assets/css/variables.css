@@ -12,6 +12,7 @@
   --lightmode-color-primary: #089ce7;
   --lightmode-color-primary-shade: #167caf;
   --lightmode-color-primary-glare: #83c7ea;
+  --lightmode-color-secondary: #ff9100;
   --lightmode-color-hover: var(--lightmode-color-primary-shade);
 
   /* light mode icon colors */
@@ -47,6 +48,7 @@
   --darkmode-color-primary: #089ce7;
   --darkmode-color-primary-glare: #167caf;
   --darkmode-color-primary-shade: #83c7ea;
+  --darkmode-color-secondary: #ff9100;
   --darkmode-color-hover: var(--lightmode-color-primary);
 
   /* light mode icon colors */
@@ -176,6 +178,7 @@
   --color-primary: var(--darkmode-color-primary);
   --color-primary-glare: var(--darkmode-color-primary-glare);
   --color-primary-shade: var(--darkmode-color-primary-shade);
+  --color-secondary: var(--darkmode-color-secondary);
   --color-hover: var(--darkmode-color-hover);
   --color-header-logo: var(--darkmode-color-light);
 

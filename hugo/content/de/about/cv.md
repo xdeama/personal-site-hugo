@@ -22,7 +22,7 @@ An der **Hochschule Fulda** Wirtschaftsinformatik (B.Sc.)
 
 ## Berufserfahrung
 
-### **Vorsitzender des Aufsichtsrates**  | Mai 2021 — heute
+### **Vorsitzender des Aufsichtsrates** | Mai 2021 — heute
 Vorsitzender des Aufsichtsrates der **DenktMit eG** in Oberursel
 
 ### **Freelance Software Architect** | Februar 2022 — bis heute

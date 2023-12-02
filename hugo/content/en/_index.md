@@ -33,8 +33,8 @@ My [Project Portfolio]({{< ref "/projects" >}}) and [CV]({{< ref "/about/cv" >}}
 ## DenktMit
 [DenktMit](https://denktmit.de) is a versatile network of seasoned IT professionals. Partners - more than just advisors.
 
-{{< embed-svg-link path="static/svg/denktmit-logo.svg" url="https://denktmit.de" >}}
-
 Our [members](https://denktmit.de/team/) share knowledge, experiences, and assist in project placements. We jointly invest in entrepreneurial infrastructures – from employing software developers for project support to shared cloud infrastructure and tax consulting.
+
+{{< embed-svg-link path="static/svg/denktmit-logo.svg" url="https://denktmit.de" >}}
 
 At DenktMit, we collectively build what would be too risky, costly, or unaffordable alone, while each of us maintains our entrepreneurial independence.

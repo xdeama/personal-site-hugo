@@ -72,3 +72,9 @@ Like the **img** shortcode, but with fixed CSS. SVGs in <img> tags do not suppor
 ```
 {{< to-svg src="/svg/software-engineering.svg" alt="Software Engineering" >}}
 ```
+### add a div with custom classes around markdown
+```
+{{< div-start-tag class="your-custom-class" >}}
+Your content here...
+{{< div-end-tag >}}
+```
