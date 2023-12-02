@@ -22,6 +22,9 @@ Theme and CSS in need of cleanup and are not yet standalone usable.
 ### network mode
 ./hugo-serve-dev.sh -n
 
+### minify
+-m turns on hugo --minify, which is helpful to check before production deployments, because it might break things like shortcodes
+
 ## frontmatter
 The title is mandatory, heading is optional.
 The heading can be set to overwrite title as the first h1 heading of the page
