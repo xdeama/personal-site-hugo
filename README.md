@@ -4,12 +4,15 @@ My personal website https://dmalo.de made with Hugo, a self made custom theme an
 # status
 Theme and CSS in need of cleanup and are not yet standalone usable. 
 
+
 # features
 - language switcher that keeps you on the current page
 - dark mode switcher with minimal JS
 - fluent CSS layout with https://every-layout.dev
 - language switching link that keeps the visitor on the same page url
 - dark mode switching without cookies
+- the theme uses JavaScript for darkmode toggling and a fullscreen overlay for images, so the website is usable and all information accessible without JavaScript enabled
+
 
 # Documentation
 
@@ -86,4 +89,11 @@ Like the **img** shortcode, but with fixed CSS. SVGs in <img> tags do not suppor
 {{< div-start-tag class="your-custom-class" >}}
 Your content here...
 {{< div-end-tag >}}
+```
+
+### linkedin-icon
+The LinkedIn icon and link has a --minify problem.   
+Workaround: add a html blank between it and the next word.
+```
+{{< linkedin-icon >}}&nbsp;nextWord
 ```

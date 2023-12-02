@@ -11,6 +11,6 @@ For general inquiries, please use
 - [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}
 
 ## Consulting
-For initial contact, I am available via [email](mailto:kontakt@dmalo.de) or [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}&nbsp;to arrange a phone call or video chat.
+For initial contact, I am available via [email](mailto:kontakt@dmalo.de) or [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;to arrange a phone call or video chat.
 
 I do not publish a phone number for initial contact to concentrate on client projects.

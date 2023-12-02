@@ -14,7 +14,7 @@ I am a freelance software architect from Frankfurt am Main, full stack developer
 I develop [sophisticated custom software]({{< ref "/consulting" >}}) for the finance industry that stands the test of time through maintainability, resilience, and observability.
 
 If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
-{{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}&nbsp;or by [email](mailto:kontakt@dmalo.de).
+{{< linkedin-icon >}}&nbsp;or by [email](mailto:kontakt@dmalo.de).
 
 ## Software Development
 I assist my clients in the financial sector to solve complex problems through automation. My primary focus is to meet business needs and [develop systems]({{< ref "/projects" >}}) that can be operated and evolved efficiently and effectively in the long term.

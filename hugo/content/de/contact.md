@@ -11,6 +11,6 @@ Für allgemeine Anliegen, nutze bitte
 - [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}
 
 ## Beratung
-Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de) oder [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< rawhtml >}}<a href="https://www.linkedin.com/in/dmalolepszy" style="text-decoration: none">{{< linkedin-icon >}}</a>{{< /rawhtml >}}&nbsp;zur Verfügung und vereinbare gerne ein Telefonat oder Videochat mit Ihnen.
+Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de) oder [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;zur Verfügung und vereinbare gerne ein Telefonat oder Videochat mit Ihnen.
 
 Eine Telefonnummer für den Erstkontakt veröffentliche ich nicht, um konzentriert an Kundenprojekten arbeiten zu können.
