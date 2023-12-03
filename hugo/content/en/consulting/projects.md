@@ -60,7 +60,7 @@ As Head of IT, I was responsible for the IT of a holiday resort development proj
 
 As the first Pareus Resorts, this greenfield project posed special challenges during the COVID-19 pandemic in the construction project and in building expertise and staff.
 
-### Project Highlights
+### **Project Highlights**
 - Network technology and on-premises server systems
 - Property Management System
 - Hotel TV, guest WiFi, locking systems, etc.
@@ -73,7 +73,7 @@ As the first Pareus Resorts, this greenfield project posed special challenges du
 
 As Head of IT, I was responsible for network technology, server systems, and workplace IT equipment during a site relocation.
 
-### Project Highlights
+### **Project Highlights**
 - Planning of network technology and supervision of construction measures
 - Relocation of on-premises server systems
 - Relocation of workplace IT equipment
@@ -85,7 +85,7 @@ As Head of IT, I was responsible for network technology, server systems, and wor
 
 As Head of IT, I took over an IT department that was completely outsourced to service providers and built an internal team for HelpDesk, server operation, and web development.
 
-### Project Highlights
+### **Project Highlights**
 - Determining corporate needs and developing an IT strategy
 - Introducing project and routine task management
 - Modernizing and expanding IT documentation
@@ -98,7 +98,7 @@ As Head of IT, I took over an IT department that was completely outsourced to se
 As Head of IT, I was responsible for modernizing end-of-life server hardware and outdated Microsoft products with a hybrid cloud approach.
 Migration from Microsoft on-premises systems like Active Directory, Exchange Server, and File Server to Microsoft Cloud Hybrid Systems.
 
-### Project Highlights
+### **Project Highlights**
 - Introduction of Microsoft 365 including Teams and SharePoint
 - User training for new working methods with Microsoft Teams and SharePoint
 - Migration of on-premises systems like Active Directory, Exchange Server, and File Server to Microsoft Cloud Hybrid solutions
@@ -109,7 +109,7 @@ Migration from Microsoft on-premises systems like Active Directory, Exchange Ser
 
 Development of a website for the sale of holiday properties using Contao CMS.
 
-### Project Highlights
+### **Project Highlights**
 - Implementation with PHP, TypeScript, CSS, and Contao CMS
 - Extension of Contao CMS with a maintenance interface for property information
 - Automated creation of individual purchase contracts

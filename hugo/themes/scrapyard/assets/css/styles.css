@@ -141,7 +141,7 @@
 
 /* More space after and around certain elements */
 /*pre, pre + *, */
-.prose :is(figure, figure + *, h2, h3, h4) {
+.prose :is(figure, figure + *, h2) {
   --flow-space: var(--space-l-xl);
 }
 

@@ -57,9 +57,9 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 
 Als Head of IT war ich für die IT der Projektentwicklung eines Ferienresorts an der Adria verantwortlich. Im Namen der neu gegründeten Tochterfirma Pareus wurde ein Areal neu erschlossen und mit Ferienwohnungen bebaut, die im Stil eines Hotel Resorts zentral mit WLAN, TV, Telefon, Schließanlage und Co. versorgt wurden. 
 
-Als erstes Pareus Resorts bot dieses Greenfield Projekt während der Corona Pandemie besondere Herausforderungen im Bauprojekt und im Aufbau von Experise und Personal.
+Als erstes Pareus Resorts bot dieses Greenfield Projekt während der Coronapandemie besondere Herausforderungen im Bauprojekt und im Aufbau von Experise und Personal.
 
-### Projektschwerpunkte
+### **Projektschwerpunkte**
 - Netzwerktechnik und On-Premises-Serversysteme
 - Property Management System
 - Hotel-TV, Gäste-WLAN, Schließsysteme und Co.
@@ -72,7 +72,7 @@ Als erstes Pareus Resorts bot dieses Greenfield Projekt während der Corona Pand
 
 Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-Ausstattung bei einem Standortumzug verantwortlich. 
 
-### Projektschwerpunkte
+### **Projektschwerpunkte**
 - Planung der Netzwerktechnik und Begleitung der Baumaßnahmen
 - Umzug der On-Premises-Serversysteme
 - Umzug der Arbeitsplatz-IT-Ausstattung
@@ -84,7 +84,7 @@ Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-A
 
 Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT übernommen und ein internes Team für das HelpDesk, Serverbetrieb und Webentwicklung aufgebaut. 
 
-### Projektschwerpunkte
+### **Projektschwerpunkte**
 - Unternehmensbedarf ermitteln und eine IT-Strategie entwickeln
 - Projekt- und Routineaufgabenverwaltung einführen
 - IT-Dokumentation modernisieren und ausbauen
@@ -97,7 +97,7 @@ Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT über
 Als Head of IT war ich verantwortlich für die Modernisierung von End-of-Life-Serverhardware und veralteten Microsoft Produkten mit einem Hybrid Cloud Ansatz. 
 Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid Systemen.
 
-### Projektschwerpunkte
+### **Projektschwerpunkte**
 - Einführung von Microsoft 365 inkl. Teams und Sharepoint
 - Anwenderschulung für neue Arbeitsmethoden mit Microsoft Teams und Sharepoint
 - Migration von On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid Lösungen
@@ -108,7 +108,7 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 
 Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien auf Basis von Contao CMS.
 
-### Projektschwerpunkte
+### **Projektschwerpunkte**
 - Implementierung mit PHP, TypeScript, CSS und Contao CMS
 - Erweiterung von Contao CMS um eine Pflegeoberfläche für Immobilieninformationen
 - Automatisierte Anfertigung individueller Kaufverträge
