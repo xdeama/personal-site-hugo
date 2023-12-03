@@ -11,57 +11,37 @@ robots:
 
 Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen, da das Vertragsverhältnis meines Erachtens für die gesammelten Erfahrungen eine untergeordnete Rolle spielt.
 
-## Reimplementierung einer React Web App in Kotlin
-### **November 2023 — Heute** | Freiberuflich als Full Stack Developer
-Reimplementierung einer nicht mehr wartbaren React Web App in Kotlin, um die Implementierung zusätzlicher Anforderungen zu ermöglichen.
-
-{{< div class="list-with-columns" >}}
-### **Technologien**
-- Kotlin
-- Spring
-- PostgreSQL 
-{{< /div >}}
-
-
-## Persönliche Webseite mit Hugo eigenem Theme
-### **Oktober 2023 — Oktober 2023** | In Eigenregie
-Diese Webseite gewinnt keinen Designpreis. Sie ist jedoch in Hugo mit eigenem CSS Theme erstellt und hat die Möglichkeit geboten noch einmal tief in CSS einzusteigen. Ich habe dabei dank [Every Layout](https://every-layout.com) viel dazu gelernt.
-Zudem habe ich einen Sprachwechsel-Link und Darkmode ohne Cookies implementiert. Hierzu folgen [Blog Posts]({{< ref "/blog" >}}).
-Der Quellcode ist in einem [GitHub Repository](https://github.com/xdeama/personal-site-hugo) veröffentlicht.
-
-{{< div class="list-with-columns" >}}
-### **Technologien**
-- Hugo
-- JavaScript
-- CSS
-{{< /div >}}
-
 
 ## CI/CD für Private Cloud Migration modernisieren
 ### **März 2022 — September 2023** | Freiberuflich als DevOps Engineer
 
-Für eine große internationale Bank habe ich eine Private Cloud Migration unterstützt, Deployment Pipelines und ein CI/CD-Portal modernisiert und zu Azure DevOps migriert.
-
-Ein zentrales CI/CD-Portal verwendet Angular, Spring Gateway und Keycloak um den Softwareentwicklern und Projektmanagern Zugriff auf Deploymentwerkzeuge für Container, virtuelle Maschinen und Datenbanken zu bieten.
-
-Die gewählte Microservices Architektur mit Spring, REST und Kafka ermöglicht dedizierten Teams für die verschiedenen Infrastruktur-Typen mit geringem Abstimmungsaufwand und unabhängig ihre Werkzeuge weiterzuentwickeln, während die Anwender über ein gemeinsames Portal alle Infrastruktur-Typen verwenden können.
+DevOps und Java Entwicklung für die Private Cloud Migration einer großen internationalen Bank:  
+- Azure DevOps Migration eines CI/CD-Portals für Container, virtuelle Maschinen und Datenbank Deployments
+- Migration der Spring Microservices Infrastruktur des CI/CD-Portals von virtuellen Maschinen zu Containern in OpenShift
+- Automatisierung von komplexen Deploymentmechanismen für virtuelle Maschinen mit Ansible und Reactive Spring, wie z.B. Batch Deployments mit abhängigen Komponenten, und automatische Sidecars
+- Analyse, Containerisierung und Portierung einer bestehenden Datenbank-Anonymisierungslösung      
+- Migration von Jenkins Deployment Pipelines zu Azure DevOps
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
 - Azure DevOps
 - OpenShift & Helm
 - Java 8 bis 17
-- Spring Microservices mit Gateway
-- Keycloak
+- Spring Microservices mit Reactive Streams und Gateway
 - Angular & PrimeFaces
-- Ansible 
+- Ansible
+- Kafka
+- Keycloak
 {{< /div >}}
 
 
 ## Web-Crawler-basiertes Archivsystem
 ### **Dezember 2022 — Januar 2023** | Freiberuflich als Software Engineer
 
-Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für einen schweizer Softwarehersteller ein Web-Crawler-basiertes Archivsystem für die Migration eines Intranet-Systems entwickelt. Hierbei extrahiert ein Web-Crawler Webinhalte durch vollständiges Rendering inklusive JavaScript und archiviert die Ergebnisse. Eine Apache Solr Instanz stellt einen Suchindex zur Verfügung. Eine React Webapp dient als Einstiegs- und Suchportal, während ein Go Webserver das Archiv als Website wiedergibt. Das System fertigt automatisiert Archive des Intranets des Kunden an.
+Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für einen schweizer Softwarehersteller ein Web-Crawler-basiertes Archivsystem für die Migration eines Intranet-Systems entwickelt:
+- Implementierung eines Web-Crawlers in Kotlin und Selenium zum Extrahieren von Webseiten mit gerendertem JavaScript 
+- Implementierung einer React Webapp als Einstiegs- und Suchportal
+- Setup und Tuning eines Suchindex mit Apache Solr
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
@@ -71,7 +51,6 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 - Go
 - React
 {{< /div >}}
-- 
 
 ## Projektentwicklung eines Ferienresorts
 ### **Oktober 2018 — Juli 2021** | Head of IT bei Habona Invest

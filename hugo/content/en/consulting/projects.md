@@ -11,57 +11,37 @@ robots:
 
 My project portfolio includes projects from my time as a freelancer, as well as permanent positions, as I believe the nature of the contract plays a secondary role in the experiences gained.
 
-## Reimplementation of a React Web App in Kotlin
-### **November 2023 — Present** | Freelance as a Full Stack Developer
-Reimplementation of an unmaintainable React web app in Kotlin, to enable the implementation of additional requirements.
-
-{{< div class="list-with-columns" >}}
-### **Technologies**
-- Kotlin
-- Spring
-- PostgreSQL
-  {{< /div >}}
-
-
-## Personal Website with Custom Hugo Theme
-### **October 2023 — October 2023** | Self-Directed
-This website may not win any design awards. However, it was created in Hugo with a custom CSS theme, offering an opportunity to delve deeply into CSS. I learned a lot during this process, thanks to [Every Layout](https://every-layout.com).
-Additionally, I implemented a language switch link and dark mode without cookies. More details will follow in [blog posts]({{< ref "/blog" >}}).
-The source code is published in a [GitHub Repository](https://github.com/xdeama/personal-site-hugo).
-
-{{< div class="list-with-columns" >}}
-### **Technologies**
-- Hugo
-- JavaScript
-- CSS
-  {{< /div >}}
-
 
 ## Modernizing CI/CD for Private Cloud Migration
 ### **March 2022 — September 2023** | Freelance as a DevOps Engineer
 
-I supported a major international bank in their private cloud migration, modernized deployment pipelines, and migrated them to Azure DevOps.
-
-A central CI/CD portal uses Angular, Spring Gateway, and Keycloak to provide software developers and project managers with access to deployment tools for containers, virtual machines, and databases.
-
-The chosen microservices architecture with Spring, REST, and Kafka allows dedicated teams for different infrastructure types to independently develop their tools with minimal coordination, while users can access all infrastructure types through a common portal.
+DevOps and Java development for the private cloud migration of a major international bank:
+- Migrating a CI/CD portal to Azure DevOps for container, virtual machine, and database deployments
+- Migrating the CI/CD portal's Spring Microservices infrastructure from virtual machines to containerized environments in OpenShift
+- Automating complex deployment mechanisms for virtual machines using Ansible and Reactive Spring, such as batch deployments with dependent components, and automatic sidecars
+- Analyzing, containerizing, and porting an existing database anonymization solution
+- Migrating Jenkins deployment pipelines to Azure DevOps
 
 {{< div class="list-with-columns" >}}
 ### **Technologies**
 - Azure DevOps
 - OpenShift & Helm
 - Java 8 to 17
-- Spring Microservices with Gateway
-- Keycloak
+- Spring Microservices with Reactive Streams and Gateway
 - Angular & PrimeFaces
 - Ansible
-  {{< /div >}}
+- Kafka
+- Keycloak
+{{< /div >}}
 
 
 ## Web Crawler-Based Archiving System
 ### **December 2022 — January 2023** | Freelance as a Software Engineer
 
-Together with my [team from DenktMit]({{< ref "/denktmit" >}}), I developed a web crawler-based archiving system for a Swiss software manufacturer to migrate an intranet system. A web crawler extracts web content through full rendering including JavaScript and archives the results. An Apache Solr instance provides a search index. A React web app serves as an entry and search portal, while a Go web server reproduces the archive as a website. The system automatically creates archives of the client's intranet.
+In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web crawler-based archiving system for a Swiss software manufacturer to facilitate the migration of an intranet system:
+- Developed a web crawler in Kotlin and Selenium for extracting web pages with rendered JavaScript
+- Implemented a React web app to serve as an entry and search portal
+- Set up and optimized a search index using Apache Solr
 
 {{< div class="list-with-columns" >}}
 ### **Technologies**
@@ -70,8 +50,7 @@ Together with my [team from DenktMit]({{< ref "/denktmit" >}}), I developed a we
 - Selenium
 - Go
 - React
-  {{< /div >}}
--
+{{< /div >}}
 
 ## Development of a Holiday Resort Project
 ### **October 2018 — July 2021** | Head of IT at Habona Invest
