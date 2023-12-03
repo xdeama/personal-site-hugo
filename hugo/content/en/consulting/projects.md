@@ -52,6 +52,7 @@ In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web cra
 - React
 {{< /div >}}
 
+
 ## Development of a Holiday Resort Project
 ### **October 2018 — July 2021** | Head of IT at Habona Invest
 
