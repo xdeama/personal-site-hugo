@@ -11,7 +11,7 @@ I am a freelance software architect, full stack developer and co-founder of [Den
 
 {{< to-img src="denis.jpeg" class="profile-img frame" alt="Denis" >}}
 
-I develop [sophisticated custom software]({{< ref "/consulting" >}}) for the finance industry that stands the test of time through maintainability, resilience, and observability.
+I design and implement [sophisticated custom software]({{< ref "/consulting" >}}) for the finance industry that stands the test of time through maintainability, resilience, and observability.
 
 If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;or by [email](mailto:kontakt@dmalo.de).

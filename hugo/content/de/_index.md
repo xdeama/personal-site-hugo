@@ -10,7 +10,7 @@ Ich bin freiberuflicher Software Architekt, Full Stack Developer und Mitgründer
 
 {{< to-img src="denis.jpeg" class="profile-img frame" alt="Denis" >}}
 
-Ich entwickle [anspruchsvolle Individualsoftware]({{< ref "/consulting" >}}) für die Finanzindustrie, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
+Ich entwerfe und entwickle [anspruchsvolle Individualsoftware]({{< ref "/consulting" >}}) für die Finanzindustrie, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
 
 Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy) 
 {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
