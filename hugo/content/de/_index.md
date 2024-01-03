@@ -35,7 +35,7 @@ Mein [Projektportfolio]({{< ref "/projects" >}}) und mein [CV]({{< ref "/about/c
 
 
 ## DenktMit
-[DenktMit](https://denktmit.de) ist ein flexibles Experten-Netzwerk erfahrener IT-Spezialisten. Gefährten - mehr als nur Berater.
+[DenktMit]({{< ref "/denktmit" >}}) ist ein flexibles Experten-Netzwerk erfahrener IT-Spezialisten. Gefährten - mehr als nur Berater.
 
 Unsere [Mitglieder](https://denktmit.de/team/) teilen Wissen, Erfahrungen und helfen bei der Vermittlung von Projekten. Wir investieren gemeinsam in unternehmerische Infrastrukturen – von angestellten Softwareentwicklern für Projektunterstützung bis hin zu gemeinsam genutzter Cloud-Infrastruktur und Steuerberatung.
 

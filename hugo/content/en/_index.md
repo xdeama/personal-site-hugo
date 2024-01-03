@@ -31,7 +31,7 @@ Previously, I assisted a Swiss software manufacturer with an archiving system fo
 My [Project Portfolio]({{< ref "/projects" >}}) and [CV]({{< ref "/about/cv" >}}) provide an overview of the projects I've worked on in recent years.
 
 ## DenktMit
-[DenktMit](https://denktmit.de) is a versatile network of seasoned IT professionals. Partners - more than just advisors.
+[DenktMit]({{< ref "/denktmit" >}}) is a versatile network of seasoned IT professionals. Partners - more than just advisors.
 
 Our [members](https://denktmit.de/team/) share knowledge, experiences, and assist in project placements. We jointly invest in entrepreneurial infrastructures – from employing software developers for project support to shared cloud infrastructure and tax consulting.
 

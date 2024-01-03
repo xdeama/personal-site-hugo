@@ -28,7 +28,7 @@ My technical focus is on the Java ecosystem, particularly the Spring Framework, 
 
 {{< embed-svg "static/svg/tech-stack.svg" >}}
 
-This includes a wide range of products and open-source software, frameworks, and libraries such as Camunda, Kafka, Solr, Angular, Swagger, Kibana, and more.
+This includes a wide range of products and open-source software, frameworks, and libraries such as Camunda, Kafka, Solr, Angular, Swagger and more.
 
 I have over six years of full-time experience working with Java in various projects. Detailed information about my technological expertise can be found in my [project portfolio]({{< ref "/projects" >}}). I am very open to learning and applying new technologies in projects.
 

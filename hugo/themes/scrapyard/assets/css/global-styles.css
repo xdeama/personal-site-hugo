@@ -26,7 +26,7 @@ h3 {
   line-height: 1.2;
 }
 
-@media (min-width: 58em) {
+@media (min-width: 58em), print {
   h1::before {
     content: '#';
     /*margin-inline-start: -2ch;*/
@@ -219,6 +219,7 @@ pre code ::selection {
 }
 
 @media print {
+
   body, header, footer, div, section {
     background-color: white !important;
   }
@@ -229,5 +230,60 @@ pre code ::selection {
 
   .hide-on-print {
     display: none !important;
+  }
+
+  h1 {
+    page-break-before: always;
+  }
+
+  h2, h3, h4 {
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    page-break-before: auto;
+  }
+
+  p {
+    page-break-inside: avoid;
+  }
+
+  a {
+    word-break: normal;
+    white-space: nowrap;
+  }
+
+  .dark-mode {
+    --color-dark: var(--lightmode-color-dark);
+    --color-light: var(--lightmode-color-light);
+    --color-mid: var(--lightmode-color-mid);
+    --color-mid-glare: var(--lightmode-color-mid-glare);
+    --color-primary: var(--lightmode-color-primary);
+    --color-primary-glare: var(--lightmode-color-primary-glare);
+    --color-primary-shade: var(--lightmode-color-primary-shade);
+    --color-hover: var(--lightmode-color-hover);
+    --color-header-logo: var(--lightmode-color-dark);
+
+    --color-linkedIn-logo: var(--lightmode-color-linkedIn-logo);
+    --color-profile-frame: var(--lightmode-color-profile-frame);
+
+    --chroma-color-background: var(--lightmode-chroma-color-background);
+    --chroma-color-error-text: var(--lightmode-chroma-color-error-text);
+    --chroma-color-error-background: var(--lightmode-chroma-color-error-background);
+    --chroma-color-highlight: var(--lightmode-chroma-color-highlight);
+    --chroma-color-linenumbers: var(--lightmode-chroma-color-linenumbers);
+    --chroma-color-keyword: var(--lightmode-chroma-color-keyword);
+    --chroma-color-keyword-type: var(--lightmode-chroma-color-keyword-type);
+    --chroma-color-name-attribute: var(--lightmode-chroma-color-name-attribute);
+    --chroma-color-name-builtin: var(--lightmode-chroma-color-name-builtin);
+    --chroma-color-builtin-pseudo: var(--lightmode-chroma-color-builtin-pseudo);
+    --chroma-color-name-exception: var(--lightmode-chroma-color-name-exception);
+    --chroma-color-string: var(--lightmode-chroma-color-string);
+    --chroma-color-regex: var(--lightmode-chroma-color-regex);
+    --chroma-color-number: var(--lightmode-chroma-color-number);
+    --chroma-color-comment: var(--lightmode-chroma-color-comment);
+    --chroma-color-special-comment: var(--lightmode-chroma-color-special-comment);
+    --chroma-color-generic-deleted: var(--lightmode-chroma-color-generic-deleted);
+    --chroma-color-generic-inserted: var(--lightmode-chroma-color-generic-inserted);
+    --chroma-color-generic-output: var(--lightmode-chroma-color-generic-output);
+    --chroma-color-generic-prompt: var(--lightmode-chroma-color-generic-prompt);
   }
 }

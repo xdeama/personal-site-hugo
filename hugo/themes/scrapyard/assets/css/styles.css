@@ -125,7 +125,7 @@
   }
 }
 
-@media screen and (min-width: 715px) {
+@media (min-width: 715px), print {
   .list-with-columns > ul {
     column-count: 3;
   }
@@ -143,6 +143,10 @@
 /*pre, pre + *, */
 .prose :is(figure, figure + *, h2) {
   --flow-space: var(--space-l-xl);
+}
+
+.prose :is(h1) {
+  --flow-space: var(--space-2xl-3xl);
 }
 
 /* Less space for items that follow headings */
@@ -237,6 +241,18 @@
   box-shadow:
     -50px -50px 0 -35px var(--color-profile-frame),
     50px 50px 0 -35px var(--color-profile-frame);
+}
+
+.profile-printable-img {
+  --n: 500;
+  --d: 500;
+  max-width: 13rem;
+  border-radius: 2%;
+  display: block;
+  margin: 3rem auto;
+  box-shadow:
+    -50px -50px 0 -42px var(--color-profile-frame),
+    50px 50px 0 -42px var(--color-profile-frame);
 }
 
 .linkedin-svg {

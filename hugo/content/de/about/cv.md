@@ -23,19 +23,19 @@ Studium der Wirtschaftsinformatik an der Hochschule Fulda (B.Sc.)
 ## Berufserfahrung
 
 ### **Vorsitzender des Aufsichtsrates** | Mai 2021 — heute
-Vorsitzender des Aufsichtsrates der DenktMit eG in Oberursel, einem Expertennetzwerk für IT-Experten im Software Engineering
+Vorsitzender des Aufsichtsrates der [DenktMit eG]({{< ref "/denktmit" >}}) in Oberursel, einem Experten-Netzwerk erfahrener IT-Spezialisten im Software Engineering
 
 ### **Freelance Software Architect** | Februar 2022 — bis heute
 Selbstständige IT-Beratung im Software Engerineering mit Schwerpunkt Java, Spring, Private Cloud und Datenbanken als Denis Malolepszy Software Engineering in Frankfurt am Main
 
 ### **SABBATICAL** | August 2021 — Januar 2022
-Erholung in Skandinavien und Aufbau des Beratungsgeschäftes der DenktMit e.G
+Erholung in Skandinavien und Aufbau des Beratungsgeschäftes der [DenktMit eG]({{< ref "/denktmit" >}})
 
 ### **Head of IT** | Oktober 2018 — Juli 2021
 Verantwortlich für die IT der Habona Invest Gruppe in Frankfurt am Main
 
 ### **Co-Founder**  | Mai 2021 — heute
-Co-Founder der DenktMit eG in Oberursel, Firmengründung und Aufbau des Beratungsgeschäftes der selbstständigen Mitglieder im Bereich Software Engineering
+Co-Founder der [DenktMit eG]({{< ref "/denktmit" >}}) in Oberursel, Firmengründung und Aufbau des Beratungsgeschäftes der selbstständigen Mitglieder im Bereich Software Engineering
 
 ### **Org- & IT-Consultant** | Juli 2017 — September 2018
 Anwendungs- und Architekturverantwortlicher im Meldewesen und Java Umfeld bei Union Investment (Union Asset Management Holding AG Tochtergesellschaft Union IT-Services GmbH) in Frankfurt am Main
