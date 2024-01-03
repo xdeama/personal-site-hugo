@@ -2,8 +2,8 @@
     <article class="wrapper region prose flow">
         {{ .Content }}
 
-        <h2>Blog</h2>
-        <div>
+        <h2 class="hide-on-print">Blog</h2>
+        <div class="hide-on-print">
             <ul class="flow" role="list">
                 {{ range (where .Site.RegularPages "Section" "blog") }}
                     <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>

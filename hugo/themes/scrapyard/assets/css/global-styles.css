@@ -217,3 +217,17 @@ pre code ::selection {
   background: var(--color-primary) !important;
   color: var(--color-dark) !important;
 }
+
+@media print {
+  body, header, footer, div, section {
+    background-color: white !important;
+  }
+
+  header, footer {
+    display: none !important;
+  }
+
+  .hide-on-print {
+    display: none !important;
+  }
+}
