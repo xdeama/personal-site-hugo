@@ -8,7 +8,7 @@ layout: standalone
 
 My name is Denis Malolepszy, and I have been active in the IT industry since 2010. Currently, I am based in Frankfurt am Main.
 
-In 2022, I started my own business as an IT architect and took over the chairmanship of the supervisory board of [DenktMit]({{< relref "/denktmit" >}}), a cooperative that I co-founded in 2021.
+In 2022, I started my own business as a software architect and took over the chairmanship of the supervisory board of [DenktMit]({{< relref "/denktmit" >}}), a cooperative that I co-founded in 2021.
 
 Previously, I was:
 - Head of IT at Habona Invest, an asset manager from Frankfurt am Main,

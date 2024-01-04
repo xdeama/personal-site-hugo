@@ -10,7 +10,7 @@ robots:
 ---
 
 ## Hallo, ich bin Denis
-Ich bin freiberuflicher *Software Architekt*, *Full Stack Developer* und Mitgründer von [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten. Derzeit lebe und arbeite ich in Frankfurt am Main.
+Ich bin freiberuflicher *Software-Architekt*, *Full Stack Developer* und Mitgründer von [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten. Derzeit lebe und arbeite ich in Frankfurt am Main.
 
 {{< to-img src="denis.jpg" class="profile-printable-img frame" alt="Denis" >}}
 

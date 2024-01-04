@@ -6,7 +6,7 @@ draft: false
 layout: standalone
 ---
 
-Als Software Architekt und Full Stack Developer helfe ich meinen Kunden aus der Finanzwirtschaft komplexe Probleme durch Automation zu lösen. 
+Als Software-Architekt und Full Stack Developer helfe ich meinen Kunden aus der Finanzwirtschaft komplexe Probleme durch Automation zu lösen. 
 
 Dabei kommt es primär darauf an, die Geschäftsbedürfnisse zu erfüllen und Systeme aufzubauen, die langfristig und effizient betrieben, als auch weiterentwickelt werden können.
 

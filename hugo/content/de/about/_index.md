@@ -8,7 +8,7 @@ layout: standalone
 
 Ich heiße Denis Malolepszy und bin seit 2010 in der IT-Branche tätig. Derzeit lebe und arbeite ich in Frankfurt am Main. 
 
-In 2022 habe ich mich als IT-Architekt selbständig gemacht und den Vorsitz des Aufsichtsrates von [DenktMit]({{< relref "/denktmit" >}}) übernommen, einer Genossenschaft die ich 2021 mitgegründet habe.
+In 2022 habe ich mich als Softwareentwickler und -architekt selbständig gemacht und den Vorsitz des Aufsichtsrates von [DenktMit]({{< relref "/denktmit" >}}) übernommen, einer Genossenschaft die ich 2021 mitgegründet habe.
 
 Zuvor war ich:
 - Head of IT bei Habona Invest, einem Asset Manager aus Frankfurt am Main,
