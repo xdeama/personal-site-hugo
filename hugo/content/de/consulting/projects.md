@@ -156,7 +156,7 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 Das Investmentsteuerreformgesetz stellt Asset Manager vor die Herausforderung Details zu Dividendenausschüttungen der Bestandteile aller ihrer Fonds über mehrere Monate voraus im Überblick zu haben, um gesetzeskonform arbeiten zu können.
 
 Hierzu wurden zahlreiche Datenquellen zusammengeführt, täglich analytisch ausgewertet und damit dem Asset Management ein Dashboard zur Verfügung gestellt, welches die gesetzeskonforme Vorausplanung von Transaktionen erleichtert.
-Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen Entwicklerteams in agiler Projektorganisation übernommen, die Rolle des *Scrum Master*, als auch die Architektur weiterentwickelt.
+Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen Entwicklerteams in agiler Projektorganisation übernommen, die Rolle des Scrum Master, als auch die Architektur weiterentwickelt.
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**

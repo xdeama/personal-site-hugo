@@ -28,10 +28,12 @@ Vorsitzender des Aufsichtsrates der [DenktMit eG]({{< ref "/denktmit" >}}) in Ob
 ### **Freelance Software Architect** | Februar 2022 — bis heute
 Selbstständige IT-Beratung im Software Engerineering mit Schwerpunkt Java, Spring, Private Cloud und Datenbanken als Denis Malolepszy Software Engineering in Frankfurt am Main
 
-### **SABBATICAL** | August 2021 — Januar 2022
+### **Sabbatical** | August 2021 — Januar 2022
 Erholung in Skandinavien und Aufbau des Beratungsgeschäftes der [DenktMit eG]({{< ref "/denktmit" >}})
 
 ### **Head of IT** | Oktober 2018 — Juli 2021
+*Habona Invest GmbH*
+
 Verantwortlich für die IT der Habona Invest Gruppe in Frankfurt am Main
 
 ### **Co-Founder**  | Mai 2021 — heute
