@@ -76,3 +76,15 @@
     /*text-indent: -100px;*/
     margin-top: var(--space-3xs-2xs);
 }
+
+@media screen {
+    .print-only {
+        display: none;
+    }
+}
+
+@media print {
+    .print-only {
+        display: block;
+    }
+}

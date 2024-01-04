@@ -54,7 +54,7 @@ Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de) oder [Linke
 Mit freundlichen Grüßen
 
 Denis Malolepszy
-
+{{< rawhtml >}}<div class="print-only" id="current-date-placeholder">Frankfurt am Main, den <span id="current-date"></span></div>{{< /rawhtml >}}
 
 
 # CV Denis Malolepszy
