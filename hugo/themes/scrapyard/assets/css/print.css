@@ -74,4 +74,5 @@
     margin-right: 10px;
     font-weight: bold;
     /*text-indent: -100px;*/
+    margin-top: var(--space-3xs-2xs);
 }
