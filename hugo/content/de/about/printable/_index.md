@@ -44,7 +44,8 @@ Vor meiner Selbstständigkeit war ich:
 
 In der IT-Branche bin ich seit 2010 tätig.
 
-Mein [Projektportfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}} geben eine Übersicht über die Projekte meiner letzten Jahre.
+Mein [Projektportfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;geben eine Übersicht über die Projekte meiner letzten Jahre.
+
 
 ## Kontakt
 

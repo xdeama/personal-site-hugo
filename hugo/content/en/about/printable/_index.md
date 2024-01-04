@@ -45,7 +45,8 @@ Before becoming self-employed, I was:
 
 I have been active in the IT industry since 2010.
 
-My [project portfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}), and [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}} provide an overview of the projects of my recent years.
+My [project portfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}), and [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;provide an overview of the projects of my recent years.
+
 
 ## Contact
 
