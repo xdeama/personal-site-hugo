@@ -26,6 +26,10 @@
   font-family: var(--font-mono);
 }
 
+.no-top-margin > p {
+  --flow-space: 0;
+}
+
 .prose {
   --flow-space: var(--space-s-m);
 
@@ -37,15 +41,9 @@
   margin-top: var(--flow-space);
 }
 
-.no-top-margin > p {
-  --flow-space: 0;
-}
-
 .prose em {
-  color: var(--color-mid);
-  font-family: "Noto Sans Bold", serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
   /*background-color: var(--chroma-color-highlight);*/
   /*border-radius: 7px;*/
   /*padding: 5px;*/
@@ -138,9 +136,6 @@
     break-inside: avoid;
 }
 
-
-/* More space after and around certain elements */
-/*pre, pre + *, */
 .prose :is(figure, figure + *, h2) {
   --flow-space: var(--space-l-xl);
 }
@@ -149,13 +144,24 @@
   --flow-space: var(--space-2xl-3xl);
 }
 
-/* Less space for items that follow headings */
 .prose h1 + * {
-  --flow-space: 0.7em;
+  --flow-space: var(--space-m);
 }
 
 .prose :is(h2 + *, h3 + *, h4 + *) {
-  --flow-space: var(--space-s);
+  --flow-space: var(--space-s-m);
+}
+
+.prose :is(h1 + p, h2 + p) {
+  --flow-space: var(--space-xs);
+}
+
+.prose :is(h3 + p, h4 + p, p + p){
+  --flow-space: var(--space-3xs-2xs);
+}
+
+.prose :is(p + h2, p + h3, p + h4) {
+  --flow-space: var(--space-l);
 }
 
 @media (max-width: 49em) {
@@ -173,13 +179,6 @@
 @media (min-width: 58em) {
   .prose :is(ul, ol) {
     padding-inline-start: 1.5ch;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  h3 {
-    display: flex;
-    flex-direction: column;
   }
 }
 

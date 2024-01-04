@@ -12,11 +12,12 @@
 {{ $globalstyles := resources.Get "css/global-styles.css" }}
 
 {{ $styles := resources.Get "css/styles.css" }}
+{{ $print := resources.Get "css/print.css" }}
 
 {{ $lightbox := resources.Get "css/lightbox.css" }}
 {{ $chroma := resources.Get "css/chroma.css" }}
 
-{{ $cssBundle := slice $reset $fonts $variables $layout $globalstyles $styles $lightbox $chroma | resources.Concat "css/global.css" }}
+{{ $cssBundle := slice $reset $fonts $variables $layout $globalstyles $styles $print $lightbox $chroma | resources.Concat "css/global.css" }}
 
 {{- with $cssBundle }}
     {{- if eq hugo.Environment "development" }}

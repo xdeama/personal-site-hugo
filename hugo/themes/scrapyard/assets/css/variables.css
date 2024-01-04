@@ -118,6 +118,7 @@
   --size-step-05: clamp(0.95rem,0.85rem + 0.20vw,1.175rem);
   --size-step-06: clamp(1rem,0.95rem + 0.20vw,1.2rem);
   --size-step-075: clamp(1.15rem,1.1rem + 0.20vw,1.275rem);
+  --size-step-085: clamp(1.2075rem,1.11rem + 0.22vw,1.325rem);
   --size-step-1: clamp(1.2875rem,1.22rem + 0.33vw,1.475rem);
   --size-step-2: clamp(1.4375rem,1.33rem + 0.54vw,1.75rem);
   --size-step-3: clamp(1.6875rem,1.51rem + 0.87vw,2.1875rem);

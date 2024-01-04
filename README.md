@@ -89,9 +89,14 @@ Like the **img** shortcode, but with fixed CSS. SVGs in <img> tags do not suppor
 
 ### add a div with custom classes around markdown
 ```
-{{< div-start-tag class="your-custom-class" >}}
-Your content here...
-{{< div-end-tag >}}
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- Kotlin
+- Apache Solr
+- Selenium
+- Go
+- React
+{{< /div >}}
 ```
 
 ### linkedin-icon

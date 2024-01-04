@@ -13,14 +13,15 @@ Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als au
 
 
 ## CI/CD für Private Cloud Migration modernisieren
-### **März 2022 — September 2023** | Freiberuflich als DevOps Engineer
+### **März 2022 — September 2023** | DevOps Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-DevOps und Java Entwicklung für die Private Cloud Migration einer großen internationalen Bank:  
-- Azure DevOps Migration eines CI/CD-Portals für Container, virtuelle Maschinen und Datenbank Deployments
-- Spring Microservices von virtuellen Maschinen zu Containern in OpenShift migrieren und abhängige Systeme wie Datenbanken und Observability zu Cloud Infrastruktur migrieren
-- Automatisierung von komplexen Deploymentmechanismen für virtuelle Maschinen mit Ansible und Reactive Spring, wie z.B. Batch Deployments mit abhängigen Komponenten, und automatische Sidecars
-- Interne Architektur und IT-Risk Governance Prozesse für in die Private Cloud migrierte Systeme erbproben und die ersten Systeme durch die Prozesse begleiten  
-- Analyse, Containerisierung und Portierung einer bestehenden Datenbank-Anonymisierungslösung      
+DevOps und Java Entwicklung für die Private Cloud Migration einer großen internationalen Bank:
+- Azure DevOps Migration eines CI/CD-Portals für Container, VM und Datenbank Deployments
+- Spring Microservices von VMs zu Containern und abhängige Systeme wie Datenbanken und Observability zu OpenShift migrieren
+- Automatisierung von komplexen Deploymentmechanismen für VMs mit Ansible und Reactive Spring (z.B. Batch Deployments mit abhängigen Komponenten, und automatische Sidecars)
+- Interne Architektur und IT-Risk Governance Prozesse zur Private Cloud Migration erbproben
+- Analyse, Containerisierung und Portierung einer bestehenden Datenbank-Anonymisierungslösung
 - Migration von Jenkins Deployment Pipelines zu Azure DevOps
 
 {{< div class="list-with-columns" >}}
@@ -28,19 +29,20 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 - Azure DevOps
 - OpenShift & Helm
 - Java 8 bis 17
-- Spring Microservices mit Reactive Streams und Gateway
+- Spring Microservices mit Reactive Streams
 - Angular & PrimeFaces
 - Ansible
 - Kafka
-- Keycloak
-{{< /div >}}
+- RESTful
+  {{< /div >}}
 
 
 ## Web-Crawler-basiertes Archivsystem
-### **Dezember 2022 — Januar 2023** | Freiberuflich als Software Engineer
+### **Dezember 2022 — Januar 2023** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
 
 Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für einen schweizer Softwarehersteller ein Web-Crawler-basiertes Archivsystem für die Migration eines Intranet-Systems entwickelt:
-- Implementierung eines Web-Crawlers in Kotlin und Selenium zum Extrahieren von Webseiten mit gerendertem JavaScript 
+- Implementierung eines Web-Crawlers in Kotlin und Selenium zum Extrahieren von Webseiten mit gerendertem JavaScript
 - Implementierung einer React Webapp als Einstiegs- und Suchportal
 - Setup und Tuning eines Suchindex mit Apache Solr
 
@@ -51,14 +53,15 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 - Selenium
 - Go
 - React
-{{< /div >}}
+  {{< /div >}}
 
 ## Projektentwicklung eines Ferienresorts
-### **Oktober 2018 — Juli 2021** | Head of IT bei Habona Invest
+### **Oktober 2018 — Juli 2021** | Head of IT
+*Habona Invest GmbH, Frankfurt am Main*
 
-Als Head of IT war ich für die IT der Projektentwicklung eines Ferienresorts an der Adria verantwortlich. Im Namen der neu gegründeten Tochterfirma Pareus wurde ein Areal neu erschlossen und mit Ferienwohnungen bebaut, die im Stil eines Hotel Resorts zentral mit WLAN, TV, Telefon, Schließanlage und Co. versorgt wurden. 
+Als Head of IT war ich für die IT der Projektentwicklung eines Ferienresorts an der Adria verantwortlich. Im Namen der neu gegründeten Tochterfirma Pareus wurde ein Areal neu erschlossen und mit Ferienwohnungen bebaut, die im Stil eines Hotel Resorts zentral mit WLAN, TV, Telefon, Schließanlage und Co. versorgt wurden.
 
-Als erstes Pareus Resorts bot dieses Greenfield Projekt während der Coronapandemie besondere Herausforderungen im Bauprojekt und im Aufbau von Experise und Personal.
+Als erstes Pareus Resorts, bot dieses Greenfield Projekt während der Coronapandemie besondere Herausforderungen im Bauprojekt und im Aufbau von Expertise und Personal.
 
 ### **Projektschwerpunkte**
 - Netzwerktechnik und On-Premises-Serversysteme
@@ -69,9 +72,10 @@ Als erstes Pareus Resorts bot dieses Greenfield Projekt während der Coronapande
 
 
 ## Standortumzug Netzwerk und Serverraum
-### **Oktober 2019 — April 2020** | Head of IT bei Habona Invest
+### **Oktober 2019 — April 2020** | Head of IT
+*Habona Invest GmbH, Frankfurt am Main*
 
-Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-Ausstattung bei einem Standortumzug verantwortlich. 
+Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-Ausstattung bei einem Standortumzug verantwortlich.
 
 ### **Projektschwerpunkte**
 - Planung der Netzwerktechnik und Begleitung der Baumaßnahmen
@@ -81,9 +85,10 @@ Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-A
 
 
 ## Aufbau interner IT-Abteilung
-### **Oktober 2018 — Juli 2021** | Head of IT bei Habona Invest
+### **Oktober 2018 — Juli 2021** | Head of IT
+*Habona Invest GmbH, Frankfurt am Main*
 
-Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT übernommen und ein internes Team für das HelpDesk, Serverbetrieb und Webentwicklung aufgebaut. 
+Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT übernommen und ein internes Team für das HelpDesk, Serverbetrieb und Webentwicklung aufgebaut.
 
 ### **Projektschwerpunkte**
 - Unternehmensbedarf ermitteln und eine IT-Strategie entwickeln
@@ -93,9 +98,10 @@ Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT über
 
 
 ## IT-Modernisierung und Microsoft 365 Einführung
-### **Oktober 2018 — Juli 2021** | Head of IT bei Habona Invest
+### **Oktober 2018 — Juli 2021** | Head of IT
+*Habona Invest GmbH, Frankfurt am Main*
 
-Als Head of IT war ich verantwortlich für die Modernisierung von End-of-Life-Serverhardware und veralteten Microsoft Produkten mit einem Hybrid Cloud Ansatz. 
+Als Head of IT war ich verantwortlich für die Modernisierung von End-of-Life-Serverhardware und veralteten Microsoft Produkten mit einem Hybrid Cloud Ansatz.
 Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid Systemen.
 
 ### **Projektschwerpunkte**
@@ -105,7 +111,8 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 
 
 ## Webseite für den Vertrieb von Ferienimmobilien
-### **Oktober 2018 — Juli 2021** | Head of IT bei Habona Invest
+### **Oktober 2018 — Juli 2021** | Head of IT
+*Habona Invest GmbH, Frankfurt am Main*
 
 Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien auf Basis von Contao CMS.
 
@@ -117,8 +124,9 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien auf Basis von 
 - Koordination von Webentwicklern und Designer
 
 
-## Entwicklung und Betrieb von Meldewesen Software 
-### **Juli 2017 — September 2018** | Org & IT-Berater bei Union Investment
+## Entwicklung und Betrieb von Meldewesen Software
+### **Juli 2017 — September 2018** | Org & IT-Berater
+*Union Investment (Union IT-Services GmbH), Frankfurt am Main*
 
 Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von Projekten und Betriebsthemen verantwortlich:
 - Architekturverantwortung für die Weiterentwicklung der Systemlandschaft
@@ -146,17 +154,18 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 - Maven
 - Jenkins
 - Sonar und Sonatype Nexus
-- Solaris 
-{{< /div >}}
+- Solaris
+  {{< /div >}}
 
 
-## Investment Advice Analytics System and Dashboard 
-### **Dezember 2016 — Juli 2017** | Lead Developer bei Cofinpro AG
+## Investment Advice Analytics System and Dashboard
+### **Dezember 2016 — Juli 2017** | Lead Developer
+*Cofinpro AG, Frankfurt am Main*
 
 Das Investmentsteuerreformgesetz stellt Asset Manager vor die Herausforderung Details zu Dividendenausschüttungen der Bestandteile aller ihrer Fonds über mehrere Monate voraus im Überblick zu haben, um gesetzeskonform arbeiten zu können.
 
 Hierzu wurden zahlreiche Datenquellen zusammengeführt, täglich analytisch ausgewertet und damit dem Asset Management ein Dashboard zur Verfügung gestellt, welches die gesetzeskonforme Vorausplanung von Transaktionen erleichtert.
-Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen Entwicklerteams in agiler Projektorganisation übernommen, die Rolle des *Scrum Master*, als auch die Architektur weiterentwickelt.
+Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen Entwicklerteams in agiler Projektorganisation übernommen, die Rolle des Scrum Master, als auch die Architektur weiterentwickelt.
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
@@ -175,11 +184,12 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
-{{< /div >}}
+  {{< /div >}}
 
 
 ## Reporting Systeme auf Java EE Basis
-### **März 2015 — Dezember 2016** | Software Engineer bei Cofinpro AG
+### **März 2015 — Dezember 2016** | Software Engineer
+*Cofinpro AG, Frankfurt am Main*
 
 Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von Java EE, Oracle SQL, Camunda und Vaadin konzipiert und implementiert. Dies geschah teilweise auf Basis von fachlichen Vorgaben, teilweise durch technische Migration von bestehenden Anwendungen.
 
@@ -199,33 +209,36 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
-{{< /div >}}
+  {{< /div >}}
 
 
 ## Modernisierung einer Joomla Webseite
-### **August 2012 — Dezember 2012** | Webentwickler als Nebenjob zum Studium für ein Antiquariat 
+### **August 2012 — Dezember 2012** | Webentwickler
+*Selbstständig als Nebenjob zum Studium für ein Antiquariat, Fulda*
 Modernisierung einer Joomla Webseite mit Schwerpunkt Anwenderfreundlichkeit für das Ladenpersonal eines Antiquariates. Umfasste die Gestaltung und Implementierung der Webseite der Buchhaltung Ulenspiegel in Fulda und Ravensburg.
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
 - Joomla
 - CSS/HTML/JavaScript
-{{< /div >}}
+  {{< /div >}}
 
 
 ## Modernisierung der IT-Infrastruktur
-### **2009 — 2012** | IT-Administrator als Nebenjob zum Studium für ein Antiquariat
+### **2009 — 2012** | IT-Administrator
+*Selbstständig als Nebenjob zum Studium für ein Antiquariat, Fulda*
 Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung Ulenspiegel in Fulda und Ravensburg. Eine eigen implementierte Datensicherung auf Batch Basis mit Aufbewahrungslogik und Fehlerbehandlung klingt zwar gruselig, hat aber damals nennenswerte Lizenzkosten gespart.
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
 - Microsoft Fileserver
 - Batch (Windows)
-{{< /div >}}
+  {{< /div >}}
 
 
 ## Produktdatenmanagement in der Fahrzeugentwicklung
-### **August 2010 - März 2012 (mit Pausen, siehe [CV]({{< ref "/about/cv" >}}))** | Werkstudent bei EDAG GmbH & Co. KGaA
+### **August 2010 - März 2012 (mit Pausen, siehe [CV]({{< ref "/about/cv" >}}))** | Werkstudent
+*EDAG GmbH & Co. KGaA, Fulda*
 
 Als Werksstudent habe ich ein Projekt gestartet um das Produktdatenmanagement in der Fahrzeugentwicklung in der Hauseigene Inventarisierungssoftware jEDWIN zu ermöglichen. Produktdaten wurden in Tabellenkalkulationsprogrammen verwaltet und mit Kunden und Zulieferern ausgetauscht. Da Produktdaten jedoch keine Baumstruktur, sondern einen Graphen darstellen, hatte dieser Ansatz erhebliche Schwierigkeiten mit der Duplikation von Daten. 
 
@@ -237,4 +250,4 @@ Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwickl
 - Swing
 - Progress OpenEdge
 - Linux
-{{< /div >}}
+  {{< /div >}}
