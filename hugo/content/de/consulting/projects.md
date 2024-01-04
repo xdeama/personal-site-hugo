@@ -59,7 +59,7 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 ### **Oktober 2018 — Juli 2021** | Head of IT
 *Habona Invest GmbH, Frankfurt am Main*
 
-Als Head of IT war ich für die IT der Projektentwicklung eines Ferienresorts an der Adria verantwortlich. Im Namen der neu gegründeten Tochterfirma Pareus wurde ein Areal neu erschlossen und mit Ferienwohnungen bebaut, die im Stil eines Hotel Resorts zentral mit WLAN, TV, Telefon, Schließanlage und Co. versorgt wurden.
+Als Head of IT war ich für technische Aspekte der Projektentwicklung eines Ferienresorts an der Adria verantwortlich. Im Namen der neu gegründeten Tochterfirma Pareus wurde ein Areal neu erschlossen und mit Ferienwohnungen bebaut, die im Stil eines Hotel Resorts zentral mit WLAN, TV, Telefon, Schließanlage und Co. versorgt wurden.
 
 Als erstes Pareus Resorts, bot dieses Greenfield Projekt während der Coronapandemie besondere Herausforderungen im Bauprojekt und im Aufbau von Expertise und Personal.
 
@@ -114,7 +114,7 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 ### **Oktober 2018 — Juli 2021** | Head of IT
 *Habona Invest GmbH, Frankfurt am Main*
 
-Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien auf Basis von Contao CMS.
+Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive automatisierter Erstellung von Vertragsdokumenten und einer interaktiven Karte des Areals.
 
 ### **Projektschwerpunkte**
 - Implementierung mit PHP, TypeScript, CSS und Contao CMS
@@ -140,7 +140,7 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
-- Java EE
+- Java EE 6 (SE 6 & 7)
 - JBoss/Wildfly Application Server
 - Oracle SQL
 - BPM mit Camunda
@@ -170,7 +170,8 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 {{< div class="list-with-columns" >}}
 ### **Technologien**
 - IT-Konzeption mit arc42
-- Java EE und JBoos Application Server
+- Java EE 6 (SE 6 & 7)
+- JBoos Application Server
 - Oracle SQL
 - BPM mit Camunda
 - BRMS mit Drools
@@ -196,6 +197,8 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
 - IT-Konzeption mit arc42
+- Java EE 6 (SE 6 & 7)
+- JBoos Application Server
 - Oracle SQL
 - BPM mit Camunda
 - BRMS mit Drools
@@ -215,18 +218,21 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 ## Modernisierung einer Joomla Webseite
 ### **August 2012 — Dezember 2012** | Webentwickler
 *Selbstständig als Nebenjob zum Studium für ein Antiquariat, Fulda*
+
 Modernisierung einer Joomla Webseite mit Schwerpunkt Anwenderfreundlichkeit für das Ladenpersonal eines Antiquariates. Umfasste die Gestaltung und Implementierung der Webseite der Buchhaltung Ulenspiegel in Fulda und Ravensburg.
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
 - Joomla
-- CSS/HTML/JavaScript
+- JavaScript
+- CSS/HTML
   {{< /div >}}
 
 
 ## Modernisierung der IT-Infrastruktur
 ### **2009 — 2012** | IT-Administrator
 *Selbstständig als Nebenjob zum Studium für ein Antiquariat, Fulda*
+
 Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung Ulenspiegel in Fulda und Ravensburg. Eine eigen implementierte Datensicherung auf Batch Basis mit Aufbewahrungslogik und Fehlerbehandlung klingt zwar gruselig, hat aber damals nennenswerte Lizenzkosten gespart.
 
 {{< div class="list-with-columns" >}}
@@ -246,7 +252,7 @@ Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwickl
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
-- Java SE
+- Java SE 6
 - Swing
 - Progress OpenEdge
 - Linux
