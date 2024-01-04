@@ -3,56 +3,52 @@ translationKey: printableintro
 title: Vorstellung Denis Malolepszy Software Engineering
 date: 2023-11-10T13:59:19+01:00
 draft: false
-layout: standalone
+layout: standalone-print
 robots:
   index: false
   follow: false
 ---
 
 ## Hallo, ich bin Denis
-Ich bin freiberuflicher Software Architekt, Full Stack Developer und Mitgründer von [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten. Derzeit lebe und arbeite ich in Frankfurt am Main.
+Ich bin freiberuflicher *Software Architekt*, *Full Stack Developer* und Mitgründer von [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten. Derzeit lebe und arbeite ich in Frankfurt am Main.
 
 {{< to-img src="profile_print.jpg" class="profile-printable-img frame" alt="Denis" >}}
 
-Ich entwerfe und entwickle [anspruchsvolle Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}) für die Finanzindustrie, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
+Ich entwerfe und entwickle anspruchsvolle [Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}) für die Finanzindustrie, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
 
-Dabei begleite ich [Individualsoftware]({{< ref "/consulting" >}}) durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Pflege und Wartung.
+Dabei begleite ich Individualsoftware aus dem *Java-Ökosystem* durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Pflege und Wartung.
 
 Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
 
+## Tech Stack
+Technisch konzentriere ich mich auf das Java-Ökosystem, insbesondere das *Spring-Framework*, relationale Datenbanken, Private Cloud Architekturen basierend auf *Kubernetes* und auf TypeScript basierende Frontend-Technologien wie Angular.
+
+Ich bringe mehr als sechs Jahre Vollzeiterfahrung in Java mit verschiedenen Projekten und einer breiten Auswahl an Open Source Software, Frameworks und Libraries wie Camunda, Kafka, Camel, Drools, Solr, Angular, Swagger, REST, RPC mit. Über die Agile Software Entwicklung hinaus bin ich mit Methoden wie Domain-driven Design und Test-driven Development vertraut.
+
+Details zu meinen technologischen Erfahrungen finden Sie in meinem [Projektportfolio]({{< ref "/projects" >}}). Ich bin sehr offen dafür, in Projekten neue Technologien zu erlernen und anzuwenden.
+
 ## Projekterfahrung
-In 2022 und 2023 habe ich als DevOps Engineer mit Azure DevOps, Java, Spring, Angular, Ansible, OpenShift und Helm die Private Cloud Migration einer großen internationalen Bank unterstützt.
+In 2022 und 2023 habe ich als *DevOps Engineer mit Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift und Helm* die Private Cloud Migration einer großen internationalen Bank unterstützt.
 
-Zudem habe ich einen schweizer Softwarehersteller mit einem Web-Crawler-basierten Archivsystem bei der Migration eines Intranet-Systems unterstützt. Für den Webcrawler kamen Kotlin und Selenium zum Einsatz, während das Archivsystem mit Apache Solr eine leistungsfähige Suchfunktion bekam.
+Zudem habe ich einen schweizer Softwarehersteller mit einem Web-Crawler-basierten Archivsystem bei der Migration eines Intranet-Systems unterstützt. Für den Webcrawler kamen *Kotlin* und Selenium zum Einsatz, während das Archivsystem mit GoLang, React und Apache Solr eine leistungsfähige Webapp mit Suchfunktion bekam.
 
-{{< embed-svg "static/svg/microservices.svg" >}}
+{{< embed-svg "static/svg/tech-stack.svg" >}}
 
-Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master, Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln. In der IT-Branche bin ich seit 2010 tätig.
+Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master, Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln. 
 
 Vor meiner Selbstständigkeit war ich:
 - Head of IT bei Habona Invest, einem Asset Manager aus Frankfurt am Main,
 - Application Manager im Meldewesen bei der Union Investment,
 - und Software Engineer in der Finanzbranche für die Cofinpro AG.
 
+In der IT-Branche bin ich seit 2010 tätig.
+
 Mein [Projektportfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}} geben eine Übersicht über die Projekte meiner letzten Jahre.
-
-## Tech Stack
-Technisch konzentriere ich mich auf das Java-Ökosystem, insbesondere das Spring Framework, relationale Datenbanken, Private Cloud Architekturen basierend auf Kubernetes und auf TypeScript basierende Frontend-Technologien wie Angular.
-
-{{< embed-svg "static/svg/tech-stack.svg" >}}
-
-Ich bringe mehr als sechs Jahre Vollzeiterfahrung in Java mit verschiedenen Projekten und einer breiten Auswahl an Open Source Software, Frameworks und Libraries wie Camunda, Kafka, Camel, Drools, Solr, Angular, Swagger, REST, RPC und Co mit.
-
-Details zu meinen technologischen Erfahrungen finden Sie in meinem [Projektportfolio]({{< ref "/projects" >}}). Ich bin sehr offen dafür, in Projekten neue Technologien zu erlernen und anzuwenden.
-
 
 ## Kontakt
 
-Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de) oder [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;zur Verfügung und vereinbare gerne ein Telefonat oder Videochat mit Ihnen.
-
-## Postanschrift
-Denis Malolepszy Software Engineering, Postfach 62 01 39, 60350 Frankfurt
+Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de) oder [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;zur Verfügung und vereinbare gerne ein Telefonat oder Videochat.
 
 
 Mit freundlichen Grüßen
@@ -129,7 +125,7 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 - Azure DevOps
 - OpenShift & Helm
 - Java 8 bis 17
-- Spring Microservices mit Reactive Streams und Gateway
+- Spring Microservices mit Reactive Streams, REST und Gateway
 - Angular & PrimeFaces
 - Ansible
 - Kafka
