@@ -11,7 +11,6 @@ robots:
 
 Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen, da das Vertragsverhältnis meines Erachtens für die gesammelten Erfahrungen eine untergeordnete Rolle spielt.
 
-# Projektportfolio Denis Malolepszy
 
 ## CI/CD für Private Cloud Migration modernisieren
 ### **März 2022 — September 2023** | DevOps Engineer

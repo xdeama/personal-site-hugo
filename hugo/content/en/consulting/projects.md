@@ -16,9 +16,9 @@ My project portfolio includes projects from my time as a freelancer, as well as 
 ### **March 2022 — September 2023** | Freelance as a DevOps Engineer
 
 DevOps and Java development for the private cloud migration of a major international bank:
-- Migrating a CI/CD portal to Azure DevOps for container, virtual machine, and database deployments
-- Migrating the CI/CD portal's Spring Microservices infrastructure from virtual machines to containerized environments in OpenShift
-- Automating complex deployment mechanisms for virtual machines using Ansible and Reactive Spring, such as batch deployments with dependent components, and automatic sidecars
+- Migrating a CI/CD portal to Azure DevOps for container, VM, and database deployments
+- Migrating the CI/CD portal's Spring Microservices infrastructure from VMs to containerized environments in OpenShift
+- Automating complex deployment mechanisms for VMs using Ansible and Reactive Spring, such as batch deployments with dependent components, and automatic sidecars
 - Navigated the first batch of migrated systems through internal architecture and IT risk governance processes, ensuring compliance and successful integration into the private cloud.
 - Analyzing, containerizing, and porting an existing database anonymization solution
 - Migrating Jenkins deployment pipelines to Azure DevOps
@@ -28,11 +28,11 @@ DevOps and Java development for the private cloud migration of a major internati
 - Azure DevOps
 - OpenShift & Helm
 - Java 8 to 17
-- Spring Microservices with Reactive Streams and Gateway
+- Spring Microservices with Reactive Streams
 - Angular & PrimeFaces
 - Ansible
 - Kafka
-- Keycloak
+- RESTful
 {{< /div >}}
 
 
@@ -59,7 +59,7 @@ In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web cra
 
 As Head of IT, I was responsible for the IT of a holiday resort development project on the Adriatic coast. On behalf of the newly founded subsidiary Pareus, an area was developed and built with holiday apartments, centrally supplied with WiFi, TV, telephone, locking systems, etc., in the style of a hotel resort.
 
-As the first Pareus Resorts, this greenfield project posed special challenges during the COVID-19 pandemic in the construction project and in building expertise and staff.
+As the first project of Pareus Resorts, this greenfield posed special challenges during the COVID-19 pandemic in the construction project and in building expertise and staff.
 
 ### **Project Highlights**
 - Network technology and on-premises server systems
@@ -209,19 +209,23 @@ I designed and implemented several reporting systems for legal regulatory report
 ### **August 2012 — December 2012** | Web Developer as a side job during studies for a bookstore
 Modernization of a Joomla website focusing on user-friendliness for the staff of a bookstore. Involved the design and implementation of the website for the Ulenspiegel bookstore in Fulda and Ravensburg.
 
+{{< div class="list-with-columns" >}}
 ### Technologies
 - Joomla
 - CSS/HTML/JavaScript
+  {{< /div >}}
 
 
 ## Modernization of IT Infrastructure
 ### **2009 — 2012** | IT Administrator as a side job during studies for a bookstore
 Administration of Microsoft workstations, mail, and file servers for the Ulenspiegel bookstore in Fulda and Ravensburg. An in-house implemented data backup on a batch basis with retention logic and error handling sounds scary, but it saved significant licensing costs back then.
 
+{{< div class="list-with-columns" >}}
 ### Technologies
 - Microsoft Fileserver
 - Batch (Windows)
-
+  {{< /div >}}
+- 
 
 ## Product Data Management in Vehicle Development
 ### **August 2010 - March 2012 (with breaks, see [CV]({{< ref "/about/cv" >}}))** | Working Student at EDAG GmbH & Co. KGaA
@@ -230,8 +234,10 @@ As a working student, I initiated a project to enable product data management in
 
 I developed a concept and a prototype, tested it with a vehicle development team, and dedicated my bachelor's thesis to the topic.
 
+{{< div class="list-with-columns" >}}
 ### Technologies
 - Java SE
 - Swing
 - Progress OpenEdge
 - Linux
+  {{< /div >}}
