@@ -50,7 +50,7 @@ Mein [Projektportfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}) 
 
 Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de) oder [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;zur Verfügung und vereinbare gerne ein Telefonat oder Videochat.
 
-{{< rawhtml >}}<br> {{< /rawhtml >}}
+{{< rawhtml >}} <br> {{< /rawhtml >}}
 Mit freundlichen Grüßen
 
 Denis Malolepszy
