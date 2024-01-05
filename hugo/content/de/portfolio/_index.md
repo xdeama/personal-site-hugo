@@ -1,7 +1,7 @@
 ---
 translationKey: portfolio
 title: Portfolio
-heading: Portfolio Denis Malolepszy Software Engineering
+heading: Portfolio Denis Malolepszy
 date: 2023-11-10T13:59:19+01:00
 draft: false
 layout: printable
@@ -140,7 +140,7 @@ Software Engineering im Java Umfeld
 
 # Projektportfolio Denis Malolepszy
 
-Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen, da das Vertragsverhältnis meines Erachtens für die gesammelten Erfahrungen eine untergeordnete Rolle spielt.
+Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen.
 
 
 ## CI/CD für Private Cloud Migration modernisieren

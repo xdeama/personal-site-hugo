@@ -9,7 +9,7 @@ robots:
   follow: false
 ---
 
-Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen, da das Vertragsverhältnis meines Erachtens für die gesammelten Erfahrungen eine untergeordnete Rolle spielt.
+Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen.
 
 
 ## CI/CD für Private Cloud Migration modernisieren

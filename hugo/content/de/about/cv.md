@@ -69,7 +69,7 @@ Ausarbeitung meiner Master Thesis "Entwurf eines Vorgehensmodells für IT-Sicher
 ### **IT-Administrator** | 2009 — 2012
 *Selbstständig, Fulda*
 
-Instandhaltung von IT-Systemen für Kleinunternehmen in selbstständtiger Form neben dem IT-Studium in Fulda
+Instandhaltung von IT-Systemen für Kleinunternehmen in selbstständiger Form neben dem IT-Studium in Fulda
 
 ### **Werkstudent Softwareentwicklung** | Dezember 2011 — März 2012
 *EDAG GmbH & Co. KGaA, Fulda*
