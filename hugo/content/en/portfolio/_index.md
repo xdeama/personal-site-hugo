@@ -158,7 +158,8 @@ DevOps and Java development for the private cloud migration of a major internati
 - Azure DevOps
 - OpenShift & Helm
 - Java 8 to 17
-- Spring Microservices with Reactive Streams
+- Spring Microservices
+- Reactive Streams
 - Angular & PrimeFaces
 - Ansible
 - Kafka

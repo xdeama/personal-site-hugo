@@ -29,7 +29,8 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 - Azure DevOps
 - OpenShift & Helm
 - Java 8 bis 17
-- Spring Microservices mit Reactive Streams
+- Spring Microservices
+- Reactive Streams
 - Angular & PrimeFaces
 - Ansible
 - Kafka
@@ -268,7 +269,7 @@ Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung 
 
 
 ## Produktdatenmanagement in der Fahrzeugentwicklung
-### **August 2010 - März 2012 (mit Pausen, siehe [CV]({{< ref "/about/cv" >}}))** | Werkstudent
+### **August 2010 - März 2012 (mit Unterbrechungen, siehe [CV]({{< ref "/about/cv" >}}))** | Werkstudent
 *EDAG GmbH & Co. KGaA, Fulda*
 
 Als Werksstudent habe ich ein Projekt gestartet um das Produktdatenmanagement in der Fahrzeugentwicklung in der Hauseigene Inventarisierungssoftware jEDWIN zu ermöglichen. Produktdaten wurden in Tabellenkalkulationsprogrammen verwaltet und mit Kunden und Zulieferern ausgetauscht. Da Produktdaten jedoch keine Baumstruktur, sondern einen Graphen darstellen, hatte dieser Ansatz erhebliche Schwierigkeiten mit der Duplikation von Daten. 
