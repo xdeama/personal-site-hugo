@@ -1,6 +1,6 @@
 ---
-translationKey: printable
-title: Vorstellung
+translationKey: portfolio
+title: Portfolio Denis Malolepszy Software Engineering
 date: 2023-11-10T13:59:19+01:00
 draft: false
 layout: printable

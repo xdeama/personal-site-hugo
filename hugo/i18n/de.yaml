@@ -6,3 +6,14 @@ sourceCode: Quellcode
 404text: Unter dieser Adresse existiert keine Seite.
 404button: Zurück zur Startseite
 backToBlog: Zurück zur Blog Übersicht
+website: Website
+email: E-Mail
+address: Anschrift
+myaddress: Denis Malolepszy Software Engineering, Postfach 62 01 39, 60350 Frankfurt
+jobtitle: Java Full Stack Developer & Software-Architekt
+portfolio: Portfolio
+portfolio-appendix-text: (Dieses Dokument als Webseite)
+greetings: 'Hallo, ich bin'
+blog-contact-text1: 'Ich bin freiberuflicher Software Architekt, Full Stack Developer und Mitgründer von'
+blog-contact-text2: 'einem Experten-Netzwerk selbstständiger IT-Spezialisten.'
+blog-contact-text3: 'Hast du Fragen oder eine Projektidee? Dann kontaktiere mich auf <a href="https://www.linkedin.com/in/dmalolepszy">LinkedIn</a> oder per <a href="mailto:kontakt@dmalo.de">E-Mail</a>.'
