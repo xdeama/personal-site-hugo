@@ -166,6 +166,8 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 - RESTful
   {{< /div >}}
 
+---
+
 
 ## Web-Crawler-basiertes Archivsystem
 ### **Dezember 2022 — Januar 2023** | Software Engineer
@@ -185,6 +187,9 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 - React
   {{< /div >}}
 
+---
+
+
 ## Projektentwicklung eines Ferienresorts
 ### **Oktober 2018 — Juli 2021** | Head of IT
 *Habona Invest GmbH, Frankfurt am Main*
@@ -200,6 +205,8 @@ Als erstes Pareus Resorts, bot dieses Greenfield Projekt während der Coronapand
 - Buchungssystem und Onlinewerbung
 - Teamaufbau und Baubegleitung
 
+---
+
 
 ## Standortumzug Netzwerk und Serverraum
 ### **Oktober 2019 — April 2020** | Head of IT
@@ -212,6 +219,8 @@ Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-A
 - Umzug der On-Premises-Serversysteme
 - Umzug der Arbeitsplatz-IT-Ausstattung
 - Anbieterauswahl und -koordination
+
+---
 
 
 ## Aufbau interner IT-Abteilung
@@ -226,6 +235,8 @@ Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT über
 - IT-Dokumentation modernisieren und ausbauen
 - Bewerbungsgespräche und Onboarding
 
+---
+
 
 ## IT-Modernisierung und Microsoft 365 Einführung
 ### **Oktober 2018 — Juli 2021** | Head of IT
@@ -238,6 +249,8 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 - Einführung von Microsoft 365 inkl. Teams und Sharepoint
 - Anwenderschulung für neue Arbeitsmethoden mit Microsoft Teams und Sharepoint
 - Migration von On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid Lösungen
+
+---
 
 
 ## Webseite für den Vertrieb von Ferienimmobilien
@@ -252,6 +265,8 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 - Automatisierte Anfertigung individueller Kaufverträge
 - Scroll- und Zoombare Sitemap für Ferienimmobilienwerbung
 - Koordination von Webentwicklern und Designer
+
+---
 
 
 ## Entwicklung und Betrieb von Meldewesen Software
@@ -287,6 +302,8 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 - Solaris
   {{< /div >}}
 
+---
+
 
 ## Investment Advice Analytics System and Dashboard
 ### **Dezember 2016 — Juli 2017** | Lead Developer
@@ -317,6 +334,8 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 - Solaris
   {{< /div >}}
 
+---
+
 
 ## Reporting Systeme auf Java EE Basis
 ### **März 2015 — Dezember 2016** | Software Engineer
@@ -344,6 +363,8 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 - Solaris
   {{< /div >}}
 
+---
+
 
 ## Modernisierung einer Joomla Webseite
 ### **August 2012 — Dezember 2012** | Webentwickler
@@ -358,6 +379,8 @@ Modernisierung einer Joomla Webseite mit Schwerpunkt Anwenderfreundlichkeit für
 - CSS/HTML
   {{< /div >}}
 
+---
+
 
 ## Modernisierung der IT-Infrastruktur
 ### **2009 — 2012** | IT-Administrator
@@ -370,6 +393,8 @@ Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung 
 - Microsoft Fileserver
 - Batch (Windows)
   {{< /div >}}
+
+---
 
 
 ## Produktdatenmanagement in der Fahrzeugentwicklung

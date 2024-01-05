@@ -36,6 +36,8 @@ DevOps and Java development for the private cloud migration of a major internati
 - RESTful
 {{< /div >}}
 
+---
+
 
 ## Web Crawler-Based Archiving System
 ### **December 2022 — January 2023** | Software Engineer
@@ -55,6 +57,8 @@ In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web cra
 - React
 {{< /div >}}
 
+---
+
 
 ## Development of a Holiday Resort Project
 ### **October 2018 — July 2021** | Head of IT
@@ -71,6 +75,8 @@ As the first project of Pareus Resorts, this greenfield posed special challenges
 - Booking system and online advertising
 - Team building and construction supervision
 
+---
+
 
 ## Relocation of Network and Server Room
 ### **October 2019 — April 2020** | Head of IT
@@ -83,6 +89,8 @@ As Head of IT, I was responsible for network technology, server systems, and wor
 - Relocation of on-premises server systems
 - Relocation of workplace IT equipment
 - Provider selection and coordination
+
+---
 
 
 ## Establishment of an Internal IT Department
@@ -97,6 +105,8 @@ As Head of IT, I took over an IT department that was completely outsourced to se
 - Modernizing and expanding IT documentation
 - Job interviews and onboarding
 
+---
+
 
 ## IT Modernization and Microsoft 365 Introduction
 ### **October 2018 — July 2021** | Head of IT
@@ -109,6 +119,8 @@ Migration from Microsoft on-premises systems like Active Directory, Exchange Ser
 - Introduction of Microsoft 365 including Teams and SharePoint
 - User training for new working methods with Microsoft Teams and SharePoint
 - Migration of on-premises systems like Active Directory, Exchange Server, and File Server to Microsoft Cloud Hybrid solutions
+
+---
 
 
 ## Website for the Sale of Holiday Properties
@@ -123,6 +135,8 @@ Development of a website for the sale of holiday properties, including automated
 - Automated creation of individual purchase contracts
 - Scrollable and zoomable sitemap for holiday property advertising
 - Coordination of web developers and designers
+
+---
 
 
 ## Development and Operation of Regulatory Reporting Software
@@ -156,7 +170,9 @@ As a permanent organizational and IT consultant, I was responsible for a range o
 - Jenkins
 - Sonar and Sonatype Nexus
 - Solaris
-  {{< /div >}}
+{{< /div >}}
+
+---
 
 
 ## Investment Advice Analytics System and Dashboard
@@ -185,7 +201,9 @@ Halfway through the project, I took over the leadership of a five-member develop
 - Jenkins
 - Sonar and Sonatype Nexus
 - Solaris
-  {{< /div >}}
+{{< /div >}}
+
+---
 
 
 ## Reporting Systems Based on Java EE
@@ -212,7 +230,10 @@ I designed and implemented several reporting systems for legal regulatory report
 - Jenkins
 - Sonar and Sonatype Nexus
 - Solaris
-  {{< /div >}}
+{{< /div >}}
+
+
+---
 
 
 ## Modernization of a Joomla Website
@@ -226,7 +247,9 @@ Modernization of a Joomla website focusing on user-friendliness for the staff of
 - Joomla
 - JavaScript
 - CSS/HTML
-  {{< /div >}}
+{{< /div >}}
+
+---
 
 
 ## Modernization of IT Infrastructure
@@ -239,8 +262,10 @@ Administration of Microsoft workstations, mail, and file servers for the Ulenspi
 ### Technologies
 - Microsoft Fileserver
 - Batch (Windows)
-  {{< /div >}}
-- 
+{{< /div >}}
+
+---
+
 
 ## Product Data Management in Vehicle Development
 ### **August 2010 - March 2012 (with breaks, see [CV]({{< ref "/about/cv" >}}))** | Working Student
@@ -256,4 +281,4 @@ I developed a concept and a prototype, tested it with a vehicle development team
 - Swing
 - Progress OpenEdge
 - Linux
-  {{< /div >}}
+{{< /div >}}

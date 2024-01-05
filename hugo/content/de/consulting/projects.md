@@ -34,7 +34,9 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 - Ansible
 - Kafka
 - RESTful
-  {{< /div >}}
+{{< /div >}}
+
+---
 
 
 ## Web-Crawler-basiertes Archivsystem
@@ -53,7 +55,10 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 - Selenium
 - Go
 - React
-  {{< /div >}}
+{{< /div >}}
+
+---
+
 
 ## Projektentwicklung eines Ferienresorts
 ### **Oktober 2018 — Juli 2021** | Head of IT
@@ -70,6 +75,8 @@ Als erstes Pareus Resorts, bot dieses Greenfield Projekt während der Coronapand
 - Buchungssystem und Onlinewerbung
 - Teamaufbau und Baubegleitung
 
+---
+
 
 ## Standortumzug Netzwerk und Serverraum
 ### **Oktober 2019 — April 2020** | Head of IT
@@ -82,6 +89,8 @@ Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-A
 - Umzug der On-Premises-Serversysteme
 - Umzug der Arbeitsplatz-IT-Ausstattung
 - Anbieterauswahl und -koordination
+
+---
 
 
 ## Aufbau interner IT-Abteilung
@@ -96,6 +105,8 @@ Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT über
 - IT-Dokumentation modernisieren und ausbauen
 - Bewerbungsgespräche und Onboarding
 
+---
+
 
 ## IT-Modernisierung und Microsoft 365 Einführung
 ### **Oktober 2018 — Juli 2021** | Head of IT
@@ -108,6 +119,8 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 - Einführung von Microsoft 365 inkl. Teams und Sharepoint
 - Anwenderschulung für neue Arbeitsmethoden mit Microsoft Teams und Sharepoint
 - Migration von On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid Lösungen
+
+---
 
 
 ## Webseite für den Vertrieb von Ferienimmobilien
@@ -122,6 +135,8 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 - Automatisierte Anfertigung individueller Kaufverträge
 - Scroll- und Zoombare Sitemap für Ferienimmobilienwerbung
 - Koordination von Webentwicklern und Designer
+
+---
 
 
 ## Entwicklung und Betrieb von Meldewesen Software
@@ -155,7 +170,9 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
-  {{< /div >}}
+{{< /div >}}
+
+---
 
 
 ## Investment Advice Analytics System and Dashboard
@@ -185,7 +202,9 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
-  {{< /div >}}
+{{< /div >}}
+
+---
 
 
 ## Reporting Systeme auf Java EE Basis
@@ -212,7 +231,9 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
-  {{< /div >}}
+{{< /div >}}
+
+---
 
 
 ## Modernisierung einer Joomla Webseite
@@ -226,7 +247,9 @@ Modernisierung einer Joomla Webseite mit Schwerpunkt Anwenderfreundlichkeit für
 - Joomla
 - JavaScript
 - CSS/HTML
-  {{< /div >}}
+{{< /div >}}
+
+---
 
 
 ## Modernisierung der IT-Infrastruktur
@@ -239,7 +262,9 @@ Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung 
 ### **Technologien**
 - Microsoft Fileserver
 - Batch (Windows)
-  {{< /div >}}
+{{< /div >}}
+
+---
 
 
 ## Produktdatenmanagement in der Fahrzeugentwicklung
@@ -256,4 +281,4 @@ Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwickl
 - Swing
 - Progress OpenEdge
 - Linux
-  {{< /div >}}
+{{< /div >}}

@@ -140,6 +140,7 @@ Software engineering in the Java environment at EDAG GmbH & Co. KGaA in Fulda, G
 # Projektportfolio Denis Malolepszy
 My project portfolio includes projects from my time as a freelancer, as well as permanent positions, as I believe the nature of the contract plays a secondary role in the experiences gained.
 
+
 ## Modernizing CI/CD for Private Cloud Migration
 ### **March 2022 — September 2023** | DevOps Engineer
 *Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
@@ -164,6 +165,8 @@ DevOps and Java development for the private cloud migration of a major internati
 - RESTful
   {{< /div >}}
 
+---
+
 
 ## Web Crawler-Based Archiving System
 ### **December 2022 — January 2023** | Software Engineer
@@ -183,6 +186,8 @@ In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web cra
 - React
   {{< /div >}}
 
+---
+
 
 ## Development of a Holiday Resort Project
 ### **October 2018 — July 2021** | Head of IT
@@ -199,6 +204,8 @@ As the first project of Pareus Resorts, this greenfield posed special challenges
 - Booking system and online advertising
 - Team building and construction supervision
 
+---
+
 
 ## Relocation of Network and Server Room
 ### **October 2019 — April 2020** | Head of IT
@@ -211,6 +218,8 @@ As Head of IT, I was responsible for network technology, server systems, and wor
 - Relocation of on-premises server systems
 - Relocation of workplace IT equipment
 - Provider selection and coordination
+
+---
 
 
 ## Establishment of an Internal IT Department
@@ -225,6 +234,8 @@ As Head of IT, I took over an IT department that was completely outsourced to se
 - Modernizing and expanding IT documentation
 - Job interviews and onboarding
 
+---
+
 
 ## IT Modernization and Microsoft 365 Introduction
 ### **October 2018 — July 2021** | Head of IT
@@ -237,6 +248,8 @@ Migration from Microsoft on-premises systems like Active Directory, Exchange Ser
 - Introduction of Microsoft 365 including Teams and SharePoint
 - User training for new working methods with Microsoft Teams and SharePoint
 - Migration of on-premises systems like Active Directory, Exchange Server, and File Server to Microsoft Cloud Hybrid solutions
+
+---
 
 
 ## Website for the Sale of Holiday Properties
@@ -251,6 +264,8 @@ Development of a website for the sale of holiday properties, including automated
 - Automated creation of individual purchase contracts
 - Scrollable and zoomable sitemap for holiday property advertising
 - Coordination of web developers and designers
+
+---
 
 
 ## Development and Operation of Regulatory Reporting Software
@@ -286,6 +301,8 @@ As a permanent organizational and IT consultant, I was responsible for a range o
 - Solaris
   {{< /div >}}
 
+---
+
 
 ## Investment Advice Analytics System and Dashboard
 ### **December 2016 — July 2017** | Lead Developer
@@ -315,6 +332,8 @@ Halfway through the project, I took over the leadership of a five-member develop
 - Solaris
   {{< /div >}}
 
+---
+
 
 ## Reporting Systems Based on Java EE
 ### **March 2015 — December 2016** | Software Engineer
@@ -343,6 +362,9 @@ I designed and implemented several reporting systems for legal regulatory report
   {{< /div >}}
 
 
+---
+
+
 ## Modernization of a Joomla Website
 ### **August 2012 — December 2012** | Web Developer
 **Independent part-time job for an antiquarian bookshop, Fulda*
@@ -356,6 +378,8 @@ Modernization of a Joomla website focusing on user-friendliness for the staff of
 - CSS/HTML
   {{< /div >}}
 
+---
+
 
 ## Modernization of IT Infrastructure
 ### **2009 — 2012** | IT Administrator
@@ -368,7 +392,9 @@ Administration of Microsoft workstations, mail, and file servers for the Ulenspi
 - Microsoft Fileserver
 - Batch (Windows)
   {{< /div >}}
--
+
+---
+
 
 ## Product Data Management in Vehicle Development
 ### **August 2010 - March 2012 (with breaks, see [CV]({{< ref "/about/cv" >}}))** | Working Student
