@@ -2,7 +2,7 @@
 <article class="wrapper region prose flow">
 
     {{ partial "heading.html" . }}
-    <p class="print-onl">
+    <p class="print-only">
         <span style="color: var(--color-primary); font-size: var(--size-step-2)">{{ i18n "jobtitle" }}</span><br>
         <span class="contact-label">{{ i18n "website" | strings.FirstUpper}}:</span> <a href="{{ .Site.BaseURL }}">https://www.dmalo.de</a><br>
         <span class="contact-label">{{ i18n "email" | strings.FirstUpper}}:</span> <a href="mailto:kontakt@dmalo.de">kontakt@dmalo.de</a><br>
