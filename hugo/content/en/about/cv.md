@@ -26,7 +26,7 @@ Studied Business Informatics at the University of Applied Sciences Fulda (B.Sc.)
 
 ## Professional Experience
 
-### **Chairman of the Supervisory Board** | May 2021 - present
+### **Chairman of the Supervisory Board** | June 2022 - present
 *DenktMit eG, Oberursel, Germany*
 
 Chairman of the Supervisory Board of [DenktMit eG]({{< ref "/denktmit" >}}), leading an expert network for IT professionals in software engineering

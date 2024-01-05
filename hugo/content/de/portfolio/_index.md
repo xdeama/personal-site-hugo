@@ -27,7 +27,7 @@ Technisch konzentriere ich mich auf das Java-Ökosystem, insbesondere das *Sprin
 
 Ich bringe mehr als sechs Jahre Vollzeiterfahrung in Java und Kotlin mit verschiedenen Projekten und einer breiten Auswahl an Open Source Software, Frameworks und Libraries wie Camunda, Kafka, Camel, Drools, Solr, Angular, Swagger, REST, RPC mit. Über die Agile Software Entwicklung hinaus bin ich mit Methoden wie Domain-driven Design und Test-driven Development vertraut.
 
-Details zu meinen technologischen Erfahrungen finden Sie in meinem [Projektportfolio]({{< ref "/projects" >}}). Ich bin sehr offen dafür neue Technologien und Methoden zu erlernen und anzuwenden.
+Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "/projects" >}}). Ich bin sehr offen dafür neue Technologien und Methoden zu erlernen und anzuwenden.
 
 ## Projekterfahrung
 In 2022 und 2023 habe ich als *DevOps Engineer mit Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift und Helm* die Private Cloud Migration einer großen internationalen Bank unterstützt.

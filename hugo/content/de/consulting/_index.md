@@ -30,7 +30,7 @@ Technisch konzentriere ich mich auf das Java-Ökosystem, insbesondere das Spring
 
 Das Java Ökosystem umfasst eine breite Auswahl an Produkten und Open Source Software, Frameworks und Libraries wie Spring Boot, Camunda, Kafka, Solr, Swagger und Co.
 
-Ich bringe mehr als sechs Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten mit. Details zu meinen technologischen Erfahrungen finden Sie in meinem [Projektportfolio]({{< ref "/projects" >}}). Ich bin sehr offen dafür, in Projekten neue Technologien zu erlernen und anzuwenden.
+Ich bringe mehr als sechs Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten mit. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "/projects" >}}). Ich bin sehr offen dafür, in Projekten neue Technologien zu erlernen und anzuwenden.
 
 
 ## Angebot
