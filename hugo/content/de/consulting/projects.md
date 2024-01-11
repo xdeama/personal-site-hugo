@@ -44,7 +44,7 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 ### **Dezember 2022 — Januar 2023** | Software Engineer
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für einen schweizer Softwarehersteller ein Web-Crawler-basiertes Archivsystem für die Migration eines Intranet-Systems entwickelt:
+Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für einen Schweizer Softwarehersteller ein Web-Crawler-basiertes Archivsystem für die Migration eines Intranet-Systems entwickelt:
 - Implementierung eines Web-Crawlers in Kotlin und Selenium zum Extrahieren von Webseiten mit gerendertem JavaScript
 - Implementierung einer React Webapp als Einstiegs- und Suchportal
 - Setup und Tuning eines Suchindex mit Apache Solr
@@ -134,7 +134,7 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 - Implementierung mit PHP, TypeScript, CSS und Contao CMS
 - Erweiterung von Contao CMS um eine Pflegeoberfläche für Immobilieninformationen
 - Automatisierte Anfertigung individueller Kaufverträge
-- Scroll- und Zoombare Sitemap für Ferienimmobilienwerbung
+- Scroll- und zoombare Sitemap für Ferienimmobilienwerbung
 - Koordination von Webentwicklern und Designer
 
 ---

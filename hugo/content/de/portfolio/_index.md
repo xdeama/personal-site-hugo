@@ -33,7 +33,7 @@ Ich bin sehr offen, neue Technologien und Methoden zu erlernen und anzuwenden.
 ## Projekterfahrung
 In 2022 und 2023 habe ich als *DevOps Engineer mit Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift und Helm* die Private Cloud Migration einer großen internationalen Bank unterstützt.
 
-Zudem habe ich einen schweizer Softwarehersteller mit einem Web-Crawler-basierten Archivsystem bei der Migration eines Intranet-Systems unterstützt. Für den Webcrawler kamen *Kotlin* und Selenium zum Einsatz, während das Archivsystem mit GoLang, React und Apache Solr eine leistungsfähige Webapp mit Suchfunktion bekam.
+Zudem habe ich einen Schweizer Softwarehersteller mit einem Web-Crawler-basierten Archivsystem bei der Migration eines Intranet-Systems unterstützt. Für den Webcrawler kamen *Kotlin* und Selenium zum Einsatz, während das Archivsystem mit GoLang, React und Apache Solr eine leistungsfähige Webapp mit Suchfunktion bekam.
 
 {{< embed-svg "static/svg/tech-stack.svg" >}}
 
@@ -85,7 +85,7 @@ Vorsitzender des Aufsichtsrates der [DenktMit eG]({{< ref "/denktmit" >}}) in Ob
 ### **Freelance Software Architect** | Februar 2022 — bis heute
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Selbstständige IT-Beratung im Software Engerineering mit Schwerpunkt Java, Spring, Private Cloud und Datenbanken
+Selbstständige IT-Beratung im Software Engineering mit Schwerpunkt Java, Spring, Private Cloud und Datenbanken
 
 ### **Sabbatical** | August 2021 — Januar 2022
 *Norwegen, Finnland, Baltikum, Italien, Spanien*
@@ -120,7 +120,7 @@ Ausarbeitung meiner Master Thesis "Entwurf eines Vorgehensmodells für IT-Sicher
 ### **IT-Administrator** | 2009 — 2012
 *Selbstständig, Fulda*
 
-Instandhaltung von IT-Systemen für Kleinunternehmen in selbstständtiger Form neben dem IT-Studium in Fulda
+Instandhaltung von IT-Systemen für Kleinunternehmen in selbstständiger Form neben dem IT-Studium in Fulda
 
 ### **Werkstudent Softwareentwicklung** | Dezember 2011 — März 2012
 *EDAG GmbH & Co. KGaA, Fulda*
@@ -149,6 +149,7 @@ Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als au
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
 DevOps und Java Entwicklung für die Private Cloud Migration einer großen internationalen Bank:
+
 - Azure DevOps Migration eines CI/CD-Portals für Container, VM und Datenbank Deployments
 - Spring Microservices von VMs zu Containern und abhängige Systeme wie Datenbanken und Observability zu OpenShift migrieren
 - Automatisierung von komplexen Deploymentmechanismen für VMs mit Ansible und Reactive Spring (z.B. Batch Deployments mit abhängigen Komponenten, und automatische Sidecars)
@@ -176,7 +177,8 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 ### **Dezember 2022 — Januar 2023** | Software Engineer
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für einen schweizer Softwarehersteller ein Web-Crawler-basiertes Archivsystem für die Migration eines Intranet-Systems entwickelt:
+Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für einen Schweizer Softwarehersteller ein Web-Crawler-basiertes Archivsystem für die Migration eines Intranet-Systems entwickelt:
+
 - Implementierung eines Web-Crawlers in Kotlin und Selenium zum Extrahieren von Webseiten mit gerendertem JavaScript
 - Implementierung einer React Webapp als Einstiegs- und Suchportal
 - Setup und Tuning eines Suchindex mit Apache Solr
@@ -266,7 +268,7 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 - Implementierung mit PHP, TypeScript, CSS und Contao CMS
 - Erweiterung von Contao CMS um eine Pflegeoberfläche für Immobilieninformationen
 - Automatisierte Anfertigung individueller Kaufverträge
-- Scroll- und Zoombare Sitemap für Ferienimmobilienwerbung
+- Scroll- und zoombare Sitemap für Ferienimmobilienwerbung
 - Koordination von Webentwicklern und Designer
 
 ---
@@ -277,6 +279,7 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 *Union Investment (Union IT-Services GmbH), Frankfurt am Main*
 
 Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von Projekten und Betriebsthemen verantwortlich:
+
 - Architekturverantwortung für die Weiterentwicklung der Systemlandschaft
 - Projektbetreuung für neue Reportinganwendungen zur Erfüllung gesetzlicher Auflagen von Ausschreibungen, über Konzeption bis Inbetriebnahme
 - Migration von JBoss AS 7 Servergroup mit 45 Servern auf Standalone Wildfly Server

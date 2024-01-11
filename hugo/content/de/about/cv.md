@@ -34,7 +34,7 @@ Vorsitzender des Aufsichtsrates der [DenktMit eG]({{< ref "/denktmit" >}}) in Ob
 ### **Freelance Software Architect** | Februar 2022 — bis heute
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Selbstständige IT-Beratung im Software Engerineering mit Schwerpunkt Java, Spring, Private Cloud und Datenbanken
+Selbstständige IT-Beratung im Software Engineering mit Schwerpunkt Java, Spring, Private Cloud und Datenbanken
 
 ### **Sabbatical** | August 2021 — Januar 2022
 *Norwegen, Finnland, Baltikum, Italien, Spanien*
