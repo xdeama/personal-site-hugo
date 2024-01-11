@@ -5,7 +5,7 @@ import datetime
 
 # Define the input and output file paths
 input_file = 'hugo/content/de/portfolio/_index.md'
-output_file = 'printable.docx'
+output_file = 'Portfolio Denis Malolepszy.docx'
 
 # Read the input Markdown file
 with open(input_file, 'r') as file:
