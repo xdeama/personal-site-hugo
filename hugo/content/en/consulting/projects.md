@@ -9,7 +9,7 @@ robots:
   follow: false
 ---
 
-My project portfolio includes projects from my time as a freelancer, as well as permanent positions, as I believe the nature of the contract plays a secondary role in the experiences gained.
+My project portfolio includes projects from my time as a freelancer, as well as permanent positions.
 
 
 ## Modernizing CI/CD for Private Cloud Migration
@@ -17,6 +17,7 @@ My project portfolio includes projects from my time as a freelancer, as well as 
 *Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
 
 DevOps and Java development for the private cloud migration of a major international bank:
+
 - Migrating a CI/CD portal to Azure DevOps for container, VM, and database deployments
 - Migrating the CI/CD portal's Spring Microservices infrastructure from VMs to containerized environments in OpenShift
 - Automating complex deployment mechanisms for VMs using Ansible and Reactive Spring, such as batch deployments with dependent components, and automatic sidecars
@@ -27,14 +28,21 @@ DevOps and Java development for the private cloud migration of a major internati
 {{< div class="list-with-columns" >}}
 ### **Technologies**
 - Azure DevOps
-- OpenShift & Helm
+- OpenShift
+- Helm
+- Maven
 - Java 8 to 17
 - Spring Microservices
+- Spring Security
+- Spring Data
+- Spring Gateway
 - Reactive Streams
 - Angular & PrimeFaces
 - Ansible
 - Kafka
-- RESTful
+- REST & Swagger
+- Oracle SQL
+- OAuth / Keycloak
 {{< /div >}}
 
 ---
@@ -45,6 +53,7 @@ DevOps and Java development for the private cloud migration of a major internati
 *Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
 
 In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web crawler-based archiving system for a Swiss software manufacturer to facilitate the migration of an intranet system:
+
 - Developed a web crawler in Kotlin and Selenium for extracting web pages with rendered JavaScript
 - Implemented a React web app to serve as an entry and search portal
 - Set up and optimized a search index using Apache Solr
@@ -56,6 +65,7 @@ In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web cra
 - Selenium
 - Go
 - React
+- Maven, Git, etc.
 {{< /div >}}
 
 ---
@@ -145,6 +155,7 @@ Development of a website for the sale of holiday properties, including automated
 *Union Investment (Union IT-Services GmbH), Frankfurt am Main, Germany*
 
 As a permanent organizational and IT consultant, I was responsible for a range of projects and operational topics:
+
 - Architectural responsibility for the further development of the system landscape
 - Project support for new reporting applications to meet legal requirements from tenders, through conception to commissioning
 - Migration from JBoss AS 7 server group with 45 servers to standalone Wildfly servers
@@ -171,6 +182,7 @@ As a permanent organizational and IT consultant, I was responsible for a range o
 - Jenkins
 - Sonar and Sonatype Nexus
 - Solaris
+- Subversion und Git
 {{< /div >}}
 
 ---
@@ -202,6 +214,7 @@ Halfway through the project, I took over the leadership of a five-member develop
 - Jenkins
 - Sonar and Sonatype Nexus
 - Solaris
+- Subversion
 {{< /div >}}
 
 ---
@@ -231,6 +244,7 @@ I designed and implemented several reporting systems for legal regulatory report
 - Jenkins
 - Sonar and Sonatype Nexus
 - Solaris
+- Subversion
 {{< /div >}}
 
 

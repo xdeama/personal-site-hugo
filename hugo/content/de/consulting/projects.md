@@ -17,6 +17,7 @@ Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als au
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
 DevOps und Java Entwicklung für die Private Cloud Migration einer großen internationalen Bank:
+
 - Azure DevOps Migration eines CI/CD-Portals für Container, VM und Datenbank Deployments
 - Spring Microservices von VMs zu Containern und abhängige Systeme wie Datenbanken und Observability zu OpenShift migrieren
 - Automatisierung von komplexen Deploymentmechanismen für VMs mit Ansible und Reactive Spring (z.B. Batch Deployments mit abhängigen Komponenten, und automatische Sidecars)
@@ -27,14 +28,21 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 {{< div class="list-with-columns" >}}
 ### **Technologien**
 - Azure DevOps
-- OpenShift & Helm
+- OpenShift
+- Helm
+- Maven
 - Java 8 bis 17
 - Spring Microservices
+- Spring Security
+- Spring Data
+- Spring Gateway
 - Reactive Streams
 - Angular & PrimeFaces
 - Ansible
 - Kafka
-- RESTful
+- REST & Swagger
+- Oracle SQL
+- OAuth / Keycloak
 {{< /div >}}
 
 ---
@@ -45,6 +53,7 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
 Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für einen Schweizer Softwarehersteller ein Web-Crawler-basiertes Archivsystem für die Migration eines Intranet-Systems entwickelt:
+
 - Implementierung eines Web-Crawlers in Kotlin und Selenium zum Extrahieren von Webseiten mit gerendertem JavaScript
 - Implementierung einer React Webapp als Einstiegs- und Suchportal
 - Setup und Tuning eines Suchindex mit Apache Solr
@@ -56,6 +65,7 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 - Selenium
 - Go
 - React
+- Maven, Git und Co.
 {{< /div >}}
 
 ---
@@ -124,7 +134,7 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 ---
 
 
-## Webseite für den Vertrieb von Ferienimmobilien
+## Webseite für Vertrieb von Ferienimmobilien
 ### **Oktober 2018 — Juli 2021** | Head of IT
 *Habona Invest GmbH, Frankfurt am Main*
 
@@ -145,6 +155,7 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 *Union Investment (Union IT-Services GmbH), Frankfurt am Main*
 
 Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von Projekten und Betriebsthemen verantwortlich:
+
 - Architekturverantwortung für die Weiterentwicklung der Systemlandschaft
 - Projektbetreuung für neue Reportinganwendungen zur Erfüllung gesetzlicher Auflagen von Ausschreibungen, über Konzeption bis Inbetriebnahme
 - Migration von JBoss AS 7 Servergroup mit 45 Servern auf Standalone Wildfly Server
@@ -171,12 +182,13 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
+- Subversion und Git
 {{< /div >}}
 
 ---
 
 
-## Investment Advice Analytics System and Dashboard
+## Investment Advice Analytics System und Dashboard
 ### **Dezember 2016 — Juli 2017** | Lead Developer
 *Cofinpro AG, Frankfurt am Main*
 
@@ -203,6 +215,7 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
+- Subversion
 {{< /div >}}
 
 ---
@@ -232,6 +245,7 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
+- Subversion
 {{< /div >}}
 
 ---

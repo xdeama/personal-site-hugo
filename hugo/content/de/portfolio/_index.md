@@ -77,7 +77,7 @@ Studium der Wirtschaftsinformatik (B.Sc.)
 
 ## Berufserfahrung
 
-### **Aufsichtsrat** | Mai 2021 — heute
+### **Aufsichtsrat** | Juni 2022 — heute
 *DenktMit eG, Oberursel*
 
 Vorsitzender des Aufsichtsrates der [DenktMit eG]({{< ref "/denktmit" >}}) in Oberursel, einem Experten-Netzwerk erfahrener IT-Spezialisten im Software Engineering
@@ -160,15 +160,22 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 {{< div class="list-with-columns" >}}
 ### **Technologien**
 - Azure DevOps
-- OpenShift & Helm
+- OpenShift
+- Helm
+- Maven
 - Java 8 bis 17
 - Spring Microservices
+- Spring Security
+- Spring Data
+- Spring Gateway
 - Reactive Streams
 - Angular & PrimeFaces
 - Ansible
 - Kafka
-- RESTful
-  {{< /div >}}
+- REST & Swagger
+- Oracle SQL
+- OAuth / Keycloak
+{{< /div >}}
 
 ---
 
@@ -190,7 +197,8 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 - Selenium
 - Go
 - React
-  {{< /div >}}
+- Maven, Git und Co.
+{{< /div >}}
 
 ---
 
@@ -306,7 +314,8 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
-  {{< /div >}}
+- Subversion und Git
+{{< /div >}}
 
 ---
 
@@ -338,7 +347,8 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
-  {{< /div >}}
+- Subversion
+{{< /div >}}
 
 ---
 
@@ -367,7 +377,8 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 - Jenkins
 - Sonar und Sonatype Nexus
 - Solaris
-  {{< /div >}}
+- Subversion
+{{< /div >}}
 
 ---
 
@@ -383,7 +394,7 @@ Modernisierung einer Joomla Webseite mit Schwerpunkt Anwenderfreundlichkeit für
 - Joomla
 - JavaScript
 - CSS/HTML
-  {{< /div >}}
+{{< /div >}}
 
 ---
 
@@ -398,7 +409,7 @@ Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung 
 ### **Technologien**
 - Microsoft Fileserver
 - Batch (Windows)
-  {{< /div >}}
+{{< /div >}}
 
 ---
 
@@ -407,9 +418,9 @@ Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung 
 ### **August 2010 - März 2012 (mit Unterbrechungen, siehe [CV]({{< ref "/about/cv" >}}))** | Werkstudent
 *EDAG GmbH & Co. KGaA, Fulda*
 
-Als Werksstudent habe ich ein Projekt gestartet um das Produktdatenmanagement in der Fahrzeugentwicklung in der Hauseigene Inventarisierungssoftware jEDWIN zu ermöglichen. Produktdaten wurden in Tabellenkalkulationsprogrammen verwaltet und mit Kunden und Zulieferern ausgetauscht. Da Produktdaten jedoch keine Baumstruktur, sondern einen Graphen darstellen, hatte dieser Ansatz erhebliche Schwierigkeiten mit der Duplikation von Daten.
+Als Werksstudent habe ich ein Projekt gestartet um das Produktdatenmanagement in der Fahrzeugentwicklung in der Hauseigene Inventarisierungssoftware jEDWIN zu ermöglichen. Produktdaten wurden in Tabellenkalkulationsprogrammen verwaltet und mit Kunden und Zulieferern ausgetauscht. Da Produktdaten jedoch keine Baumstruktur, sondern einen Graphen darstellen, hatte dieser Ansatz erhebliche Schwierigkeiten mit der Duplikation von Daten. 
 
-Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwicklungsteam erprobt und meine Bachelor Thesis dem Thema gewidmet.
+Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwicklungsteam erprobt und meine Bachelor Thesis dem Thema gewidmet. 
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
@@ -417,4 +428,4 @@ Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwickl
 - Swing
 - Progress OpenEdge
 - Linux
-  {{< /div >}}
+{{< /div >}}
