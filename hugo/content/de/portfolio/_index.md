@@ -258,7 +258,7 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 ---
 
 
-## Webseite für den Vertrieb von Ferienimmobilien
+## Webseite für Vertrieb von Ferienimmobilien
 ### **Oktober 2018 — Juli 2021** | Head of IT
 *Habona Invest GmbH, Frankfurt am Main*
 
@@ -311,7 +311,7 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 ---
 
 
-## Investment Advice Analytics System and Dashboard
+## Investment Advice Analytics System und Dashboard
 ### **Dezember 2016 — Juli 2017** | Lead Developer
 *Cofinpro AG, Frankfurt am Main*
 
