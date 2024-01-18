@@ -159,22 +159,25 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**
+- Java 8 bis 17
+- Spring (Cloud, Data, Reactive, Security, Web, Gateway)
+- Reactive Streams
+- Angular (PrimeFaces)
+- TypeScript
 - Azure DevOps
-- OpenShift
+- OpenShift/Kubernetes
 - Helm
 - Maven
-- Java 8 bis 17
-- Spring Microservices
-- Spring Security
-- Spring Data
-- Spring Gateway
-- Reactive Streams
-- Angular & PrimeFaces
-- Ansible
+- RESTful Microservices
+- Camunda
 - Kafka
-- REST & Swagger
 - Oracle SQL
-- OAuth / Keycloak
+- Keycloak (OAuth)
+- Swagger
+- Ansible
+- Bash (Linux & Solaris)
+- PowerShell
+- Git
 {{< /div >}}
 
 ---
@@ -195,9 +198,10 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 - Kotlin
 - Apache Solr
 - Selenium
-- Go
 - React
-- Maven, Git und Co.
+- Docker
+- Maven
+- Git
 {{< /div >}}
 
 ---
@@ -302,8 +306,8 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 - Java EE 6 (SE 6 & 7)
 - JBoss/Wildfly Application Server
 - Oracle SQL
-- BPM mit Camunda
-- BRMS mit Drools
+- Camunda
+- Drools BRMS
 - Vaadin
 - Liferay
 - Apache Camel
@@ -335,8 +339,8 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 - Java EE 6 (SE 6 & 7)
 - JBoos Application Server
 - Oracle SQL
-- BPM mit Camunda
-- BRMS mit Drools
+- Camunda
+- Drools BRMS
 - Vaadin
 - Liferay
 - Apache Camel
@@ -365,8 +369,8 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 - Java EE 6 (SE 6 & 7)
 - JBoos Application Server
 - Oracle SQL
-- BPM mit Camunda
-- BRMS mit Drools
+- Camunda
+- Drools BRMS
 - Vaadin
 - Liferay
 - Apache Camel
@@ -418,9 +422,9 @@ Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung 
 ### **August 2010 - März 2012 (mit Unterbrechungen, siehe [CV]({{< ref "/about/cv" >}}))** | Werkstudent
 *EDAG GmbH & Co. KGaA, Fulda*
 
-Als Werksstudent habe ich ein Projekt gestartet um das Produktdatenmanagement in der Fahrzeugentwicklung in der Hauseigene Inventarisierungssoftware jEDWIN zu ermöglichen. Produktdaten wurden in Tabellenkalkulationsprogrammen verwaltet und mit Kunden und Zulieferern ausgetauscht. Da Produktdaten jedoch keine Baumstruktur, sondern einen Graphen darstellen, hatte dieser Ansatz erhebliche Schwierigkeiten mit der Duplikation von Daten. 
+Als Werksstudent habe ich ein Projekt gestartet um das Produktdatenmanagement in der Fahrzeugentwicklung in der Hauseigene Inventarisierungssoftware jEDWIN zu ermöglichen. Produktdaten wurden in Tabellenkalkulationsprogrammen verwaltet und mit Kunden und Zulieferern ausgetauscht. Da Produktdaten jedoch keine Baumstruktur, sondern einen Graphen darstellen, hatte dieser Ansatz erhebliche Schwierigkeiten mit der Duplikation von Daten.
 
-Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwicklungsteam erprobt und meine Bachelor Thesis dem Thema gewidmet. 
+Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwicklungsteam erprobt und meine Bachelor Thesis dem Thema gewidmet.
 
 {{< div class="list-with-columns" >}}
 ### **Technologien**

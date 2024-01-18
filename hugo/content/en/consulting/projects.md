@@ -27,22 +27,25 @@ DevOps and Java development for the private cloud migration of a major internati
 
 {{< div class="list-with-columns" >}}
 ### **Technologies**
+- Java 8 to 17
+- Spring (Cloud, Data, Reactive, Security, Web, Gateway)
+- Reactive Streams
+- Angular (PrimeFaces)
+- TypeScript
 - Azure DevOps
-- OpenShift
+- OpenShift/Kubernetes
 - Helm
 - Maven
-- Java 8 to 17
-- Spring Microservices
-- Spring Security
-- Spring Data
-- Spring Gateway
-- Reactive Streams
-- Angular & PrimeFaces
-- Ansible
+- RESTful Microservices
+- Camunda
 - Kafka
-- REST & Swagger
 - Oracle SQL
-- OAuth / Keycloak
+- Keycloak (OAuth)
+- Swagger
+- Ansible
+- Bash (Linux & Solaris)
+- PowerShell
+- Git
 {{< /div >}}
 
 ---
@@ -63,9 +66,10 @@ In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web cra
 - Kotlin
 - Apache Solr
 - Selenium
-- Go
 - React
-- Maven, Git, etc.
+- Docker
+- Maven
+- Git
 {{< /div >}}
 
 ---
@@ -170,8 +174,8 @@ As a permanent organizational and IT consultant, I was responsible for a range o
 - Java EE 6 (SE 6 & 7)
 - JBoss/Wildfly Application Server
 - Oracle SQL
-- BPM with Camunda
-- BRMS with Drools
+- Camunda
+- Drools BRMS
 - Vaadin
 - Liferay
 - Apache Camel
@@ -202,8 +206,8 @@ Halfway through the project, I took over the leadership of a five-member develop
 - Java EE 6 (SE 6 & 7)
 - JBoos Application Server
 - Oracle SQL
-- BPM with Camunda
-- BRMS with Drools
+- Camunda
+- Drools BRMS
 - Vaadin
 - Liferay
 - Apache Camel
@@ -232,8 +236,8 @@ I designed and implemented several reporting systems for legal regulatory report
 - Java EE 6 (SE 6 & 7)
 - JBoos Application Server
 - Oracle SQL
-- BPM with Camunda
-- BRMS with Drools
+- Camunda
+- Drools BRMS
 - Vaadin
 - Liferay
 - Apache Camel
