@@ -11,6 +11,137 @@ robots:
 ---
 
 
+## Hello, I'm Denis
+I am a freelance *Software Architect*, *Full Stack Developer*, and co-founder of [DenktMit]({{< ref "/denktmit" >}}), a network of independent IT specialists. Currently, I live and work in Frankfurt am Main.
+
+{{< to-img src="denis.jpg" class="profile-printable-img frame" alt="Denis" >}}
+
+I design and develop sophisticated [custom software and cloud infrastructure]({{< ref "/consulting" >}}) for the financial industry that stands the test of time with maintainability, resilience, and traceability.
+
+In this process, I accompany custom software from the *Java ecosystem* through its entire lifecycle: from requirements analysis, IT architecture, concept design, implementation, and rollout to maintenance and support.
+
+Need support for your project? Message me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
+{{< linkedin-icon >}}&nbsp;or contact me directly via [Email](mailto:kontakt@dmalo.de).
+
+## Tech Stack
+Technically, I focus on the Java ecosystem, particularly the *Spring Framework*, relational databases, private cloud architectures based on *Kubernetes*, and TypeScript-based frontend technologies like Angular.
+
+I bring more than six years of full-time experience in Java and Kotlin with various projects and a wide range of open-source software, frameworks, and libraries like Camunda, Kafka, Camel, Drools, Solr, Angular, Swagger, REST, RPC. Beyond Agile Software Development, I am familiar with methods like Domain-Driven Design and Test-Driven Development.
+
+Details of my technological experiences can be found in my [project portfolio]({{< ref "/projects" >}}). I am very open to learning and applying new technologies and methods.
+
+## Project Experience
+In 2022 and 2023, I supported the private cloud migration of a large international bank as a *DevOps Engineer with Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift, and Helm*.
+
+I also assisted a Swiss software manufacturer with a web crawler-based archive system in migrating an intranet system. For the web crawler, *Kotlin* and Selenium were used, while the archive system got a powerful web app with search functionality using GoLang, React, and Apache Solr.
+
+{{< embed-svg "static/svg/tech-stack.svg" >}}
+
+Over the past decade, I have gained experience as Head of IT, IT Architect, Team and Project Leader, Scrum Master, Software Developer, DevOps Engineer, and in charge of IT operations for custom and standard software.
+
+Before becoming self-employed, I was:
+- Head of IT at Habona Invest, an asset manager from Frankfurt am Main,
+- Application Manager in reporting at Union Investment,
+- and Software Engineer in the financial industry for Cofinpro AG.
+
+I have been active in the IT industry since 2010.
+
+My [project portfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}), and [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;provide an overview of the projects of my recent years.
+
+
+## Contact
+
+For initial contact, I am available via [Email](mailto:kontakt@dmalo.de) or [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;and am happy to arrange a phone call or video chat.
+
+{{< rawhtml >}} <br> {{< /rawhtml >}}
+Kind regards,
+
+Denis Malolepszy
+{{< rawhtml >}}<div class="print-only" id="current-date-placeholder">Frankfurt am Main, <span id="current-date"></span></div>{{< /rawhtml >}}
+
+
+# CV Denis Malolepszy
+Chronological CV with time period, position and company. Details on the respective areas of responsibility and project content can be found in the separate [Project List]({{< relref "/consulting/projects" >}}).
+
+## Education
+
+### **Master of Science** | October 2012 - March 2015
+*University of Applied Sciences for Engineering and Economics, Berlin, Germany**
+
+Studied Business Informatics (M.Sc., final grade: 1.4)
+
+### **Bachelor of Science** | October 2008 - May 2012
+*University of Applied Sciences Fulda, Fulda, Germany**
+
+Studied Business Informatics at the University of Applied Sciences Fulda (B.Sc.)
+
+## Professional Experience
+
+### **Chairman of the Supervisory Board** | June 2022 - present
+*DenktMit eG, Oberursel, Germany*
+
+Chairman of the Supervisory Board of [DenktMit eG]({{< ref "/denktmit" >}}), leading an expert network for IT professionals in software engineering
+
+### **Freelance Software Architect** | February 2022 - present
+*Denis Malolepszy Software Engineering, Frankfurt am Main, Germany**
+
+Independent IT consulting in software engineering specializing in Java, Spring, Private Cloud, and databases
+
+### **Sabbatical** | August 2021 — January 2022
+*Norway, Finland, Baltic States, Italy, Spain*
+
+Travel, recreation and development of the consulting business of [DenktMit eG]({{< ref "/denktmit" >}})
+
+### **Head of IT** | October 2018 — July 2021
+*Habona Invest GmbH, Frankfurt am Main, Germany**
+
+Responsible for the IT department of Habona Invest Group (Real Estate Investment and Asset Management)
+
+### **Co-Founder** | May 2021 — present
+*DenktMit eG, Oberursel, Germany**
+
+Co-Founder of [DenktMit eG]({{< ref "/denktmit" >}}) in Oberursel, Germany. Establishment and development of the consulting business for independent members in software engineering
+
+### **Org- & IT-Consultant** | July 2017 — September 2018
+*Union Investment (Union IT-Services GmbH), Frankfurt am Main, Germany**
+
+Application and architecture manager in the statutory reporting department of a large fund management company
+
+### **IT-Consultant** | March 2015 — June 2017
+*Cofinpro AG, Frankfurt am Main, Germany**
+
+Software engineering in the Java environment
+
+### **Student Software Developer** | August 2014 — January 2015
+*Cofinpro AG, Berlin, Germany**
+
+Development of my Master's Thesis "Design of a Procedure Model for IT Security in Software Products"
+
+### **IT-Administrator** | 2009 — 2012
+*Independent, Fulda, Germany**
+
+Maintenance of IT systems for small businesses in freelance form alongside studies
+
+### **Intern Software Developer** | December 2011 — March 2012
+*EDAG GmbH & Co. KGaA, Fulda, Germany**
+
+Development of my Bachelor's Thesis "Development of a Component Version Management for a Bill of Materials Management System Based on a Relational Database"
+
+### **Intern Software Developer** | February 2011 — September 2011
+*EDAG GmbH & Co. KGaA, Fulda, Germany**
+
+Software engineering in the Java environment at EDAG GmbH & Co. KGaA in Fulda, Germany.
+
+### **Intern Software Developer** | August 2010 — September 2010
+*EDAG GmbH & Co. KGaA, Fulda, Germany**
+
+Software engineering in the Java environment at EDAG GmbH & Co. KGaA in Fulda, Germany.
+
+
+# Projektportfolio Denis Malolepszy
+My project portfolio includes projects from my time as a freelancer, as well as permanent positions.
+
+
 ## Modernizing CI/CD for Private Cloud Migration
 ### **March 2022 — September 2023** | DevOps Engineer
 *Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
