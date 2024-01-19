@@ -23,19 +23,26 @@ In this process, I accompany custom software from the *Java ecosystem* through i
 Need support for your project? Message me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;or contact me directly via [Email](mailto:kontakt@dmalo.de).
 
+
 ## Tech Stack
-Technically, I focus on the Java ecosystem, particularly the *Spring Framework*, relational databases, private cloud architectures based on *Kubernetes*, and TypeScript-based frontend technologies like Angular.
+Technically, I focus on the Java ecosystem, particularly the *Spring Framework*, relational databases, DevOps for private cloud architectures based on *Kubernetes*, and Angular frontends.
 
-I bring more than six years of full-time experience in Java and Kotlin with various projects and a wide range of open-source software, frameworks, and libraries like Camunda, Kafka, Camel, Drools, Solr, Angular, Swagger, REST, RPC. Beyond Agile Software Development, I am familiar with methods like Domain-Driven Design and Test-Driven Development.
+I offer more than six years of full-time experience with Java across various projects and a wide selection of open-source software, frameworks, and libraries. Below is a summary of technologies and methods in which I have gained experience. Details of my technological experiences can be found in my [project portfolio]({{< ref "/projects" >}}).
 
-Details of my technological experiences can be found in my [project portfolio]({{< ref "/projects" >}}). I am very open to learning and applying new technologies and methods.
+### Backend/Middleware Technologies
+Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, REST APIs, RPC, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
+
+### Frontend Technologies
+Angular, Bash, RxJS
+
+### DevOps Technologies
+Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, Ansible Tower, ElasticSearch, Kibana (ELK), Jenkins, Bash, Python, Git, Linux, Solaris, Artifactory, Sonar, Xray
+
+### Methods
+Agile Software Development, Test-Driven Development, Domain-Driven Design, Security and Quality Scans for Containers, Artifacts, and Repositories
 
 ## Project Experience
-In 2022 and 2023, I supported the private cloud migration of a large international bank as a *DevOps Engineer with Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift, and Helm*.
-
-I also assisted a Swiss software manufacturer with a web crawler-based archive system in migrating an intranet system. For the web crawler, *Kotlin* and Selenium were used, while the archive system got a powerful web app with search functionality using GoLang, React, and Apache Solr.
-
-{{< embed-svg "static/svg/tech-stack.svg" >}}
+In 2022 and 2023, I supported the private cloud migration of a large international bank as a *DevOps Engineer* using Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift, and Helm.
 
 Over the past decade, I have gained experience as Head of IT, IT Architect, Team and Project Leader, Scrum Master, Software Developer, DevOps Engineer, and in charge of IT operations for custom and standard software.
 
@@ -43,8 +50,6 @@ Before becoming self-employed, I was:
 - Head of IT at Habona Invest, an asset manager from Frankfurt am Main,
 - Application Manager in reporting at Union Investment,
 - and Software Engineer in the financial industry for Cofinpro AG.
-
-I have been active in the IT industry since 2010.
 
 My [project portfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}), and [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;provide an overview of the projects of my recent years.
 
@@ -178,7 +183,7 @@ DevOps and Java development for the private cloud migration of a major internati
 - Git
 {{< /div >}}
 
----
+
 
 
 ## Web Crawler-Based Archiving System
@@ -202,7 +207,7 @@ In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web cra
 - Git
 {{< /div >}}
 
----
+
 
 
 ## Development of a Holiday Resort Project
@@ -220,7 +225,7 @@ As the first project of Pareus Resorts, this greenfield posed special challenges
 - Booking system and online advertising
 - Team building and construction supervision
 
----
+
 
 
 ## Relocation of Network and Server Room
@@ -235,7 +240,7 @@ As Head of IT, I was responsible for network technology, server systems, and wor
 - Relocation of workplace IT equipment
 - Provider selection and coordination
 
----
+
 
 
 ## Establishment of an Internal IT Department
@@ -250,7 +255,7 @@ As Head of IT, I took over an IT department that was completely outsourced to se
 - Modernizing and expanding IT documentation
 - Job interviews and onboarding
 
----
+
 
 
 ## IT Modernization and Microsoft 365 Introduction
@@ -265,7 +270,7 @@ Migration from Microsoft on-premises systems like Active Directory, Exchange Ser
 - User training for new working methods with Microsoft Teams and SharePoint
 - Migration of on-premises systems like Active Directory, Exchange Server, and File Server to Microsoft Cloud Hybrid solutions
 
----
+
 
 
 ## Website for the Sale of Holiday Properties
@@ -281,7 +286,7 @@ Development of a website for the sale of holiday properties, including automated
 - Scrollable and zoomable sitemap for holiday property advertising
 - Coordination of web developers and designers
 
----
+
 
 
 ## Development and Operation of Regulatory Reporting Software
@@ -319,7 +324,7 @@ As a permanent organizational and IT consultant, I was responsible for a range o
 - Subversion und Git
 {{< /div >}}
 
----
+
 
 
 ## Investment Advice Analytics System and Dashboard
@@ -351,7 +356,7 @@ Halfway through the project, I took over the leadership of a five-member develop
 - Subversion
 {{< /div >}}
 
----
+
 
 
 ## Reporting Systems Based on Java EE
@@ -382,7 +387,7 @@ I designed and implemented several reporting systems for legal regulatory report
 {{< /div >}}
 
 
----
+
 
 
 ## Modernization of a Joomla Website
@@ -398,7 +403,7 @@ Modernization of a Joomla website focusing on user-friendliness for the staff of
 - CSS/HTML
 {{< /div >}}
 
----
+
 
 
 ## Modernization of IT Infrastructure
@@ -413,7 +418,7 @@ Administration of Microsoft workstations, mail, and file servers for the Ulenspi
 - Batch (Windows)
 {{< /div >}}
 
----
+
 
 
 ## Product Data Management in Vehicle Development

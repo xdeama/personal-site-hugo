@@ -17,25 +17,31 @@ Ich bin freiberuflicher *Software-Architekt*, *Full Stack Developer* und Mitgrü
 
 Ich entwerfe und entwickle anspruchsvolle [Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}) für die Finanzindustrie, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
 
-Dabei begleite ich Individualsoftware aus dem *Java-Ökosystem* durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Pflege und Wartung.
+Dabei begleite ich Individualsoftware durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Pflege und Wartung.
 
 Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
 
 ## Tech Stack
-Technisch konzentriere ich mich auf das Java-Ökosystem, insbesondere das *Spring-Framework*, relationale Datenbanken, Private Cloud Architekturen basierend auf *Kubernetes* und auf TypeScript basierende Frontend-Technologien wie Angular.
+Technisch konzentriere ich mich auf Anwendungen aus dem Java-Ökosystem, insbesondere *Spring-Framework*, relationale Datenbanken, DevOps für Private Cloud Architekturen basierend auf *Kubernetes* und Angular Frontends.
 
-Ich bringe mehr als sechs Jahre Vollzeiterfahrung in Java und Kotlin mit verschiedenen Projekten und einer breiten Auswahl an Open Source Software, Frameworks und Libraries wie Camunda, Kafka, Camel, Drools, Solr, Angular, Swagger, REST, RPC mit. Über die Agile Software Entwicklung hinaus bin ich mit Methoden wie Domain-driven Design und Test-driven Development vertraut.
+Ich biete mehr als sechs Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten und einer breiten Auswahl an Open Source Software, Frameworks und Libraries. Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahrungen sammeln konnte. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "/projects" >}}). 
 
-Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "/projects" >}}).
-Ich bin sehr offen, neue Technologien und Methoden zu erlernen und anzuwenden.
+### Backend/Middleware Technologien
+Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, REST-APIs, RPC, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
+
+### Frontend Technologien
+Angular, Bash, RxJS
+
+### DevOps Technologien
+Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, Ansible Tower, ElasticSearch, Kibana (ELK), Jenkins, Bash, Python, Git, Linux, Solaris, Artifactory, Sonar, Xray 
+
+### Methoden
+Agile Software Entwicklung, Test-Driven Development, Domain-Driven Design, Security und Quality Scans für Container, Artefakte und Repositories
+
 
 ## Projekterfahrung
-In 2022 und 2023 habe ich als *DevOps Engineer mit Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift und Helm* die Private Cloud Migration einer großen internationalen Bank unterstützt.
-
-Zudem habe ich einen Schweizer Softwarehersteller mit einem Web-Crawler-basierten Archivsystem bei der Migration eines Intranet-Systems unterstützt. Für den Webcrawler kamen *Kotlin* und Selenium zum Einsatz, während das Archivsystem mit GoLang, React und Apache Solr eine leistungsfähige Webapp mit Suchfunktion bekam.
-
-{{< embed-svg "static/svg/tech-stack.svg" >}}
+In 2022 und 2023 habe ich als *DevOps Engineer* mit Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift und Helm die Private Cloud Migration einer großen internationalen Bank unterstützt. 
 
 Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master, Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln. 
 
@@ -43,8 +49,6 @@ Vor meiner Selbstständigkeit war ich:
 - Head of IT bei Habona Invest, einem Asset Manager aus Frankfurt am Main,
 - Application Manager im Meldewesen bei der Union Investment,
 - und Software Engineer in der Finanzbranche für die Cofinpro AG.
-
-In der IT-Branche bin ich seit 2010 tätig.
 
 Mein [Projektportfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;geben eine Übersicht über die Projekte meiner letzten Jahre.
 
@@ -180,7 +184,7 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 - Git
 {{< /div >}}
 
----
+
 
 
 ## Web-Crawler-basiertes Archivsystem
@@ -204,7 +208,7 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 - Git
 {{< /div >}}
 
----
+
 
 
 ## Projektentwicklung eines Ferienresorts
@@ -222,7 +226,7 @@ Als erstes Pareus Resorts, bot dieses Greenfield Projekt während der Coronapand
 - Buchungssystem und Onlinewerbung
 - Teamaufbau und Baubegleitung
 
----
+
 
 
 ## Standortumzug Netzwerk und Serverraum
@@ -237,7 +241,7 @@ Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-A
 - Umzug der Arbeitsplatz-IT-Ausstattung
 - Anbieterauswahl und -koordination
 
----
+
 
 
 ## Aufbau interner IT-Abteilung
@@ -252,7 +256,7 @@ Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT über
 - IT-Dokumentation modernisieren und ausbauen
 - Bewerbungsgespräche und Onboarding
 
----
+
 
 
 ## IT-Modernisierung und Microsoft 365 Einführung
@@ -267,7 +271,7 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 - Anwenderschulung für neue Arbeitsmethoden mit Microsoft Teams und Sharepoint
 - Migration von On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid Lösungen
 
----
+
 
 
 ## Webseite für Vertrieb von Ferienimmobilien
@@ -283,7 +287,7 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 - Scroll- und zoombare Sitemap für Ferienimmobilienwerbung
 - Koordination von Webentwicklern und Designer
 
----
+
 
 
 ## Entwicklung und Betrieb von Meldewesen Software
@@ -321,7 +325,7 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 - Subversion und Git
 {{< /div >}}
 
----
+
 
 
 ## Investment Advice Analytics System und Dashboard
@@ -354,7 +358,7 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 - Subversion
 {{< /div >}}
 
----
+
 
 
 ## Reporting Systeme auf Java EE Basis
@@ -384,7 +388,7 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 - Subversion
 {{< /div >}}
 
----
+
 
 
 ## Modernisierung einer Joomla Webseite
@@ -400,7 +404,7 @@ Modernisierung einer Joomla Webseite mit Schwerpunkt Anwenderfreundlichkeit für
 - CSS/HTML
 {{< /div >}}
 
----
+
 
 
 ## Modernisierung der IT-Infrastruktur
@@ -415,7 +419,7 @@ Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung 
 - Batch (Windows)
 {{< /div >}}
 
----
+
 
 
 ## Produktdatenmanagement in der Fahrzeugentwicklung
