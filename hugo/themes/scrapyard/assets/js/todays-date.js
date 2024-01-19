@@ -7,4 +7,4 @@ const year = currentDate.getFullYear();
 const formattedDate = `${day}.${month}.${year}`;
 
 const currentDateElement = document.getElementById("current-date");
-currentDateElement.textContent = formattedDate;
+currentDateElement ? currentDateElement.textContent = formattedDate : null;
