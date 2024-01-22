@@ -27,7 +27,7 @@ Need support for your project? Message me on [LinkedIn](https://www.linkedin.com
 ## Tech Stack
 Technically, I focus on the Java ecosystem, particularly the *Spring Framework*, relational databases, DevOps for private cloud architectures based on *Kubernetes*, and Angular frontends.
 
-I offer more than six years of full-time experience with Java across various projects and a wide selection of open-source software, frameworks, and libraries. Below is a summary of technologies and methods in which I have gained experience. Details of my technological experiences can be found in my [project portfolio]({{< ref "/projects" >}}).
+Below is a summary of technologies and methods in which I have gained experience. Details of my technological experiences can be found in my [project portfolio]({{< ref "/projects" >}}).
 
 ### Backend/Middleware Technologies
 Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, REST APIs, RPC, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres

@@ -25,7 +25,7 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 ## Tech Stack
 Technisch konzentriere ich mich auf Anwendungen aus dem Java-Ökosystem, insbesondere *Spring-Framework*, relationale Datenbanken, DevOps für Private Cloud Architekturen basierend auf *Kubernetes* und Angular Frontends.
 
-Ich biete mehr als sechs Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten und einer breiten Auswahl an Open Source Software, Frameworks und Libraries. Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahrungen sammeln konnte. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "/projects" >}}). 
+Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahrungen sammeln konnte. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "/projects" >}}). 
 
 ### Backend/Middleware Technologien
 Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, REST-APIs, RPC, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
@@ -43,7 +43,7 @@ Agile Software Entwicklung, Test-Driven Development, Domain-Driven Design, Secur
 ## Projekterfahrung
 In 2022 und 2023 habe ich als *DevOps Engineer* mit Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift und Helm die Private Cloud Migration einer großen internationalen Bank unterstützt. 
 
-Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master, Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln. 
+Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master, Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln.
 
 Vor meiner Selbstständigkeit war ich:
 - Head of IT bei Habona Invest, einem Asset Manager aus Frankfurt am Main,
