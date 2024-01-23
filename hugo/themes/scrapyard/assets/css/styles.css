@@ -295,3 +295,7 @@
   grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
   gap: 1rem;
 }
+
+.li-flow-space > li {
+  margin-bottom: var(--flow-space);
+}

@@ -2,7 +2,7 @@
     <article class="wrapper region prose flow">
         {{ partial "heading.html" . }}
 
-        <ul>
+        <ul class="li-flow-space">
         {{ range .Pages }}
             <li>
                 <strong><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></strong>
