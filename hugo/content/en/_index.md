@@ -9,7 +9,7 @@ draft: false
 
 I am a freelance software architect, full stack developer and co-founder of [DenktMit]({{< ref "/denktmit" >}}), an expert network of self-employed IT specialists.
 
-{{< to-img src="denis.jpeg" class="profile-img frame" alt="Denis" >}}
+{{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
 
 I design and implement [sophisticated custom software]({{< ref "/consulting" >}}) for the finance industry that stands the test of time through maintainability, resilience, and observability.
 

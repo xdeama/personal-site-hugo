@@ -231,15 +231,15 @@
 }
 
 .profile-img {
-  --n: 100;
-  --d: 81;
-  max-width: 13rem;
+  --n: 554;
+  --d: 485;
+  max-width: 17rem;
   border-radius: 2%;
   display: block;
   margin: 3rem auto;
   box-shadow:
-    -50px -50px 0 -35px var(--color-profile-frame),
-    50px 50px 0 -35px var(--color-profile-frame);
+    -50px -50px 0 -42px var(--color-profile-frame),
+    50px 50px 0 -42px var(--color-profile-frame);
 }
 
 .profile-printable-img {

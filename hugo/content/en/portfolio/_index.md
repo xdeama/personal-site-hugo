@@ -14,7 +14,7 @@ robots:
 ## Hello, I'm Denis
 I am a freelance *Software Architect*, *Full Stack Developer*, and co-founder of [DenktMit]({{< ref "/denktmit" >}}), a network of independent IT specialists. Currently, I live and work in Frankfurt am Main.
 
-{{< to-img src="denis.jpg" class="profile-printable-img frame" alt="Denis" >}}
+{{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
 
 I design and develop sophisticated [custom software and cloud infrastructure]({{< ref "/consulting" >}}) for the financial industry that stands the test of time with maintainability, resilience, and traceability.
 

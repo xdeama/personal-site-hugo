@@ -1,5 +1,5 @@
 # personal-site-hugo
-My personal website https://dmalo.de made with Hugo, a self made custom theme and fluid responsive CSS. Inspired by https://andy-bell.co.uk/ and his guide on CSS https://every-layout.dev. Actually, I made this website mainly because I needed an excuse to start a css project scratch.
+My personal website https://dmalo.de made with Hugo, a self made custom theme and fluid responsive CSS. Inspired by https://andy-bell.co.uk/ and his guide on CSS https://every-layout.dev. Actually, I made this website mainly because I needed an excuse to start a css project from scratch, without Bootstrap, Tailwind or readymade themes.
 
 # status
 Theme and CSS in need of cleanup and are not yet standalone usable. 
@@ -73,7 +73,13 @@ Does exactly what it says. Beware: **hugo --minify** might delete your whitespac
 ```
 {{< to-img src="image.png" class="profile-img frame" alt="Alt description" >}}
 ```
-Creates an img tag with classes, style and alt text.
+Includes an img tag with classes, style, alt text and a relative path (i.e. next to a markdown file).
+
+### static-img
+```
+{{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
+```
+Includes an img tag with classes, style, alt text from the static assets folder */static/img*.
 
 ### embed-svg
 Embed is used to embed the SVG code into the HTML code, with the advantage of supporting dark mode by fill color through CSS.
