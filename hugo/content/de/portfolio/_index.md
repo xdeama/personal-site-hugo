@@ -156,8 +156,8 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 
 - Azure DevOps Migration eines CI/CD-Portals für Container, VM und Datenbank Deployments
 - Spring Microservices von VMs zu Containern und abhängige Systeme wie Datenbanken und Observability zu OpenShift migrieren
-- Automatisierung von komplexen Deploymentmechanismen für VMs mit Ansible und Reactive Spring (z.B. Batch Deployments mit abhängigen Komponenten, und automatische Sidecars)
-- Interne Architektur und IT-Risk Governance Prozesse zur Private Cloud Migration erbproben
+- Automatisierung von komplexen Deployment-Mechanismen für VMs mit Ansible und Reactive Spring (z.B. Batch Deployments mit abhängigen Komponenten, und automatische Sidecars)
+- Interne Architektur und IT-Risk Governance Prozesse zur Private Cloud Migration erproben
 - Analyse, Containerisierung und Portierung einer bestehenden Datenbank-Anonymisierungslösung
 - Migration von Jenkins Deployment Pipelines zu Azure DevOps
 
@@ -297,9 +297,9 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von Projekten und Betriebsthemen verantwortlich:
 
 - Architekturverantwortung für die Weiterentwicklung der Systemlandschaft
-- Projektbetreuung für neue Reportinganwendungen zur Erfüllung gesetzlicher Auflagen von Ausschreibungen, über Konzeption bis Inbetriebnahme
-- Migration von JBoss AS 7 Servergroup mit 45 Servern auf Standalone Wildfly Server
-- Weiterentwicklung der Build- und Deploymentautomatisierung mit Maven, Jenkins, Sonar, und Sonatype Nexus
+- Projektbetreuung für neue Reporting-Anwendungen zur Erfüllung gesetzlicher Auflagen von Ausschreibungen, über Konzeption bis Inbetriebnahme
+- Migration von JBoss AS 7 Server Group mit 45 Servern auf Standalone Wildfly Server
+- Weiterentwicklung der Build- und Deployment-Automatisierung mit Maven, Jenkins, Sonar, und Sonatype Nexus
 - Betrieb der Build- und Deployment Tools für Deployments auf 45 Java EE Server
 - Einführung automatisierter Integrationstests für Reporting Backend mit Java EE, Maven, Jenkins und Docker
 - Einführung automatisierter Integrationstests für Reporting Frontend mit Robot Framework
