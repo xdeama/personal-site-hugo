@@ -297,5 +297,5 @@
 }
 
 .li-flow-space > li {
-  margin-bottom: var(--flow-space);
+  margin-bottom: var(--space-xs);
 }
