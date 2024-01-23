@@ -1,0 +1,4 @@
+input_file: ../hugo/content/de/portfolio/_index.md
+template_file: template.docx
+header_file: header_for_docx.md
+output_file: Portfolio Denis Malolepszy.docx
