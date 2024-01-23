@@ -31,10 +31,10 @@ Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahru
 Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, REST-APIs, RPC, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
 
 ### Frontend Technologien
-Angular, Bash, RxJS
+Angular, TypeScript
 
 ### DevOps Technologien
-Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, Ansible Tower, ElasticSearch, Kibana (ELK), Jenkins, Bash, Python, Git, Linux, Solaris, Artifactory, Sonar, Xray 
+Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, Ansible Tower, ElasticSearch, Kibana (ELK), Jenkins, Bash, Python, Git, Linux, Solaris, Artifactory, Sonar 
 
 ### Methoden
 Agile Software Entwicklung, Test-Driven Development, Domain-Driven Design, Security und Quality Scans für Container, Artefakte und Repositories

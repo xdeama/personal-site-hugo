@@ -33,10 +33,10 @@ Below is a summary of technologies and methods in which I have gained experience
 Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, REST APIs, RPC, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
 
 ### Frontend Technologies
-Angular, Bash, RxJS
+Angular, TypeScript
 
 ### DevOps Technologies
-Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, Ansible Tower, ElasticSearch, Kibana (ELK), Jenkins, Bash, Python, Git, Linux, Solaris, Artifactory, Sonar, Xray
+Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, Ansible Tower, ElasticSearch, Kibana (ELK), Jenkins, Bash, Python, Git, Linux, Solaris, Artifactory, Sonar
 
 ### Methods
 Agile Software Development, Test-Driven Development, Domain-Driven Design, Security and Quality Scans for Containers, Artifacts, and Repositories
