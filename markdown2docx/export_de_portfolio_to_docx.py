@@ -40,10 +40,10 @@ def transform_elements(markdown_content):
 
     markdown_content = re.sub(r'title: Portfolio', 'title: Portfolio Denis Malolepszy', markdown_content)
 
-    current_date = datetime.datetime.now().strftime('%d.%m.%Y')
     markdown_content = re.sub(r'<div class="print-only" id="current-date-placeholder">Frankfurt am Main, den <span id="current-date"></span></div>', f'Frankfurt am Main, den {current_date}', markdown_content)
 
     return markdown_content
+
 
 config = {}
 try:
@@ -57,7 +57,7 @@ except yaml.YAMLError as e:
     exit(1)
 
 # Validate configuration
-required_keys = ['input_file', 'template_file', 'header_file', 'output_file']
+required_keys = ['input_file_de', 'input_file_en', 'template_file', 'header_file_de', 'header_file_en', 'output_file_de', 'output_file_en']
 for key in required_keys:
     if key not in config:
         print(f"Error: '{key}' is missing in config.yaml.")
@@ -65,22 +65,27 @@ for key in required_keys:
 
 # Check file extensions
 file_extensions = {
-    'input_file': '.md',
+    'input_file_de': '.md',
+    'input_file_en': '.md',
     'template_file': '.docx',
-    'header_file': '.md',
-    'output_file': '.docx',
+    'header_file_de': '.md',
+    'header_file_en': '.md',
+    'output_file_de': '.docx',
+    'output_file_en': '.docx',
 }
 for key, expected_extension in file_extensions.items():
     if not config[key].endswith(expected_extension):
         print(f"Error: '{key}' has an incorrect file extension. Expected: {expected_extension}")
         exit(1)
 
-input_file = config['input_file']
+input_file = config['input_file_de']
 template_file = config['template_file']
-header_file = config['header_file']
-output_file = config['output_file']
+header_file = config['header_file_de']
+output_file = config['output_file_de']
 
 try:
+    current_date = datetime.datetime.now().strftime('%d.%m.%Y')
+
     with open(input_file, 'r') as file:
         markdown_content = file.read()
 
@@ -95,7 +100,7 @@ try:
     with open(temp_file, 'w') as file:
         file.write(markdown_content)
 
-    subprocess.run(['pandoc', '--reference-doc='+template_file, '-o', output_file, '-f', 'markdown', '-t', 'docx', temp_file])
+    subprocess.run(['pandoc', '--reference-doc='+template_file, '-o', f'output/{current_date} {output_file}', '-f', 'markdown', '-t', 'docx', temp_file])
 
     os.remove(temp_file)
 

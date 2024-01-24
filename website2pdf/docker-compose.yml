@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  selenium-chrome:
+    image: selenium/standalone-chrome:latest
+    #platform: linux/arm64/v8
+    container_name: selenium-chrome
+    shm_size: 2gb
+    ports:
+      - "4444:4444"
