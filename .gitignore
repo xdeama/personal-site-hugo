@@ -58,3 +58,6 @@ build-iPhoneSimulator/
 /hugo/public/
 /hugo/resources/_gen/
 /hugo/.hugo_build.lock
+/venv/
+/markdown2docx/output/
+/website2pdf/output/
