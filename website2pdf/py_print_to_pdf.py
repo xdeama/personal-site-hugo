@@ -44,26 +44,29 @@ def print_to_pdf(driver, source_url, output_file):
 
 
 def main():
+    current_date_iso_8601 = datetime.datetime.now().strftime('%Y-%m-%d')
+
     chrome_options = Options()
     chrome_options.add_argument("--headless")
 
     driver = webdriver.Remote(
-        command_executor='http://localhost:4444/wd/hub',
+        command_executor='http://localhost:4444',
         options=chrome_options
     )
 
     try:
-        current_date = datetime.datetime.now().strftime('%Y-%m-%d')
-
         print_to_pdf(driver,
                      "http://dmalo.de/de/portfolio?theme=light",
-                     f'output/{current_date} Portfolio Denis Malolepszy_Deutsch.pdf')
+                     f'output/{current_date_iso_8601} Portfolio Denis Malolepszy_Deutsch.pdf')
 
         print_to_pdf(driver,
                      "http://dmalo.de/en/portfolio?theme=light",
-                     f'output/{current_date} Portfolio Denis Malolepszy_English.pdf')
+                     f'output/{current_date_iso_8601} Portfolio Denis Malolepszy_English.pdf')
+
+        print(f"pdf conversion completed")
     finally:
         driver.quit()
+
 
 if __name__ == "__main__":
     main()

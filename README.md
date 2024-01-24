@@ -3,7 +3,7 @@ My personal website https://dmalo.de made with Hugo, a self made custom theme an
 
 # status
 Theme and CSS in need of cleanup and are not yet standalone usable. 
-
+Markdown to PDF and DOCX conversion is experimental and might not work on your machine.
 
 # features
 - language switcher that keeps you on the current page

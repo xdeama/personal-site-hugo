@@ -1,25 +1,18 @@
 name: scrapyard
-license: MIT
-licenselink: https://github.com/owner/repo/LICENSE
-description: Theme description
-homepage: https://github.com/owner/repo
-demosite: https://owner.github.io/repo
+license: GNU General Public License v3.0
+licenselink: https://github.com/xdeama/personal-site-hugo/blob/main/LICENSE
+description: Retro Markdown Style Personal Homepage Theme
+homepage: https://github.com/xdeama/personal-site-hugo
+demosite: https://www.dmalo.de
 tags:
   - blog
-  - company
+  - freelancer
+  - basic
+  - low-design
 features:
-  - some
-  - awesome
-  - features
-authors:
-  - name: Name of author
-    homepage: Website of author
-  - name: Name of author
-    homepage: Website of author
+  - responsive
+  - code syntax highlighting
+  - pdf and docx export for your profile
 author:
-  name: Your name
-  homepage: Your website
-original:
-  author: Name of original author
-  homepage: Website of original author
-  repo: https://github.com/owner/repo
+  name: Denis Malolepszy
+  homepage: https://www.dmalo.de
