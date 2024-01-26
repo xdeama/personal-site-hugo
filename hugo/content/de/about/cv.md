@@ -10,7 +10,7 @@ robots:
   follow: false
 ---
 
-Tabellarischer Lebenslauf mit Zeitraum, Position und Unternehmen. Details zu den jeweiligen Aufgabenfeldern und Projektinhalten befinden sich in der separaten [Projektliste]({{< relref "/consulting/projects" >}}).
+Tabellarischer Lebenslauf mit Zeitraum, Position und Unternehmen. Details zu den jeweiligen Aufgabenfeldern und Projektinhalten befinden sich in der separaten [Projektportfolio]({{< relref "/consulting/projects" >}}).
 
 ## Studium
 
