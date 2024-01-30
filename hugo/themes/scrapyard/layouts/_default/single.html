@@ -11,7 +11,7 @@
     {{ partial "blog-author.html" . }}
 
     <div>
-        <a href="{{ (site.GetPage "posts.md").Permalink }}">{{ T "backToBlog" }}</a>
+        <a href="{{ (site.GetPage "blog/_index.md").Permalink }}">{{ T "backToBlog" }}</a>
     </div>
 </article>
 {{ end }}

@@ -1,12 +1,13 @@
 ---
 translationKey: about
-title: About Denis
+title: About
+description: Full Stack Developer & Software-Architekt — Java & Cloud Native
 date: 2023-11-10T13:59:19+01:00
 draft: false
 layout: standalone
 ---
 
-My name is Denis Malolepszy, and I have been active in the IT industry since 2010. Currently, I am based in Frankfurt am Main.
+I'm Denis Malolepszy, active in the IT industry since 2010. Based in Frankfurt am Main.
 
 In 2022, I started my own business as a software architect and took over the chairmanship of the supervisory board of [DenktMit]({{< relref "/denktmit" >}}), a cooperative that I co-founded in 2021.
 

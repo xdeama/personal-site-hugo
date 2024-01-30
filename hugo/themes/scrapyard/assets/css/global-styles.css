@@ -90,12 +90,13 @@ a {
   text-decoration-thickness: 2px;
   text-underline-offset: 0.2ex;
   text-decoration-color: var(--color-primary);
-  /*color: var(--color-primary);*/
+  /*color: var(--color-primary-shade);*/
   /*text-decoration: none;*/
 }
 
 [class*='bg-primary'] a {
-  text-decoration-color: var(--color-dark);
+  text-decoration-color: var(--color-primary-shade);
+  --color-hover: var(--color-primary-shade);
 }
 
 @media (hover: hover) {

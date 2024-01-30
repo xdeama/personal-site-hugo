@@ -3,7 +3,26 @@
 }
 
 .bg-primary {
+  background-color: var(--color-primary);
+}
+
+
+.bg-primary-glare {
   background-color: var(--color-primary-glare);
+}
+
+.bg-primary-shade {
+  background-color: var(--color-primary-shade);
+}
+
+.bg-primary-pale {
+  background-color: var(--color-primary-pale);
+}
+
+.border-dotted {
+  border-color: var(--color-mid);
+  border-style: dotted;
+  border-width: thick;
 }
 
 .p-m {
