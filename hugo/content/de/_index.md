@@ -1,6 +1,7 @@
 ---
 translationKey: home
 title: Startseite
+description: Full Stack Developer & Software-Architekt — Java & Cloud Native
 date: 2023-01-01T08:00:00-07:00
 draft: false
 ---

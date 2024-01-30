@@ -3,6 +3,7 @@ translationKey: home
 title: home
 date: 2023-01-01T08:00:00-07:00
 draft: false
+description: Full Stack Developer & Software-Architekt — Java & Cloud Native
 ---
 
 # Hi, I'm Denis
