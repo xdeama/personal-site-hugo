@@ -183,15 +183,15 @@ code {
 }
 
 pre {
-  padding: var(--space-s-l);
+  padding: var(--space-3xs-2xs);
 
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 
-  width: 100vw;
-  max-width: 51rem;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  /*width: 100vw;*/
+  /*max-width: 51rem;*/
+  /*margin-left: 50%;*/
+  /*transform: translateX(-50%);*/
   line-height: 1.1em;
 }
 

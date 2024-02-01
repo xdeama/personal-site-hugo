@@ -20,7 +20,7 @@
   --lightmode-color-profile-frame: var(--lightmode-color-mid);
 
   /* light mode chroma syntax highlighting colors */
-  --lightmode-chroma-color-background: #ffffff;
+  --lightmode-chroma-color-background: #d7d7d7;
   --lightmode-chroma-color-error-text: #a61717;
   --lightmode-chroma-color-error-background: #e3d2d2;
   --lightmode-chroma-color-highlight: #e5e5e5;
@@ -57,7 +57,7 @@
   --darkmode-color-profile-frame: var(--color-mid);
 
   /* dark mode chroma syntax highlighting colors */
-  --darkmode-chroma-color-background: #292929;
+  --darkmode-chroma-color-background: #3b3b3b;
   --darkmode-chroma-color-error-text: #f85149;
   --darkmode-chroma-color-error-background: #0d1117;
   --darkmode-chroma-color-highlight: #6e7681;
