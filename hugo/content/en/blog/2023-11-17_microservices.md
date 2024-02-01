@@ -1,7 +1,7 @@
 ---
 translationKey: blog_microservices
 title: 'The Rise and Fall of Micro Services'
-description: 'Developers are increasingly turning away from microservices. Explaining why to non-developers.'
+description: 'Developers are increasingly turning away from microservices - Explaining why to non-developers'
 date: 2023-11-17T10:15:00-01:00
 draft: false
 tags: 
