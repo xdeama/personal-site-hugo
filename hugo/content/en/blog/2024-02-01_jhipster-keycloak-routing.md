@@ -14,7 +14,7 @@ The login link will try to route you a URL like
 
 Which will fail, since keycloak is unknown to your DNS.
 
-Docker uses service names like 'keycloak' for internal communication between services. However, web browsers don't inherently understand these internal service names, leading to routing errors when trying to access Keycloak.
+Docker uses service names like *keycloak* for internal communication between services. However, web browsers don't inherently understand these internal service names, leading to routing errors when trying to access Keycloak.
 
 If you're fixing this by replacing keycloak with localhost manually in your browsers URL bar, you'll likely be able to login but fail on the return URL with
 
@@ -26,7 +26,7 @@ If you're fixing this by replacing keycloak with localhost manually in your brow
 
 Typically, you'd solve this by adding an entry to your system's hosts file, but this can be inconvenient or restricted on work machines. There is a straightforward alternative solution.
 
-To avoid modifying your hosts file, you can use a more elegant workaround using a webbrowser with host resolver overwrite options, like Chromium. On macOS with Chromium installed, you should be able to use this terminal command to open a Chromium Session with its own host resolver overwrite for keycloak to localhost:
+To avoid modifying your hosts file, you can use a more elegant workaround using a webbrowser with host resolver overwrite options, like Chromium. On macOS with Chromium installed, you should be able to use this terminal command to open a Chromium Session with its own host resolver overwrite for *keycloak* to *localhost*:
 
 ```zsh
 chromium --host-resolver-rules="MAP keycloak localhost" http://localhost:8081
