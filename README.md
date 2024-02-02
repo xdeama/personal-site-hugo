@@ -14,7 +14,7 @@ Markdown to PDF and DOCX conversion is experimental and might not work on your m
 - the theme uses JavaScript for darkmode toggling and a fullscreen overlay for images, so the website is usable and all information accessible without JavaScript enabled
 
 
-# Documentation
+# documentation
 
 ## run dev server
 ./hugo-serve-dev.sh
@@ -60,7 +60,7 @@ The required file structure:
     - index.md
     - filename.png
 ```
-## Shortcodes
+## shortcodes
 The following shortcodes are meant for usage in markdown:
 
 ### rawhtml
