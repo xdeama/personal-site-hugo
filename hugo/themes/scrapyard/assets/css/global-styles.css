@@ -245,3 +245,19 @@ pre code ::selection {
   background: var(--color-primary) !important;
   color: var(--color-dark) !important;
 }
+
+.color-mid {
+  color: var(--color-mid);
+}
+
+.font-size-06 {
+  font-size: var(--size-step-06);
+} 
+
+.li-more-padding {
+  padding-bottom: var(--space-xs);
+}
+
+span.keeptogether {
+  white-space: nowrap ;
+}
