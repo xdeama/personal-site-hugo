@@ -2,7 +2,7 @@
 translationKey: githubSshSignature
 title: GitHub Commits mit SSH statt GPG signieren
 heading: GitHub Commits mit SSH statt GPG signieren
-description: GitHub Commits können mit dem selben SSH Schlüssel signiert werden, mit dem sie gepusht werden
+description: GitHub Commits mit dem selben SSH Schlüssel signieren, mit dem sie übermittelt werden.
 date: 2024-02-27T14:00:00+01:00
 draft: false
 ---

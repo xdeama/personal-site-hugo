@@ -1,7 +1,7 @@
 ---
 translationKey: blog_microservices
 title: 'Aufstieg und Fall der Micro Services'
-description: 'Entwickler wenden sich zunehmend von Microservices Architektur ab - Eine Erklärung für Nicht-Entwickler'
+description: 'Entwickler wenden sich zunehmend von Microservices Architektur ab - Eine Erklärung für Nicht-Entwickler.'
 date: 2023-11-17T10:15:00-01:00
 draft: false
 tags: 

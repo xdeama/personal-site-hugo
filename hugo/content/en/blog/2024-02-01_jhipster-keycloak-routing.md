@@ -2,7 +2,7 @@
 translationKey: jhkcrouting
 title: Fixing jHipster Keycloak Local Routing Issues
 heading: Fixing jHipster Local Development Keycloak Routing Errors
-description: Fixing local dev environment Keycloak routing errors with jHipster by adjusting browser settings
+description: Fixing local dev environment Keycloak routing errors with jHipster by adjusting browser settings.
 date: 2024-02-01T14:59:59+01:00
 draft: false
 ---

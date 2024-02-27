@@ -1,7 +1,7 @@
 ---
 translationKey: blog_hugolangswitcher
 title: 'Ein Sprachwechsel-Link für Hugo Webseiten'
-description: 'Sprachwechsel-Link für den Hugo Static Site Generator im Multilingual Mode, welcher die aktuelle Seite in anderen Sprachen öffnet'
+description: 'Ein Sprachwechsel-Link für den Hugo Static Site Generator im Multilingual Mode, welcher die aktuelle Seite in anderen Sprachen öffnet.'
 date: 2023-11-16T14:00:00-07:00
 draft: false
 tags: hugo

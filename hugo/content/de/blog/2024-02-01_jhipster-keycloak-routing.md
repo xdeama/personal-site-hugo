@@ -1,8 +1,8 @@
 ---
 translationKey: jhkcrouting
-title: jHipster Routingprobleme mit Keycloak in der Entwicklungsumgebung beheben
-heading: Behebung von Routing-Fehlern bei der lokalen Entwicklung von jHipster mit Keycloak
-description: Behebung von Routing-Fehlern in der lokalen Entwicklungsumgebung mit JHipster und Keycloak
+title: Routingprobleme mit jHipster in der lokalen Entwicklungsumgebung beheben
+heading: Routingprobleme mit jHipster in der lokalen Entwicklungsumgebung beheben
+description: Behebung von Routing-Fehlern in der lokalen Entwicklungsumgebung mit JHipster und Keycloak.
 date: 2024-02-01T14:59:59+01:00
 draft: false
 ---
