@@ -6,7 +6,10 @@
         <div class="hide-on-print">
             <ul class="flow" role="list">
                 {{ range (where .Site.RegularPages "Section" "blog") }}
-                    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+                    <li>
+                        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                        <span class="color-mid font-size-06 keeptogether">{ {{ .Date | dateFormat "2006-01-02" }} }</span>
+                    </li>
                 {{ end }}
             </ul>
         </div>
