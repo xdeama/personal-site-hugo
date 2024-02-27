@@ -6,7 +6,7 @@
         {{ range .Pages }}
             <li class="li-more-padding">
                 <strong><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></strong>
-                {{ if .Date }} <span class="color-mid font-size-06">{ {{ .Date | dateFormat "2006-01-02" }} }</span>{{ end }}
+                {{ if .Date }} <span class="color-mid font-size-06 keeptogether">{ {{ .Date | dateFormat "2006-01-02" }} }</span>{{ end }}
                 {{ if .Description }}
                 <br> {{ .Description }}
                 {{ end }}
