@@ -9,7 +9,8 @@ robots:
   follow: false
 ---
 
-My project portfolio includes projects from my time as a freelancer, as well as permanent positions.
+My project portfolio includes projects from my time as a freelancer, as well as permanent positions. For a short overview on my employers, see my [CV]({{< ref "/about/cv" >}}).
+
 
 
 ## Modernizing CI/CD for Private Cloud Migration

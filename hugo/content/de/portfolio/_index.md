@@ -48,7 +48,7 @@ In 2022 und 2023 habe ich als *DevOps Engineer* mit Azure DevOps, Java, Spring, 
 Vor meiner Selbstständigkeit war ich:
 - Head of IT bei Habona Invest, einem Asset Manager aus Frankfurt am Main,
 - Application Manager im Meldewesen bei der Union Investment,
-- und Software Engineer in der Finanzbranche für die Cofinpro AG.
+- und Software Engineer in der Finanzbranche für Cofinpro AG.
 
 Mein [Projektportfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;geben eine Übersicht über die Projekte meiner letzten Jahre.
 

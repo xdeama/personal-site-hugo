@@ -1,0 +1,3 @@
+{{ $path := .Get 0 }}
+{{ $svgContent := readFile $path | safeHTML }}
+<div class="hidden-on-desktop">{{ $svgContent }}</div>

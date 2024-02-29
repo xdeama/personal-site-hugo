@@ -9,7 +9,7 @@ robots:
   follow: false
 ---
 
-Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen.
+Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen. Eine kurze Übersicht meiner Arbeitgeber enthält mein [CV]({{< ref "/about/cv" >}}).
 
 
 ## CI/CD für Private Cloud Migration modernisieren

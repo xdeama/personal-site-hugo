@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - two-column-poc
 
   workflow_dispatch:
 

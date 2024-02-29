@@ -202,3 +202,51 @@ Consistent block padding for page sections
     block-size: 100%;
     object-fit: cover;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column-short {
+    display: flex;
+    flex-direction: column;
+    flex: 40%;
+}
+
+.column-long {
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+}
+
+@media (max-width: 850px) {
+    .row {
+        margin-top: 0;
+    }
+
+    .column-short, .column-long {
+        flex: 0 0 100%;
+    }
+
+    .hide-on-mobile { 
+        display: none;
+    }
+
+    .hidden-on-desktop {
+        display: block;
+        margin-top: 0;
+    }
+
+    .column-long > h2 {
+        margin-top: var(--flow-space);
+    }
+  }
+
+  @media (min-width: 851px) {
+    .hidden-on-desktop {
+        display: none !important; 
+    }
+}

@@ -96,18 +96,59 @@
   left: 0;
 }
 
+.prose img + p {
+  margin-top: 0;
+}
+
+.prose div + p {
+  --flow-space: var(--space-3xs-2xs);
+}
+
+.prose .column-long > p:first-child {
+  margin-top: 0;
+}
+
+.prose .column-short > svg {
+  margin-top: 0 !important;
+}
+
+.prose .row + .row {
+  --flow-space: var(--space-xl);
+}
+
 .prose > svg,
-.prose > a > svg {
-  width: 10rem;
-  height: 10rem;
+.prose > .row > .column-short > svg,
+.prose > a > svg,
+.prose > .row > .column-short > a > svg,
+.hidden-on-desktop > svg {
+  width: 14rem;
+  height: 14rem;
   display: block;
   margin-top: var(--flow-space);
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: var(--flow-space);
   color: var(--color-dark);
 }
 
-.prose > a > svg:hover {
+@media (max-width: 850px) {
+  .prose > svg,
+  .prose > .row > .column-short > svg,
+  .prose > a > svg,
+  .prose > .row > .column-short > a > svg,
+  .hidden-on-desktop > svg {
+    width: 10rem;
+    height: 10rem;
+    margin-top: var(--space-s);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: var(--space-s);
+  }
+}
+
+.prose > a > svg:hover,
+.prose > .row > .column-short > a > svg:hover,
+.hidden-on-desktop > svg:hover {
   color: var(--color-primary);
 }
 
@@ -156,7 +197,7 @@
 }
 
 .prose :is(figure, figure + *, h2) {
-  --flow-space: var(--space-l-xl);
+  --flow-space: var(--space-l);
 }
 
 .prose :is(h1) {
@@ -171,16 +212,21 @@
   --flow-space: var(--space-s-m);
 }
 
-.prose :is(h1 + p, h2 + p) {
+.prose :is(h1 + p, h2 + p, h2 + .row) {
   --flow-space: var(--space-xs);
 }
 
-.prose :is(h3 + p, h4 + p, p + p){
+.prose :is(h3 + p, h4 + p, p + p, a + p){
   --flow-space: var(--space-3xs-2xs);
 }
 
 .prose :is(p + h2, p + h3, p + h4) {
   --flow-space: var(--space-l);
+}
+
+.prose :is(.row + h2, .row + h3, .row + h4) {
+  --flow-space: var(--space-s);
+  margin-top: var(--flow-space);
 }
 
 @media (max-width: 49em) {
@@ -255,7 +301,7 @@
   max-width: 17rem;
   border-radius: 2%;
   display: block;
-  margin: 3rem auto;
+  margin: 2rem auto;
   box-shadow:
     -50px -50px 0 -42px var(--color-profile-frame),
     50px 50px 0 -42px var(--color-profile-frame);
