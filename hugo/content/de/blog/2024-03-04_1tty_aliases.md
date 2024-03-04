@@ -41,6 +41,7 @@ In diesem Beispiel sind bereits drei Seiten-Aliases enthalten: */auch-die-homepa
 
 Falls du noch keine *.eleventy.js* in deinem Eleventy Projekt Rootverzeichnis hast, erstelle die Default-Konfiguration nach der [aktuellen Dokumentation](https://www.11ty.dev/docs/config/). Beispiel:
 
+**.eleventy.js**
 ```javascript
 module.exports = function(eleventyConfig) {
   // Return your Object options:
@@ -56,6 +57,7 @@ module.exports = function(eleventyConfig) {
 Erweitere dann deine .eleventy.js-Datei mit der folgenden Logik, um 'Aliases' aus dem Frontmatter aller deiner Markdown-Dateien in einer Collection namens frontmatterAliases zu sammeln.ie Filteranweisung *src/**/*.md* sollte an deine Projektstruktur angepasst werden. 
 
 
+**.eleventy.js**
 ```javascript
 module.exports = function(eleventyConfig) {
 
@@ -83,7 +85,7 @@ return {
 
 ```
 
-Auszug meiner relevanten Projektstruktur:
+**Auszug meiner relevanten Projekt-Dateistruktur:**
 ```
 /my-11ty-project/src/ (enthält alle Markdown Content Dateien, wie z.B. die folgenden)
 /my-11ty-project/src/index.md
@@ -100,6 +102,7 @@ Auszug meiner relevanten Projektstruktur:
 ## Schritt 2: Für jeden Seiten-Alias automatisiert eine Seite anlegen
 In deinem Content Ordner, in meinem Fall */src/* legst du eine Template-Datei *redirects.njk*. Ich verwende in diesem Beispiel [Nunjucks Templates](https://mozilla.github.io/nunjucks/). Der Ansatz funktioniert äquivalent mit anderen Templating Engines, sofern du folgende Logik abbildest:
 
+**redirects.njk**
 ```markdown
 ---
 pagination:
@@ -126,6 +129,7 @@ Falls deine Layouts in einem anderen Pfad liegen, so passe den Pfad in Schritt 2
 
 Der Inhalt des Layouts sollte eine vollständige Website sein, die deine Metadaten (Seitentitel und Co), CSS, einen Hinweis auf die Weiterleitung ud die Weiterleitung selbst implementiert. Ein Minimalbeispiel, welches nicht Verwendung gedacht ist wäre:
 
+**redirect.njk**
 ```html
 <html>
 <head>
@@ -164,6 +168,8 @@ Grundsätzlich für alle Endgeräte ohne JavaScript. Funktioniert leider nicht m
 
 ### Erweiterbares Layout Beispiel
 Hier ist mein vollständiges Beispiel. In der Layout Datei *layouts/page.njk* sind jeweils Nunjucks Blöcke integriert, um die interessanten Stellen erweitern zu können. Du kannst daher auch dieses Beispiel nutzen und dir eine äquivalente *page.njk* entwickeln, die dein Layout mit Nunjuck *{block }* erweiterbar macht.
+
+**redirect.njk**
 ```html
 {% extends 'layouts/page.njk' %}
 
