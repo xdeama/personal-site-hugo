@@ -37,8 +37,9 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 
 {{< column-long >}}
 ## Softwareentwicklung
+Im Kern geht es in der Entwicklung von Individualsoftware in der Finanzbranche meist darum, komplexe Probleme durch Automatisierung zu lösen, um Bearbeitungsdauer, Bearbeitungsaufwand und Fehlerraten zu minimieren. 
 
-Ich helfe meinen Kunden aus der Finanzwirtschaft komplexe Probleme durch Automatisierung zu lösen. Dabei kommt es primär darauf an, die Geschäftsbedürfnisse zu erfüllen und [Systeme aufzubauen]({{< ref "/projects" >}}), die langfristig und effizient betrieben, als auch weiterentwickelt werden können.
+ Während die individuellen Geschäftsbedürfnisse stets im Vordergrund stehen, fokussiere ich mich darauf [Systeme zu entwickeln]({{< ref "/projects" >}}), die langfristig und effizient betrieben, als auch weiterentwickelt werden können.
 
 {{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 

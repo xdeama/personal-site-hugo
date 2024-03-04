@@ -38,11 +38,15 @@ If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linked
 
 {{< column-long >}}
 ## Software Development
-I assist my clients in the financial sector to solve complex problems through automation. My primary focus is to meet business needs and [develop systems]({{< ref "/projects" >}}) that can be operated and evolved efficiently and effectively in the long term.
+At its core, the development of individual software in the financial sector is usually about solving complex problems through automation in order to minimize processing time, processing effort and error rates. 
+
+While the individual business needs are always in the foreground, I focus on [developing systems]({{< ref "/projects" >}}) that can be operated efficiently and further developed in the long term.
+
+Translated with DeepL.com (free version)
 
 {{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 
-I guide [custom software]({{< ref "/consulting" >}}) throughout its entire lifecycle: from requirement analysis, IT architecture, design, implementation, and rollout to maintenance and support.
+I guide [custom software]({{< ref "/consulting" >}}) throughout its entire lifecycle: from requirement analysis, IT architecture, design, implementation, and rollout to maintenance and support. 
 {{< column-end >}}
 
 {{< row-end >}}
