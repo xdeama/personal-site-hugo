@@ -63,9 +63,6 @@
 .prose em {
   font-family: "Noto Sans", sans-serif;
   font-style: italic;
-  /*background-color: var(--chroma-color-highlight);*/
-  /*border-radius: 7px;*/
-  /*padding: 5px;*/
 }
 
 .prose > img,
