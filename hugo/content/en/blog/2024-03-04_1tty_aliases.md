@@ -15,9 +15,7 @@ An alias is an alternative name, creating another path to an existing page. An a
 ## Why Use a Page Alias?
 There are many practical applications or circumstances in which one might desire an additional URL that points to an existing page.
 
-For instance, for a promotional campaign for a website *great-products.com*, one could generate a QR code that directs from *great-products.com/qr-code* to *great-products.com/index.html*. 
-
-This allows for later analysis of web server logs to determine how many visitors came to the website via the QR code.
+For instance, for a promotional campaign for a website *great-products.com*, one could generate a QR code that directs from *great-products.com/qr-code* to *great-products.com/index.html*.  This allows for later analysis of web server logs to determine how many visitors came to the website via the QR code. 
 
 Or perhaps, some time ago, a popular page was created at *great-products.com/very-popular-but-really-long-URL*, and for various reasons, a shorter version like *great-products.com/top* is desired without deleting the old URL.
 
