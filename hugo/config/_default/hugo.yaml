@@ -40,3 +40,6 @@ markup:
     noClasses: false
     noHl: false
     tabWidth: 4
+
+sitemap:
+  changeFreq: monthly

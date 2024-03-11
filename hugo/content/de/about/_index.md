@@ -1,7 +1,7 @@
 ---
 translationKey: about
 title: Über mich
-description: Full Stack Developer & Software-Architekt — Java & Cloud Native
+description: Details zum Lebenslauf und aktuellen Unternehmungen. Full Stack Developer & Software-Architekt — Java & Cloud Native.
 date: 2023-11-10T13:59:19+01:00
 draft: false
 layout: standalone

@@ -1,7 +1,7 @@
 ---
 translationKey: home
 title: Startseite
-description: Full Stack Developer & Software-Architekt — Java & Cloud Native
+description: Full Stack Developer & Software-Architekt aus Frankfurt am Main. Java & Cloud Native Entwicklung für wartbare, resiliente und skalierbare Individualsoftware.
 date: 2023-01-01T08:00:00-07:00
 draft: false
 ---
@@ -9,6 +9,7 @@ draft: false
 {{< row >}}
 
 {{< column-long >}}
+
 # Hallo, ich bin Denis
 Ich bin freiberuflicher Software-Architekt, Full Stack Developer und Mitgründer von [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
@@ -36,6 +37,7 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 {{< column-end >}}
 
 {{< column-long >}}
+
 ## Softwareentwicklung
 Im Kern geht es in der Entwicklung von Individualsoftware in der Finanzbranche meist darum, komplexe Probleme durch Automatisierung zu lösen, um Bearbeitungsdauer, Bearbeitungsaufwand und Fehlerraten zu minimieren. 
 

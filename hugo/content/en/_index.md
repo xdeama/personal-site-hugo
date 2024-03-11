@@ -1,9 +1,9 @@
 ---
 translationKey: home
 title: Home
-description: Full Stack Developer & Software-Architekt — Java & Cloud Native
+description: Full Stack Developer & Software Architect from Frankfurt am Main. Java & Cloud Native development for maintainable, resilient and scalable software.
 date: 2023-01-01T08:00:00-07:00
-draft: false
+draft: false    
 ---
 
 {{< row >}}

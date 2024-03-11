@@ -3,6 +3,7 @@ translationKey: consulting
 title: Consulting
 date: 2023-01-01T08:00:00-07:00
 draft: false
+description: Java & cloud native development for maintainable, resilient and scalable software. View the project portfolio here.
 layout: standalone
 ---
 

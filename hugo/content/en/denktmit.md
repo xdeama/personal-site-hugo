@@ -1,6 +1,7 @@
 ---
 translationKey: denktmit
 title: DenktMit eG
+description: DenktMit is a flexible expert network of experienced IT specialists. Companions - more than just consultants. Learn about opportunities for collaborators and customers.
 date: 2023-11-10T13:59:19+01:00
 draft: false
 layout: standalone

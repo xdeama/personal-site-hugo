@@ -1,6 +1,7 @@
 ---
 translationKey: denktmit
 title: DenktMit eG
+description: DenktMit ist ein flexibles Experten-Netzwerk erfahrener IT-Spezialisten. Gefährten - mehr als nur Berater. Erfahre über Möglichkeiten für Genossen und Kunden.
 date: 2023-11-10T13:59:19+01:00
 draft: false
 layout: standalone
