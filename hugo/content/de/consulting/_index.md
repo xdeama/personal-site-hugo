@@ -60,3 +60,4 @@ Ich bin sehr offen, neue Technologien und Methoden zu erlernen und anzuwenden.
 
 ## Angebot
 Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
+Scheitert es an meiner Verfügbarkeit, oder ist die Technologie nicht mein Gebiet, so gebe ich Anfragen gerne an [DenktMit]({{< ref "/denktmit" >}}) weiter und finde einen verfügbaren Experten für dich.

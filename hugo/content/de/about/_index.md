@@ -9,7 +9,8 @@ layout: standalone
 
 Ich bin Denis Malolepszy und seit 2010 in der IT-Branche tätig. Derzeit lebe und arbeite ich in Frankfurt am Main. 
 
-In 2022 habe ich mich als Softwareentwickler und -architekt selbständig gemacht und den Vorsitz des Aufsichtsrates von [DenktMit]({{< relref "/denktmit" >}}) übernommen, einer Genossenschaft die ich 2021 mitgegründet habe.
+In 2022 habe ich mich als Softwareentwickler und -architekt selbständig gemacht und den Vorsitz des Aufsichtsrates 
+von [DenktMit]({{< relref "/denktmit" >}}) übernommen, einer Genossenschaft die ich 2021 mitgegründet habe.
 
 
 
@@ -30,8 +31,20 @@ Zuvor war ich:
 
 {{< row-end >}}
 
-Ich konnte als IT-Architekt, Teamleiter, Projektleiter, Scrum Master, Softwareentwickler und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln. Näheres in meinem [CV]({{< ref "/about/cv" >}}) oder [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}.
 
-Heute fokussiere ich mich auf die [Entwicklung von Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}).
+Ich konnte als IT-Architekt, Teamleiter, Projektleiter, Scrum Master, Softwareentwickler und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln.  Näheres in meinem [CV]({{< ref "/about/cv" >}}) oder [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}.
 
 
+{{< row >}}
+{{< column-short-hide-on-mobile >}}{{< embed-svg-link path="static/svg/denktmit-logo.svg" url="https://denktmit.de">}}{{< column-end >}}
+
+{{< column-long >}}
+## Softwareentwicklung
+Heute fokussiere ich mich auf die [Entwicklung von Individualsoftware und Cloud-Infrastruktur im Java-Umfeld]({{< ref "/consulting" >}}).
+
+Als Freiberufler bin ich sowohl für kurze Beratungseinsätze, als auch langlaufende Projekte offen.
+Scheitert es an meiner Verfügbarkeit, oder ist die Technologie nicht mein Gebiet, so gebe ich Anfragen gerne an [DenktMit]({{< ref "/denktmit" >}}) weiter und finde einen verfügbaren Experten für dich.
+{{< column-end >}}
+{{< row-end >}}
+
+{{< embed-svg-link-hidden-on-desktop path="static/svg/denktmit-logo.svg" url="https://denktmit.de">}}
