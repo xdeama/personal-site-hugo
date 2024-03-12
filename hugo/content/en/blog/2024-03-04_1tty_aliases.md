@@ -2,7 +2,7 @@
 translationKey: 11ty-aliases
 title: Configuring Page Aliases in Eleventy
 heading: How to Configure Aliases for Pages with Eleventy
-description: The Static Site Generator Eleventy (or 11ty) does not come with built-in support for aliases. However, with a combination of JavaScript configuration and pagination templates, there's a clean solution.
+description: Eleventy has no built-in support for aliases. A combination of JavaScript and pagination templates provides a clean solution.
 date: 2024-03-04T14:00:00+01:00
 draft: false
 ---

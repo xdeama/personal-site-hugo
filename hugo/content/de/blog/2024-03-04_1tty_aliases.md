@@ -2,7 +2,7 @@
 translationKey: 11ty-aliases
 title: Seiten-Aliases in Eleventy konfigurieren
 heading: Wie man mit Eleventy Aliases für Seiten konfiguriert
-description: Der Static Site Generator Eleventy bringt keine Bordmittel für Aliases mit. Mit einer Kombination aus JavaScript Konfiguration und Pagination Templates wird dies jedoch nachvollziehbar und wartbar möglich.
+description: Eleventy bringt keine Bordmittel für Aliases mit. Mit JavaScript und Pagination Templates wird dies jedoch nachvollziehbar und wartbar möglich.
 date: 2024-03-04T14:00:00+01:00
 draft: false
 ---
