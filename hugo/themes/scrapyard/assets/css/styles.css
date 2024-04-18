@@ -166,7 +166,7 @@
   column-count: 1;
 }
 
-.prose ul li:first-child {
+.prose ul:not(.no-reduced-top-margin) li:first-child {
   margin-top: -0.5rem;
 }
 
