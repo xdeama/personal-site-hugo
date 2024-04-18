@@ -251,6 +251,11 @@
 
 .site-header nav ul {
   margin: 0;
+
+  @media (max-width: 49em) {
+    gap: var(--space-xs);
+    justify-content: center;
+  }
 }
 
 .site-header-logo {
