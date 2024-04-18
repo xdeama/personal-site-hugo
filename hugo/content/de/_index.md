@@ -10,8 +10,8 @@ draft: false
 
 {{< column-long >}}
 
-# Hallo, ich bin Denis
-Ich bin freiberuflicher Software-Architekt, Full Stack Developer und Mitgründer von [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten.
+# Hallo, 
+ich bin Denis. Freiberuflicher Software-Architekt, Full Stack Developer und Mitgründer von [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 

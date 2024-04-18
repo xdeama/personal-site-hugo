@@ -9,9 +9,9 @@ draft: false
 {{< row >}}
 
 {{< column-long >}}
-# Hi, I'm Denis
+# Hi,
 
-I am a freelance software architect, full stack developer and co-founder of [DenktMit]({{< ref "/denktmit" >}}), an expert network of self-employed IT specialists.
+I'm Denis. Freelance software architect, full stack developer and co-founder of [DenktMit]({{< ref "/denktmit" >}}), an expert network of self-employed IT specialists.
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 
@@ -19,6 +19,7 @@ I design and implement [custom software]({{< ref "/consulting" >}}) for the fina
 
 If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;or by [email](mailto:kontakt@dmalo.de).
+
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}
