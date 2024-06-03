@@ -114,7 +114,7 @@ Anwendungs- und Architekturverantwortlicher im Meldewesen einer großen Fondsges
 ### **IT-Consultant** | März 2015 — Juni 2017
 *Cofinpro AG, Frankfurt am Main*
 
-IT-Berater für Software Engineering im Java Umfeld
+Entwicklung und IT-Konzeption von Individualsoftware mit Java EE im gesetzlichen Meldewesen, sowie Leitung eines agilen Entwicklungsteams
 
 ### **Werkstudent Softwareentwicklung** | August 2014 — Januar 2015
 *Cofinpro AG, Berlin*

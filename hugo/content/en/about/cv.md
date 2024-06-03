@@ -51,12 +51,12 @@ Co-Founder of [DenktMit eG]({{< ref "/denktmit" >}}) in Oberursel, Germany. Esta
 ### **Org- & IT-Consultant** | July 2017 — September 2018
 *Union Investment (Union IT-Services GmbH), Frankfurt am Main, Germany**
 
-Application and architecture manager in the statutory reporting department of a large fund management company
+Application manager in the statutory reporting department with focus on agile development projects, software architecture and software development guidelines
 
 ### **IT-Consultant** | March 2015 — June 2017
 *Cofinpro AG, Frankfurt am Main, Germany**
 
-Software engineering in the Java environment
+Design and development of software solutions with Java EE, Oracle SQL, Camunda BPM, Drools BRMS and Apache Camel for statutory reporting in asset management, as well as leading an agile development team
 
 ### **Student Software Developer** | August 2014 — January 2015
 *Cofinpro AG, Berlin, Germany**
