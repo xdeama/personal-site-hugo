@@ -62,7 +62,7 @@ Ich begleite [Individualsoftware]({{< ref "/consulting" >}}) durch den gesamten 
 
 In 2022 und 2023 habe ich als DevOps Engineer mit Azure DevOps, Java, Spring, Angular, Ansible, OpenShift und Helm die Private Cloud Migration einer großen internationalen Bank unterstützt.
 
-Zuvor habe ich einen Schweizer Softwarehersteller mit einem Web-Crawler-basierten Archivsystem auf Basis von Kotlin bei der Migration eines Intranet-Systems unterstützt.
+Zuvor habe ich einen Schweizer Softwarehersteller mit einem Web-Crawler-basierten Archivsystem auf Basis von Kotlin bei der Migration eines Intranet-Systems befähigt gesammeltes Wissen langfristig verfügbar zu halten.
 
 {{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}
 
