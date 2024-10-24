@@ -21,7 +21,7 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
@@ -37,7 +37,7 @@ jobs:
             --minify          
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: release-artifact
           path: './hugo/public'
@@ -48,10 +48,10 @@ jobs:
     needs: build
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: release-artifact
           path: './public'
