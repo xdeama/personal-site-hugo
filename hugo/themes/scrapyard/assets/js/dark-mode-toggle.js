@@ -62,7 +62,7 @@ function initializeThemeToggle() {
 
     prefersDarkScheme.addEventListener('change', (e) => {
         if (!getThemeFromUrl()) {
-            setTheme(e.matches ? 'dark' : 'light');
+            setTheme(e.matches ? 'dark' : 'light', false);
         }
     });
 
