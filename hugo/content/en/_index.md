@@ -44,8 +44,6 @@ However, I find all those use cases particularly interesting in which response t
 
 While the individual business needs are always in the foreground, I focus on [developing systems]({{< ref "/projects" >}}) that can be operated efficiently and further developed in the long term.
 
-Translated with DeepL.com (free version)
-
 {{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 
 I guide [custom software]({{< ref "/consulting" >}}) throughout its entire lifecycle: from requirement analysis, IT architecture, design, implementation, and rollout to maintenance and support. 
