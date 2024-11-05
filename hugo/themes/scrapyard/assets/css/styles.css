@@ -254,7 +254,6 @@
   top: 0;
   z-index: 100;
   background-color: var(--color-light);
-  border-bottom: 1px solid var(--color-mid);
 }
 
 .site-header .repel {
