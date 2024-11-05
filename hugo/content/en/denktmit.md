@@ -63,7 +63,7 @@ At DenktMit, you remain independent but benefit from a strong network, grassroot
 ## DenktMit Tech Blog
 The [DenktMit Tech Blog](https://denktmit.de/blog/) is about IT and software development. Worthwhile examples:
 - [Release and ship your e2e tests as containers alongside your product
-  ](https://denktmit.de/blog/2021/11/21/release-and-ship-your-e2e-tests-as-containers-alongside-your-product/) von [Marius Schmidt](https://www.linkedin.com/in/marius-schmidt-36a36a74/)
-- [Plaintext ist Trumpf](https://denktmit.de/blog/2021/06/08/plaintext-ist-trumpf/) von [Dr. Sven Köppel](https://svenk.org) 
-- [The importance of expressive domain models](https://denktmit.de/blog/2022/03/15/the-importance-of-expressive-domain-models/) von [Sascha Pleidner](https://bleidner.me)
-- [Big data accounting with python and other tools: an experience report](https://denktmit.de/blog/2022/02/03/big-data-accounting-with-python-and-other-tools-an-experience-report/) on [Dr. Sven Köppel](https://svenk.org) 
+  ](https://denktmit.de/blog/2021/11/21/release-and-ship-your-e2e-tests-as-containers-alongside-your-product/) written by [Marius Schmidt](https://www.linkedin.com/in/marius-schmidt-36a36a74/)
+- [Plaintext ist Trumpf](https://denktmit.de/blog/2021/06/08/plaintext-ist-trumpf/) written in German by [Dr. Sven Köppel](https://svenk.org) 
+- [The importance of expressive domain models](https://denktmit.de/blog/2022/03/15/the-importance-of-expressive-domain-models/) written bySascha Pleidner](https://bleidner.me)
+- [Big data accounting with python and other tools: an experience report](https://denktmit.de/blog/2022/02/03/big-data-accounting-with-python-and-other-tools-an-experience-report/) written by [Dr. Sven Köppel](https://svenk.org) 
