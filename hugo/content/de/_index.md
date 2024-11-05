@@ -42,7 +42,7 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 Im Kern geht es bei der Entwicklung von Individualsoftware meist darum Arbeitsabläufe zu automatisieren.
 Besonders interessant finde ich jedoch all die Anwendungsfälle, in denen Reaktionszeiten, Datenmengen oder Verlässlichkeit durch händische Arbeit beliebig vieler Mitarbeiter gar nicht erreichbar wären.
 
-Während die individuellen Geschäftsbedürfnisse stets im Vordergrund stehen, fokussiere ich mich darauf [Systeme zu entwickeln]({{< ref "/projects" >}}), die langfristig und effizient betrieben, als auch weiterentwickelt werden können.
+Während die individuellen Geschäftsbedürfnisse stets im Vordergrund stehen, fokussiere ich mich darauf [Systeme zu entwickeln]({{< ref "projects" >}}), die langfristig und effizient betrieben, als auch weiterentwickelt werden können.
 
 {{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 
@@ -66,7 +66,7 @@ Zuvor habe ich einen Schweizer Softwarehersteller mit einem Web-Crawler-basierte
 
 {{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}
 
-Mein [Projektportfolio]({{< ref "/projects" >}}) und mein [CV]({{< ref "/about/cv" >}}) geben eine Übersicht über die Projekte meiner letzten Jahre. 
+Mein [Projektportfolio]({{< ref "projects" >}}) und mein [CV]({{< ref "/about/cv" >}}) geben eine Übersicht über die Projekte meiner letzten Jahre. 
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}

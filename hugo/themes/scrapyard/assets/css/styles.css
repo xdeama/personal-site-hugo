@@ -244,6 +244,19 @@
   }
 }
 
+.sticky-wrapper {
+  width: var(--wrapper-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-light);
+  border-bottom: 1px solid var(--color-mid);
+}
+
 .site-header .repel {
   --gutter: 0.5rem var(--space-m);
   padding-block: var(--space-m);

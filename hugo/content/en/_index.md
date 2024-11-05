@@ -42,7 +42,7 @@ If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linked
 At its core, the development of customized software is usually about automating work processes.
 However, I find all those use cases particularly interesting in which response times, data volumes or reliability could not be achieved by any number of employees working manually.
 
-While the individual business needs are always in the foreground, I focus on [developing systems]({{< ref "/projects" >}}) that can be operated efficiently and further developed in the long term.
+While the individual business needs are always in the foreground, I focus on [developing systems]({{< ref "projects" >}}) that can be operated efficiently and further developed in the long term.
 
 {{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 
@@ -63,7 +63,7 @@ Previously, I assisted a Swiss software manufacturer with an archiving system ba
 
 {{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}
 
-My [Project Portfolio]({{< ref "/projects" >}}) and [CV]({{< ref "/about/cv" >}}) provide an overview of the projects I've worked on in recent years.
+My [Project Portfolio]({{< ref "projects" >}}) and [CV]({{< ref "/about/cv" >}}) provide an overview of the projects I've worked on in recent years.
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}

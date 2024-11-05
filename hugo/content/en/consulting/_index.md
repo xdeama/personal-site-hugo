@@ -28,7 +28,7 @@ I accompany individual software through the entire life cycle: from requirements
 
 {{< row-end >}}
 
-My [project portfolio]({{< ref "/projects" >}}) and my [CV]({{< ref "/about/cv" >}}) provide an overview of the projects I have worked on in recent years.
+My [project portfolio]({{< ref "projects" >}}) and my [CV]({{< ref "/about/cv" >}}) provide an overview of the projects I have worked on in recent years.
 
 ## Freelancer but not a One-Man-Show
 In collaboration with [DenktMit]({{< ref "/denktmit" >}}), a network of independent IT experts, I restore real substance to the overused buzzword "digitalization" and put you back in the driver's seat of your digitalization strategy.
@@ -53,7 +53,7 @@ This includes a wide range of products and open-source software, frameworks, and
 
 
 
-I have over six years of full-time experience working with Java in various projects. Detailed information about my technological expertise can be found in my [project portfolio]({{< ref "/projects" >}}). I am very open to learning and applying new technologies in projects.
+I have over six years of full-time experience working with Java in various projects. Detailed information about my technological expertise can be found in my [project portfolio]({{< ref "projects" >}}). I am very open to learning and applying new technologies in projects.
 
 
 ## Let's Collaborate

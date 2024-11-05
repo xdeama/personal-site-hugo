@@ -28,7 +28,7 @@ Ich begleite Individualsoftware durch den gesamten Lebenszyklus: von der Anforde
 
 {{< row-end >}}
 
-Mein [Projektportfolio]({{< ref "/projects" >}}) und mein [CV]({{< ref "/about/cv" >}}) geben eine Übersicht über die Projekte meiner letzten Jahre.
+Mein [Projektportfolio]({{< ref "projects" >}}) und mein [CV]({{< ref "/about/cv" >}}) geben eine Übersicht über die Projekte meiner letzten Jahre.
 
 ## Freiberufler, aber keine One-Man-Show
 Gemeinsam mit [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten, gebe ich dem ausgelutschten Buzzword Digitalisierung wieder Biss. Wir setzen unsere Kunden zurück in den Fahrersitz deiner Digitalisierungsstrategie.
@@ -55,7 +55,7 @@ Das Java Ökosystem umfasst eine breite Auswahl an Produkten und Open Source Sof
 
 {{< embed-svg-hidden-on-desktop "static/svg/tech-stack.svg" >}}
 
-Ich bringe mehr als sechs Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten mit. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "/projects" >}}).
+Ich bringe mehr als sechs Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten mit. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}).
 Ich bin sehr offen, neue Technologien und Methoden zu erlernen und anzuwenden.
 
 

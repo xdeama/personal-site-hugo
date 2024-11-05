@@ -25,7 +25,7 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 ## Tech Stack
 Technisch konzentriere ich mich auf Anwendungen aus dem Java-Ökosystem, insbesondere *Spring-Framework*, relationale Datenbanken, DevOps für Private Cloud Architekturen basierend auf *Kubernetes* und Angular Frontends.
 
-Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahrungen sammeln konnte. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "/projects" >}}). 
+Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahrungen sammeln konnte. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}). 
 
 ### Backend/Middleware Technologien
 Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, REST-APIs, RPC, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
@@ -50,7 +50,7 @@ Vor meiner Selbstständigkeit war ich:
 - Application Manager im Meldewesen bei der Union Investment,
 - und Software Engineer in der Finanzbranche für Cofinpro AG.
 
-Mein [Projektportfolio]({{< ref "/projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;geben eine Übersicht über die Projekte meiner letzten Jahre.
+Mein [Projektportfolio]({{< ref "projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;geben eine Übersicht über die Projekte meiner letzten Jahre.
 
 
 ## Kontakt
