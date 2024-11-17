@@ -5,10 +5,11 @@
         {{ partial "robots.html" . }}
     </head>
     <body>
-        <header role="banner" class="site-header sticky-wrapper">
-            {{ partial "header.html" . }}
-        </header>
-
+        <div class="sticky-wrapper">
+            <header role="banner" class="site-header">
+                {{ partial "header.html" . }}
+            </header>
+        </div>
         <main>
             {{ block "main" . }}{{ end }}
         </main>

@@ -245,27 +245,30 @@
 }
 
 .sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-secondary);
+}
+
+.site-header {
   width: var(--wrapper-width);
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--gutter);
   padding-right: var(--gutter);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background-color: var(--color-light);
 }
 
 .site-header .repel {
   --gutter: 0.5rem var(--space-m);
-  padding-block: var(--space-m);
+  margin-block: var(--space-m);
 }
 
 .site-header nav ul {
   margin: 0;
 
   @media (max-width: 49em) {
-    gap: var(--space-xs);
+    gap: var(--space-s);
     justify-content: center;
   }
 }
