@@ -23,7 +23,7 @@ Studium der Wirtschaftsinformatik (B.Sc.)
 
 ## Berufserfahrung
 
-### **Aufsichtsrat** | Juni 2022 — heute
+### **Aufsichtsrat** | Juni 2022 - November 2024
 *DenktMit eG, Oberursel*
 
 Vorsitzender des Aufsichtsrates der [DenktMit eG]({{< ref "/denktmit" >}}) in Oberursel, einem Experten-Netzwerk erfahrener IT-Spezialisten im Software Engineering
