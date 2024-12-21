@@ -259,16 +259,39 @@
   padding-right: var(--gutter);
 }
 
-.site-header .repel {
-  --gutter: 0.5rem var(--space-m);
-  margin-block: var(--space-m);
+.outer-site-header {
+  height: 100px;
+  top: -58px;
+  display: flex;
+  align-content: center;
+  position: sticky;
+
+  @media (max-width: 46em) {
+    height: 100px;
+    top: -42px;
+    align-items: center;
+  }
+}
+
+
+/*try out https://css-tricks.com/how-to-create-a-shrinking-header-on-scroll-without-javascript/*/
+.inner-site-header {
+  height: 42px;
+  position: sticky;
+  top: 0;
+  margin-top: 25px;
+
+  @media (max-width: 46em) {
+    height: 58px;
+    margin-top: 0; /*TODO: why is this workaround needed?*/
+  }
 }
 
 .site-header nav ul {
   margin: 0;
 
-  @media (max-width: 49em) {
-    gap: var(--space-s);
+  @media (max-width: 46em) {
+    gap: 5px var(--space-s);
     justify-content: center;
   }
 }
@@ -278,9 +301,10 @@
   font-size: 1.8rem;
   height: 2.5rem;
   color: var(--color-header-logo);
+  transform: translate(0, 2px);
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 46em) {
   .site-header-logo {
     display: none;
   }

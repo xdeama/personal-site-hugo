@@ -80,7 +80,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: var(--repel-vertical-alignment, center);
+    align-items: center;
     gap: var(--gutter, var(--space-s-l));
 }
 
@@ -209,7 +209,7 @@ Consistent block padding for page sections
     flex-wrap: wrap;
     width: 100%;
 }
-  
+
 .column-short {
     display: flex;
     flex-direction: column;
@@ -231,7 +231,7 @@ Consistent block padding for page sections
         flex: 0 0 100%;
     }
 
-    .hide-on-mobile { 
+    .hide-on-mobile {
         display: none;
     }
 
@@ -247,6 +247,6 @@ Consistent block padding for page sections
 
   @media (min-width: 851px) {
     .hidden-on-desktop {
-        display: none !important; 
+        display: none !important;
     }
 }
