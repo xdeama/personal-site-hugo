@@ -260,8 +260,8 @@
 }
 
 .outer-site-header {
-  height: 100px;
-  top: -58px;
+  height: 70px;
+  top: -28px;
   display: flex;
   align-content: center;
   position: sticky;
@@ -279,7 +279,7 @@
   height: 42px;
   position: sticky;
   top: 0;
-  margin-top: 25px;
+  margin-top: 13px; /*TODO: why is this workaround needed?*/
 
   @media (max-width: 46em) {
     height: 58px;
