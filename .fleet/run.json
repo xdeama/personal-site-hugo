@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "Run hugo local",
+            "program": "$WORKSPACE_DIR$/hugo-serve-dev.sh",
+        },
+        {
+            "type": "command",
+            "name": "Run hugo network",
+            "program": "$WORKSPACE_DIR$/hugo-serve-dev.sh",
+            "args": ["-n"]
+        },
+        {
+            "type": "command",
+            "name": "Pandoc Generate",
+            "program": "$WORKSPACE_DIR$/generate-pdf-and-docx.sh",
+        }
+    ]
+}
