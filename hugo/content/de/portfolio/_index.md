@@ -25,7 +25,7 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 
 ## Projekterfahrung
 Nach einem Jahrzehnt in der Finanzbranche habe ich mich 2024 in die Welt der Übertragungsnetzbetreiber begeben 
-und modernisiere als *Software Engineer* Systeme zur Erhaltung der Netzstabilität mit *Cloud Native* Anwendungen. 
+und modernisiere als *Software Engineer* Systeme zur Erhaltung der Netzstabilität mit *Cloud-native* Anwendungen. 
 
 In 2022 und 2023 habe ich als *DevOps Engineer* mit Java, Spring Microservices, Angular, Ansible und OpenShift die Private Cloud Migration einer großen internationalen Bank unterstützt.
 
@@ -160,7 +160,7 @@ Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als au
 
 Entwurf und Entwicklung einer Individualsoftware für die Ausschaltplanung eines Übertragungsnetzbetreibers.
 
-Manuelle Datenübertragungen und Medienbrüche werden durch ein neues Cloud Native System aus Open Source Technologien ersetzt.
+Manuelle Datenübertragungen und Medienbrüche werden durch ein neues Cloud-native System aus Open Source Technologien ersetzt.
 Dabei werden mehrere Bestandsanwendungen ersetzt, ein dutzend Schnittstellen modernisiert und auf die jeweiligen Rollen
 optimierte Übersichten und Workflows angeboten.
 
@@ -200,7 +200,7 @@ Mit dem wachsenden Projektteam habe ich die jeweiligen Resorts an dedizierte Pro
 ### **Januar 2025 — Februar 2025** | Software Engineer
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Technologieträger Showcase zur Präsentation der Fähigkeiten von Cloud Native Systemen
+Technologieträger Showcase zur Präsentation der Fähigkeiten von Cloud-native Systemen
 im Kontext Geografischer Informationssysteme für Übertragungsnetzbetreiber.
 Insbesondere habe ich eine deck.gl React App um interaktive Elemente erweitert, als auch deren
 Schnittstellen über REST, WebSocket und Kafka.
@@ -233,7 +233,7 @@ Ein automatisierter Adapter zwischen einer Bestandssoftware und einer Veröffent
 der Übertragungsnetzbetreiber reduziert die manuellen Arbeitsschritte im Kontext Veröffentlichung auf ein Minimum.
 Dazu habe ich:
 
-- Eine Cloud Native Datenintegrationssoftware auf Spring Boot Basis entwickelt
+- Eine Cloud-native Datenintegrationssoftware auf Spring Boot Basis entwickelt
 - Mit Kafka mit dem Bestandssystem integriert
 - Mehrere XML-Dokumente in ein standardisiertes Format überführt
 - Welches zur Veröffentlichung an eine Verbandsplattform übermittelt wird
