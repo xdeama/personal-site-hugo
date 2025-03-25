@@ -17,14 +17,29 @@ Ich bin freiberuflicher *Software-Architekt*, *Full Stack Developer* und Mitgrü
 
 Ich entwerfe und entwickle anspruchsvolle [Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}) für den Finanz- und Energiesektor, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
 
-Dabei begleite ich Individualsoftware durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Pflege und Wartung.
+Dabei begleite ich Individualsoftware durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Weiterentwicklung und Wartung.
 
 Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
 
 
+## Projekterfahrung
+Nach einem Jahrzehnt in der Finanzbranche habe ich mich 2024 in die Welt der Übertragungsnetzbetreiber begeben und mit großer Begeisterung die Energiewende als Software Engineer mit Java, Kotlin und Angular und Cloud Native Anwendungen unterstützt.
+
+In 2022 und 2023 habe ich als *DevOps Engineer* mit Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift und Helm die Private Cloud Migration einer großen internationalen Bank unterstützt.
+
+Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master, Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln.
+
+Vor meiner Selbstständigkeit war ich:
+- Head of IT bei Habona Invest, einem Asset Manager aus Frankfurt am Main,
+- Application Manager im Meldewesen bei der Union Investment,
+- und Software Engineer in der Finanzbranche für Cofinpro AG.
+
+Mein [Projektportfolio]({{< ref "projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;geben eine Übersicht über die Projekte meiner letzten Jahre.
+
+
 ## Tech Stack
-Technisch konzentriere ich mich auf Anwendungen aus dem Java-Ökosystem, insbesondere *Spring-Framework*, relationale Datenbanken, DevOps für Private Cloud Architekturen basierend auf *Kubernetes* und Angular Frontends.
+Technisch konzentriere ich mich auf Anwendungen aus dem Java-Ökosystem, insbesondere *Spring-Framework*, relationale Datenbanken, Kafka und Angular Frontends. 
 
 Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahrungen sammeln konnte. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}). 
 
@@ -38,19 +53,6 @@ Angular, TypeScript
 Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, ElasticSearch, Bash, Git, Linux, Artifactory, Sonar 
 
 
-## Projekterfahrung
-Nach einem Jahrzehnt in der Finanzbranche habe ich mich 2024 in die Welt der Übertragungsnetzbetreiber begeben und mit großer Begeisterung die Energiewende als Software Engineer mit Java, Kotlin und Angular und Cloud Native Anwendungen unterstützt. 
-
-In 2022 und 2023 habe ich als *DevOps Engineer* mit Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift und Helm die Private Cloud Migration einer großen internationalen Bank unterstützt. 
-
-Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master, Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln.
-
-Vor meiner Selbstständigkeit war ich:
-- Head of IT bei Habona Invest, einem Asset Manager aus Frankfurt am Main,
-- Application Manager im Meldewesen bei der Union Investment,
-- und Software Engineer in der Finanzbranche für Cofinpro AG.
-
-Mein [Projektportfolio]({{< ref "projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;geben eine Übersicht über die Projekte meiner letzten Jahre.
 
 ## Verfügbarkeit
 Ab November 2025 in Teilzeit
