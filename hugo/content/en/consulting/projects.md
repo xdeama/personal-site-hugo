@@ -22,7 +22,7 @@ DevOps and Java development for the private cloud migration of a major internati
 - Migrating a CI/CD portal to Azure DevOps for container, VM, and database deployments
 - Migrating the CI/CD portal's Spring Microservices infrastructure from VMs to containerized environments in OpenShift
 - Automating complex deployment mechanisms for VMs using Ansible and Reactive Spring, such as batch deployments with dependent components, and automatic sidecars
-- Navigated the first batch of migrated systems through internal architecture and IT risk governance processes, ensuring compliance and successful integration into the private cloud.
+- Navigate the first batch of migrated systems through internal architecture and IT risk governance processes, ensuring compliance and successful integration into the private cloud.
 - Analyzing, containerizing, and porting an existing database anonymization solution
 - Migrating Jenkins deployment pipelines to Azure DevOps
 
