@@ -15,12 +15,13 @@ Ich bin freiberuflicher *Software-Architekt*, *Full Stack Developer* und Mitgrü
 
 {{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
 
-Ich entwerfe und entwickle anspruchsvolle [Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}) für die Finanzindustrie, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
+Ich entwerfe und entwickle anspruchsvolle [Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}) für den Finanz- und Energiesektor, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
 
 Dabei begleite ich Individualsoftware durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Pflege und Wartung.
 
 Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
+
 
 ## Tech Stack
 Technisch konzentriere ich mich auf Anwendungen aus dem Java-Ökosystem, insbesondere *Spring-Framework*, relationale Datenbanken, DevOps für Private Cloud Architekturen basierend auf *Kubernetes* und Angular Frontends.
@@ -28,19 +29,18 @@ Technisch konzentriere ich mich auf Anwendungen aus dem Java-Ökosystem, insbeso
 Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahrungen sammeln konnte. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}). 
 
 ### Backend/Middleware Technologien
-Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, REST-APIs, RPC, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
+Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, Hibernate, jOOQ, REST-APIs, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
 
 ### Frontend Technologien
 Angular, TypeScript
 
 ### DevOps Technologien
-Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, Ansible Tower, ElasticSearch, Kibana (ELK), Jenkins, Bash, Python, Git, Linux, Solaris, Artifactory, Sonar 
-
-### Methoden
-Agile Software Entwicklung, Test-Driven Development, Domain-Driven Design, Security und Quality Scans für Container, Artefakte und Repositories
+Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, ElasticSearch, Bash, Git, Linux, Artifactory, Sonar 
 
 
 ## Projekterfahrung
+Nach einem Jahrzehnt in der Finanzbranche habe ich mich 2024 in die Welt der Übertragungsnetzbetreiber begeben und mit großer Begeisterung die Energiewende als Software Engineer mit Java, Kotlin und Angular und Cloud Native Anwendungen unterstützt. 
+
 In 2022 und 2023 habe ich als *DevOps Engineer* mit Azure DevOps, Java, Spring, REST API Microservices, Angular, Ansible, OpenShift und Helm die Private Cloud Migration einer großen internationalen Bank unterstützt. 
 
 Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master, Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln.
@@ -52,6 +52,8 @@ Vor meiner Selbstständigkeit war ich:
 
 Mein [Projektportfolio]({{< ref "projects" >}}), [CV]({{< ref "/about/cv" >}}) und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;geben eine Übersicht über die Projekte meiner letzten Jahre.
 
+## Verfügbarkeit
+Ab November 2025 in Teilzeit
 
 ## Kontakt
 
@@ -62,6 +64,8 @@ Mit freundlichen Grüßen
 
 Denis Malolepszy
 {{< rawhtml >}}<div class="print-only" id="current-date-placeholder">Frankfurt am Main, den <span id="current-date"></span></div>{{< /rawhtml >}}
+
+
 
 
 # CV Denis Malolepszy
@@ -81,7 +85,7 @@ Studium der Wirtschaftsinformatik (B.Sc.)
 
 ## Berufserfahrung
 
-### **Aufsichtsrat** | Juni 2022 — heute
+### **Aufsichtsrat** | Juni 2022 - November 2024
 *DenktMit eG, Oberursel*
 
 Vorsitzender des Aufsichtsrates der [DenktMit eG]({{< ref "/denktmit" >}}) in Oberursel, einem Experten-Netzwerk erfahrener IT-Spezialisten im Software Engineering
@@ -146,6 +150,140 @@ Software Engineering im Java Umfeld
 # Projektportfolio Denis Malolepszy
 
 Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen.
+
+## Individualsoftware für einen Übertragungsnetzbetreiber
+### **Mai 2024 — heute** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Entwurf und Entwicklung einer Individualsoftware für die Ausschaltplanung eines Übertragungsnetzbetreibers.
+
+Manuelle Datenübertragungen und Medienbrüche werden durch ein neues Cloud Native System aus Open Source Technologien ersetzt.
+Dabei werden mehrere Bestandsanwendungen ersetzt, ein dutzend Schnittstellen modernisiert und auf die jeweiligen Rollen
+optimierte Übersichten und Workflows angeboten.
+
+Von Projektstart an habe ich als Dienstleister beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als Software Engineer hinaus:
+
+- die Anforderungsanalyse,
+- den Entwurf der Solution Architektur
+- und das UI/UX Design begleitet.
+
+Mit dem wachsenden Projektteam habe ich die jeweiligen Resorts an dedizierte Projektmitarbeiter übergeben und mich auf die Front- und Backend-Entwicklung fokussiert.
+
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- Kotlin
+- Spring Boot
+- Kafka
+- Postgres
+- jOOQ und jOOX
+- Angular
+- RxJs
+- NgRx
+- OpenAPI
+- Azure DevOps
+- Kubernetes
+- Argo CD
+- Helm
+- Gradle
+- RESTful Microservices
+- Keycloak (OAuth)
+- Git
+  {{< /div >}}
+
+
+
+
+## Showcase für Geografisches Informationssystem
+### **Januar 2025 — Februar 2025** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Technologieträger Showcase zur Präsentation der Fähigkeiten von Cloud Native Systemen
+im Kontext Geografischer Informationssysteme für Übertragungsnetzbetreiber.
+Insbesondere habe ich eine deck.gl React App um interaktive Elemente erweitert, als auch deren
+Schnittstellen über REST, WebSocket und Kafka.
+
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- React
+- deck.gl
+- WebSocket (STOMP)
+- Protobuf
+- Kotlin
+- Spring Boot
+- TimescaleDB
+- Kafka
+- Azure DevOps
+- Kubernetes
+- Argo CD
+- Gradle
+- Git
+  {{< /div >}}
+
+
+
+
+## Datenintegrationssoftware für einen Übertragungsnetzbetreiber
+### **Mai 2024 — Januar 2025** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Ein automatisierter Adapter zwischen einer Bestandssoftware und einer Veröffentlichungsplattform des Verbandes
+der Übertragungsnetzbetreiber reduziert die manuellen Arbeitsschritte im Kontext Veröffentlichung auf ein Minimum.
+Dazu habe ich:
+
+- Eine Cloud Native Datenintegrationssoftware auf Spring Boot Basis entwickelt
+- Mit Kafka mit dem Bestandssystem integriert
+- Mehrere XML-Dokumente in ein standardisiertes Format überführt
+- Welches zur Veröffentlichung an eine Verbandsplattform übermittelt wird
+- Und in einer Angular Webapp zur Nachverfolgung aufgeschlüsselt wird
+- Oder per Webhook Fehlermeldungen an Kollaborationssysteme übergibt
+
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- Java (v21)
+- Spring Boot
+- Kafka
+- Postgres
+- jOOQ und jOOX
+- Angular
+- Azure DevOps
+- Kubernetes
+- Argo CD
+- Helm
+- Gradle
+- RESTful Microservices
+- Git
+  {{< /div >}}
+
+
+
+
+## Software-Evaluierung zur Regelung von Sekundärregelleistung
+### **März 2024 — November 2024** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Evaluierung einer Individualsoftware im Bereich automatic Frequency Restoration Reserve (aFRR)
+bei einem Übertragungsnetzbetreiber:
+
+- Analyse auf Quellcode-Ebene
+- Exemplarischer Betrieb
+- Verifizierung von Spezifikation und Funktion
+- Schätzung von Aufwänden zur Integration in die bestehende Systemlandschaft
+
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- .Net 8
+- Next.js
+- Angular
+- NgRx
+- Kafka
+- Kubernetes
+- Azure DevOps
+- Argo CD
+- Helm
+- Git
+  {{< /div >}}
+
+
 
 
 ## CI/CD für Private Cloud Migration modernisieren
