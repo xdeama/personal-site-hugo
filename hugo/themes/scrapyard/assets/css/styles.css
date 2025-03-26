@@ -324,7 +324,7 @@
 
   --switcher-vertical-alignment: flex-start;
   --switcher-target-container-width: 45rem;
-  --gutter: var(--space-xs)
+  --gutter: var(--space-xs);
 }
 
 .margin-workaround {

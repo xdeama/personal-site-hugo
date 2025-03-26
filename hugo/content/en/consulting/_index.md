@@ -7,8 +7,8 @@ description: Java & cloud-native development for maintainable, resilient and sca
 layout: standalone
 ---
 
-As a Software Architect and Full Stack Developer, I help my clients in the financial sector solve complex problems
-through automation.
+As a Software Architect and Full Stack Developer, I enable my clients in the financial and energy sector to solve 
+complex problems through automation.
 
 The primary focus here is on meeting business needs and building systems that can be operated and developed efficiently
 over the long term.

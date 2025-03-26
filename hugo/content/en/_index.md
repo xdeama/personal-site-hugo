@@ -46,8 +46,8 @@ At its core, the development of customized software is usually about automating 
 However, I find all those use cases particularly interesting in which response times, data volumes or reliability could
 not be achieved by any number of employees working manually.
 
-While the individual business needs are always in the foreground, I focus on [developing systems]({{< ref "
-projects" >}}) that can be operated efficiently and further developed in the long term.
+While the individual business needs are always in the foreground, I focus on 
+[developing systems]({{< ref "projects" >}}) that can be operated efficiently and further developed in the long term.
 
 {{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 
