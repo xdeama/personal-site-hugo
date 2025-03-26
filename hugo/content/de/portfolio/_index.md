@@ -58,6 +58,7 @@ Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, ElasticSearch
 ## Verfügbarkeit
 Ab November 2025 in Teilzeit
 
+
 ## Kontakt
 
 Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de) oder [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;zur Verfügung und vereinbare gerne ein Telefonat oder Videochat.

@@ -1,7 +1,7 @@
 ---
 translationKey: consulting
 title: Softwareentwicklung und IT-Beratung
-description: Java & Cloud Native Entwicklung für wartbare, resiliente und skalierbare Individualsoftware. Hier das Projektportfolio einsehen. 
+description: Java & Cloud-native Entwicklung für wartbare, resiliente und skalierbare Individualsoftware. Hier das Projektportfolio einsehen. 
 date: 2023-01-01T08:00:00-07:00
 draft: false
 layout: standalone
@@ -40,7 +40,7 @@ Gemeinsam mit [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbs
 
 ## Tech Stack
 
-Technisch konzentriere ich mich auf das Java-Ökosystem, insbesondere das Spring Framework, relationale Datenbanken und Private Cloud-Architekturen basierend auf Kubernetes und auf TypeScript basierende Frontend-Technologien wie Angular.
+Technisch konzentriere ich mich auf das Java-Ökosystem, insbesondere das Spring Framework, relationale Datenbanken und Cloud-Architekturen basierend auf Kubernetes und auf TypeScript basierende Frontend-Technologien wie Angular.
 
 Das Java Ökosystem umfasst eine breite Auswahl an Produkten und Open Source Software, Frameworks und Libraries wie Spring Boot, Camunda, Kafka, Solr, Swagger und Co.
 
@@ -55,7 +55,7 @@ Das Java Ökosystem umfasst eine breite Auswahl an Produkten und Open Source Sof
 
 {{< embed-svg-hidden-on-desktop "static/svg/tech-stack.svg" >}}
 
-Ich bringe mehr als sechs Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten mit. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}).
+Ich bringe mehr als sieben Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten mit. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}).
 Ich bin sehr offen, neue Technologien und Methoden zu erlernen und anzuwenden.
 
 
