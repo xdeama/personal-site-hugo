@@ -15,7 +15,7 @@ Ich bin freiberuflicher *Software-Architekt*, *Full Stack Developer* und Mitgrü
 
 {{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
 
-Ich entwerfe und entwickle anspruchsvolle [Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}) für den Finanz- und Energiesektor, die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
+Ich entwerfe und entwickle anspruchsvolle [Individualsoftware und Cloud-Infrastruktur]({{< ref "/consulting" >}}) für den Finanz- und Energiesektor, die den Test der Zeit durch Resilienz, Nachvollziehbarkeit und Erweiterbarkeit besteht.
 
 Dabei begleite ich Individualsoftware durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Weiterentwicklung und Wartung.
 
@@ -45,13 +45,14 @@ Technisch konzentriere ich mich auf Anwendungen aus dem Java-Ökosystem, insbeso
 Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahrungen sammeln konnte. Details zu meinen technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}). 
 
 ### Backend/Middleware Technologien
-Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, Hibernate, jOOQ, REST-APIs, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
+Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, Hibernate, jOOQ,
+REST-APIs, WebSocket, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
 
 ### Frontend Technologien
 Angular, TypeScript
 
 ### DevOps Technologien
-Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, ElasticSearch, Bash, Git, Linux, Artifactory, Sonar 
+Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Gradle, Ansible, ElasticSearch, Bash, Git, Linux, Artifactory, Sonar 
 
 
 

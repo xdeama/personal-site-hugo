@@ -27,7 +27,7 @@ Fehlertoleranz und Protokollierung.
 Engineer Erfahrungen sammeln.
 {{< column-end >}}
 
-Ich begleite Individualsoftware durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die IT-Architektur,
+Ich begleite Individualsoftware durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die Architektur,
 Konzeption, Implementierung, Testautomation, CI/CD, Rollout bis zu Pflege und Wartung.
 
 {{< row-end >}}

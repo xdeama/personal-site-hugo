@@ -1,17 +1,14 @@
 ---
 translationKey: consulting
 title: Consulting
+description: Java & Cloud-native development for maintainable, resilient, and scalable custom software. View the project portfolio here.
 date: 2023-01-01T08:00:00-07:00
 draft: false
-description: Java & cloud-native development for maintainable, resilient and scalable software. View the project portfolio here.
 layout: standalone
 ---
 
-As a Software Architect and Full Stack Developer, I enable my clients in the financial and energy sector to solve 
-complex problems through automation.
-
-The primary focus here is on meeting business needs and building systems that can be operated and developed efficiently
-over the long term.
+As a Software Architect and Full Stack Developer, I enable my clients in the financial and energy sectors to solve complex
+problems through automation.
 
 {{< embed-svg-hidden-on-desktop "static/svg/microservices.svg" >}}
 
@@ -22,23 +19,20 @@ over the long term.
 {{< column-end >}}
 
 {{< column-long >}}
+I develop individually tailored business software that can be operated and expanded in the long term. This is based on
+robust domain models, unit and integration tests, as well as a focus on fault tolerance and logging.
+
 Over the past decade, I have gained experience as Head of IT, IT Architect, Scrum Master, Software Developer, and DevOps
 Engineer.
-
-I accompany individual software through the entire life cycle: from requirements analysis, IT architecture, design,
-implementation and rollout to maintenance and servicing.
-
 {{< column-end >}}
+
+I support custom software throughout its entire lifecycle: from requirements analysis, architecture, conception,
+implementation, test automation, CI/CD, rollout to maintenance and servicing.
 
 {{< row-end >}}
 
 My [project portfolio]({{< ref "projects" >}}) and my [CV]({{< ref "/about/cv" >}}) provide an overview of the projects
-I have worked on in recent years.
-
-## Freelancer but not a One-Man-Show
-
-In collaboration with [DenktMit]({{< ref "/denktmit" >}}), a network of independent IT experts, I restore real substance
-to the overused buzzword "digitalization" and put you back in the driver's seat of your digitalization strategy.
+I've worked on in recent years.
 
 {{< row >}}
 
@@ -46,11 +40,13 @@ to the overused buzzword "digitalization" and put you back in the driver's seat 
 
 ## Tech Stack
 
-My technical focus is on the Java ecosystem, particularly the Spring Framework, relational databases, and cloud
-architectures based on Kubernetes.
+I bring more than seven years of full-time Java experience from various projects. Details on my technical expertise can
+be found in my [project portfolio]({{< ref "projects" >}}). I am very open to learning and applying new technologies and
+methods.
 
-This includes a wide range of products and open-source software, frameworks, and libraries such as Camunda, Kafka, Solr,
-Angular, Swagger and more.
+My focus in recent years has been on the *Spring Framework*, *relational databases*, and cloud architectures based on
+*Kubernetes* and *TypeScript*-based front-end technologies like *Angular*.
+
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}
@@ -62,15 +58,14 @@ Angular, Swagger and more.
 
 {{< embed-svg-hidden-on-desktop "static/svg/tech-stack.svg" >}}
 
-I have more than seven years of full-time experience working with Java in various projects. Detailed information about my
-technological expertise can be found in my [project portfolio]({{< ref "projects" >}}). I am very open to learning and
-applying new technologies in projects.
+## Freelancer, Not a One-Man Show
 
-## Let's Collaborate
+Together with [DenktMit]({{< ref "/denktmit" >}}), a network of independent IT experts, I put substance back into the
+overused buzzword "digitalization." We put our clients back in the driver's seat of their digitalization strategy.
 
-Looking for assistance with your project? Feel free to reach out to me
-on [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}, or you can directly contact me
-via [E-Mail](mailto:kontakt@dmalo.de). I am eager to discuss how I can contribute to your project's success.
+## Offer
 
-In case I should be unavailable, or if the technology is not my area of expertise, I am happy to pass inquiries on
-to [DenktMit]({{< ref "/denktmit" >}}) and find an available expert for you.
+Does your project need support? Reach out to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{<
+linkedin-icon >}}&nbsp;or contact me directly via [E-Mail](mailto:kontakt@dmalo.de). If I'm unavailable or the
+technology is outside my area of expertise, I'm happy to forward inquiries to [DenktMit]({{< ref "/denktmit" >}}) and
+find an available expert for you.

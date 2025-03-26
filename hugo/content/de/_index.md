@@ -18,7 +18,7 @@ ich bin Denis. Freiberuflicher Software-Architekt, Full Stack Developer und Mitg
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 
 Ich entwerfe und entwickle [anspruchsvolle Individualsoftware]({{< ref "/consulting" >}}) den Finanz- und Energiesektor,
-die den Test der Zeit durch Wartbarkeit, Resilienz und Nachvollziehbarkeit besteht.
+die den Test der Zeit durch Resilienz, Nachvollziehbarkeit und Erweiterbarkeit besteht.
 
 Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
@@ -39,22 +39,20 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 
 {{< column-long >}}
 
-## Softwareentwicklung
 
-Im Kern geht es bei der Entwicklung von Individualsoftware meist darum, Arbeitsabläufe zu automatisieren.
-Besonders interessant finde ich jedoch all die Anwendungsfälle, in denen Reaktionszeiten, Datenmengen oder
-Verlässlichkeit
-durch händische Arbeit beliebig vieler Mitarbeiter gar nicht erreichbar wären.
+## Individuelle Softwarelösungen
 
-Während die individuellen Geschäftsbedürfnisse stets im Vordergrund stehen, fokussiere ich mich
-darauf [Systeme zu entwickeln]({{< ref "projects" >}}),
-die langfristig und effizient betrieben, als auch weiterentwickelt werden können.
+Ich entwickle langlebige und erweiterbare [individuell maßgeschneiderte]({{< ref "/consulting" >}}) Business-Software 
+basierend auf Open-source Technologien.  
+
+Die Basis für Langlebigkeit bilden moderne Architekturen, robuste Domain Modelle, als auch ein besonderes Augenmerk auf
+Fehlertoleranz und Protokollierung. Langfristige Erweiterbarkeit erreiche ich durch einen hohen Abdeckungsgrad an Regressionstests. 
+
+Mit diesen Ansätzen werden Technologien austauschbar und Systeme erneuerbar, die andernfalls nach spätestens einem 
+Jahrzehnt vollständig neu entwickelt werden würden.
 
 {{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 
-Ich begleite [Individualsoftware]({{< ref "/consulting" >}}) durch den gesamten Lebenszyklus: von der
-Anforderungsanalyse,
-über die IT-Architektur, Konzeption, Implementierung und Rollout bis zu Weiterentwicklung und Wartung.
 {{< column-end >}}
 
 {{< row-end >}}
@@ -65,11 +63,9 @@ Anforderungsanalyse,
 
 ## Projektportfolio
 
-Nach einem Jahrzehnt in der Finanzbranche habe ich mich 2024 in die Welt der Übertragungsnetzbetreiber begeben
-und modernisiere als *Software Engineer* Systeme zur Erhaltung der Netzstabilität mit *Cloud-native* Anwendungen.
-
-In 2022 und 2023 habe ich als *DevOps Engineer* mit Java, Spring Microservices, Angular, Ansible und OpenShift die
-Private Cloud Migration einer großen internationalen Bank unterstützt.
+Nach [einem Jahrzehnt in der Finanzbranche]({{< ref "/consulting/projects" >}}) habe ich mich 2024 in die Welt der 
+Übertragungsnetzbetreiber begeben und modernisiere als *Software Engineer* Systeme zur Erhaltung der 
+Netzstabilität mit *Cloud-native* Anwendungen.
 
 Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master,
 Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware

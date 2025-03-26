@@ -18,7 +18,7 @@ expert network of self-employed IT specialists.
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 
 I design and implement [custom software]({{< ref "/consulting" >}}) for the finance and energy sector that stands the
-test of time through maintainability, resilience, and observability.
+test of time through resilience, maintainability, and extendability.
 
 If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;or by [email](mailto:kontakt@dmalo.de).

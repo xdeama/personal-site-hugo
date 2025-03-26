@@ -18,7 +18,7 @@ network of independent IT specialists. Currently, I live and work in Frankfurt a
 {{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
 
 I design and develop sophisticated [custom software and cloud infrastructure]({{< ref "/consulting" >}}) for the
-finance and energy sector that stands the test of time with maintainability, resilience, and traceability.
+finance and energy sector that stands the test of time with resilience, maintainability, and extendability.
 
 In this process, I accompany custom software from the *Java ecosystem* through its entire lifecycle: from requirements
 analysis, IT architecture, concept design, implementation, and rollout to maintenance and extension.
@@ -59,8 +59,9 @@ experiences can be found in my [project portfolio]({{< ref "projects" >}}).
 
 ### Backend/Middleware Technologies
 
-Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, REST APIs, RPC,
-OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
+Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, Hibernate, jOOQ, 
+REST-APIs, WebSocket, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
+
 
 ### Frontend Technologies
 
@@ -68,8 +69,7 @@ Angular, TypeScript
 
 ### DevOps Technologies
 
-Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Ansible, Ansible Tower, ElasticSearch, Kibana (ELK), Jenkins,
-Bash, Python, Git, Linux, Solaris, Artifactory, Sonar
+Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Gradle, Ansible, ElasticSearch, Bash, Git, Linux, Artifactory, Sonar
 
 
 ## Availability
