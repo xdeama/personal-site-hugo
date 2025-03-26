@@ -198,7 +198,7 @@ My project portfolio includes projects from my time as a freelancer, as well as 
 Design and development of custom software for outage planning at a transmission system operator.
 
 Manual data transfers and media breaks are replaced with a new cloud-native system using open-source technologies.
-This involves replacing multiple legacy applications, modernizing a dozen interfaces, and providing role-optimized overviews and workflows.
+This involves replacing multiple legacy applications, modernizing a dozen data interfaces, and providing role-optimized overviews and workflows.
 
 From the project's start, I contributed to building an agile project team as a service provider, and beyond my role as a Software Engineer, I also:
 

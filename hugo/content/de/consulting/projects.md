@@ -17,8 +17,8 @@ Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als au
 
 Entwurf und Entwicklung einer Individualsoftware für die Ausschaltplanung eines Übertragungsnetzbetreibers.
 
-Manuelle Datenübertragungen und Medienbrüche werden durch ein neues Cloud-native System aus Open Source Technologien ersetzt.
-Dabei werden mehrere Bestandsanwendungen ersetzt, ein dutzend Schnittstellen modernisiert und auf die jeweiligen Rollen
+Manuelle Datenübertragungen und Medienbrüche werden durch ein neues Cloud-natives System aus Open Source Technologien ersetzt.
+Dabei werden mehrere Bestandsanwendungen ersetzt, ein dutzend Datenschnittstellen modernisiert und auf die jeweiligen Rollen
 optimierte Übersichten und Workflows angeboten.
 
 Von Projektstart an habe ich als Dienstleister beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als Software Engineer hinaus:
