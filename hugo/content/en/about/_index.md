@@ -36,7 +36,7 @@ I have gained experience as an IT architect, team leader, project manager, Scrum
 
 {{< column-long >}}
 ## Software Development
-Today, I am focusing on the [development of custom software and cloud infrastructure in the Java environment]({{< ref "/consulting" >}}).
+Today, I am focusing on the [development of custom software]({{< ref "/consulting" >}}).
 
 As a freelancer, I am open to both short consulting assignments and long-term projects.
 

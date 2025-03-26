@@ -40,7 +40,7 @@ Ich konnte als IT-Architekt, Teamleiter, Projektleiter, Scrum Master, Softwareen
 
 {{< column-long >}}
 ## Softwareentwicklung
-Heute fokussiere ich mich auf die [Entwicklung von Individualsoftware und Cloud-Infrastruktur im Java-Umfeld]({{< ref "/consulting" >}}).
+Heute fokussiere ich mich auf die [Entwicklung von Individualsoftware im Java-Umfeld]({{< ref "/consulting" >}}).
 
 Als Freiberufler bin ich sowohl für kurze Beratungseinsätze, als auch langlaufende Projekte offen.
 Scheitert es an meiner Verfügbarkeit, oder ist die Technologie nicht mein Gebiet, so gebe ich Anfragen gerne an [DenktMit]({{< ref "/denktmit" >}}) weiter und finde einen verfügbaren Experten für dich.

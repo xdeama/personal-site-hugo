@@ -17,7 +17,8 @@ expert network of self-employed IT specialists.
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 
-I design and implement [sophisticated custom software]({{< ref "/consulting" >}}) for the finance and energy sector that stands the
+I design and implement [sophisticated custom software]({{< ref "/consulting" >}}) for the finance and energy sector that
+stands the
 test of time through resilience, traceability, and extendability.
 
 If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
@@ -42,11 +43,14 @@ If you’ve got a project in mind, get in touch on [LinkedIn](https://www.linked
 
 ## Custom Software Solutions
 
-I develop durable and extensible [custom-tailored]({{< ref "/consulting" >}}) business software based on open-source technologies.
+I develop durable and extensible [custom-tailored]({{< ref "/consulting" >}}) business software based on open-source
+technologies.
 
-Modern architectures, robust domain models, and a special focus on fault tolerance and logging form the basis for durability. I achieve long-term extensibility through high regression test coverage.
+Modern architectures, robust domain models, and a special focus on fault tolerance and logging form the basis for
+durability. I achieve long-term extensibility through high regression test coverage.
 
-These approaches make technologies replaceable and systems renewable, avoiding the need for complete redevelopment, which might otherwise be necessary after a decade at most.
+These approaches make technologies replaceable and systems renewable, avoiding the need for complete redevelopment,
+which might otherwise be necessary after a decade at most.
 
 {{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 
@@ -60,7 +64,8 @@ These approaches make technologies replaceable and systems renewable, avoiding t
 
 ## Project Portfolio
 
-[After a decade in the financial industry]({{< ref "/consulting/projects" >}}), I moved into the world of transmission system operators in 2024 and, as a
+[After a decade in the financial industry]({{< ref "/consulting/projects" >}}), I moved into the world of transmission
+system operators in 2024 and, as a
 Software Engineer, I modernize systems for maintaining grid stability with cloud-native applications.
 
 In 2022 and 2023, as a DevOps Engineer using Java, Spring Microservices, Angular, Ansible, and OpenShift, I supported

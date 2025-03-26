@@ -17,6 +17,15 @@ network of independent IT specialists. Currently, I live and work in Frankfurt a
 
 {{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
 
+I develop durable and extensible [custom-tailored]({{< ref "/consulting" >}}) business software based on open-source
+technologies.
+
+Modern architectures, robust domain models, and a special focus on fault tolerance and logging form the basis for
+durability. I achieve long-term extensibility through high regression test coverage.
+
+These approaches make technologies replaceable and systems renewable, avoiding the need for complete redevelopment,
+which might otherwise be necessary after a decade at most.
+
 I design and develop sophisticated [custom software and cloud infrastructure]({{< ref "/consulting" >}}) for the
 finance and energy sector that stands the test of time with resilience, maintainability, and extendability.
 
@@ -32,9 +41,6 @@ Need support for your project? Message me on [LinkedIn](https://www.linkedin.com
 After a decade in the financial industry, I moved into the world of transmission system operators in 2024 and, as a
 Software Engineer, I modernize systems for maintaining grid stability with cloud-native applications.
 
-In 2022 and 2023, as a DevOps Engineer using Java, Spring Microservices, Angular, Ansible, and OpenShift, I supported
-the private cloud migration of a large international bank.
-
 Over the past decade, I have gained experience as Head of IT, IT Architect, Team and Project Leader, Scrum Master,
 Software Developer, DevOps Engineer, and in charge of IT operations for custom and standard software.
 
@@ -45,8 +51,7 @@ Before becoming self-employed, I was:
 - and Software Engineer in the financial industry for Cofinpro AG.
 
 My [project portfolio]({{< ref "projects" >}}), [CV]({{< ref "/about/cv" >}}),
-and [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;provide an overview of the
-projects of my recent years.
+and [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;provide a detailed overview.
 
 
 ## Tech Stack
@@ -69,11 +74,8 @@ Angular, TypeScript
 
 ### DevOps Technologies
 
-Azure DevOps, Kubernetes, Openshift, Docker, Helm, Maven, Gradle, Ansible, ElasticSearch, Bash, Git, Linux, Artifactory, Sonar
-
-
-## Availability
-From November 2025 in part-time
+Kubernetes, Docker, Helm, Maven, Gradle, Ansible, ElasticSearch, Bash, Git, Artifactory,
+Sonar, Jenkins, Azure DevOps
 
 
 ## Contact
