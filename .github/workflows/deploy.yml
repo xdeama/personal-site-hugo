@@ -65,5 +65,5 @@ jobs:
           sftp_only: true
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ vars.SFTP_PORT }}
-          remote_path: '/public_html'
+          # remote_path: '/public_html'
           local_path: './public/*'
