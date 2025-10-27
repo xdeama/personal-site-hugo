@@ -62,9 +62,7 @@ jobs:
           server: ${{ vars.SFTP_SERVER }}
           username: ${{ vars.SFTP_USERNAME }}
           #ssh_private_key: ${{ secrets.SFTP_SSH_PRIVATE_KEY }}
-          sftp_only: true
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ vars.SFTP_PORT }}
           remote_path: '/'
           local_path: './public/*'
-          rsyncArgs: '--mkpath'
