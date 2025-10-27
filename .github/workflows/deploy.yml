@@ -56,11 +56,12 @@ jobs:
           name: release-artifact
           path: './public'
 
-      - name: SFTP transfer files
+      - name: Transfer files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ${{ vars.SFTP_SERVER }}
-          username: ${{ vars.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          port: ${{ vars.SFTP_PORT }}
+          server: ${{ vars.SERVER }}
+          username: ${{ vars.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          protocol: ${{ vars.PROTOCOL }}
+          port: ${{ vars.PORT }}
           local-dir: './public/'
