@@ -1,5 +1,5 @@
 # personal-site-hugo
-My personal website https://dmalo.de made with Hugo, a self made custom theme and fluid responsive CSS. Inspired by https://andy-bell.co.uk/ and his guide on CSS https://every-layout.dev. Actually, I made this website mainly because I needed an excuse to start a css project from scratch, without Bootstrap, Tailwind or readymade themes.
+My personal website https://dmalo.de made with Hugo, a custom theme and fluid responsive CSS. Inspired by https://andy-bell.co.uk/ and his guide on CSS https://every-layout.dev. 
 
 # status
 Theme and CSS in need of cleanup and are not yet standalone usable. 
