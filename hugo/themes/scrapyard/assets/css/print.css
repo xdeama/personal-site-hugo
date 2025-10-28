@@ -4,7 +4,7 @@
         background-color: white !important;
     }
 
-    header, footer {
+    header, footer, .outer-site-header {
         display: none !important;
     }
 
@@ -34,6 +34,7 @@
     .dark-mode {
         --color-dark: var(--lightmode-color-dark);
         --color-light: var(--lightmode-color-light);
+        --color-secondary: var(--lightmode-color-secondary);
         --color-mid: var(--lightmode-color-mid);
         --color-mid-glare: var(--lightmode-color-mid-glare);
         --color-primary: var(--lightmode-color-primary);

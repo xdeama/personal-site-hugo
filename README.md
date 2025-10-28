@@ -17,10 +17,14 @@ Markdown to PDF and DOCX conversion is experimental and might not work on your m
 # documentation
 
 ## run dev server
+```bash
 ./hugo-serve-dev.sh
+```
 
 ### network mode
+```bash
 ./hugo-serve-dev.sh -n
+```
 
 ### minify
 -m turns on hugo --minify, which is helpful to check before production deployments, because it might break things like shortcodes

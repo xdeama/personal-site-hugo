@@ -1,6 +1,7 @@
 ---
 translationKey: legal
 title: Legal Notice
+description: Legal notice about dmalo.de and Denis Malolepszy Software Engineering
 date: 2023-11-10T13:59:19+01:00
 draft: false
 layout: standalone

@@ -9,7 +9,141 @@ robots:
   follow: false
 ---
 
-Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen.
+Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen. Eine kurze Übersicht meiner Arbeitgeber enthält mein [CV]({{< ref "/about/cv" >}}).
+
+## Individualsoftware für einen Übertragungsnetzbetreiber
+### **Mai 2024 — heute** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Entwurf und Entwicklung einer Individualsoftware für die Ausschaltplanung eines Übertragungsnetzbetreibers.
+
+Manuelle Datenübertragungen und Medienbrüche werden durch ein neues Cloud-natives System aus Open Source Technologien ersetzt.
+Dabei werden mehrere Bestandsanwendungen ersetzt, ein dutzend Datenschnittstellen modernisiert und auf die jeweiligen Rollen
+optimierte Übersichten und Workflows angeboten.
+
+Von Projektstart an habe ich als Dienstleister beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als Software Engineer hinaus:
+
+- die Anforderungsanalyse,
+- den Entwurf der Solution Architektur
+- und das UI/UX Design begleitet.
+
+Mit dem wachsenden Projektteam habe ich die jeweiligen Resorts an dedizierte Projektmitarbeiter übergeben und mich auf die Front- und Backend-Entwicklung fokussiert.
+
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- Kotlin
+- Spring Boot
+- Kafka
+- Postgres
+- jOOQ und jOOX
+- Angular
+- RxJs
+- NgRx
+- OpenAPI
+- Azure DevOps
+- Kubernetes
+- Argo CD
+- Helm
+- Gradle
+- RESTful Microservices
+- Keycloak (OAuth)
+- Git
+  {{< /div >}}
+
+---
+
+
+## Showcase für Geografisches Informationssystem
+### **Januar 2025 — Februar 2025** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Technologieträger Showcase zur Präsentation der Fähigkeiten von Cloud-native Systemen
+im Kontext Geografischer Informationssysteme für Übertragungsnetzbetreiber.
+Insbesondere habe ich eine deck.gl React App um interaktive Elemente erweitert, als auch deren
+Schnittstellen über REST, WebSocket und Kafka.
+
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- React
+- deck.gl
+- WebSocket (STOMP)
+- Protobuf
+- Kotlin
+- Spring Boot
+- TimescaleDB
+- Kafka
+- Azure DevOps
+- Kubernetes
+- Argo CD
+- Gradle
+- Git
+  {{< /div >}}
+
+---
+
+
+## Datenintegrationssoftware für einen Übertragungsnetzbetreiber
+### **Mai 2024 — Januar 2025** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Ein automatisierter Adapter zwischen einer Bestandssoftware und einer Veröffentlichungsplattform des Verbandes
+der Übertragungsnetzbetreiber reduziert die manuellen Arbeitsschritte im Kontext Veröffentlichung auf ein Minimum.
+Dazu habe ich:
+
+- Eine Cloud-native Datenintegrationssoftware auf Spring Boot Basis entwickelt
+- Mit Kafka mit dem Bestandssystem integriert
+- Mehrere XML-Dokumente in ein standardisiertes Format überführt
+- Welches zur Veröffentlichung an eine Verbandsplattform übermittelt wird
+- Und in einer Angular Webapp zur Nachverfolgung aufgeschlüsselt wird
+- Oder per Webhook Fehlermeldungen an Kollaborationssysteme übergibt
+
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- Java (v21)
+- Spring Boot
+- Kafka
+- Postgres
+- jOOQ und jOOX
+- Angular
+- Azure DevOps
+- Kubernetes
+- Argo CD
+- Helm
+- Gradle
+- RESTful Microservices
+- Git
+  {{< /div >}}
+
+---
+
+
+## Software-Evaluierung zur Regelung von Sekundärregelleistung
+### **März 2024 — November 2024** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Evaluierung einer Individualsoftware im Bereich automatic Frequency Restoration Reserve (aFRR)
+bei einem Übertragungsnetzbetreiber:
+
+- Analyse auf Quellcode-Ebene
+- Exemplarischer Betrieb
+- Verifizierung von Spezifikation und Funktion
+- Schätzung von Aufwänden zur Integration in die bestehende Systemlandschaft
+
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- .Net 8
+- Next.js
+- Angular
+- NgRx
+- Kafka
+- Kubernetes
+- Azure DevOps
+- Argo CD
+- Helm
+- Git
+  {{< /div >}}
+
+---
 
 
 ## CI/CD für Private Cloud Migration modernisieren

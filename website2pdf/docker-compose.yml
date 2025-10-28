@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   selenium-chrome:
-    image: seleniarm/standalone-chromium:120.0
+    image: seleniarm/standalone-chromium:124.0
     platform: linux/arm64/v8
     container_name: seleniarm-chromium
     shm_size: 2gb

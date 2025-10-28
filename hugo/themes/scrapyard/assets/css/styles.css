@@ -63,9 +63,6 @@
 .prose em {
   font-family: "Noto Sans", sans-serif;
   font-style: italic;
-  /*background-color: var(--chroma-color-highlight);*/
-  /*border-radius: 7px;*/
-  /*padding: 5px;*/
 }
 
 .prose > img,
@@ -96,18 +93,59 @@
   left: 0;
 }
 
+.prose img:not(.hidden-on-desktop) + p {
+  margin-top: 0;
+}
+
+.prose div + p {
+  --flow-space: var(--space-3xs-2xs);
+}
+
+.prose .column-long > p:first-child {
+  margin-top: 0;
+}
+
+.prose .column-short > svg {
+  margin-top: 0 !important;
+}
+
+.prose .row + .row {
+  --flow-space: var(--space-xl);
+}
+
 .prose > svg,
-.prose > a > svg {
-  width: 10rem;
-  height: 10rem;
+.prose > .row > .column-short > svg,
+.prose > a > svg,
+.prose > .row > .column-short > a > svg,
+.hidden-on-desktop > svg {
+  width: 14rem;
+  height: 14rem;
   display: block;
   margin-top: var(--flow-space);
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: var(--flow-space);
   color: var(--color-dark);
 }
 
-.prose > a > svg:hover {
+@media (max-width: 850px) {
+  .prose > svg,
+  .prose > .row > .column-short > svg,
+  .prose > a > svg,
+  .prose > .row > .column-short > a > svg,
+  .hidden-on-desktop > svg {
+    width: 10rem;
+    height: 10rem;
+    margin-top: var(--space-s);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: var(--space-s);
+  }
+}
+
+.prose > a > svg:hover,
+.prose > .row > .column-short > a > svg:hover,
+.hidden-on-desktop > svg:hover {
   color: var(--color-primary);
 }
 
@@ -128,7 +166,7 @@
   column-count: 1;
 }
 
-.prose ul li:first-child {
+.prose ul:not(.no-reduced-top-margin) li:first-child {
   margin-top: -0.5rem;
 }
 
@@ -156,7 +194,7 @@
 }
 
 .prose :is(figure, figure + *, h2) {
-  --flow-space: var(--space-l-xl);
+  --flow-space: var(--space-l);
 }
 
 .prose :is(h1) {
@@ -171,16 +209,21 @@
   --flow-space: var(--space-s-m);
 }
 
-.prose :is(h1 + p, h2 + p) {
+.prose :is(h1 + p, h2 + p, h2 + .row) {
   --flow-space: var(--space-xs);
 }
 
-.prose :is(h3 + p, h4 + p, p + p){
+.prose :is(h3 + p, h4 + p, p + p, a + p, img.hidden-on-desktop + p){
   --flow-space: var(--space-3xs-2xs);
 }
 
 .prose :is(p + h2, p + h3, p + h4) {
   --flow-space: var(--space-l);
+}
+
+.prose :is(.row + h2, .row + h3, .row + h4) {
+  --flow-space: var(--space-s);
+  margin-top: var(--flow-space);
 }
 
 @media (max-width: 49em) {
@@ -201,13 +244,56 @@
   }
 }
 
-.site-header .repel {
-  --gutter: 0.5rem var(--space-m);
-  padding-block: var(--space-m);
+.sticky-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: var(--color-secondary);
+}
+
+.site-header {
+  width: var(--wrapper-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+}
+
+.outer-site-header {
+  height: 70px;
+  top: -28px;
+  display: flex;
+  align-content: center;
+  position: sticky;
+
+  @media (max-width: 46em) {
+    height: 100px;
+    top: -42px;
+    align-items: center;
+  }
+}
+
+
+/*try out https://css-tricks.com/how-to-create-a-shrinking-header-on-scroll-without-javascript/*/
+.inner-site-header {
+  height: 42px;
+  position: sticky;
+  top: 0;
+  margin-top: 13px; /*TODO: why is this workaround needed?*/
+
+  @media (max-width: 46em) {
+    height: 58px;
+    margin-top: 0; /*TODO: why is this workaround needed?*/
+  }
 }
 
 .site-header nav ul {
   margin: 0;
+
+  @media (max-width: 46em) {
+    gap: 5px var(--space-s);
+    justify-content: center;
+  }
 }
 
 .site-header-logo {
@@ -215,9 +301,10 @@
   font-size: 1.8rem;
   height: 2.5rem;
   color: var(--color-header-logo);
+  transform: translate(0, 2px);
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 46em) {
   .site-header-logo {
     display: none;
   }
@@ -237,7 +324,7 @@
 
   --switcher-vertical-alignment: flex-start;
   --switcher-target-container-width: 45rem;
-  --gutter: var(--space-xs)
+  --gutter: var(--space-xs);
 }
 
 .margin-workaround {
@@ -255,7 +342,7 @@
   max-width: 17rem;
   border-radius: 2%;
   display: block;
-  margin: 3rem auto;
+  margin: 2rem auto;
   box-shadow:
     -50px -50px 0 -42px var(--color-profile-frame),
     50px 50px 0 -42px var(--color-profile-frame);

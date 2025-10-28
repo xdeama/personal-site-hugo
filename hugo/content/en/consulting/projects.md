@@ -9,7 +9,137 @@ robots:
   follow: false
 ---
 
-My project portfolio includes projects from my time as a freelancer, as well as permanent positions.
+My project portfolio includes projects from my time as a freelancer, as well as permanent positions. For a short overview of my past employers, see my [CV]({{< ref "/about/cv" >}}).
+
+## Custom Software for a Transmission System Operator
+### **May 2024 — Present** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Design and development of custom software for outage planning at a transmission system operator.
+
+Manual data transfers and media breaks are replaced with a new cloud-native system using open-source technologies.
+This involves replacing multiple legacy applications, modernizing a dozen data interfaces, and providing role-optimized overviews and workflows.
+
+From the project's start, I contributed to building an agile project team as a service provider, and beyond my role as a Software Engineer, I also:
+
+- Guided requirements analysis,
+- Designed the solution architecture,
+- And supported the UI/UX design.
+
+As the project team grew, I handed over the respective areas of responsibility to dedicated project members and focused on front-end and back-end development.
+
+{{< div class="list-with-columns" >}}
+### **Technologies**
+- Kotlin
+- Spring Boot
+- Kafka
+- Postgres
+- jOOQ and jOOX
+- Angular
+- RxJs
+- NgRx
+- OpenAPI
+- Azure DevOps
+- Kubernetes
+- Argo CD
+- Helm
+- Gradle
+- RESTful Microservices
+- Keycloak (OAuth)
+- Git
+  {{< /div >}}
+
+---
+
+
+## Showcase for Geographic Information System
+### **January 2025 — February 2025** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Technology showcases to present the capabilities of cloud-native systems in the context of Geographic Information Systems for transmission system operators.
+Specifically, I extended a deck.gl React app with interactive elements and its interfaces via REST, WebSocket, and Kafka.
+
+{{< div class="list-with-columns" >}}
+### **Technologies**
+- React
+- deck.gl
+- WebSocket (STOMP)
+- Protobuf
+- Kotlin
+- Spring Boot
+- TimescaleDB
+- Kafka
+- Azure DevOps
+- Kubernetes
+- Argo CD
+- Gradle
+- Git
+  {{< /div >}}
+
+---
+
+
+## Data Integration Software for a Transmission System Operator
+### **May 2024 — January 2025** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+An automated adapter between a legacy software and a publication platform of the association of transmission system 
+operators minimizes manual work steps in the context of publication.
+For this, I:
+
+- Developed cloud-native data integration software based on Spring Boot,
+- Integrated with the legacy system using Kafka,
+- Transformed multiple XML documents into a standardized format,
+- Which is transmitted to an association platform for publication,
+- And broken down in an Angular web app for tracking,
+- Or passes error messages to collaboration systems via webhook.
+
+{{< div class="list-with-columns" >}}
+### **Technologies**
+- Java (v21)
+- Spring Boot
+- Kafka
+- Postgres
+- jOOQ and jOOX
+- Angular
+- Azure DevOps
+- Kubernetes
+- Argo CD
+- Helm
+- Gradle
+- RESTful Microservices
+- Git
+  {{< /div >}}
+
+---
+
+
+## Software Evaluation for Secondary Control Power Regulation
+### **March 2024 — November 2024** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Evaluation of custom software in the area of automatic Frequency Restoration Reserve (aFRR) at a transmission system operator:
+
+- Analysis at the source code level,
+- Exemplary operation,
+- Verification of specification and function,
+- Estimation of efforts for integration into the existing system landscape.
+
+{{< div class="list-with-columns" >}}
+### **Technologies**
+- .Net 8
+- Next.js
+- Angular
+- NgRx
+- Kafka
+- Kubernetes
+- Azure DevOps
+- Argo CD
+- Helm
+- Git
+  {{< /div >}}
+
+---
 
 
 ## Modernizing CI/CD for Private Cloud Migration
@@ -21,7 +151,46 @@ DevOps and Java development for the private cloud migration of a major internati
 - Migrating a CI/CD portal to Azure DevOps for container, VM, and database deployments
 - Migrating the CI/CD portal's Spring Microservices infrastructure from VMs to containerized environments in OpenShift
 - Automating complex deployment mechanisms for VMs using Ansible and Reactive Spring, such as batch deployments with dependent components, and automatic sidecars
-- Navigated the first batch of migrated systems through internal architecture and IT risk governance processes, ensuring compliance and successful integration into the private cloud.
+- Navigate the first batch of migrated systems through internal architecture and IT risk governance processes, ensuring compliance and successful integration into the private cloud.
+- Analyzing, containerizing, and porting an existing database anonymization solution
+- Migrating Jenkins deployment pipelines to Azure DevOps
+
+{{< div class="list-with-columns" >}}
+### **Technologies**
+- Java 8 to 17
+- Spring (Cloud, Data, Reactive, Security, Web, Gateway)
+- Reactive Streams
+- Angular (PrimeFaces)
+- TypeScript
+- Azure DevOps
+- OpenShift/Kubernetes
+- Helm
+- Maven
+- RESTful Microservices
+- Camunda
+- Kafka
+- Oracle SQL
+- Keycloak (OAuth)
+- Swagger
+- Ansible
+- Bash (Linux & Solaris)
+- PowerShell
+- Git
+  {{< /div >}}
+
+---
+
+
+## Modernizing CI/CD for Private Cloud Migration
+### **March 2022 — September 2023** | DevOps Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
+
+DevOps and Java development for the private cloud migration of a major international bank:
+
+- Migrating a CI/CD portal to Azure DevOps for container, VM, and database deployments
+- Migrating the CI/CD portal's Spring Microservices infrastructure from VMs to containerized environments in OpenShift
+- Automating complex deployment mechanisms for VMs using Ansible and Reactive Spring, such as batch deployments with dependent components, and automatic sidecars
+- Navigate the first batch of migrated systems through internal architecture and IT risk governance processes, ensuring compliance and successful integration into the private cloud.
 - Analyzing, containerizing, and porting an existing database anonymization solution
 - Migrating Jenkins deployment pipelines to Azure DevOps
 

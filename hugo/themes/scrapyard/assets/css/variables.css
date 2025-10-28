@@ -7,6 +7,7 @@
   /* light mode colors */
   --lightmode-color-dark: #252525;
   --lightmode-color-light: #eeeeee;
+  --lightmode-color-secondary: #E6E6E6FF;
   --lightmode-color-mid: #666;
   --lightmode-color-mid-glare: #b3b3b3;
   --lightmode-color-primary: #089ce7;
@@ -43,6 +44,7 @@
 
   /* dark mode colors */
   --darkmode-color-dark: #252525;
+  --darkmode-color-secondary: #333333FF;
   --darkmode-color-light: #e8e8e8;
   --darkmode-color-mid: #8C8C8CFF;
   --darkmode-color-mid-glare: #b3b3b3;
@@ -142,6 +144,7 @@
   /* dark and light mode switching with proxy variables */
   --color-dark: var(--lightmode-color-dark);
   --color-light: var(--lightmode-color-light);
+  --color-secondary: var(--lightmode-color-secondary);
   --color-mid: var(--lightmode-color-mid);
   --color-mid-glare: var(--lightmode-color-mid-glare);
   --color-primary: var(--lightmode-color-primary);
@@ -179,6 +182,7 @@
 .dark-mode {
   --color-dark: var(--darkmode-color-light);
   --color-light: var(--darkmode-color-dark);
+  --color-secondary: var(--darkmode-color-secondary);
   --color-mid: var(--darkmode-color-mid);
   --color-mid-glare: var(--darkmode-color-mid-glare);
   --color-primary: var(--darkmode-color-primary);

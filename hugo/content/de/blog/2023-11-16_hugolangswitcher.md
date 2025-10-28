@@ -6,14 +6,11 @@ date: 2023-11-16T14:00:00-07:00
 draft: false
 tags: hugo
 ---
-This website was created using [Hugo](https://gohugo.io/), a static site generator framework. While I'm certainly not going to win any awards for design, I have placed a lot of emphasis on usability and responsive design.
+Diese Webseite wurde mit Hugo erstellt, einem Framework zur Generierung statischer Seiten. Auch wenn ich sicherlich keine Preise für das Design gewinnen werde, habe ich viel Wert auf Bedienbarkeit und responsives Design gelegt.
 
-Hugo supports [multilingualism](https://gohugo.io/content-management/multilingual/#menus) at a very high level. What's missing out of the box can be implemented with [Hugo Methods](https://gohugo.io/methods/).
+Hugo unterstützt Mehrsprachigkeit auf sehr hohem Niveau. Mir fehlte ein Button oder Link, über den die aktuell angezeigte Seite mit dem Gegenstück in einer anderen Sprache verknüpft wird.
 
-I was missing a button or link through which the currently displayed page is linked to its counterpart in another language.
-
-So, I specifically wanted a link that does not lead to the homepage in a certain language, but rather switches between this blog article in German and English, for example. Only in the case that it does not exist in English, I would like to direct the reader to the homepage instead.
-
+Ich wollte also gezielt einen Link, der nicht zur Startseite in einer bestimmten Sprache führt, sondern den gerade gezeigten Inhalt in einer anderen Sprache darstellt. Nur für den Fall, dass er nicht auf Englisch existiert, möchte ich den Leser stattdessen auf die Startseite leiten.
 ```html
 <!-- Überprüfen, ob die aktuelle Sprache Deutsch ist -->
 {{ if eq .Site.Language.Lang "de" }}

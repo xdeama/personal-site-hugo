@@ -1,6 +1,7 @@
 ---
 translationKey: contact
 title: Kontakt
+description: Kontakt zu Denis Malolepszy Software Engineering aufnehmen. Full Stack Developer & Software-Architekt — Java & Cloud Native.
 date: 2023-11-10T13:59:19+01:00
 draft: false
 layout: standalone

@@ -2,11 +2,8 @@
 translationKey: privacy
 title: Datenschutzerklärung
 date: 2023-01-01T08:00:00+01:00
-draft: false
+description:  Datenschutzhinweis mit Beschreibung der nicht vorhandenen langfristigen Datenerhebungspraktiken
 layout: standalone
-robots:
-  index: false
-  follow: false
 ---
 
 Ich lege großen Wert auf Datenschutz, daher nutzt diese Seite:

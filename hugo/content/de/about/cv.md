@@ -5,9 +5,6 @@ heading: CV
 date: 2023-01-01T08:00:00-07:00
 draft: false
 layout: standalone
-robots:
-  index: false
-  follow: false
 ---
 
 Tabellarischer Lebenslauf mit Zeitraum, Position und Unternehmen. Details zu den jeweiligen Aufgabenfeldern und Projektinhalten befinden sich in der separaten [Projektportfolio]({{< relref "/consulting/projects" >}}).
@@ -26,7 +23,7 @@ Studium der Wirtschaftsinformatik (B.Sc.)
 
 ## Berufserfahrung
 
-### **Aufsichtsrat** | Juni 2022 — heute
+### **Aufsichtsrat** | Juni 2022 - November 2024
 *DenktMit eG, Oberursel*
 
 Vorsitzender des Aufsichtsrates der [DenktMit eG]({{< ref "/denktmit" >}}) in Oberursel, einem Experten-Netzwerk erfahrener IT-Spezialisten im Software Engineering
@@ -59,7 +56,7 @@ Anwendungs- und Architekturverantwortlicher im Meldewesen einer großen Fondsges
 ### **IT-Consultant** | März 2015 — Juni 2017
 *Cofinpro AG, Frankfurt am Main*
 
-IT-Berater für Software Engineering im Java Umfeld
+Entwicklung und IT-Konzeption von Individualsoftware mit Java EE im gesetzlichen Meldewesen, sowie Leitung eines agilen Entwicklungsteams
 
 ### **Werkstudent Softwareentwicklung** | August 2014 — Januar 2015
 *Cofinpro AG, Berlin*

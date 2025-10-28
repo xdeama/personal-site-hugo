@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - two-column-poc
 
   workflow_dispatch:
 
@@ -12,7 +13,7 @@ jobs:
     name: Build Hugo site
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.120.4
+      HUGO_VERSION: 0.137.1
     steps:
       - name: Install Hugo CLI
         run: |
@@ -20,7 +21,7 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
@@ -36,7 +37,7 @@ jobs:
             --minify          
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: release-artifact
           path: './hugo/public'
@@ -47,7 +48,7 @@ jobs:
     needs: build
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Download artifact
         uses: actions/download-artifact@v4.1.7
@@ -55,14 +56,13 @@ jobs:
           name: release-artifact
           path: './public'
 
-      - name: Deploy file
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      - name: Transfer files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
-          server: ${{ vars.FTP_SERVER }}
-          username: ${{ vars.FTP_USERNAME }}
-          ssh_private_key: ${{ secrets.FTP_SSH_PRIVATE_KEY }}
-          sftp_only: true
-          #password: ${{ secrets.FTP_PASSWORD }}
-          port: ${{ vars.FTP_PORT }}
-          remote_path: '/home/customer/www/dmalo.de/public_html'
-          local_path: './public/*'
+          server: ${{ vars.SERVER }}
+          username: ${{ vars.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          protocol: ${{ vars.PROTOCOL }}
+          port: ${{ vars.PORT }}
+          local-dir: './public/'
+          server-dir: 'www/'
