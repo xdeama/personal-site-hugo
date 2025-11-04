@@ -345,8 +345,8 @@
     border-radius: 2%;
     display: block;
     margin: 2rem auto;
-    box-shadow: -50px -50px 0 -42px var(--color-profile-frame),
-    50px 50px 0 -42px var(--color-profile-frame);
+    box-shadow: -48px -48px 0 -42px var(--color-profile-frame),
+    48px 48px 0 -42px var(--color-profile-frame);
 }
 
 .profile-printable-img {
