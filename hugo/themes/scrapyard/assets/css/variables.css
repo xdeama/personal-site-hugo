@@ -1,6 +1,6 @@
 :root {
-  --font-base: 'Noto Sans',sans-serif;
-  --font-base-strong: "Noto Sans Bold";
+  --font-base: 'Lato',sans-serif;
+  --font-base-strong: 'Lato',sans-serif;
   --font-mono: 'JetBrains Mono','Courier New',monospace;
   --font-mono-strong: 'JetBrains Mono Bold','Courier New',monospace;
 
