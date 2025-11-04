@@ -12,7 +12,7 @@ robots:
 Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen. Eine kurze Übersicht meiner Arbeitgeber enthält mein [CV]({{< ref "/about/cv" >}}).
 
 ## Individualsoftware für einen Übertragungsnetzbetreiber
-### **Mai 2024 — heute** | Software Engineer
+### **Mai 2024 — Mai 2025** | Software Engineer
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
 Entwurf und Entwicklung einer Individualsoftware für die Ausschaltplanung eines Übertragungsnetzbetreibers.

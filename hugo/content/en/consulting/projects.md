@@ -12,7 +12,7 @@ robots:
 My project portfolio includes projects from my time as a freelancer, as well as permanent positions. For a short overview of my past employers, see my [CV]({{< ref "/about/cv" >}}).
 
 ## Custom Software for a Transmission System Operator
-### **May 2024 — Present** | Software Engineer
+### **May 2024 — May 2025** | Software Engineer
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
 Design and development of custom software for outage planning at a transmission system operator.
