@@ -6,8 +6,8 @@
 
   /* light mode colors */
   --lightmode-color-dark: #252525;
-  --lightmode-color-light: #eeeeee;
-  --lightmode-color-secondary: #E6E6E6FF;
+  --lightmode-color-light: #f7f8fa;
+  --lightmode-color-secondary: #f3f3f3;
   --lightmode-color-mid: #666;
   --lightmode-color-mid-glare: #b3b3b3;
   --lightmode-color-primary: #089ce7;
