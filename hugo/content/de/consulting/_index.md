@@ -60,6 +60,21 @@ Cloud-Architekturen basierend auf *Kubernetes* und auf *TypeScript* basierende F
 {{< embed-svg-hidden-on-desktop "static/svg/tech-stack.svg" >}}
 
 
+## Erfahrung
+Belastbare Erfahrung aus Projekteinsätzen aufsummiert nach Technologien:
+
+| **Technologie** | **Erfahrung** |  |
+|:----------------|:--------------| :--- |
+| Java            | 8 Jahre       | `████████░░` |
+| SQL / RDB       | 8 Jahre       | `████████░░` |
+| Scrum           | 6 Jahre       | `██████░░░░` |
+| JavaEE          | 4 Jahre       | `█████░░░░░` |
+| Spring          | 4 Jahre       | `████░░░░░░` |
+| TypeScript      | 3 Jahre       | `████░░░░░░` |
+| Angular         | 3 Jahre       | `███░░░░░░░` |
+| Kotlin          | 2 Jahre       | `██░░░░░░░░` |
+
+
 ## Freiberufler, aber keine One-Man-Show
 
 Gemeinsam mit [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten, gebe ich dem

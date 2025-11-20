@@ -58,6 +58,22 @@ My focus in recent years has been on the *Spring Framework*, *relational databas
 
 {{< embed-svg-hidden-on-desktop "static/svg/tech-stack.svg" >}}
 
+
+## Experience
+Extensive experience from project assignments summarized by technology:
+
+| **Technology** | **Experience** |  |
+|:---------------|:---------------| :--- |
+| Java           | 8 Years        | `████████░░` |
+| SQL / RDB      | 8 Years        | `████████░░` |
+| Scrum          | 6 Years        | `██████░░░░` |
+| JavaEE         | 4 Years        | `█████░░░░░` |
+| Spring         | 4 Years        | `████░░░░░░` |
+| TypeScript     | 3 Years        | `████░░░░░░` |
+| Angular        | 3 Years        | `███░░░░░░░` |
+| Kotlin         | 2 Years        | `██░░░░░░░░` |
+
+
 ## Freelancer, Not a One-Man Show
 
 Together with [DenktMit]({{< ref "/denktmit" >}}), a network of independent IT experts, I put substance back into the
