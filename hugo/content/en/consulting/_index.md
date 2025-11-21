@@ -60,18 +60,46 @@ My focus in recent years has been on the *Spring Framework*, *relational databas
 
 
 ## Experience
-Extensive experience from project assignments summarized by technology:
+Solid experience from project assignments summarized by topic:
 
-| **Technology** | **Experience** |  |
-|:---------------|:---------------| :--- |
-| Java           | 8 Years        | `████████░░` |
-| SQL / RDB      | 8 Years        | `████████░░` |
-| Scrum          | 6 Years        | `██████░░░░` |
-| JavaEE         | 4 Years        | `█████░░░░░` |
-| Spring         | 4 Years        | `████░░░░░░` |
-| TypeScript     | 3 Years        | `████░░░░░░` |
-| Angular        | 3 Years        | `███░░░░░░░` |
-| Kotlin         | 2 Years        | `██░░░░░░░░` |
+
+### Technology Experience
+
+| Technology           | Experience |
+|:---------------------|:-----------|
+| Java                 | 8 years    |
+| SQL / RDB            | 8 years    |
+| JavaEE / JakartaEE   | 4 years    |
+| Web Development      | 7 years    |
+| CI/CD & DevOps Tools | 7 years    |
+| Spring               | 4 years    |
+| Kubernetes           | 3 years    |
+| TypeScript           | 3 years    |
+| Angular              | 3 years    |
+| Kotlin               | 2 years    |
+
+
+### Architecture Experience
+| Architecture  | Experience |
+|:--------------|:-----------|
+| Microservices | 6 years    |
+| Cloud-Native  | 3 years    |
+| Event-Driven  | 3 years    |
+
+
+### Methodology Experience
+| Methodology | Experience |
+|:------------|:-----------|
+| Scrum       | 6 years    |
+| SAFe        | 1.5 years  |
+
+
+### Industry Experience
+| Industry | Experience |
+|:---------|:-----------|
+| IT       | 12 years   |
+| Finance  | 8 years    |
+| Energy   | 1.5 years  |
 
 
 ## Freelancer, Not a One-Man Show

@@ -65,9 +65,51 @@
     font-style: italic;
 }
 
-.prose > img,
-.prose > table {
+.prose > img {
     width: 100%;
+}
+
+.prose table {
+    width: 100%;
+    margin-bottom: var(--flow-space);
+    border-collapse: collapse;
+}
+
+.prose thead {
+    border-bottom: 1.5px solid var(--color-mid);
+}
+
+.prose th:is(:last-child),
+.prose td:is(:last-child){
+    text-align: right !important;
+}
+
+@media screen and (min-width: 580px) {
+    .prose table {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .prose tr,
+    .prose td {
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .prose table tr:not(:last-child) {
+        border-bottom: 1px solid var(--color-mid);
+    }
+
+    .prose th:is(:first-child),
+    .prose td:is(:first-child){
+        min-width: 300px;
+    }
+
+    .prose th:is(:last-child),
+    .prose td:is(:last-child){
+        text-align: left !important;
+    }
 }
 
 .prose figure img {
