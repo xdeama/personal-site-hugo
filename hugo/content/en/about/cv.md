@@ -23,6 +23,10 @@ Studied Business Informatics at the University of Applied Sciences Fulda (B.Sc.)
 
 ## Professional Experience
 
+### **Full-time parenting** | June 2025 — December 2025
+*Norway*
+Personal trainer for walking, talking and cheerful nonsense.
+
 ### **Chairman of the Supervisory Board** | June 2022 - November 2024
 *DenktMit eG, Oberursel, Germany*
 

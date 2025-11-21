@@ -109,6 +109,10 @@ Studium der Wirtschaftsinformatik (B.Sc.)
 
 ## Berufserfahrung
 
+### **Elternzeit** | Juni 2025 — Dezember 2025
+*Norwegen*
+Personal Trainer für Laufen, Sprechen und fröhlichen Unsinn.
+
 ### **Aufsichtsrat** | Juni 2022 - November 2024
 
 *DenktMit eG, Oberursel*
