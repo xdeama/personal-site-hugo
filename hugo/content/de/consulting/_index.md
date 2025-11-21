@@ -61,7 +61,7 @@ Cloud-Architekturen basierend auf *Kubernetes* und auf *TypeScript* basierende F
 
 
 ## Erfahrung
-Belastbare Erfahrung aus Projekteinsätzen aufsummiert nach Themen:
+Ich biete mehr als 12 Jahre Berufserfahrung im IT-Umfeld. Diese verteilen sich wie folgt auf Technologien, Themen und Branchen.
 
 
 ### Technologieerfahrung
@@ -98,7 +98,6 @@ Belastbare Erfahrung aus Projekteinsätzen aufsummiert nach Themen:
 ### Branchenerfahrung
 | Branche | Erfahrung |
 |:--------|:----------|
-| IT      | 12 Jahre  |
 | Finanz  | 8 Jahre   |
 | Energie | 1,5 Jahre |
 

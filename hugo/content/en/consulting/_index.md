@@ -60,7 +60,7 @@ My focus in recent years has been on the *Spring Framework*, *relational databas
 
 
 ## Experience
-Solid experience from project assignments summarized by topic:
+I offer more than 12 years of professional experience in the IT field. This experience is spread across the following technologies, topics and industries.
 
 
 ### Technology Experience
@@ -95,11 +95,10 @@ Solid experience from project assignments summarized by topic:
 
 
 ### Industry Experience
-| Industry | Experience |
-|:---------|:-----------|
-| IT       | 12 years   |
-| Finance  | 8 years    |
-| Energy   | 1.5 years  |
+| Industry    | Experience |
+|:------------|:-----------|
+| Finance     | 8 years    |
+| Energy      | 1.5 years  |
 
 
 ## Freelancer, Not a One-Man Show
