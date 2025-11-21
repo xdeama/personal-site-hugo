@@ -11,9 +11,12 @@ main:
   - name: projects
     pageRef: /consulting/projects
     weight: 40
-  - name: denktmit
-    pageRef: /denktmit
-    weight: 50
+  - name: CV
+    pageRef: /about/cv
+    weight: 45
+#  - name: DenktMit
+#    pageRef: /denktmit
+#    weight: 50
   - name: blog
     pageRef: /blog
     weight: 60
