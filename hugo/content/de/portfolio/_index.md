@@ -10,81 +10,78 @@ robots:
   follow: false
 ---
 
-## Hallo, ich bin Denis
+## Hallo,
 
-Ich bin freiberuflicher *Software-Architekt*, *Full Stack Developer* und Mitgründer von 
-[DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten. 
-Derzeit lebe und arbeite ich in Frankfurt am Main.
+ich bin Denis. Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von
+[DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
 {{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
 
-Ich entwickle langlebige und erweiterbare [individuell maßgeschneiderte]({{< ref "/consulting" >}}) Business-Software
-basierend auf Open-source Technologien.
+Ich entwerfe und entwickle [anspruchsvolle Softwarelösungen]({{< ref "/consulting" >}}) für den Finanz- und Energiesektor,
+die den Test der Zeit durch Zuverlässigkeit, Nachvollziehbarkeit und Erweiterbarkeit bestehen.
 
-Die Basis für Langlebigkeit bilden moderne Architekturen, robuste Domain Modelle, als auch ein besonderes Augenmerk auf
-Fehlertoleranz und Protokollierung. Langfristige Erweiterbarkeit erreiche ich durch einen hohen Abdeckungsgrad an Regressionstests.
+Meine Schwerpunkte sind:
+- Cloud-Native Anwendungen mit **Java**, Kotlin und **Spring Boot**
+- Event-basierte Architekturen mit **Kafka**
+- Datengetriebene Architekturen mit relationalen Datenbanken (Oracle & **PostgreSQL**)
+- Entwicklung von Web Frontends mit **Angular** und TypeScript
+- Prozessorchestrierung in BPMN mit **Camunda**
+- CI/CD zu **Kubernetes** mit Helm, Maven, Gradle, Git, Jenkins oder Azure DevOps
 
-Mit diesen Ansätzen werden Technologien austauschbar und Systeme erneuerbar, die andernfalls nach spätestens einem
-Jahrzehnt vollständig neu entwickelt werden würden. 
-
-Dabei begleite ich Individualsoftware durch den gesamten Lebenszyklus: von der Anforderungsanalyse, über die
-IT-Architektur, Konzeption, Implementierung und Rollout bis zu Weiterentwicklung und Wartung.
-
-Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
-{{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
+Mein Portfolio enthält:
+- meine summierte [Projekterfahrung](#projekterfahrung) nach Technologien, Architekturen, Methoden und Branchen
+- meinen [CV](#cv-denis-malolepszy)
+- und mein [Projektportfolio](#projektportfolio-denis-malolepszy) mit Beschreibungen individueller Projekteinsätze
 
 ## Projekterfahrung
+Ich biete mehr als 12 Jahre Berufserfahrung im IT-Umfeld in verschiedenen Rollen im IT-Management und 
+Software Engineering. Meine Erfahrung verteilt sich wie folgt auf Technologien und Branchen.
 
-Nach einem Jahrzehnt in der Finanzbranche habe ich mich 2024 in die Welt der Übertragungsnetzbetreiber begeben
-und modernisiere als *Software Engineer* Systeme zur Erhaltung der Netzstabilität mit *Cloud-native* Anwendungen.
+### Technologieerfahrung
 
-Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master,
-Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware
-Erfahrungen sammeln.
+| Technologie          | Erfahrung |
+|:---------------------|:----------|
+| Java                 | 8 Jahre   |
+| SQL / RDB            | 8 Jahre   |
+| JavaEE / JakartaEE   | 4 Jahre   |
+| Webentwicklung       | 7 Jahre   |
+| CI/CD & DevOps Tools | 7 Jahre   |
+| Spring               | 4 Jahre   |
+| Kubernetes           | 3 Jahre   |
+| TypeScript           | 3 Jahre   |
+| Angular              | 3 Jahre   |
+| Kotlin               | 2 Jahre   |
 
-Vor meiner Selbstständigkeit war ich:
 
-- Head of IT bei Habona Invest, einem Asset Manager aus Frankfurt am Main,
-- Application Manager im Meldewesen bei der Union Investment,
-- und Software Engineer in der Finanzbranche für Cofinpro AG.
+### Architekturerfahrung
+| Architektur   | Erfahrung |
+|:--------------|:----------|
+| Microservices | 6 Jahre   |
+| Cloud-Native  | 3 Jahre   |
+| Event-Driven  | 3 Jahre   |
 
-Mein [Projektportfolio]({{< ref "projects" >}}), [CV]({{< ref "/about/cv" >}})
-und [LinkedIn Profil](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;geben eine detaillierte Übersicht.
+
+### Methodenerfahrung
+| Methode | Erfahrung |
+|:--------|:----------|
+| Scrum   | 6 Jahre   |
+| SAFe    | 1,5 Jahre |
 
 
-## Tech Stack
-
-Technisch konzentriere ich mich auf das Java-Ökosystem, insbesondere *Spring-Framework*, relationale
-Datenbanken, Kafka und Angular Frontends.
-
-Es folgt eine Zusammenfassung von Technologien und Methoden in denen ich Erfahrungen sammeln konnte. Details zu meinen
-technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}).
-
-### Backend/Middleware Technologien
-
-Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, Hibernate, jOOQ,
-REST-APIs, WebSocket, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
-
-### Frontend Technologien
-
-Angular, TypeScript
-
-### DevOps Technologien
-
-Kubernetes, Docker, Helm, Maven, Gradle, Ansible, ElasticSearch, Bash, Git, Artifactory,
-Sonar, Jenkins, Azure DevOps
+### Branchenerfahrung
+| Branche | Erfahrung |
+|:--------|:----------|
+| Finanz  | 8 Jahre   |
+| Energie | 1,5 Jahre |
 
 
 ## Kontakt
+Benötigt dein Projekt Unterstützung? Schreibe mir per [E-Mail](mailto:kontakt@dmalo.de) 
+oder auf {{< linkedin-icon >}} [LinkedIn](https://www.linkedin.com/in/dmalolepszy).
 
-Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de)
-oder [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;zur Verfügung und vereinbare gerne
-ein Telefonat oder Videochat.
+Kann ich selbst nicht weiterhelfen, empfehle ich gerne einen geeigneten zuverlässigen Experten 
+von [DenktMit]({{< ref "/denktmit" >}}), meinem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
-{{< rawhtml >}} <br> {{< /rawhtml >}}
-Mit freundlichen Grüßen
-
-Denis Malolepszy
-{{< rawhtml >}}<div class="print-only" id="current-date-placeholder">Frankfurt am Main,
+{{< rawhtml >}}<div class="print-only" id="current-date-placeholder">Denis Malolepszy, Frankfurt am Main,
 den <span id="current-date"></span></div>{{< /rawhtml >}}
 

@@ -12,13 +12,13 @@ draft: false
 
 # Hallo,
 
-ich bin Denis. Freiberuflicher Software-Architekt, Full Stack Developer und Mitgründer von 
+ich bin Denis. Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von 
 [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 
-Ich entwerfe und entwickle [anspruchsvolle Individualsoftware]({{< ref "/consulting" >}}) den Finanz- und Energiesektor,
-die den Test der Zeit durch Resilienz, Nachvollziehbarkeit und Erweiterbarkeit besteht.
+Ich entwerfe und entwickle [anspruchsvolle Individualsoftware]({{< ref "/consulting" >}}) für den Finanz- und Energiesektor,
+die den Test der Zeit durch Zuverlässigkeit, Nachvollziehbarkeit und Erweiterbarkeit besteht.
 
 Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
@@ -63,13 +63,12 @@ Jahrzehnt vollständig neu entwickelt werden würden.
 
 ## Projektportfolio
 
+Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Lead Software Developer, DevOps Engineer
+und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware Erfahrungen sammeln.
+
 Nach [einem Jahrzehnt in der Finanzbranche]({{< ref "/consulting/projects" >}}) habe ich mich 2024 in die Welt der 
 Übertragungsnetzbetreiber begeben und modernisiere als *Software Engineer* Systeme zur Erhaltung der 
 Netzstabilität mit *Cloud-native* Anwendungen.
-
-Über das vergangene Jahrzehnt konnte ich als Head of IT, IT-Architekt, Team- und Projektleiter, Scrum Master,
-Softwareentwickler, DevOps Engineer und als Verantwortlicher für den IT-Betrieb von Individual- und Standardsoftware
-Erfahrungen sammeln.
 
 {{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}
 

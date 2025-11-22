@@ -7,7 +7,7 @@ draft: false
 layout: standalone
 ---
 
-Als Software-Architekt und Full Stack Developer helfe ich meinen Kunden aus der Finanz- und Energiewirtschaft komplexe 
+Als Full Stack Developer und Software-Architekt helfe ich meinen Kunden aus der Finanz- und Energiewirtschaft komplexe 
 Probleme durch Automation zu lösen.
 
 {{< embed-svg-hidden-on-desktop "static/svg/microservices.svg" >}}

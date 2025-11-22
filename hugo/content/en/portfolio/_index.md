@@ -10,84 +10,76 @@ robots:
   follow: false
 ---
 
-## Hello, I'm Denis
+## Hello,
 
-I am a freelance *Software Architect*, *Full Stack Developer*, and co-founder of [DenktMit]({{< ref "/denktmit" >}}), a
-network of independent IT specialists. Currently, I live and work in Frankfurt am Main.
+I'm Denis. Freelance Full Stack Developer, Software Architect, and co-founder of
+[DenktMit]({{< ref "/denktmit" >}}), an expert network of independent IT specialists.
 
 {{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
 
-I develop durable and extensible [custom-tailored]({{< ref "/consulting" >}}) business software based on open-source
-technologies.
+I design and develop [sophisticated software solutions]({{< ref "/consulting" >}}) for the finance and energy sector
+that stand the test of time through reliability, traceability, and extensibility.
 
-Modern architectures, robust domain models, and a special focus on fault tolerance and logging form the basis for
-durability. I achieve long-term extensibility through high regression test coverage.
+My key focus areas are:
+- Cloud-native applications with **Java**, Kotlin, and **Spring Boot**
+- Event-based architectures with **Kafka**
+- Data-driven architectures with relational databases (Oracle & **PostgreSQL**)
+- Development of web frontends with **Angular** and TypeScript
+- Process orchestration in BPMN with **Camunda**
+- CI/CD to **Kubernetes** with Helm, Maven, Gradle, Git, Jenkins, or Azure DevOps
 
-These approaches make technologies replaceable and systems renewable, avoiding the need for complete redevelopment,
-which might otherwise be necessary after a decade at most.
-
-I design and develop sophisticated [custom software and cloud infrastructure]({{< ref "/consulting" >}}) for the
-finance and energy sector that stands the test of time with resilience, maintainability, and extendability.
-
-In this process, I accompany custom software from the *Java ecosystem* through its entire lifecycle: from requirements
-analysis, IT architecture, concept design, implementation, and rollout to maintenance and extension.
-
-Need support for your project? Message me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
-{{< linkedin-icon >}}&nbsp;or contact me directly via [Email](mailto:kontakt@dmalo.de).
-
+My portfolio contains:
+- my summarized [project experience](#projekterfahrung) by technology, architecture, methods, and industries
+- my [CV](#cv-denis-malolepszy)
+- and my [project portfolio](#projektportfolio-denis-malolepszy) with descriptions of individual project assignments
 
 ## Project Experience
+I offer more than 12 years of professional experience in the IT environment across various roles in IT management and
+Software Engineering. My experience is distributed across technologies and industries as follows.
 
-After a decade in the financial industry, I moved into the world of transmission system operators in 2024 and, as a
-Software Engineer, I modernize systems for maintaining grid stability with cloud-native applications.
+### Technology Experience
 
-Over the past decade, I have gained experience as Head of IT, IT Architect, Team and Project Leader, Scrum Master,
-Software Developer, DevOps Engineer, and in charge of IT operations for custom and standard software.
-
-Before becoming self-employed, I was:
-
-- Head of IT at Habona Invest, an asset manager from Frankfurt am Main,
-- Application Manager in reporting at Union Investment,
-- and Software Engineer in the financial industry for Cofinpro AG.
-
-My [project portfolio]({{< ref "projects" >}}), [CV]({{< ref "/about/cv" >}}),
-and [LinkedIn profile](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;provide a detailed overview.
-
-
-## Tech Stack
-
-Technically, I focus on the Java ecosystem, particularly the *Spring Framework*, relational databases, DevOps for
-private cloud architectures based on *Kubernetes*, and Angular frontends.
-
-Below is a summary of technologies and methods in which I have gained experience. Details of my technological
-experiences can be found in my [project portfolio]({{< ref "projects" >}}).
-
-### Backend/Middleware Technologies
-
-Java, Kotlin, Spring (Boot, Data, Reactive, Cloud, Web, Security, Cloud Config, Gateway), JakartaEE, Hibernate, jOOQ, 
-REST-APIs, WebSocket, OpenAPI, Camunda, Kafka, Camel, Drools, Solr, Oracle SQL, Postgres
+| Technology           | Experience |
+|:---------------------|:-----------|
+| Java                 | 8 years    |
+| SQL / RDB            | 8 years    |
+| JavaEE / JakartaEE   | 4 years    |
+| Web Development      | 7 years    |
+| CI/CD & DevOps Tools | 7 years    |
+| Spring               | 4 years    |
+| Kubernetes           | 3 years    |
+| TypeScript           | 3 years    |
+| Angular              | 3 years    |
+| Kotlin               | 2 years    |
 
 
-### Frontend Technologies
+### Architecture Experience
+| Architecture  | Experience |
+|:--------------|:-----------|
+| Microservices | 6 years    |
+| Cloud-Native  | 3 years    |
+| Event-Driven  | 3 years    |
 
-Angular, TypeScript
 
-### DevOps Technologies
+### Method Experience
+| Method | Experience |
+|:-------|:-----------|
+| Scrum  | 6 years    |
+| SAFe   | 1.5 years  |
 
-Kubernetes, Docker, Helm, Maven, Gradle, Ansible, ElasticSearch, Bash, Git, Artifactory,
-Sonar, Jenkins, Azure DevOps
+
+### Industry Experience
+| Industry | Experience |
+|:---------|:-----------|
+| Finance  | 8 years    |
+| Energy   | 1.5 years  |
 
 
 ## Contact
+Does your project need support? Message me via [Email](mailto:kontakt@dmalo.de)
+or on {{< linkedin-icon >}} [LinkedIn](https://www.linkedin.com/in/dmalolepszy).
+If I cannot help you myself, I am happy to recommend a suitable, reliable expert
+from [DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT specialists.
 
-For initial contact, I am available via [Email](mailto:kontakt@dmalo.de)
-or [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;and am happy to arrange a phone call
-or video chat.
-
-{{< rawhtml >}} <br> {{< /rawhtml >}}
-Kind regards,
-
-Denis Malolepszy
-{{< rawhtml >}}<div class="print-only" id="current-date-placeholder">Frankfurt am
-Main, <span id="current-date"></span></div>{{< /rawhtml >}}
-
+{{< rawhtml >}}<div class="print-only" id="current-date-placeholder">Denis Malolepszy, Frankfurt am Main,
+<span id="current-date"></span></div>{{< /rawhtml >}}

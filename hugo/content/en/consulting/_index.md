@@ -7,7 +7,7 @@ draft: false
 layout: standalone
 ---
 
-As a Software Architect and Full Stack Developer, I enable my clients in the financial and energy sectors to solve complex
+As a Full Stack Developer and Software Architect, I enable my clients in the financial and energy sectors to solve complex
 problems through automation.
 
 {{< embed-svg-hidden-on-desktop "static/svg/microservices.svg" >}}

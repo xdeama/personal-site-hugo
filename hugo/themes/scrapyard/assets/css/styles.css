@@ -84,7 +84,7 @@
     text-align: right !important;
 }
 
-@media screen and (min-width: 580px) {
+@media (min-width: 580px) {
     .prose table {
         width: 80%;
         margin-right: 10%;
@@ -109,6 +109,13 @@
     .prose th:is(:last-child),
     .prose td:is(:last-child){
         text-align: left !important;
+    }
+}
+
+@media print {
+    .prose table {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -263,6 +270,12 @@
 
 .prose :is(p + h2, p + h3, p + h4) {
     --flow-space: var(--space-l);
+}
+
+@media print {
+    .prose :is(p + h2, p + h3, p + h4) {
+        --flow-space: var(--space-s);
+    }
 }
 
 .prose :is(.row + h2, .row + h3, .row + h4) {

@@ -12,7 +12,7 @@ draft: false
 
 # Hi,
 
-I'm Denis. Freelance software architect, full stack developer and co-founder of [DenktMit]({{< ref "/denktmit" >}}), an
+I'm Denis. Freelance full stack developer, software architect and co-founder of [DenktMit]({{< ref "/denktmit" >}}), an
 expert network of self-employed IT specialists.
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
