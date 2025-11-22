@@ -17,26 +17,42 @@
 
     {{ $headless := .Site.GetPage "/includes" }}
 
-    {{ $snippet := $headless.Resources.GetMatch "portfolio-intro-cv.md" }}
+    {{ $snippet := $headless.Resources.GetMatch "focus.md" }}
+    {{ with $snippet }}
+        {{ .Content }}
+    {{ end }}
 
+    {{ $snippet := $headless.Resources.GetMatch "portfolio-toc.md" }}
+    {{ with $snippet }}
+        {{ .Content }}
+    {{ end }}
+
+    {{ $snippet := $headless.Resources.GetMatch "experience.md" }}
+    {{ with $snippet }}
+        {{ .Content }}
+    {{ end }}
+
+    {{ $snippet := $headless.Resources.GetMatch "portfolio-outro-contact.md" }}
+    {{ with $snippet }}
+        {{ .Content }}
+    {{ end }}
+
+    {{ $snippet := $headless.Resources.GetMatch "portfolio-intro-cv.md" }}
     {{ with $snippet }}
         {{ .Content }}
     {{ end }}
 
     {{ $snippet := $headless.Resources.GetMatch "cv.md" }}
-
     {{ with $snippet }}
         {{ .Content }}
     {{ end }}
 
     {{ $snippet := $headless.Resources.GetMatch "portfolio-intro-projects.md" }}
-
     {{ with $snippet }}
         {{ .Content }}
     {{ end }}
 
     {{ $snippet := $headless.Resources.GetMatch "projects.md" }}
-
     {{ with $snippet }}
         {{ .Content }}
     {{ end }}

@@ -38,14 +38,16 @@ I've worked on in recent years.
 
 {{< column-long >}}
 
+
 ## Tech Stack
 
-I bring more than seven years of full-time Java experience from various projects. Details on my technical expertise can
-be found in my [project portfolio]({{< ref "projects" >}}). I am very open to learning and applying new technologies and
-methods.
-
-My focus in recent years has been on the *Spring Framework*, *relational databases*, and cloud architectures based on
-*Kubernetes* and *TypeScript*-based front-end technologies like *Angular*.
+My key focus areas are:
+- Cloud-native applications with **Java**, Kotlin, and **Spring Boot**
+- Event-based architectures with **Kafka**
+- Data-driven architectures with relational databases (Oracle & **PostgreSQL**)
+- Development of web frontends with **Angular** and TypeScript
+- Process orchestration in BPMN with **Camunda**
+- CI/CD to **Kubernetes** with Helm, Maven, Gradle, Git, Jenkins, or Azure DevOps
 
 {{< column-end >}}
 
@@ -59,9 +61,10 @@ My focus in recent years has been on the *Spring Framework*, *relational databas
 {{< embed-svg-hidden-on-desktop "static/svg/tech-stack.svg" >}}
 
 
-## Experience
-I offer more than 12 years of professional experience in the IT field. This experience is spread across the following technologies, topics and industries.
-
+## Project Experience
+I offer more than 12 years of professional experience in the IT environment across various roles in IT management and
+Software Engineering. My experience is distributed across technologies and industries as follows.
+Details on individual experiences can be found in my [project portfolio]({{< ref "projects" >}}).
 
 ### Technology Experience
 
@@ -69,10 +72,10 @@ I offer more than 12 years of professional experience in the IT field. This expe
 |:---------------------|:-----------|
 | Java                 | 8 years    |
 | SQL / RDB            | 8 years    |
-| JavaEE / JakartaEE   | 4 years    |
 | Web Development      | 7 years    |
 | CI/CD & DevOps Tools | 7 years    |
 | Spring               | 4 years    |
+| JavaEE / JakartaEE   | 4 years    |
 | Kubernetes           | 3 years    |
 | TypeScript           | 3 years    |
 | Angular              | 3 years    |
@@ -87,18 +90,18 @@ I offer more than 12 years of professional experience in the IT field. This expe
 | Event-Driven  | 3 years    |
 
 
-### Methodology Experience
-| Methodology | Experience |
-|:------------|:-----------|
-| Scrum       | 6 years    |
-| SAFe        | 1.5 years  |
+### Method Experience
+| Method | Experience |
+|:-------|:-----------|
+| Scrum  | 6 years    |
+| SAFe   | 1.5 years  |
 
 
 ### Industry Experience
-| Industry    | Experience |
-|:------------|:-----------|
-| Finance     | 8 years    |
-| Energy      | 1.5 years  |
+| Industry | Experience |
+|:---------|:-----------|
+| Finance  | 8 years    |
+| Energy   | 1.5 years  |
 
 
 ## Freelancer, Not a One-Man Show

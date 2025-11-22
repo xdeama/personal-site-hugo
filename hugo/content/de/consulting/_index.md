@@ -41,12 +41,13 @@ Projekte meiner letzten Jahre.
 
 ## Tech Stack
 
-Ich bringe mehr als sieben Jahre Vollzeiterfahrung mit Java in verschiedenen Projekten mit. Details zu meinen
-technologischen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}).
-Ich bin sehr offen, neue Technologien und Methoden zu erlernen und anzuwenden.
-
-Meine Schwerpunkte aus den letzten Jahren sind das *Spring Framework*, *relationale Datenbanken* und
-Cloud-Architekturen basierend auf *Kubernetes* und auf *TypeScript* basierende Frontend-Technologien wie *Angular*.
+Meine Schwerpunkte sind:
+- Cloud-Native Anwendungen mit **Java**, Kotlin und **Spring Boot**
+- Event-basierte Architekturen mit **Kafka**
+- Datengetriebene Architekturen mit relationalen Datenbanken (Oracle & **PostgreSQL**)
+- Entwicklung von Web Frontends mit **Angular** und TypeScript
+- Prozessorchestrierung in BPMN mit **Camunda**
+- CI/CD zu **Kubernetes** mit Helm, Maven, Gradle, Git, Jenkins oder Azure DevOps
 
 {{< column-end >}}
 
@@ -60,9 +61,10 @@ Cloud-Architekturen basierend auf *Kubernetes* und auf *TypeScript* basierende F
 {{< embed-svg-hidden-on-desktop "static/svg/tech-stack.svg" >}}
 
 
-## Erfahrung
-Ich biete mehr als 12 Jahre Berufserfahrung im IT-Umfeld. Diese verteilen sich wie folgt auf Technologien, Themen und Branchen.
-
+## Projekterfahrung
+Ich biete mehr als 12 Jahre Berufserfahrung im IT-Umfeld in verschiedenen Rollen im IT-Management und
+Software Engineering. Meine Erfahrung verteilt sich wie folgt auf Technologien und Branchen.
+Details zu meinen individuellen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}).
 
 ### Technologieerfahrung
 
@@ -70,10 +72,10 @@ Ich biete mehr als 12 Jahre Berufserfahrung im IT-Umfeld. Diese verteilen sich w
 |:---------------------|:----------|
 | Java                 | 8 Jahre   |
 | SQL / RDB            | 8 Jahre   |
-| JavaEE / JakartaEE   | 4 Jahre   |
 | Webentwicklung       | 7 Jahre   |
 | CI/CD & DevOps Tools | 7 Jahre   |
 | Spring               | 4 Jahre   |
+| JavaEE / JakartaEE   | 4 Jahre   |
 | Kubernetes           | 3 Jahre   |
 | TypeScript           | 3 Jahre   |
 | Angular              | 3 Jahre   |
