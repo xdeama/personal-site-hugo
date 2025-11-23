@@ -42,7 +42,7 @@ Projekte meiner letzten Jahre.
 ## Tech Stack
 
 Meine Schwerpunkte sind:
-- Cloud-Native Anwendungen mit **Java**, Kotlin und **Spring Boot**
+- Cloud-Native Microservices mit **Java**, Kotlin und **Spring Boot**
 - Event-basierte Architekturen mit **Kafka**
 - Datengetriebene Architekturen mit relationalen Datenbanken (Oracle & **PostgreSQL**)
 - Entwicklung von Web Frontends mit **Angular** und TypeScript

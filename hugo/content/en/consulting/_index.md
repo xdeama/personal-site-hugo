@@ -42,7 +42,7 @@ I've worked on in recent years.
 ## Tech Stack
 
 My key focus areas are:
-- Cloud-native applications with **Java**, Kotlin, and **Spring Boot**
+- Cloud-native microservices with **Java**, Kotlin, and **Spring Boot**
 - Event-based architectures with **Kafka**
 - Data-driven architectures with relational databases (Oracle & **PostgreSQL**)
 - Development of web frontends with **Angular** and TypeScript
