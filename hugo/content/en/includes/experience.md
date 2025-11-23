@@ -1,7 +1,3 @@
-## Project Experience
-I offer more than 12 years of professional experience in the IT environment across various roles in IT management and
-Software Engineering. My experience is distributed across technologies and industries as follows.
-
 ### Technology Experience
 
 | Technology           | Experience |

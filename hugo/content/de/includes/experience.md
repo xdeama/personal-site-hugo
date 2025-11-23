@@ -1,7 +1,3 @@
-## Projekterfahrung
-Ich biete mehr als 12 Jahre Berufserfahrung im IT-Umfeld in verschiedenen Rollen im IT-Management und
-Software Engineering. Meine Erfahrung verteilt sich wie folgt auf Technologien und Branchen.
-
 ### Technologieerfahrung
 
 | Technologie          | Erfahrung |

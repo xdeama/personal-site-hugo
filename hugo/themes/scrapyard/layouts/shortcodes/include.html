@@ -1,0 +1,6 @@
+{{ $headless := .Site.GetPage "/includes" }}
+
+{{ $snippet := $headless.Resources.GetMatch (.Get 0) }}
+{{ with $snippet }}
+    {{ .Content }}
+{{ end }}
