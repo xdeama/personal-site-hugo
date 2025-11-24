@@ -3,13 +3,41 @@
 
     {{ partial "heading.html" . }}
 
-    <span style="color: var(--color-primary); font-size: var(--size-step-2)">{{ i18n "jobtitle" }}</span><br>
-    <span class="contact-label">{{ i18n "email" | strings.FirstUpper}}:</span> <a href="mailto:kontakt@dmalo.de">kontakt@dmalo.de</a><br>
-    <span class="contact-label">LinkedIn:</span> <a href="https://www.linkedin.com/in/dmalolepszy">
-    https://www.linkedin.com/in/dmalolepszy</a><br>
-    <span class="contact-label">{{ i18n "website" | strings.FirstUpper}}:</span> <a href="{{ .Site.BaseURL }}">https://www.dmalo.de</a><br>
-    <span class="contact-label">{{ i18n "address" | strings.FirstUpper}}:</span> {{ i18n "myaddress" }}<br>
-    <span class="contact-label">{{ i18n "portfolio" | strings.FirstUpper}}:</span> <a href="{{ (site.GetPage "portfolio").Permalink}}">{{ (site.GetPage "portfolio").Permalink}}</a> {{ i18n "portfolio-appendix-text" }}
+    <span style="color: var(--color-primary); font-size: var(--size-step-2)">{{ i18n "jobtitle" }}</span>
+
+    <div class="row">
+        <div class="column-long">
+            <div>
+                <div class="contact-label">{{ i18n "email" | strings.FirstUpper}}:</div>
+                <a href="mailto:kontakt@dmalo.de">kontakt@dmalo.de</a>
+            </div>
+
+            <div>
+                <span class="contact-label">LinkedIn:</span>
+                <a href="https://www.linkedin.com/in/dmalolepszy">https://www.linkedin.com/in/dmalolepszy</a>
+            </div>
+
+            <div>
+                <span class="contact-label">{{ i18n "website" | strings.FirstUpper}}:</span>
+                <a href="{{ .Site.BaseURL }}">https://www.dmalo.de</a>
+            </div>
+
+            <div>
+                <span class="contact-label">{{ i18n "portfolio" | strings.FirstUpper}}:</span>
+                <a href="{{ (site.GetPage " portfolio").Permalink}}">{{ (site.GetPage "portfolio").Permalink}}</a>
+            </div>
+
+            <div>
+                <span class="contact-label">{{ i18n "address" | strings.FirstUpper}}:</span>
+                {{ i18n "companyName" }} <br>
+                <span class="contact-label"></span>
+                {{ i18n "myaddress" }}
+            </div>
+        </div>
+    <div class="column-short">
+        <img src="/images/denis.png" class="profile-img margin-top-0" alt="Profilbild Denis Malolepszy">
+    </div>
+    </div>
 
     {{ .Content }}
 

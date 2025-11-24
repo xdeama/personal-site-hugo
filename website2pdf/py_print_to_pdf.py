@@ -23,7 +23,7 @@ def print_to_pdf(driver, source_url, output_file):
         "landscape": False,
         "printBackground": False,
         "scale": 0.75,
-        "marginBottom": 0.30,
+        "marginBottom": 0.39,
         "marginTop": 0.39,
         "marginLeft": 0.39,
         "marginRight": 0.39,

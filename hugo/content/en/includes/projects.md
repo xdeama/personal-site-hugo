@@ -1,22 +1,29 @@
-## Custom Software for a Transmission System Operator
+## Outage Planning Coordination Platform
+
 ### **May 2024 — May 2025** | Software Engineer
+
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Design and development of custom software for outage planning at a transmission system operator.
+I spearheaded the design and development of an Outage Planning Coordination (OPC) system for a German transmission system operator.
+From the start of the project, I helped build an agile project team and, beyond my role as a Software Engineer, I assumed responsibility for:
 
-Manual data transfers and media breaks are replaced with a new cloud-native system using open-source technologies.
-This involves replacing multiple legacy applications, modernizing a dozen data interfaces, and providing role-optimized overviews and workflows.
+- Requirements analysis,
+- Solution architecture design,
+- Conception of data interfaces,
+- And UI/UX design.
 
-From the project's start, I contributed to building an agile project team as a service provider, and beyond my role as a Software Engineer, I also:
+As the project team grew, I handed over these respective areas to dedicated project members and focused on front-end and back-end development.
 
-- Guided requirements analysis,
-- Designed the solution architecture,
-- And supported the UI/UX design.
+As a foundation, several existing applications were analyzed, and individual requirements from specialist departments and the transmission system operator association (ENTSO-E) were gathered.
 
-As the project team grew, I handed over the respective areas of responsibility to dedicated project members and focused on front-end and back-end development.
+A completely newly developed cloud-native system based on open-source technologies was created to replace a historically grown conglomerate of manual data transfers and media breaks.
+Automated data interfaces and process support within the user interface assisted planning supervisors, particularly during transitions between responsible roles and departments.
+
 
 {{< div class="list-with-columns" >}}
+
 ### **Technologies**
+
 - Kotlin
 - Spring Boot
 - Kafka
@@ -36,18 +43,20 @@ As the project team grew, I handed over the respective areas of responsibility t
 - Git
   {{< /div >}}
 
----
-
 
 ## Showcase for Geographic Information System
+
 ### **January 2025 — February 2025** | Software Engineer
+
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Technology showcases to present the capabilities of cloud-native systems in the context of Geographic Information Systems for transmission system operators.
-Specifically, I extended a deck.gl React app with interactive elements and its interfaces via REST, WebSocket, and Kafka.
+Technology showcase to present the capabilities of cloud-native systems in the context of Geographic Information Systems for transmission system operators.
+Specifically, I extended a deck.gl React app with interactive elements as well as its interfaces via REST, WebSocket, and Kafka.
 
 {{< div class="list-with-columns" >}}
+
 ### **Technologies**
+
 - React
 - deck.gl
 - WebSocket (STOMP)
@@ -63,26 +72,28 @@ Specifically, I extended a deck.gl React app with interactive elements and its i
 - Git
   {{< /div >}}
 
----
 
+## Legacy Integration for a Transmission System Operator
 
-## Data Integration Software for a Transmission System Operator
 ### **May 2024 — January 2025** | Software Engineer
+
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-An automated adapter between a legacy software and a publication platform of the association of transmission system
-operators minimizes manual work steps in the context of publication.
-For this, I:
+An automated adapter between legacy software and a publication platform of the association of transmission system operators (ENTSO-E) minimizes manual work steps in the context of publishing Outage Planning Coordination (OPC) information.
+
+For this purpose, I:
 
 - Developed cloud-native data integration software based on Spring Boot,
-- Integrated with the legacy system using Kafka,
+- Integrated it with the legacy system via a Kafka event streaming platform,
 - Transformed multiple XML documents into a standardized format,
 - Which is transmitted to an association platform for publication,
 - And broken down in an Angular web app for tracking,
-- Or passes error messages to collaboration systems via webhook.
+- Or passes error messages to collaboration systems (MS Teams) via webhook.
 
 {{< div class="list-with-columns" >}}
+
 ### **Technologies**
+
 - Java (v21)
 - Spring Boot
 - Kafka
@@ -98,14 +109,14 @@ For this, I:
 - Git
   {{< /div >}}
 
----
-
 
 ## Software Evaluation for Secondary Control Power Regulation
+
 ### **March 2024 — November 2024** | Software Engineer
+
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Evaluation of custom software in the area of automatic Frequency Restoration Reserve (aFRR) at a transmission system operator:
+Evaluation of custom software in the area of automatic Frequency Restoration Reserve (aFRR) for a transmission system operator:
 
 - Analysis at the source code level,
 - Exemplary operation,
@@ -113,7 +124,9 @@ Evaluation of custom software in the area of automatic Frequency Restoration Res
 - Estimation of efforts for integration into the existing system landscape.
 
 {{< div class="list-with-columns" >}}
+
 ### **Technologies**
+
 - .Net 8
 - Next.js
 - Angular
@@ -124,9 +137,7 @@ Evaluation of custom software in the area of automatic Frequency Restoration Res
 - Argo CD
 - Helm
 - Git
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## Modernizing CI/CD for Private Cloud Migration
@@ -163,48 +174,7 @@ DevOps and Java development for the private cloud migration of a major internati
 - Bash (Linux & Solaris)
 - PowerShell
 - Git
-  {{< /div >}}
-
----
-
-
-## Modernizing CI/CD for Private Cloud Migration
-### **March 2022 — September 2023** | DevOps Engineer
-*Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
-
-DevOps and Java development for the private cloud migration of a major international bank:
-
-- Migrating a CI/CD portal to Azure DevOps for container, VM, and database deployments
-- Migrating the CI/CD portal's Spring Microservices infrastructure from VMs to containerized environments in OpenShift
-- Automating complex deployment mechanisms for VMs using Ansible and Reactive Spring, such as batch deployments with dependent components, and automatic sidecars
-- Navigate the first batch of migrated systems through internal architecture and IT risk governance processes, ensuring compliance and successful integration into the private cloud.
-- Analyzing, containerizing, and porting an existing database anonymization solution
-- Migrating Jenkins deployment pipelines to Azure DevOps
-
-{{< div class="list-with-columns" >}}
-### **Technologies**
-- Java 8 to 17
-- Spring (Cloud, Data, Reactive, Security, Web, Gateway)
-- Reactive Streams
-- Angular (PrimeFaces)
-- TypeScript
-- Azure DevOps
-- OpenShift/Kubernetes
-- Helm
-- Maven
-- RESTful Microservices
-- Camunda
-- Kafka
-- Oracle SQL
-- Keycloak (OAuth)
-- Swagger
-- Ansible
-- Bash (Linux & Solaris)
-- PowerShell
-- Git
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## Web Crawler-Based Archiving System
@@ -226,9 +196,7 @@ In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web cra
 - Docker
 - Maven
 - Git
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## Development of a Holiday Resort Project
@@ -246,8 +214,6 @@ As the first project of Pareus Resorts, this greenfield posed special challenges
 - Booking system and online advertising
 - Team building and construction supervision
 
----
-
 
 ## Relocation of Network and Server Room
 ### **October 2019 — April 2020** | Head of IT
@@ -260,8 +226,6 @@ As Head of IT, I was responsible for network technology, server systems, and wor
 - Relocation of on-premises server systems
 - Relocation of workplace IT equipment
 - Provider selection and coordination
-
----
 
 
 ## Establishment of an Internal IT Department
@@ -276,8 +240,6 @@ As Head of IT, I took over an IT department that was completely outsourced to se
 - Modernizing and expanding IT documentation
 - Job interviews and onboarding
 
----
-
 
 ## IT Modernization and Microsoft 365 Introduction
 ### **October 2018 — July 2021** | Head of IT
@@ -290,8 +252,6 @@ Migration from Microsoft on-premises systems like Active Directory, Exchange Ser
 - Introduction of Microsoft 365 including Teams and SharePoint
 - User training for new working methods with Microsoft Teams and SharePoint
 - Migration of on-premises systems like Active Directory, Exchange Server, and File Server to Microsoft Cloud Hybrid solutions
-
----
 
 
 ## Website for the Sale of Holiday Properties
@@ -306,8 +266,6 @@ Development of a website for the sale of holiday properties, including automated
 - Automated creation of individual purchase contracts
 - Scrollable and zoomable sitemap for holiday property advertising
 - Coordination of web developers and designers
-
----
 
 
 ## Development and Operation of Regulatory Reporting Software
@@ -343,9 +301,7 @@ As a permanent organizational and IT consultant, I was responsible for a range o
 - Sonar and Sonatype Nexus
 - Solaris
 - Subversion und Git
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## Investment Advice Analytics System and Dashboard
@@ -375,9 +331,7 @@ Halfway through the project, I took over the leadership of a five-member develop
 - Sonar and Sonatype Nexus
 - Solaris
 - Subversion
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## Reporting Systems Based on Java EE
@@ -405,10 +359,8 @@ I designed and implemented several reporting systems for legal regulatory report
 - Sonar and Sonatype Nexus
 - Solaris
 - Subversion
-  {{< /div >}}
+{{< /div >}}
 
-
----
 
 
 ## Modernization of a Joomla Website
@@ -422,9 +374,7 @@ Modernization of a Joomla website focusing on user-friendliness for the staff of
 - Joomla
 - JavaScript
 - CSS/HTML
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## Modernization of IT Infrastructure
@@ -437,9 +387,7 @@ Administration of Microsoft workstations, mail, and file servers for the Ulenspi
 ### Technologies
 - Microsoft Fileserver
 - Batch (Windows)
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## Product Data Management in Vehicle Development
@@ -456,4 +404,4 @@ I developed a concept and a prototype, tested it with a vehicle development team
 - Swing
 - Progress OpenEdge
 - Linux
-  {{< /div >}}
+{{< /div >}}

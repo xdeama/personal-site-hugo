@@ -12,16 +12,20 @@ robots:
 
 ## Hallo,
 
-ich bin Denis. Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von
-[DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten.
+ich bin Denis. Freiberuflicher **Full Stack Developer**, **Software Architect** und Mitgründer von
+[DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten. Konzeption und Entwicklung anspruchsvoller Softwarelösungen für den Finanz- und Energiesektor sind mein Handwerk.
 
-{{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
-
-Ich entwerfe und entwickle [anspruchsvolle Softwarelösungen]({{< ref "/consulting" >}}) für den Finanz- und Energiesektor,
-die den Test der Zeit durch Zuverlässigkeit, Nachvollziehbarkeit und Erweiterbarkeit bestehen.
+Ich habe Softwareprojekte aus verschiedenen Perspektiven zum Erfolg geführt:
+als leitender Manager, konzipierender Architekt, umsetzender Entwickler und im operativen Betrieb. 
+Durch diese vielfältigen Rollen bringe ich neben technischer Expertise auch strategischen Weitblick 
+und Organisationserfahrung in Softwareprojekte ein, die zum wirtschaftlichen Erfolg beitragen.
 
 {{< include "focus.md" >}}
 
+Neuen Technologien, architektonischen Konzepten und unbekannten Fachdomänen begegne ich mit Offenheit und Neugier.  
+
+
+## Inhalt
 Mein Portfolio enthält:
 - Summierte [Projekterfahrung](#projekterfahrung) nach Technologien, Architekturen, Methoden und Branchen
 - [CV](#cv-denis-malolepszy)
@@ -29,8 +33,9 @@ Mein Portfolio enthält:
 
 
 ## Projekterfahrung
-Ich biete mehr als 12 Jahre Berufserfahrung im IT-Umfeld in verschiedenen Rollen im IT-Management und
-Software Engineering. Meine Erfahrung verteilt sich wie folgt auf Technologien und Branchen.
+Mehr als 12 Jahre Berufserfahrung aus dem IT-Umfeld
+und in verschiedenen Rollen im IT-Management und Software-Engineering 
+verteilen sich wie folgt auf Technologien und Branchen.
 
 {{< include "experience.md" >}}
 
@@ -39,23 +44,23 @@ Software Engineering. Meine Erfahrung verteilt sich wie folgt auf Technologien u
 Benötigt dein Projekt Unterstützung? Schreibe mir per [E-Mail](mailto:kontakt@dmalo.de)
 oder auf {{< linkedin-icon >}} [LinkedIn](https://www.linkedin.com/in/dmalolepszy).
 
-Kann ich selbst nicht weiterhelfen, empfehle ich gerne einen geeigneten zuverlässigen Experten
+Kann ich selbst nicht weiterhelfen, empfehle ich gerne einen geeigneten und zuverlässigen Experten
 von [DenktMit]({{< ref "/denktmit" >}}), meinem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
-{{< rawhtml >}}<div class="print-only" id="current-date-placeholder">Denis Malolepszy, Frankfurt am Main,
+{{< rawhtml >}}<div class="print-only" style="font-style: italic" id="current-date-placeholder">Denis Malolepszy, Frankfurt am Main,
 den <span id="current-date"></span></div>{{< /rawhtml >}}
 
 
 # CV Denis Malolepszy
 
 Tabellarischer Lebenslauf mit Zeitraum, Position und Unternehmen. Details zu den jeweiligen Aufgabenfeldern und
-Projektinhalten befinden sich in der anschließenden [Projektportfolio]({{< relref "/consulting/projects" >}}).
+Projektinhalten befinden sich im anschließenden [Projektportfolio]({{< relref "/consulting/projects" >}}).
 
 {{< include "cv.md" >}}
 
 
 # Projektportfolio Denis Malolepszy
 
-Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch aus Festanstellungen.
+Mein Projektportfolio enthält Projekte sowohl aus meiner Zeit als Freiberufler als auch aus Festanstellungen.
 
 {{< include "projects.md" >}}

@@ -12,16 +12,20 @@ robots:
 
 ## Hello,
 
-I'm Denis. Freelance Full Stack Developer, Software Architect, and co-founder of
-[DenktMit]({{< ref "/denktmit" >}}), an expert network of independent IT specialists.
+I'm Denis. Freelance **Full Stack Developer**, **Software Architect**, and co-founder of
+[DenktMit]({{< ref "/denktmit" >}}), an expert network of independent IT specialists. Designing and developing sophisticated software solutions for the finance and energy sectors is my craft.
 
-{{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
-
-I design and develop [sophisticated software solutions]({{< ref "/consulting" >}}) for the finance and energy sector
-that stand the test of time through reliability, traceability, and extensibility.
+I have led software projects to success from various perspectives:
+as a leading manager, orchestrating architect, implementing developer, and in operations.
+Through these diverse roles, I bring not only technical expertise but also strategic vision
+and organizational experience to software projects, contributing to their economic success.
 
 {{< include "focus.md" >}}
 
+I approach new technologies, architectural concepts, and unfamiliar business domains with openness and curiosity.
+
+
+## Contents
 My portfolio contains:
 - Summarized [project experience](#projekterfahrung) by technology, architecture, methods, and industries
 - [CV](#cv-denis-malolepszy)
@@ -29,8 +33,9 @@ My portfolio contains:
 
 
 ## Project Experience
-I offer more than 12 years of professional experience in the IT environment across various roles in IT management and
-Software Engineering. My experience is distributed across technologies and industries as follows.
+More than 12 years of professional experience in the IT environment
+spanning various roles in IT management and software engineering
+are distributed across technologies and industries as follows.
 
 {{< include "experience.md" >}}
 
@@ -38,7 +43,8 @@ Software Engineering. My experience is distributed across technologies and indus
 ## Contact
 Does your project need support? Message me via [Email](mailto:kontakt@dmalo.de)
 or on {{< linkedin-icon >}} [LinkedIn](https://www.linkedin.com/in/dmalolepszy).
-If I cannot help you myself, I am happy to recommend a suitable, reliable expert
+
+If I cannot help you myself, I am happy to recommend a suitable and reliable expert
 from [DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT specialists.
 
 {{< rawhtml >}}<div class="print-only" id="current-date-placeholder">Denis Malolepszy, Frankfurt am Main,
@@ -47,14 +53,14 @@ from [DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT sp
 
 # CV Denis Malolepszy
 
-Chronological CV with a time period, position and company. Details on the respective areas of responsibility and project
-content can be found in the separate [Project List]({{< relref "/consulting/projects" >}}).
+Chronological CV with time period, position, and company. Details on the respective areas of responsibility and project
+content can be found in the subsequent [project portfolio]({{< relref "/consulting/projects" >}}).
 
 {{< include "cv.md" >}}
 
 
-# Projektportfolio Denis Malolepszy
+# Project Portfolio Denis Malolepszy
 
-My project portfolio includes projects from my time as a freelancer, as well as permanent positions.
+My project portfolio includes projects from my time as a freelancer as well as from permanent positions.
 
 {{< include "projects.md" >}}

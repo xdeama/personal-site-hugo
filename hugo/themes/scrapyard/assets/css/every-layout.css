@@ -222,7 +222,7 @@ Consistent block padding for page sections
     flex: 60%;
 }
 
-@media (max-width: 850px) {
+@media screen and (max-width: 850px) {
     .row {
         margin-top: 0;
     }

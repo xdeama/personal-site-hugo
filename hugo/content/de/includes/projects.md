@@ -1,22 +1,24 @@
-## Individualsoftware für einen Übertragungsnetzbetreiber
+## Outage Planning Coordination Plattform
 
 ### **Mai 2024 — Mai 2025** | Software Engineer
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Entwurf und Entwicklung einer Individualsoftware für die Ausschaltplanung eines Übertragungsnetzbetreibers.
-
-Manuelle Datenübertragungen und Medienbrüche werden durch ein neues Cloud-natives System aus Open Source Technologien ersetzt.
-Dabei werden mehrere Bestandsanwendungen ersetzt, ein dutzend Datenschnittstellen modernisiert und auf die jeweiligen Rollen
-optimierte Übersichten und Workflows angeboten.
-
-Von Projektstart an habe ich als Dienstleister beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als Software Engineer hinaus:
+Ich habe den Entwurf und die Entwicklung eines Outage Planning Coordination (OPC) Systems für einen deutschen Übertragungsnetzbetreiber federführend gestartet. 
+Von Projektstart an habe ich beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als Software Engineer hinaus:
 
 - die Anforderungsanalyse,
 - den Entwurf der Solution Architektur
-- und das UI/UX Design begleitet.
+- die Konzeption der Datenschnittstellen
+- und das UI/UX Design übernommen.
 
 Mit dem wachsenden Projektteam habe ich die jeweiligen Resorts an dedizierte Projektmitarbeiter übergeben und mich auf die Front- und Backend-Entwicklung fokussiert.
+
+Als Grundlage wurden mehrere Bestandsanwendungen analysiert und individuelle Anforderungen von Fachabteilungen und des Übertragungsnetzbetreiberverbandes ENTSO-E aufgenommen. 
+
+Geschaffen wurde ein vollständig neu entwickeltes Cloud-natives System basierend auf Open Source Technologien, um ein historisch gewachsenes Konglomerat aus manuellen Datenübertragungen und Medienbrüchen abzulösen. 
+Automatisierte Datenschnittstellen und eine Prozessunterstützung in der Benutzeroberfläche unterstützten die Planungsverantwortlichen, insbesondere bei den Übergängen zwischen verantwortlichen Rollen und Abteilungen.
+
 
 {{< div class="list-with-columns" >}}
 
@@ -39,9 +41,7 @@ Mit dem wachsenden Projektteam habe ich die jeweiligen Resorts an dedizierte Pro
 - RESTful Microservices
 - Keycloak (OAuth)
 - Git
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## Showcase für Geografisches Informationssystem
@@ -50,7 +50,7 @@ Mit dem wachsenden Projektteam habe ich die jeweiligen Resorts an dedizierte Pro
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Technologieträger Showcase zur Präsentation der Fähigkeiten von Cloud-native Systemen
+Technologieträger-Showcase zur Präsentation der Fähigkeiten von Cloud-native Systemen
 im Kontext Geografischer Informationssysteme für Übertragungsnetzbetreiber.
 Insbesondere habe ich eine deck.gl React App um interaktive Elemente erweitert, als auch deren
 Schnittstellen über REST, WebSocket und Kafka.
@@ -72,27 +72,27 @@ Schnittstellen über REST, WebSocket und Kafka.
 - Argo CD
 - Gradle
 - Git
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
-## Datenintegrationssoftware für einen Übertragungsnetzbetreiber
+## Legacy-Integration für einen Übertragungsnetzbetreiber
 
 ### **Mai 2024 — Januar 2025** | Software Engineer
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
 Ein automatisierter Adapter zwischen einer Bestandssoftware und einer Veröffentlichungsplattform des Verbandes
-der Übertragungsnetzbetreiber reduziert die manuellen Arbeitsschritte im Kontext Veröffentlichung auf ein Minimum.
+der Übertragungsnetzbetreiber (ENTSO-E) reduziert die manuellen Arbeitsschritte im Kontext der Veröffentlichung 
+von Outage Planning Coordination (OPC) Informationen auf ein Minimum.
+
 Dazu habe ich:
 
 - Eine Cloud-native Datenintegrationssoftware auf Spring Boot Basis entwickelt
-- Mit Kafka mit dem Bestandssystem integriert
+- Diese per Event-Streaming-Plattform Kafka mit dem Bestandssystem integriert
 - Mehrere XML-Dokumente in ein standardisiertes Format überführt
 - Welches zur Veröffentlichung an eine Verbandsplattform übermittelt wird
 - Und in einer Angular Webapp zur Nachverfolgung aufgeschlüsselt wird
-- Oder per Webhook Fehlermeldungen an Kollaborationssysteme übergibt
+- Oder per Webhook Fehlermeldungen an Kollaborationssysteme (MS Teams) übergibt
 
 {{< div class="list-with-columns" >}}
 
@@ -111,9 +111,7 @@ Dazu habe ich:
 - Gradle
 - RESTful Microservices
 - Git
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## Software-Evaluierung zur Regelung von Sekundärregelleistung
@@ -123,7 +121,7 @@ Dazu habe ich:
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
 Evaluierung einer Individualsoftware im Bereich automatic Frequency Restoration Reserve (aFRR)
-bei einem Übertragungsnetzbetreiber:
+für einen Übertragungsnetzbetreiber:
 
 - Analyse auf Quellcode-Ebene
 - Exemplarischer Betrieb
@@ -144,9 +142,7 @@ bei einem Übertragungsnetzbetreiber:
 - Argo CD
 - Helm
 - Git
-  {{< /div >}}
-
----
+{{< /div >}}
 
 
 ## CI/CD für Private Cloud Migration modernisieren
@@ -189,8 +185,6 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 - Git
 {{< /div >}}
 
----
-
 
 ## Web-Crawler-basiertes Archivsystem
 
@@ -217,8 +211,6 @@ Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für 
 - Git
 {{< /div >}}
 
----
-
 
 ## Projektentwicklung eines Ferienresorts
 
@@ -238,8 +230,6 @@ Als erstes Pareus Resorts, bot dieses Greenfield Projekt während der Coronapand
 - Buchungssystem und Onlinewerbung
 - Teamaufbau und Baubegleitung
 
----
-
 
 ## Standortumzug Netzwerk und Serverraum
 
@@ -255,8 +245,6 @@ Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-A
 - Umzug der On-Premises-Serversysteme
 - Umzug der Arbeitsplatz-IT-Ausstattung
 - Anbieterauswahl und -koordination
-
----
 
 
 ## Aufbau interner IT-Abteilung
@@ -274,8 +262,6 @@ Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT über
 - IT-Dokumentation modernisieren und ausbauen
 - Bewerbungsgespräche und Onboarding
 
----
-
 
 ## IT-Modernisierung und Microsoft 365 Einführung
 
@@ -291,8 +277,6 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 - Einführung von Microsoft 365 inkl. Teams und Sharepoint
 - Anwenderschulung für neue Arbeitsmethoden mit Microsoft Teams und Sharepoint
 - Migration von On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid Lösungen
-
----
 
 
 ## Webseite für Vertrieb von Ferienimmobilien
@@ -310,8 +294,6 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 - Automatisierte Anfertigung individueller Kaufverträge
 - Scroll- und zoombare Sitemap für Ferienimmobilienwerbung
 - Koordination von Webentwicklern und Designer
-
----
 
 
 ## Entwicklung und Betrieb von Meldewesen Software
@@ -353,8 +335,6 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 - Subversion und Git
 {{< /div >}}
 
----
-
 
 ## Investment Advice Analytics System und Dashboard
 
@@ -390,8 +370,6 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 - Subversion
 {{< /div >}}
 
----
-
 
 ## Reporting Systeme auf Java EE Basis
 
@@ -424,8 +402,6 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 - Subversion
 {{< /div >}}
 
----
-
 
 ## Modernisierung einer Joomla Webseite
 
@@ -444,8 +420,6 @@ Modernisierung einer Joomla Webseite mit Schwerpunkt Anwenderfreundlichkeit für
 - CSS/HTML
 {{< /div >}}
 
----
-
 
 ## Modernisierung der IT-Infrastruktur
 
@@ -462,8 +436,6 @@ Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung 
 - Microsoft Fileserver
 - Batch (Windows)
 {{< /div >}}
-
----
 
 
 ## Produktdatenmanagement in der Fahrzeugentwicklung
