@@ -215,9 +215,9 @@
     column-count: 1;
 }
 
-.prose ul:not(.no-reduced-top-margin) li:first-child {
-    margin-top: -0.5rem;
-}
+/*.prose ul:not(.no-reduced-top-margin) li:first-child {*/
+/*    margin-top: -0.5rem;*/
+/*}*/
 
 @media screen and (min-width: 450px) {
     .list-with-columns > ul {
