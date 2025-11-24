@@ -13,7 +13,8 @@ robots:
 ## Hallo,
 
 ich bin Denis. Freiberuflicher **Full Stack Developer**, **Software Architect** und Mitgründer von
-[DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten. Konzeption und Entwicklung anspruchsvoller Softwarelösungen für den Finanz- und Energiesektor sind mein Handwerk.
+[DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten. 
+Konzeption und Entwicklung anspruchsvoller Softwarelösungen für den Finanz- und Energiesektor sind mein Handwerk.
 
 Ich habe Softwareprojekte aus verschiedenen Perspektiven zum Erfolg geführt:
 als leitender Manager, konzipierender Architekt, umsetzender Entwickler und im operativen Betrieb. 

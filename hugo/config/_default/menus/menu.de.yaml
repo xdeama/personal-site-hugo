@@ -5,7 +5,7 @@ main:
   - name: Über mich
     pageRef: /about
     weight: 65
-  - name: Beratung
+  - name: Consulting
     pageRef: /consulting
     weight: 30
   - name: Projekte
