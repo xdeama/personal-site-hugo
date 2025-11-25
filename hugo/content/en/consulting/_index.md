@@ -27,15 +27,12 @@ My experience is distributed across technologies and industries as follows.
 
 {{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}
 
+
 ## Project Experience
 
 {{< include "experience.md" >}}
 
 My [project portfolio]({{< ref "projects" >}}) and my [CV]({{< ref "/about/cv" >}}) provide details on my individual experiences.
-
-
-
-
 
 
 ## Consulting

@@ -27,15 +27,12 @@ Meine Erfahrung verteilt sich wie folgt auf Technologien und Branchen.
 
 {{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}
 
+
 ## Projekterfahrung
 
 {{< include "experience.md" >}}
 
 Details zu meinen individuellen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}) und mein [CV]({{< ref "/about/cv" >}}).
-
-
-
-
 
 
 ## Beratung

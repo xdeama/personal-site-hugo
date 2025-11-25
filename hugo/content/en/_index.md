@@ -3,7 +3,7 @@ translationKey: home
 title: Home
 description: Cloud Native Full Stack Java Developer & Software Architect from Frankfurt am Main
 date: 2023-01-01T08:00:00-07:00
-draft: false    
+draft: false
 ---
 
 {{< row >}}
@@ -76,10 +76,10 @@ and organizational experience to software projects, contributing to their econom
 
 {{< column-end >}}
 
-My [CV]({{< ref "/about/cv" >}}) provides a brief overview of these stations, and my [project portfolio]({{< ref "projects" >}})
-offers detailed information on the experience gained.
-
-I approach new technologies, architectural concepts, and unfamiliar business domains with openness and curiosity.
+Further reading: 
+- My technology and industry experience [summarized in years]({{< ref "consulting" >}})
+- My [CV]({{< ref "/about/cv" >}}) with brief descriptions of individual roles
+- And my [project portfolio]({{< ref "projects" >}}) with detailed information on the experience gained
 
 {{< row-end >}}
 
@@ -108,3 +108,5 @@ support in large projects to shared DevOps cloud infrastructure and tax consulti
 
 At DenktMit, we collectively build what would be too complex, risky, or costly alone, while each
 of us maintains our entrepreneurial independence.
+
+

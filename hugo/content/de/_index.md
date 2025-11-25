@@ -76,10 +76,10 @@ und Organisationserfahrung in Softwareprojekte ein, die zum wirtschaftlichen Erf
 
 {{< column-end >}}
 
-Mein [CV]({{< ref "/about/cv" >}}) bietet einen kurzen Überblick über besagte Stationen und mein [Projektportfolio]({{< ref "projects" >}})
-detaillierte Informationen zu den gesammelten Erfahrungen.
-
-Neuen Technologien, architektonischen Konzepten und unbekannten Fachdomänen begegne ich mit Offenheit und Neugier.
+Zum weiterlesen:
+- Meine Technologie- und Branchenerfahrung [in Jahren aufsummiert]({{< ref "consulting" >}}) 
+- Mein [CV]({{< ref "/about/cv" >}}) mit sehr kurzen Beschreibungen zu einzelnen Stationen
+- Und mein [Projektportfolio]({{< ref "projects" >}}) mit detaillierten Informationen zu den gesammelten Erfahrungen
 
 {{< row-end >}}
 
