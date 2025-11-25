@@ -173,8 +173,14 @@
     margin-top: var(--flow-space);
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: var(--flow-space);
     color: var(--color-dark);
+}
+
+.prose > svg,
+.prose > a > svg,
+.prose > .row > .column-short > a > svg,
+.hidden-on-desktop > svg {
+    margin-bottom: var(--space-s);
 }
 
 @media (max-width: 850px) {

@@ -1,4 +1,6 @@
-Meine Schwerpunkte sind:
+---
+headless: true
+---
 - Cloud-Native Microservices mit **Java**, Kotlin und **Spring Boot**
 - Datengetriebene Architekturen mit relationalen Datenbanken (Oracle & **PostgreSQL**)
 - Event-basierte Architekturen mit **Kafka**

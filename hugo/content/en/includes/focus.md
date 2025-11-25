@@ -1,4 +1,6 @@
-My key focus areas are:
+---
+headless: true
+---
 - Cloud-native microservices with **Java**, Kotlin, and **Spring Boot**
 - Data-driven architectures with relational databases (Oracle & **PostgreSQL**)
 - Event-based architectures with **Kafka**

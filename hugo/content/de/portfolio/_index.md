@@ -21,6 +21,7 @@ als leitender Manager, konzipierender Architekt, umsetzender Entwickler und im o
 Durch diese vielfältigen Rollen bringe ich neben technischer Expertise auch strategischen Weitblick 
 und Organisationserfahrung in Softwareprojekte ein, die zum wirtschaftlichen Erfolg beitragen.
 
+Meine Schwerpunkte sind:
 {{< include "focus.md" >}}
 
 Neuen Technologien, architektonischen Konzepten und unbekannten Fachdomänen begegne ich mit Offenheit und Neugier.  

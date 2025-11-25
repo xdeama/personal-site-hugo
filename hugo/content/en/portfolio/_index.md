@@ -20,6 +20,7 @@ as a leading manager, orchestrating architect, implementing developer, and in op
 Through these diverse roles, I bring not only technical expertise but also strategic vision
 and organizational experience to software projects, contributing to their economic success.
 
+My key focus areas are:
 {{< include "focus.md" >}}
 
 I approach new technologies, architectural concepts, and unfamiliar business domains with openness and curiosity.
