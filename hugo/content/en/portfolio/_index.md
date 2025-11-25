@@ -29,7 +29,7 @@ I approach new technologies, architectural concepts, and unfamiliar business dom
 My portfolio contains:
 - Summarized [project experience](#projekterfahrung) by technology, architecture, methods, and industries
 - [CV](#cv-denis-malolepszy)
-- [project portfolio](#projektportfolio-denis-malolepszy) with descriptions of individual project assignments
+- [Project portfolio](#projektportfolio-denis-malolepszy) with descriptions of individual project assignments
 
 
 ## Project Experience
