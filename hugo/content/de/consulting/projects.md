@@ -10,6 +10,6 @@ robots:
 ---
 
 Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen. 
-Eine Übersicht meiner Arbeitgeber enthält mein [CV]({{< ref "/about/cv" >}}).
+Eine Übersicht meiner Arbeitgeber enthält mein [CV]({{< ref "/consulting/cv" >}}).
 
 {{< include "projects.md" >}}

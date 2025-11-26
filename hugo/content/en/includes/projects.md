@@ -405,7 +405,7 @@ but it saved significant licensing costs.
 
 
 ## Product Data Management in Vehicle Development
-### **August 2010 - March 2012 (with breaks, see [CV]({{< ref "/about/cv" >}}))** | Working Student
+### **August 2010 - March 2012 (with breaks, see [CV]({{< ref "/consulting/cv" >}}))** | Working Student
 *EDAG GmbH & Co. KGaA, Fulda, Germany*
 
 As a working student, I initiated a project to enable product data management in vehicle development in the in-house 

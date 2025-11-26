@@ -2,9 +2,9 @@ main:
   - name: home
     pageRef: /
     weight: 10
-  - name: about
-    pageRef: /about
-    weight: 65
+#  - name: about
+#    pageRef: /about
+#    weight: 65
   - name: consulting
     pageRef: /consulting
     weight: 30
@@ -12,7 +12,7 @@ main:
     pageRef: /consulting/projects
     weight: 40
   - name: CV
-    pageRef: /about/cv
+    pageRef: /consulting/cv
     weight: 45
 #  - name: DenktMit
 #    pageRef: /denktmit

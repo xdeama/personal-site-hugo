@@ -40,7 +40,7 @@ Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 
 {{< rawhtml >}} <br><br> {{< /rawhtml >}}
 
-{{< embed-svg "static/svg/software-engineering.svg" >}}
+{{< embed-svg "static/svg/tech-stack2.svg" >}}
 
 {{< column-end >}}
 
@@ -55,7 +55,7 @@ Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/tech-stack2.svg" >}}
 
 {{< row >}}
 
@@ -65,7 +65,7 @@ Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 
 {{< include "experience-text.md" >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/microservices.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/experience.svg" >}}
 
 {{< column-end >}}
 
@@ -73,13 +73,13 @@ Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 
 {{< rawhtml >}} <br> {{< /rawhtml >}}
 
-{{< embed-svg "static/svg/microservices.svg" >}}
+{{< embed-svg "static/svg/experience.svg" >}}
 
 {{< column-end >}}
 
 Zum Weiterlesen:
 - Meine Technologie- und Branchenerfahrung [in Jahren aufsummiert]({{< ref "consulting" >}}) 
-- Mein [CV]({{< ref "/about/cv" >}}) mit einem Abriss der jeweiligen Stationen
+- Mein [CV]({{< ref "/consulting/cv" >}}) mit einem Abriss der jeweiligen Stationen
 - Und mein [Projektportfolio]({{< ref "projects" >}}) mit detaillierten Informationen zu den gesammelten Erfahrungen
 
 {{< row-end >}}

@@ -39,7 +39,7 @@ Does your project need professional support? Reach out to me on [LinkedIn](https
 
 {{< rawhtml >}} <br><br> {{< /rawhtml >}}
 
-{{< embed-svg "static/svg/software-engineering.svg" >}}
+{{< embed-svg "static/svg/tech-stack2.svg" >}}
 
 {{< column-end >}}
 
@@ -54,7 +54,7 @@ Does your project need professional support? Reach out to me on [LinkedIn](https
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/tech-stack2.svg" >}}
 
 {{< row >}}
 
@@ -64,7 +64,7 @@ Does your project need professional support? Reach out to me on [LinkedIn](https
 
 {{< include "experience-text.md" >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/microservices.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/experience.svg" >}}
 
 {{< column-end >}}
 
@@ -72,16 +72,17 @@ Does your project need professional support? Reach out to me on [LinkedIn](https
 
 {{< rawhtml >}} <br> {{< /rawhtml >}}
 
-{{< embed-svg "static/svg/microservices.svg" >}}
+{{< embed-svg "static/svg/experience.svg" >}}
 
 {{< column-end >}}
 
-Further reading: 
+{{< row-end >}}
+
+Further reading:
 - Summarized [project experience]({{< ref "consulting" >}}) by technology, architecture, methods, and industries
-- My [CV]({{< ref "/about/cv" >}}) with an outline of the respective roles
+- My [CV]({{< ref "/consulting/cv" >}}) with an outline of the respective roles
 - And my [project portfolio]({{< ref "projects" >}}) with descriptions of individual project assignments
 
-{{< row-end >}}
 
 {{< row >}}
 

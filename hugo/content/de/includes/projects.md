@@ -459,7 +459,7 @@ der Technik, hat aber dem Kunden deutlich Lizenzkosten gespart.
 
 ## Produktdatenmanagement in der Fahrzeugentwicklung
 
-### **August 2010 - März 2012 (mit Unterbrechungen, siehe [CV]({{< ref "/about/cv" >}}))** | Werkstudent
+### **August 2010 - März 2012 (mit Unterbrechungen, siehe [CV]({{< ref "/consulting/cv" >}}))** | Werkstudent
 
 *EDAG GmbH & Co. KGaA, Fulda*
 

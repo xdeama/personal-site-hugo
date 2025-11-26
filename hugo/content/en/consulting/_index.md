@@ -20,19 +20,19 @@ My experience is distributed across technologies and industries as follows.
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}
-{{< embed-svg "static/svg/team.svg" >}}
+{{< embed-svg "static/svg/programming.svg" >}}
 {{< column-end >}}
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/programming.svg" >}}
 
 
 ## Project Experience
 
 {{< include "experience-years.md" >}}
 
-My [project portfolio]({{< ref "projects" >}}) and my [CV]({{< ref "/about/cv" >}}) provide details on my individual experiences.
+My [project portfolio]({{< ref "projects" >}}) and my [CV]({{< ref "/consulting/cv" >}}) provide details on my individual experiences.
 
 
 ## Consulting
