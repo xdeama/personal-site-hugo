@@ -79,8 +79,8 @@ Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 
 Zum Weiterlesen:
 - Meine Technologie- und Branchenerfahrung [in Jahren aufsummiert]({{< ref "consulting" >}}) 
-- Mein [CV]({{< ref "/consulting/cv" >}}) mit einem Abriss der jeweiligen Stationen
-- Und mein [Projektportfolio]({{< ref "projects" >}}) mit detaillierten Informationen zu den gesammelten Erfahrungen
+- [Mein CV]({{< ref "/consulting/cv" >}}) mit einem Abriss der jeweiligen Stationen
+- Und mein [Projektportfolio]({{< ref "/consulting/projects" >}}) mit detaillierten Informationen zu den gesammelten Erfahrungen
 
 {{< row-end >}}
 

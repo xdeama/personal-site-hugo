@@ -7,11 +7,22 @@ draft: false
 layout: standalone
 ---
 
-For general inquiries, please use
-- [email](mailto:kontakt@dmalo.de) or
-- [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}
+{{< row >}}
 
-## Consulting
+{{< column-short-hide-on-mobile >}}
+
+{{< embed-svg "static/svg/chat.svg" >}}
+
+{{< column-end >}}
+
+{{< column-long >}}
+
 For initial contact, I am available via [email](mailto:kontakt@dmalo.de) or [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;to arrange a phone call or video chat.
 
 To concentrate on client projects, I do not publish a phone number for initial contact.
+
+{{< column-end >}}
+
+{{< row-end >}}
+
+{{< embed-svg-hidden-on-desktop "static/svg/chat.svg" >}}

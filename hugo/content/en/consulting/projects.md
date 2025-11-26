@@ -9,7 +9,26 @@ robots:
   follow: false
 ---
 
-My project portfolio includes projects from my time as a freelancer, as well as permanent positions. 
-For an overview of my past employers, see my [CV]({{< ref "/consulting/cv" >}}).
+{{< row >}}
+
+{{< column-long >}}
+
+My project portfolio includes projects from my time as a freelancer as well as permanent positions.
+
+An overview of my employers can be found in my [CV]({{< ref "/consulting/cv" >}}).
+
+I have summarised my technology and industry experience [here by year]({{< ref "consulting" >}}).
+
+{{< column-end >}}
+
+{{< column-short-hide-on-mobile >}}
+
+{{< embed-svg "static/svg/digital.svg" >}}
+
+{{< column-end >}}
+
+{{< row-end >}}
+
+{{< embed-svg-hidden-on-desktop "static/svg/digital.svg" >}}
 
 {{< include "projects.md" >}}

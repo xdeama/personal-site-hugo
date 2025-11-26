@@ -7,6 +7,27 @@ draft: false
 layout: standalone
 ---
 
-Tabellarischer Lebenslauf mit Zeitraum, Position und Unternehmen. Details zu den jeweiligen Aufgabenfeldern und Projektinhalten befinden sich in der separaten [Projektportfolio]({{< relref "/consulting/projects" >}}).
+{{< row >}}
+
+{{< column-long >}}
+
+Dies ist ein Abriss der jeweiligen Stationen mit Zeitraum, Position und Unternehmen.
+
+Mehr Details zu den jeweiligen Aufgabenfeldern und Projektinhalten beschreibe ich
+in meinem [Projektportfolio]({{< relref "/consulting/projects" >}}).
+
+Meine Technologie- und Branchenerfahrung habe ich [hier nach Jahren aufsummiert]({{< ref "consulting" >}}).
+
+{{< column-end >}}
+
+{{< column-short-hide-on-mobile >}}
+
+{{< embed-svg "static/svg/cv.svg" >}}
+
+{{< column-end >}}
+
+{{< row-end >}}
+
+{{< embed-svg-hidden-on-desktop "static/svg/cv.svg" >}}
 
 {{< include "cv.md" >}}

@@ -80,8 +80,8 @@ Does your project need professional support? Reach out to me on [LinkedIn](https
 
 Further reading:
 - Summarized [project experience]({{< ref "consulting" >}}) by technology, architecture, methods, and industries
-- My [CV]({{< ref "/consulting/cv" >}}) with an outline of the respective roles
-- And my [project portfolio]({{< ref "projects" >}}) with descriptions of individual project assignments
+- [My CV]({{< ref "/consulting/cv" >}}) with an outline of the respective roles
+- And my [project portfolio]({{< ref "/consulting/projects" >}}) with descriptions of individual project assignments
 
 
 {{< row >}}

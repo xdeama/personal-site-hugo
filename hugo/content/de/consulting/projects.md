@@ -9,7 +9,26 @@ robots:
   follow: false
 ---
 
+{{< row >}}
+
+{{< column-long >}}
+
 Mein Projektportfolio enthält Projekte aus meiner Zeit als Freiberufler, als auch Festanstellungen. 
+
 Eine Übersicht meiner Arbeitgeber enthält mein [CV]({{< ref "/consulting/cv" >}}).
+
+Meine Technologie- und Branchenerfahrung habe ich [hier nach Jahren aufsummiert]({{< ref "consulting" >}}).
+
+{{< column-end >}}
+
+{{< column-short-hide-on-mobile >}}
+
+{{< embed-svg "static/svg/digital.svg" >}}
+
+{{< column-end >}}
+
+{{< row-end >}}
+
+{{< embed-svg-hidden-on-desktop "static/svg/digital.svg" >}}
 
 {{< include "projects.md" >}}

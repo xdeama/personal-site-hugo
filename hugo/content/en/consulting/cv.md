@@ -7,6 +7,27 @@ draft: false
 layout: standalone
 ---
 
-Chronological CV with time period, position and company. Details on the respective areas of responsibility and project content can be found in the separate [Project List]({{< relref "/consulting/projects" >}}).
+{{< row >}}
+
+{{< column-long >}}
+
+This is an overview of my career stages, including time period, position and company.
+
+I describe more details about the respective tasks and project content
+in my [project portfolio]({{< relref "/consulting/projects" >}}).
+
+I have summarised my technology and industry experience [here by year]({{< ref "consulting" >}}).
+
+{{< column-end >}}
+
+{{< column-short-hide-on-mobile >}}
+
+{{< embed-svg "static/svg/cv.svg" >}}
+
+{{< column-end >}}
+
+{{< row-end >}}
+
+{{< embed-svg-hidden-on-desktop "static/svg/cv.svg" >}}
 
 {{< include "cv.md" >}}
