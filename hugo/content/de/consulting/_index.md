@@ -20,12 +20,12 @@ Meine Erfahrungen verteilen sich wie folgt auf Technologien und Branchen.
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}
-{{< embed-svg "static/svg/programming.svg" >}}
+{{< embed-svg "static/svg/digital.svg" >}}
 {{< column-end >}}
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/programming.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/digital.svg" >}}
 
 
 ## Projekterfahrung

@@ -40,7 +40,7 @@ Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 
 {{< rawhtml >}} <br><br> {{< /rawhtml >}}
 
-{{< embed-svg "static/svg/tech-stack2.svg" >}}
+{{< embed-svg "static/svg/programming.svg" >}}
 
 {{< column-end >}}
 
@@ -55,7 +55,7 @@ Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/tech-stack2.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/programming.svg" >}}
 
 {{< row >}}
 

@@ -23,12 +23,12 @@ I have summarised my technology and industry experience [here by year]({{< ref "
 
 {{< column-short-hide-on-mobile >}}
 
-{{< embed-svg "static/svg/digital.svg" >}}
+{{< embed-svg "static/svg/tech-stack2.svg" >}}
 
 {{< column-end >}}
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/digital.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/tech-stack2.svg" >}}
 
 {{< include "projects.md" >}}

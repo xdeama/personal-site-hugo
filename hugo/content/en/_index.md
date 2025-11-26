@@ -39,7 +39,7 @@ Does your project need professional support? Reach out to me on [LinkedIn](https
 
 {{< rawhtml >}} <br><br> {{< /rawhtml >}}
 
-{{< embed-svg "static/svg/tech-stack2.svg" >}}
+{{< embed-svg "static/svg/programming.svg" >}}
 
 {{< column-end >}}
 
@@ -54,7 +54,7 @@ Does your project need professional support? Reach out to me on [LinkedIn](https
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/tech-stack2.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/programming.svg" >}}
 
 {{< row >}}
 
