@@ -248,7 +248,7 @@ Consistent block padding for page sections
     }
   }
 
-  @media (min-width: 851px) {
+  @media (min-width: 851px), print {
     .hidden-on-desktop {
         display: none !important;
     }

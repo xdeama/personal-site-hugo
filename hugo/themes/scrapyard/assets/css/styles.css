@@ -242,7 +242,7 @@
     }
 }
 
-@media (min-width: 715px), print {
+@media print, (min-width: 715px) {
     .list-with-columns > ul {
         column-count: 3;
     }
