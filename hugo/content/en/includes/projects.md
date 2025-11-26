@@ -4,20 +4,25 @@
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-I spearheaded the design and development of an Outage Planning Coordination (OPC) system for a German transmission system operator.
-From the start of the project, I helped build an agile project team and, beyond my role as a Software Engineer, I assumed responsibility for:
+I spearheaded the design and development of an Outage Planning Coordination (OPC) system for a German transmission 
+system operator. From the start of the project, I helped build an agile project team and, beyond my role as a 
+Software Engineer, I assumed responsibility for:
 
 - Requirements analysis,
 - Solution architecture design,
 - Conception of data interfaces,
 - And UI/UX design.
 
-As the project team grew, I handed over these respective areas to dedicated project members and focused on front-end and back-end development.
+As the project team grew, I handed over these respective areas to dedicated project members and focused on front-end 
+and back-end development.
 
-As a foundation, several existing applications were analyzed, and individual requirements from specialist departments and the transmission system operator association (ENTSO-E) were gathered.
+As a foundation, several existing applications were analyzed, and individual requirements from specialist departments 
+and the association of transmission system operators (ENTSO-E) were gathered.
 
-A completely newly developed cloud-native system based on open-source technologies was created to replace a historically grown conglomerate of manual data transfers and media breaks.
-Automated data interfaces and process support within the user interface assisted planning supervisors, particularly during transitions between responsible roles and departments.
+A completely newly developed cloud-native system based on open-source technologies was created to replace a 
+historically grown conglomerate of manual data transfers and media breaks.
+Automated data interfaces and process support in the user interface assist planning supervisors, particularly 
+during transitions between responsible roles and departments.
 
 
 {{< div class="list-with-columns" >}}
@@ -51,7 +56,7 @@ Automated data interfaces and process support within the user interface assisted
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
 Technology showcase to present the capabilities of cloud-native systems in the context of Geographic Information Systems for transmission system operators.
-Specifically, I extended a deck.gl React app with interactive elements as well as its interfaces via REST, WebSocket, and Kafka.
+In particular, I extended a deck.gl React app with interactive elements as well as its interfaces via REST, WebSocket, and Kafka.
 
 {{< div class="list-with-columns" >}}
 
@@ -79,7 +84,9 @@ Specifically, I extended a deck.gl React app with interactive elements as well a
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-An automated adapter between legacy software and a publication platform of the association of transmission system operators (ENTSO-E) minimizes manual work steps in the context of publishing Outage Planning Coordination (OPC) information.
+A newly developed automated adapter between legacy software and a publication platform of the association of 
+transmission system operators (ENTSO-E) minimizes manual work steps in the context of publishing information to the 
+Outage Planning Coordination (OPC) platform.
 
 For this purpose, I:
 
@@ -116,12 +123,13 @@ For this purpose, I:
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Evaluation of custom software in the area of automatic Frequency Restoration Reserve (aFRR) for a transmission system operator:
+Evaluation of a software product at source code level in the area of automatic Frequency Restoration Reserve (aFRR) 
+for a transmission system operator:
 
-- Analysis at the source code level,
-- Exemplary operation,
-- Verification of specification and function,
-- Estimation of efforts for integration into the existing system landscape.
+- Quality analysis at source code level
+- Showcase operation for technical evaluation
+- Verification of specification and function
+- Estimation of efforts for integration  into the client's existing system landscape
 
 {{< div class="list-with-columns" >}}
 
@@ -140,6 +148,28 @@ Evaluation of custom software in the area of automatic Frequency Restoration Res
 {{< /div >}}
 
 
+## Web Crawler-Based Archiving System
+### **December 2022 — January 2023** | Software Engineer
+*Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
+
+In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web crawler-based archiving system for a Swiss software manufacturer to facilitate the migration of an intranet system:
+
+- Developed a web crawler in Kotlin and Selenium for extracting web pages with rendered JavaScript
+- Implemented a React web app to serve as an entry and search portal
+- Set up and optimized a search index using Apache Solr
+
+{{< div class="list-with-columns" >}}
+### **Technologies**
+- Kotlin
+- Apache Solr
+- Selenium
+- React
+- Docker
+- Maven
+- Git
+  {{< /div >}}
+
+
 ## Modernizing CI/CD for Private Cloud Migration
 ### **March 2022 — September 2023** | DevOps Engineer
 *Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
@@ -149,7 +179,7 @@ DevOps and Java development for the private cloud migration of a major internati
 - Migrating a CI/CD portal to Azure DevOps for container, VM, and database deployments
 - Migrating the CI/CD portal's Spring Microservices infrastructure from VMs to containerized environments in OpenShift
 - Automating complex deployment mechanisms for VMs using Ansible and Reactive Spring, such as batch deployments with dependent components, and automatic sidecars
-- Navigate the first batch of migrated systems through internal architecture and IT risk governance processes, ensuring compliance and successful integration into the private cloud.
+- Navigate the first batch of migrated systems through internal architecture and IT risk governance processes, ensuring compliance and successful integration into the private cloud
 - Analyzing, containerizing, and porting an existing database anonymization solution
 - Migrating Jenkins deployment pipelines to Azure DevOps
 
@@ -177,35 +207,16 @@ DevOps and Java development for the private cloud migration of a major internati
 {{< /div >}}
 
 
-## Web Crawler-Based Archiving System
-### **December 2022 — January 2023** | Software Engineer
-*Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
-
-In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web crawler-based archiving system for a Swiss software manufacturer to facilitate the migration of an intranet system:
-
-- Developed a web crawler in Kotlin and Selenium for extracting web pages with rendered JavaScript
-- Implemented a React web app to serve as an entry and search portal
-- Set up and optimized a search index using Apache Solr
-
-{{< div class="list-with-columns" >}}
-### **Technologies**
-- Kotlin
-- Apache Solr
-- Selenium
-- React
-- Docker
-- Maven
-- Git
-{{< /div >}}
-
-
 ## Development of a Holiday Resort Project
 ### **October 2018 — July 2021** | Head of IT
 *Habona Invest GmbH, Frankfurt am Main, Germany*
 
-As Head of IT, I was responsible for all things IT of a holiday resort development project on the Adriatic coast. On behalf of the newly founded subsidiary Pareus, an area was developed and built with holiday apartments, centrally supplied with WiFi, TV, telephone, locking systems, etc., in the style of a hotel resort.
+As Head of IT, I was responsible for all things digital of a holiday resort development project on the Adriatic coast. 
+On behalf of the newly founded subsidiary Pareus, an area was developed and built with holiday apartments, centrally 
+supplied with WiFi, TV, telephone, locking systems and hospitality software, in the style of a hotel resort.
 
-As the first project of Pareus Resorts, this greenfield posed special challenges during the COVID-19 pandemic in the construction project and in building expertise and staff.
+As the first project of Pareus Resorts, this greenfield posed special challenges during the COVID-19 pandemic in the 
+construction project and in building expertise and staff.
 
 ### **Project Highlights**
 - Network technology and on-premises server systems
@@ -279,9 +290,8 @@ As a permanent organizational and IT consultant, I was responsible for a range o
 - Migration from JBoss AS 7 server group with 45 servers to standalone Wildfly servers
 - Further development of build and deployment automation with Maven, Jenkins, Sonar, and Sonatype Nexus
 - Operation of build and deployment tools for deployments on 45 Java EE servers
-- Introduction of automated integration tests for reporting backend with Java EE, Maven, Jenkins, and Docker
-- Introduction of automated integration tests for reporting frontend with Robot Framework
-- Development of a system for automating integration tests
+- Development of automated integration tests for reporting backend with Java EE, Maven, Jenkins, and Docker
+- Development of automated integration tests for reporting frontend with Robot Framework
 
 {{< div class="list-with-columns" >}}
 ### Technologies
@@ -310,7 +320,7 @@ As a permanent organizational and IT consultant, I was responsible for a range o
 
 The Investment Tax Reform Act presents asset managers with the challenge of having details of dividend distributions of all components of their funds several months in advance in order to comply with the law.
 
-For this purpose, numerous data sources were merged, analyzed daily, and a dashboard was provided to asset management, facilitating the legally compliant planning of transactions.
+For this purpose, numerous data sources were merged, analyzed daily, and presented as a dashboard to asset management, facilitating the legally compliant planning of transactions.
 Halfway through the project, I took over the leadership of a five-member development team in an agile project organization, assuming the role of *Scrum Master* and further developing the architecture.
 
 {{< div class="list-with-columns" >}}
@@ -338,7 +348,8 @@ Halfway through the project, I took over the leadership of a five-member develop
 ### **March 2015 — December 2016** | Software Engineer
 *Cofinpro AG, Frankfurt am Main, Germany*
 
-I designed and implemented several reporting systems for legal regulatory reporting based on Java EE, Oracle SQL, Camunda, and Vaadin. This was partly based on business requirements and partly through technical migration of existing applications.
+I designed and implemented several reporting systems for legal regulatory reporting based on Java EE, Oracle SQL, Camunda, and Vaadin. 
+This was partly based on business requirements and partly through technical migration of existing applications.
 
 {{< div class="list-with-columns" >}}
 ### Technologies
@@ -367,7 +378,8 @@ I designed and implemented several reporting systems for legal regulatory report
 ### **August 2012 — December 2012** | Web Developer
 **Independent part-time job for an antiquarian bookshop, Fulda*
 
-Modernization of a Joomla website focusing on user-friendliness for the staff of a bookstore. Involved the design and implementation of the website for the Ulenspiegel bookstore in Fulda and Ravensburg.
+Modernization of a Joomla website focusing on user-friendliness for the staff of a bookstore. 
+Involved the design and implementation of the website for the Ulenspiegel bookstore in Fulda and Ravensburg.
 
 {{< div class="list-with-columns" >}}
 ### Technologies
@@ -381,7 +393,9 @@ Modernization of a Joomla website focusing on user-friendliness for the staff of
 ### **2009 — 2012** | IT Administrator
 **Independent part-time job for an antiquarian bookshop, Fulda*
 
-Administration of Microsoft workstations, mail, and file servers for the Ulenspiegel bookstore in Fulda and Ravensburg. An in-house implemented data backup on a batch basis with retention logic and error handling sounds scary, but it saved significant licensing costs back then.
+Administration of Microsoft workstations, mail, and file servers for the Ulenspiegel bookstore in Fulda and Ravensburg. 
+An in-house implemented data backup on a batch basis with retention logic and error handling was surely not state of the art, 
+but it saved significant licensing costs.
 
 {{< div class="list-with-columns" >}}
 ### Technologies
@@ -394,7 +408,10 @@ Administration of Microsoft workstations, mail, and file servers for the Ulenspi
 ### **August 2010 - March 2012 (with breaks, see [CV]({{< ref "/about/cv" >}}))** | Working Student
 *EDAG GmbH & Co. KGaA, Fulda, Germany*
 
-As a working student, I initiated a project to enable product data management in vehicle development in the in-house inventory software jEDWIN. Product data was managed in spreadsheet programs and exchanged with customers and suppliers. However, since product data represents a graph rather than a tree structure, this approach had significant difficulties with data duplication.
+As a working student, I initiated a project to enable product data management in vehicle development in the in-house 
+inventory software jEDWIN. So far product data was managed and exchanged with customers and suppliers in spreadsheets. 
+However, since product data represents a graph rather than a tree structure, this approach had significant difficulties 
+with data duplication.
 
 I developed a concept and a prototype, tested it with a vehicle development team, and dedicated my bachelor's thesis to the topic.
 

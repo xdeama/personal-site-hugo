@@ -18,7 +18,7 @@ Studies in Business Informatics (B.Sc.)
 
 _Childcare while traveling in Norway_
 
-Personal trainer for walking, talking and cheerful nonsense
+Personal trainer for walking, talking and eating with a spoon
 
 
 ### **Supervisory Board** | June 2022 — November 2024

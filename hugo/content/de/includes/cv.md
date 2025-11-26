@@ -18,7 +18,7 @@ Studium der Wirtschaftsinformatik (B.Sc.)
 
 _Kinderbetreuung auf Reisen in Norwegen_
 
-Personal Trainer für Laufen, Sprechen und fröhlichen Unsinn
+Personal Trainer für Laufen, Sprechen und mit dem Löffel essen
 
 
 ### **Aufsichtsrat** | Juni 2022 — November 2024

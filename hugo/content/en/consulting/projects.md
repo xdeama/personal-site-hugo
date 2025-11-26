@@ -9,6 +9,7 @@ robots:
   follow: false
 ---
 
-My project portfolio includes projects from my time as a freelancer, as well as permanent positions. For a short overview of my past employers, see my [CV]({{< ref "/about/cv" >}}).
+My project portfolio includes projects from my time as a freelancer, as well as permanent positions. 
+For an overview of my past employers, see my [CV]({{< ref "/about/cv" >}}).
 
 {{< include "projects.md" >}}

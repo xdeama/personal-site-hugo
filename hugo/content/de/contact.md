@@ -14,4 +14,4 @@ Für allgemeine Anliegen, nutze bitte
 ## Beratung
 Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de) oder [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;zur Verfügung und vereinbare gerne ein Telefonat oder Videochat.
 
-Eine Telefonnummer für den Erstkontakt veröffentliche ich nicht, um konzentriert an Kundenprojekten arbeiten zu können.
+Um konzentriert an Kundenprojekten arbeiten zu können, veröffentliche ich keine Telefonnummer für den Erstkontakt.

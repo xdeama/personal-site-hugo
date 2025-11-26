@@ -4,20 +4,26 @@
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Ich habe den Entwurf und die Entwicklung eines Outage Planning Coordination (OPC) Systems für einen deutschen Übertragungsnetzbetreiber federführend gestartet. 
-Von Projektstart an habe ich beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als Software Engineer hinaus:
+Ich habe den Entwurf und die Entwicklung eines Outage Planning Coordination (OPC) Systems für einen deutschen 
+Übertragungsnetzbetreiber federführend gestartet. 
+Von Projektstart an habe ich beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als 
+Software Engineer hinaus:
 
 - die Anforderungsanalyse,
 - den Entwurf der Solution Architektur
 - die Konzeption der Datenschnittstellen
 - und das UI/UX Design übernommen.
 
-Mit dem wachsenden Projektteam habe ich die jeweiligen Resorts an dedizierte Projektmitarbeiter übergeben und mich auf die Front- und Backend-Entwicklung fokussiert.
+Mit dem wachsenden Projektteam habe ich die jeweiligen Ressorts an dedizierte Projektmitarbeiter übergeben und mich auf 
+die Front- und Backend-Entwicklung fokussiert.
 
-Als Grundlage wurden mehrere Bestandsanwendungen analysiert und individuelle Anforderungen von Fachabteilungen und des Übertragungsnetzbetreiberverbandes ENTSO-E aufgenommen. 
+Als Grundlage wurden mehrere Bestandsanwendungen analysiert und individuelle Anforderungen von Fachabteilungen und des 
+Verbandes der Übertragungsnetzbetreiber ENTSO-E aufgenommen. 
 
-Geschaffen wurde ein vollständig neu entwickeltes Cloud-natives System basierend auf Open Source Technologien, um ein historisch gewachsenes Konglomerat aus manuellen Datenübertragungen und Medienbrüchen abzulösen. 
-Automatisierte Datenschnittstellen und eine Prozessunterstützung in der Benutzeroberfläche unterstützten die Planungsverantwortlichen, insbesondere bei den Übergängen zwischen verantwortlichen Rollen und Abteilungen.
+Geschaffen wurde ein vollständig neu entwickeltes Cloud-natives System basierend auf Open Source Technologien, 
+um ein historisch gewachsenes Konglomerat aus manuellen Datenübertragungen und Medienbrüchen abzulösen. 
+Automatisierte Datenschnittstellen und eine Prozessunterstützung unterstützen die 
+jeweiligen Planungsverantwortlichen, insbesondere bei den Übergängen zwischen verantwortlichen Rollen und Abteilungen.
 
 
 {{< div class="list-with-columns" >}}
@@ -52,7 +58,7 @@ Automatisierte Datenschnittstellen und eine Prozessunterstützung in der Benutze
 
 Technologieträger-Showcase zur Präsentation der Fähigkeiten von Cloud-native Systemen
 im Kontext Geografischer Informationssysteme für Übertragungsnetzbetreiber.
-Insbesondere habe ich eine deck.gl React App um interaktive Elemente erweitert, als auch deren
+Im Schwerpunkt habe ich eine deck.gl React App um interaktive Elemente erweitert, als auch deren
 Schnittstellen über REST, WebSocket und Kafka.
 
 {{< div class="list-with-columns" >}}
@@ -81,7 +87,7 @@ Schnittstellen über REST, WebSocket und Kafka.
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Ein automatisierter Adapter zwischen einer Bestandssoftware und einer Veröffentlichungsplattform des Verbandes
+Ein neu entwickelter automatisierter Adapter zwischen einer Bestandssoftware und einer Veröffentlichungsplattform des Verbandes
 der Übertragungsnetzbetreiber (ENTSO-E) reduziert die manuellen Arbeitsschritte im Kontext der Veröffentlichung 
 von Outage Planning Coordination (OPC) Informationen auf ein Minimum.
 
@@ -120,13 +126,13 @@ Dazu habe ich:
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Evaluierung einer Individualsoftware im Bereich automatic Frequency Restoration Reserve (aFRR)
+Evaluierung eines Softwareproduktes auf Quellcode-Ebene im Bereich automatic Frequency Restoration Reserve (aFRR)
 für einen Übertragungsnetzbetreiber:
 
-- Analyse auf Quellcode-Ebene
-- Exemplarischer Betrieb
+- Qualitätsanalyse auf Quellcode-Ebene
+- Showcase-Betrieb für fachliche Evaluation
 - Verifizierung von Spezifikation und Funktion
-- Schätzung von Aufwänden zur Integration in die bestehende Systemlandschaft
+- Schätzung von Aufwänden zur Integration in die bestehende Systemlandschaft des Auftraggebers
 
 {{< div class="list-with-columns" >}}
 
@@ -145,18 +151,45 @@ für einen Übertragungsnetzbetreiber:
 {{< /div >}}
 
 
+## Web-Crawler-basiertes Archivsystem
+
+### **Dezember 2022 — Januar 2023** | Software Engineer
+
+*Denis Malolepszy Software Engineering, Frankfurt am Main*
+
+Ich habe erfolgreich gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) ein Web-Crawler-basiertes 
+Archivsystem für die Migration des Intranet-Systems eines Schweizer Softwareherstellers entwickelt:
+
+- Implementierung eines Web-Crawlers in Kotlin und Selenium zum Extrahieren von Webseiten mit gerendertem JavaScript
+- Implementierung einer React Webapp als Einstiegs- und Suchportal
+- Setup und Tuning eines Suchindex mit Apache Solr
+
+{{< div class="list-with-columns" >}}
+
+### **Technologien**
+
+- Kotlin
+- Apache Solr
+- Selenium
+- React
+- Docker
+- Maven
+- Git
+  {{< /div >}}
+
+
 ## CI/CD für Private Cloud Migration modernisieren
 
 ### **März 2022 — September 2023** | DevOps Engineer
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-DevOps und Java Entwicklung für die Private Cloud Migration einer großen internationalen Bank:
+DevOps und Java Entwicklungen für die Private Cloud Migration einer großen internationalen Bank:
 
 - Azure DevOps Migration eines CI/CD-Portals für Container, VM und Datenbank Deployments
 - Spring Microservices von VMs zu Containern und abhängige Systeme wie Datenbanken und Observability zu OpenShift migrieren
 - Automatisierung von komplexen Deployment-Mechanismen für VMs mit Ansible und Reactive Spring (z.B. Batch Deployments mit abhängigen Komponenten, und automatische Sidecars)
-- Interne Architektur und IT-Risk Governance Prozesse zur Private Cloud Migration erproben
+- Erprobung von Architektur- und IT-Risk-Governance-Prozesse zur Private Cloud Migration
 - Analyse, Containerisierung und Portierung einer bestehenden Datenbank-Anonymisierungslösung
 - Migration von Jenkins Deployment Pipelines zu Azure DevOps
 
@@ -186,41 +219,19 @@ DevOps und Java Entwicklung für die Private Cloud Migration einer großen inter
 {{< /div >}}
 
 
-## Web-Crawler-basiertes Archivsystem
-
-### **Dezember 2022 — Januar 2023** | Software Engineer
-
-*Denis Malolepszy Software Engineering, Frankfurt am Main*
-
-Ich habe gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) für einen Schweizer Softwarehersteller ein Web-Crawler-basiertes Archivsystem für die Migration eines Intranet-Systems entwickelt:
-
-- Implementierung eines Web-Crawlers in Kotlin und Selenium zum Extrahieren von Webseiten mit gerendertem JavaScript
-- Implementierung einer React Webapp als Einstiegs- und Suchportal
-- Setup und Tuning eines Suchindex mit Apache Solr
-
-{{< div class="list-with-columns" >}}
-
-### **Technologien**
-
-- Kotlin
-- Apache Solr
-- Selenium
-- React
-- Docker
-- Maven
-- Git
-{{< /div >}}
-
-
 ## Projektentwicklung eines Ferienresorts
 
 ### **Oktober 2018 — Juli 2021** | Head of IT
 
 *Habona Invest GmbH, Frankfurt am Main*
 
-Als Head of IT war ich für technische Aspekte der Projektentwicklung eines Ferienresorts an der Adria verantwortlich. Im Namen der neu gegründeten Tochterfirma Pareus wurde ein Areal neu erschlossen und mit Ferienwohnungen bebaut, die im Stil eines Hotel Resorts zentral mit WLAN, TV, Telefon, Schließanlage und Co. versorgt wurden.
+Als Head of IT war ich für digitalen Aspekte der Projektentwicklung eines Ferienresorts an der Adria verantwortlich. 
+Im Namen der neu gegründeten Tochterfirma Pareus wurde ein Areal neu erschlossen und mit Ferienwohnungen bebaut, 
+die im Stil eines Hotel Resorts zentral mit WLAN, TV, Telefon, Schließanlage und Hotelverwaltungsystem zu versorgen 
+waren.
 
-Als erstes Pareus Resorts, bot dieses Greenfield Projekt während der Coronapandemie besondere Herausforderungen im Bauprojekt und im Aufbau von Expertise und Personal.
+Als erstes Pareus Resorts, bot dieses Greenfield Projekt während der Coronapandemie besondere Herausforderungen im 
+Bauprojekt und im Aufbau von Expertise und Personal.
 
 ### **Projektschwerpunkte**
 
@@ -309,9 +320,9 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 - Migration von JBoss AS 7 Server Group mit 45 Servern auf Standalone Wildfly Server
 - Weiterentwicklung der Build- und Deployment-Automatisierung mit Maven, Jenkins, Sonar, und Sonatype Nexus
 - Betrieb der Build- und Deployment Tools für Deployments auf 45 Java EE Server
-- Einführung automatisierter Integrationstests für Reporting Backend mit Java EE, Maven, Jenkins und Docker
-- Einführung automatisierter Integrationstests für Reporting Frontend mit Robot Framework
-- Entwicklung eines Systems zur Automatisierung von Integrationstests
+- Entwicklung automatisierter Integrationstests für Reporting Backend mit Java EE, Maven, Jenkins und Docker
+- Entwicklung automatisierter Integrationstests für Reporting Frontend mit Robot Framework
+
 
 {{< div class="list-with-columns" >}}
 
@@ -342,10 +353,13 @@ Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von P
 
 *Cofinpro AG, Frankfurt am Main*
 
-Das Investmentsteuerreformgesetz stellt Asset Manager vor die Herausforderung Details zu Dividendenausschüttungen der Bestandteile aller ihrer Fonds über mehrere Monate voraus im Überblick zu haben, um gesetzeskonform arbeiten zu können.
+Das Investmentsteuerreformgesetz stellt Asset Manager vor die Herausforderung Details zu Dividendenausschüttungen der 
+Bestandteile aller ihrer Fonds über mehrere Monate voraus im Überblick zu haben, um gesetzeskonform arbeiten zu können.
 
-Hierzu wurden zahlreiche Datenquellen zusammengeführt, täglich analytisch ausgewertet und damit dem Asset Management ein Dashboard zur Verfügung gestellt, welches die gesetzeskonforme Vorausplanung von Transaktionen erleichtert.
-Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen Entwicklerteams in agiler Projektorganisation übernommen, die Rolle des Scrum Master, als auch die Architektur weiterentwickelt.
+Hierzu wurden zahlreiche Datenquellen zusammengeführt, täglich analytisch ausgewertet und damit dem Asset Management 
+als Dashboard zur Verfügung gestellt, welches die gesetzeskonforme Vorausplanung von Transaktionen erleichtert.
+Ich habe nach der halben Projektlaufzeit die Leitung eines fünfköpfigen Entwicklerteams in agiler 
+Projektorganisation übernommen, dabei die Rolle des Scrum Master, als auch die Architektur weiterentwickelt.
 
 {{< div class="list-with-columns" >}}
 
@@ -377,7 +391,9 @@ Ich habe nach der halben Laufzeit des Projektes die Leitung eines fünfköpfigen
 
 *Cofinpro AG, Frankfurt am Main*
 
-Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von Java EE, Oracle SQL, Camunda und Vaadin konzipiert und implementiert. Dies geschah teilweise auf Basis von fachlichen Vorgaben, teilweise durch technische Migration von bestehenden Anwendungen.
+Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von Java EE, Oracle SQL, Camunda und Vaadin 
+konzipiert und implementiert. Dies geschah zum Teil auf Basis von fachlichen Vorgaben, teilweise durch technische 
+Migration von bestehenden Anwendungen.
 
 {{< div class="list-with-columns" >}}
 
@@ -409,7 +425,8 @@ Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von 
 
 *Selbstständig als Nebenjob zum Studium für ein Antiquariat, Fulda*
 
-Modernisierung einer Joomla Webseite mit Schwerpunkt Anwenderfreundlichkeit für das Ladenpersonal eines Antiquariates. Umfasste die Gestaltung und Implementierung der Webseite der Buchhaltung Ulenspiegel in Fulda und Ravensburg.
+Modernisierung einer Joomla Webseite mit Schwerpunkt auf der Anwenderfreundlichkeit für das Ladenpersonal eines 
+Antiquariates. Umfasste die Gestaltung und Implementierung der Webseite der Buchhaltung Ulenspiegel in Fulda und Ravensburg.
 
 {{< div class="list-with-columns" >}}
 
@@ -427,7 +444,9 @@ Modernisierung einer Joomla Webseite mit Schwerpunkt Anwenderfreundlichkeit für
 
 *Selbstständig als Nebenjob zum Studium für ein Antiquariat, Fulda*
 
-Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung Ulenspiegel in Fulda und Ravensburg. Eine eigen implementierte Datensicherung auf Batch Basis mit Aufbewahrungslogik und Fehlerbehandlung klingt zwar gruselig, hat aber damals nennenswerte Lizenzkosten gespart.
+Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung Ulenspiegel in Fulda und Ravensburg. 
+Eine eigen implementierte Datensicherung auf Batch Basis mit Aufbewahrungslogik und Fehlerbehandlung war nicht Stand
+der Technik, hat aber dem Kunden deutlich Lizenzkosten gespart.
 
 {{< div class="list-with-columns" >}}
 
@@ -444,9 +463,13 @@ Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung 
 
 *EDAG GmbH & Co. KGaA, Fulda*
 
-Als Werksstudent habe ich ein Projekt gestartet um das Produktdatenmanagement in der Fahrzeugentwicklung in der Hauseigene Inventarisierungssoftware jEDWIN zu ermöglichen. Produktdaten wurden in Tabellenkalkulationsprogrammen verwaltet und mit Kunden und Zulieferern ausgetauscht. Da Produktdaten jedoch keine Baumstruktur, sondern einen Graphen darstellen, hatte dieser Ansatz erhebliche Schwierigkeiten mit der Duplikation von Daten.
+Als Werksstudent habe ich ein Projekt gestartet, um das Produktdatenmanagement in der Fahrzeugentwicklung in der 
+hauseigenen Inventarisierungssoftware jEDWIN zu ermöglichen. Bisher wurden Produktdaten in Tabellenkalkulationsprogrammen 
+verwaltet und mit Kunden und Zulieferern ausgetauscht. Da Produktdaten jedoch keine Baumstruktur, sondern einen 
+Graphen darstellen, hatte dieser Ansatz erhebliche Schwierigkeiten mit der Duplikation von Daten.
 
-Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwicklungsteam erprobt und meine Bachelor Thesis dem Thema gewidmet.
+Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwicklungsteam erprobt und 
+meine Bachelor Thesis dem Thema gewidmet.
 
 {{< div class="list-with-columns" >}}
 

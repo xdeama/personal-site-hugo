@@ -16,9 +16,12 @@ layout: standalone
 
 {{< column-long >}}
 {{< embed-svg-link-hidden-on-desktop path="static/svg/denktmit-logo.svg" url="https://denktmit.de">}}
-Unsere Mitglieder teilen Wissen, Erfahrungen und helfen bei der Vermittlung von Projekten. Wir investieren gemeinsam in unternehmerische Infrastrukturen – von angestellten Softwareentwicklern für Projektunterstützung bis hin zu gemeinsam genutzter Cloud-Infrastruktur und Steuerberatung. 
+Unsere Mitglieder teilen Wissen, Erfahrungen und unterstützen sich gegenseitig bei der Vermittlung von Projekten. 
+Wir investieren gemeinsam in unsere unsere Unternehmensinfrastruktur – von angestellten Softwareentwicklern für 
+Projektunterstützung bis hin zu gemeinsam genutzter Cloud-Infrastruktur und Steuerberatung. 
 
-So bauen wir bei DenktMit gemeinsam auf, was alleine zu riskant, kostspielig oder unerschwinglich wäre, während jeder von uns seine unternehmerische Unabhängigkeit behält.
+So bauen wir bei DenktMit gemeinsam ein Umfeld auf, was alleine zu aufwändig, riskant oder kostspielig wäre, während jeder
+von uns seine unternehmerische Unabhängigkeit behält.
 
 {{< column-end >}}
 

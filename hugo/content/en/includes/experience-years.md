@@ -30,7 +30,9 @@
 
 
 ### Industry Experience
-| Industry | Experience |
-|:---------|:-----------|
-| Finance  | 8 years    |
-| Energy   | 1.5 years  |
+| Industry   | Experience |
+|:-----------|:-----------|
+| Finance    | 8 years    |
+| Energy     | 1.5 years  |
+| Automotive | 1.5 years  |
+| Others     | 1.5 years  |

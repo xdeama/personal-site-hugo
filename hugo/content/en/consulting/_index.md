@@ -12,8 +12,8 @@ layout: standalone
 {{< column-long >}}
 
 
-With over 12 years of professional experience in the IT environment, I have led software projects to success from various perspectives:
-as a leading manager, conceptual architect, implementing developer, and in operations.
+With more than 12 years of professional experience in the IT environment, I have led software projects to success 
+from various perspectives: as a leading manager, conceptual architect, implementing developer, and in operations.
 
 My experience is distributed across technologies and industries as follows.
 
@@ -30,7 +30,7 @@ My experience is distributed across technologies and industries as follows.
 
 ## Project Experience
 
-{{< include "experience.md" >}}
+{{< include "experience-years.md" >}}
 
 My [project portfolio]({{< ref "projects" >}}) and my [CV]({{< ref "/about/cv" >}}) provide details on my individual experiences.
 
@@ -44,13 +44,13 @@ My [project portfolio]({{< ref "projects" >}}) and my [CV]({{< ref "/about/cv" >
 {{< column-end >}}
 
 {{< column-long >}}
-Does your project need support?
+Does your project professional need support?
 
 Reach out to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{<
 linkedin-icon >}}&nbsp;or contact me directly via [E-Mail](mailto:kontakt@dmalo.de).
 
-If I'm unavailable or the technology is outside my area of expertise, I am happy to forward inquiries
-to [DenktMit]({{< ref "/denktmit" >}}) and find an available expert for you.
+If I cannot help you myself, I am happy to recommend a suitable and reliable expert
+from [DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT specialists.
 
 {{< column-end >}}
 

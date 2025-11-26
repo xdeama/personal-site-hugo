@@ -12,10 +12,10 @@ layout: standalone
 {{< column-long >}}
 
 
-In 12 Jahren Berufserfahrung im IT-Umfeld habe ich Softwareprojekte aus verschiedenen Perspektiven zum Erfolg geführt:
-als leitender Manager, konzipierender Architekt, umsetzender Entwickler und im operativen Betrieb.
+In meinen 12 Jahren Berufserfahrung im IT-Umfeld habe ich Softwareprojekte aus verschiedenen Perspektiven zum 
+Erfolg geführt: als leitender Manager, konzipierender Architekt, umsetzender Entwickler und im operativen Betrieb.
 
-Meine Erfahrung verteilt sich wie folgt auf Technologien und Branchen.
+Meine Erfahrungen verteilen sich wie folgt auf Technologien und Branchen.
 
 {{< column-end >}}
 
@@ -30,7 +30,7 @@ Meine Erfahrung verteilt sich wie folgt auf Technologien und Branchen.
 
 ## Projekterfahrung
 
-{{< include "experience.md" >}}
+{{< include "experience-years.md" >}}
 
 Details zu meinen individuellen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}) und mein [CV]({{< ref "/about/cv" >}}).
 
@@ -44,13 +44,14 @@ Details zu meinen individuellen Erfahrungen bietet mein [Projektportfolio]({{< r
 {{< column-end >}}
 
 {{< column-long >}}
-Benötigt dein Projekt Unterstützung?
+Benötigt dein Projekt professionelle Unterstützung?
 
 Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{<
 linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
 
-Scheitert es an meiner Verfügbarkeit, oder ist die Technologie nicht mein Gebiet, so gebe ich Anfragen gerne
-an [DenktMit]({{< ref "/denktmit" >}}) weiter und finde einen verfügbaren Experten für dich.
+Kann ich selbst nicht weiterhelfen, empfehle ich bei Interesse
+gerne einen geeigneten und zuverlässigen Experten
+von [DenktMit]({{< ref "/denktmit" >}}), meinem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
 {{< column-end >}}
 

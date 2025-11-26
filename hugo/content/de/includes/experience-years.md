@@ -30,7 +30,9 @@
 
 
 ### Branchenerfahrung
-| Branche | Erfahrung |
-|:--------|:----------|
-| Finanz  | 8 Jahre   |
-| Energie | 1,5 Jahre |
+| Branche   | Erfahrung |
+|:----------|:----------|
+| Finanz    | 8 Jahre   |
+| Energie   | 1,5 Jahre |
+| Automobil | 1,5 Jahre |
+| Andere    | 1,5 Jahre |

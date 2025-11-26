@@ -12,7 +12,6 @@ I'm Denis Malolepszy, active in the IT industry since 2010. Based in Frankfurt a
 In 2022, I started my own business as a software architect and took over the chairmanship of the supervisory board of [DenktMit]({{< relref "/denktmit" >}}), a cooperative that I co-founded in 2021.
 
 
-
 {{< row >}}
 
 {{< column-long >}}
@@ -36,11 +35,12 @@ I have gained experience as an IT architect, team leader, project manager, Scrum
 
 {{< column-long >}}
 ## Software Development
-Today, I am focusing on the [development of custom software]({{< ref "/consulting" >}}).
+Today, I am focusing on the [development]({{< ref "/consulting" >}}) of custom software.
 
 As a freelancer, I am open to both short consulting assignments and long-term projects.
 
-In case I should be unavailable, or if the technology is not my area of expertise, I am happy to pass inquiries on to [DenktMit]({{< ref "/denktmit" >}}) and find an available expert for you.
+If I cannot help you myself, I am happy to recommend a suitable and reliable expert
+from [DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT specialists.
 {{< column-end >}}
 {{< row-end >}}
 

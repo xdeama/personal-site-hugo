@@ -13,14 +13,14 @@ draft: false
 # Hi,
 
 I'm Denis. Freelance Full Stack Developer, Software Architect, and co-founder of
-[DenktMit]({{< ref "/denktmit" >}}), an expert network of independent IT specialists.
+[DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT specialists.
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 
-Designing and developing [sophisticated software solutions]({{< ref "projects" >}}) for the finance and
-energy sectors is my craft.
+I specialize in designing and developing [sophisticated software solutions]({{< ref "projects" >}}) for the finance 
+and energy sectors.
 
-Does your project need support? Reach out to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
+Does your project need professional support? Reach out to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;or contact me directly via [Email](mailto:kontakt@dmalo.de).
 
 {{< column-end >}}
@@ -62,11 +62,7 @@ Does your project need support? Reach out to me on [LinkedIn](https://www.linked
 
 ## Experience
 
-I have led software projects to success from various perspectives:
-as a leading manager, conceptual architect, implementing developer, and in operations.
-
-Through these diverse roles, I bring not only technical expertise but also strategic vision
-and organizational experience to software projects, contributing to their economic success.
+{{< include "experience-text.md" >}}
 
 {{< embed-svg-hidden-on-desktop "static/svg/microservices.svg" >}}
 
@@ -81,9 +77,9 @@ and organizational experience to software projects, contributing to their econom
 {{< column-end >}}
 
 Further reading: 
-- My technology and industry experience [summarized in years]({{< ref "consulting" >}})
-- My [CV]({{< ref "/about/cv" >}}) with brief descriptions of individual roles
-- And my [project portfolio]({{< ref "projects" >}}) with detailed information on the experience gained
+- Summarized [project experience]({{< ref "consulting" >}}) by technology, architecture, methods, and industries
+- My [CV]({{< ref "/about/cv" >}}) with an outline of the respective roles
+- And my [project portfolio]({{< ref "projects" >}}) with descriptions of individual project assignments
 
 {{< row-end >}}
 
@@ -100,9 +96,10 @@ Further reading:
 [DenktMit]({{< ref "/denktmit" >}}) is a versatile expert network of experienced IT specialists. Companions - more than
 just consultants.
 
-We share knowledge, experiences, and help each other with project placement.
-[Together](https://denktmit.de/team/), we invest in entrepreneurial infrastructures – from employed software developers for
-support in large projects to shared DevOps cloud infrastructure and tax consulting.
+We share knowledge and experience and support each other in solving problems and brokering
+projects.
+[Together](https://denktmit.de/team/), we invest in our corporate infrastructure – from employed
+software developers to support large projects to shared DevOps cloud infrastructure and tax consulting.
 
 {{< embed-svg-link-hidden-on-desktop path="static/svg/denktmit-logo.svg" url="https://denktmit.de">}}
 
@@ -110,7 +107,7 @@ support in large projects to shared DevOps cloud infrastructure and tax consulti
 
 {{< row-end >}}
 
-At DenktMit, we collectively build what would be too complex, risky, or costly alone, while each
-of us maintains our entrepreneurial independence.
+At DenktMit, we are working together to build an environment that would be too complex, risky or costly to create 
+on our own, while each of us retains our entrepreneurial independence.
 
 

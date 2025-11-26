@@ -13,15 +13,16 @@ draft: false
 # Hallo,
 
 ich bin Denis. Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von 
-[DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten.
+[DenktMit]({{< ref "/denktmit" >}}), dem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 
-Die Konzeption und Entwicklung [anspruchsvoller Softwarelösungen]({{< ref "projects" >}}) für den Finanz- und 
-Energiesektor ist mein Handwerk.
+Die Konzeption und Entwicklung [anspruchsvoller Softwarelösungen]({{< ref "projects" >}}) 
+für die Sektoren Finanzen und Energie ist mein Handwerk.
 
-Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
-{{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
+Benötigt dein Projekt professionelle Unterstützung? 
+Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
+{{< linkedin-icon >}} oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
 
 {{< column-end >}}
 
@@ -62,11 +63,7 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 
 ## Erfahrung
 
-Ich habe Softwareprojekte aus verschiedenen Perspektiven zum Erfolg geführt:
-als leitender Manager, konzipierender Architekt, umsetzender Entwickler und im operativen Betrieb.
-
-Durch diese vielfältigen Rollen bringe ich neben technischer Expertise auch strategischen Weitblick
-und Organisationserfahrung in Softwareprojekte ein, die zum wirtschaftlichen Erfolg beitragen.
+{{< include "experience-text.md" >}}
 
 {{< embed-svg-hidden-on-desktop "static/svg/microservices.svg" >}}
 
@@ -82,7 +79,7 @@ und Organisationserfahrung in Softwareprojekte ein, die zum wirtschaftlichen Erf
 
 Zum Weiterlesen:
 - Meine Technologie- und Branchenerfahrung [in Jahren aufsummiert]({{< ref "consulting" >}}) 
-- Mein [CV]({{< ref "/about/cv" >}}) mit sehr kurzen Beschreibungen zu einzelnen Stationen
+- Mein [CV]({{< ref "/about/cv" >}}) mit einem Abriss der jeweiligen Stationen
 - Und mein [Projektportfolio]({{< ref "projects" >}}) mit detaillierten Informationen zu den gesammelten Erfahrungen
 
 {{< row-end >}}
@@ -97,12 +94,14 @@ Zum Weiterlesen:
 
 ## DenktMit
 
-[DenktMit]({{< ref "/denktmit" >}}) ist ein flexibles Experten-Netzwerk erfahrener IT-Spezialisten. Gefährten - mehr als
-nur Berater.
+[DenktMit]({{< ref "/denktmit" >}}) ist ein flexibles Experten-Netzwerk erfahrener IT-Spezialisten. 
+Gefährten - mehr als nur Berater.
 
-Wir teilen Wissen, Erfahrungen und helfen uns gegenseitig der Vermittlung von Projekten.
-[Gemeinsam](https://denktmit.de/team/) investieren wir in unternehmerische Infrastrukturen – von angestellten Softwareentwicklern zur
-Unterstützung in großen Projekten bis hin zur gemeinsam genutzten DevOps Cloud-Infrastruktur und Steuerberatung.
+Wir teilen Wissen, Erfahrungen und unterstützen uns gegenseitig bei der Lösung von Problemen und Vermittlung
+von Projekten.
+[Gemeinsam](https://denktmit.de/team/) investieren wir in unsere Unternehmensinfrastruktur – von angestellten 
+Softwareentwicklern zur Unterstützung in großen Projekten bis hin zur gemeinsam genutzten DevOps Cloud-Infrastruktur 
+und Steuerberatung.
 
 {{< embed-svg-link-hidden-on-desktop path="static/svg/denktmit-logo.svg" url="https://denktmit.de">}}
 
@@ -110,7 +109,7 @@ Unterstützung in großen Projekten bis hin zur gemeinsam genutzten DevOps Cloud
 
 {{< row-end >}}
 
-So bauen wir bei DenktMit gemeinsam auf, was alleine zu aufwändig, riskant oder kostspielig wäre, während jeder
+So bauen wir bei DenktMit gemeinsam ein Umfeld auf, was alleine zu aufwändig, riskant oder kostspielig wäre, während jeder
 von uns seine unternehmerische Unabhängigkeit behält.
 
 

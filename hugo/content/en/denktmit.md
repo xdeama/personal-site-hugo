@@ -17,9 +17,13 @@ layout: standalone
 
 {{< column-long >}}
 {{< embed-svg-hidden-on-desktop "static/svg/tech-stack.svg" >}}
-We share knowledge, experience, and assist in the mediation of projects. We collectively invest in entrepreneurial infrastructures – from employed software developers for project support to shared cloud infrastructure and tax advisory services. 
+We share knowledge and experience and support each other in solving problems and brokering
+projects.
+[Together](https://denktmit.de/team/), we invest in our corporate infrastructure – from employed
+software developers to support large projects to shared DevOps cloud infrastructure and tax consulting. 
 
-At DenktMit, we jointly build what would be too risky, costly, or unaffordable alone, while each of us maintains our entrepreneurial independence.
+At DenktMit, we are working together to build an environment that would be too complex, risky or costly to create
+on our own, while each of us retains our entrepreneurial independence.
 
 
 {{< column-end >}}
@@ -49,7 +53,8 @@ Through our cooperative and exploitation society, we are in a stronger market po
 
 {{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}
 
-The cooperative is a special legal form with high equality among members, a democratic approach, and the purpose of promoting its members. Therefore, we are not a startup vehicle dreaming of quick money but a cooperative network in a corporate form.
+The cooperative is a special legal form with high equality among members, a democratic approach, and the purpose of promoting its members. 
+Therefore, we are not a startup vehicle dreaming of quick money but a cooperative network in a corporate form.
 
 ## Advertisement
 You are an IT specialist looking for new challenges and networking opportunities? 

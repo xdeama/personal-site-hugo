@@ -1,7 +1,7 @@
 ---
 translationKey: hugo-md-composition
 title: Markdown Dokumente in Hugo zusammensetzen
-description: Markdown Dateien in andere Markdown Dateien inkludieren mit Hugo
+description: Markdown Dateien in andere Markdown Dateien inkludieren mit Hugo um Wiederholungen im Content zu vermeiden
 heading: Markdown Dokumente in Hugo zusammensetzen
 date: 2025-11-26T10:00:00+01:00
 draft: false

@@ -13,7 +13,6 @@ In 2022 habe ich mich als Softwareentwickler und -architekt selbständig gemacht
 von [DenktMit]({{< relref "/denktmit" >}}) übernommen, einer Genossenschaft die ich 2021 mitgegründet habe.
 
 
-
 {{< row >}}
 
 {{< column-long >}}
@@ -40,10 +39,12 @@ Ich konnte als IT-Architekt, Teamleiter, Projektleiter, Scrum Master, Softwareen
 
 {{< column-long >}}
 ## Softwareentwicklung
-Heute fokussiere ich mich auf die [Entwicklung von Individualsoftware im Java-Umfeld]({{< ref "/consulting" >}}).
+Heute fokussiere ich mich auf die [Entwicklung]({{< ref "/consulting" >}}) von Individualsoftware im Java-Umfeld.
 
 Als Freiberufler bin ich sowohl für kurze Beratungseinsätze, als auch langlaufende Projekte offen.
-Scheitert es an meiner Verfügbarkeit, oder ist die Technologie nicht mein Gebiet, so gebe ich Anfragen gerne an [DenktMit]({{< ref "/denktmit" >}}) weiter und finde einen verfügbaren Experten für dich.
+Kann ich selbst nicht weiterhelfen, empfehle ich bei Interesse
+gerne einen geeigneten und zuverlässigen Experten
+von [DenktMit]({{< ref "/denktmit" >}}), meinem Experten-Netzwerk selbstständiger IT-Spezialisten.
 {{< column-end >}}
 {{< row-end >}}
 
