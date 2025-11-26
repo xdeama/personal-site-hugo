@@ -243,7 +243,7 @@ As Head of IT, I was responsible for network technology, server systems, and wor
 ### **October 2018 — July 2021** | Head of IT
 *Habona Invest GmbH, Frankfurt am Main, Germany*
 
-As Head of IT, I took over an IT department that was completely outsourced to service providers and built an internal team for HelpDesk, server operation, and web development.
+As Head of IT, I took over an IT department that was completely outsourced to service providers and built an internal team for HelpDesk, application operations, and web development.
 
 ### **Project Highlights**
 - Determining corporate needs and developing an IT strategy

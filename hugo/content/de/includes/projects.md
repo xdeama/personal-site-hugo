@@ -56,8 +56,10 @@ jeweiligen Planungsverantwortlichen, insbesondere bei den Übergängen zwischen 
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Technologieträger-Showcase zur Präsentation der Fähigkeiten von Cloud-native Systemen
-im Kontext Geografischer Informationssysteme für Übertragungsnetzbetreiber.
+Ich habe eine in Verzug geratene Entwicklung eines Technologieträger-Showcase 
+zur Präsentation der Fähigkeiten von Cloud-nativen Systemen im Kontext Geografischer Informationssysteme für 
+Übertragungsnetzbetreiber kurzfristig unterstützt.
+
 Im Schwerpunkt habe ich eine deck.gl React App um interaktive Elemente erweitert, als auch deren
 Schnittstellen über REST, WebSocket und Kafka.
 
@@ -126,8 +128,8 @@ Dazu habe ich:
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Evaluierung eines Softwareproduktes auf Quellcode-Ebene im Bereich automatic Frequency Restoration Reserve (aFRR)
-für einen Übertragungsnetzbetreiber:
+Ich habe ein Softwareprodukt auf Quellcode-Ebene für den Bereich automatic Frequency Restoration Reserve (aFRR)
+bei einem Übertragungsnetzbetreiber evaluiert. Meine Aufgaben umfassten:
 
 - Qualitätsanalyse auf Quellcode-Ebene
 - Showcase-Betrieb für fachliche Evaluation
@@ -248,7 +250,7 @@ Bauprojekt und im Aufbau von Expertise und Personal.
 
 *Habona Invest GmbH, Frankfurt am Main*
 
-Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-Ausstattung bei einem Standortumzug verantwortlich.
+Ich habe einen Umzug des Firmenstandortes inklusive Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-Ausstattung durchgeführt.
 
 ### **Projektschwerpunkte**
 
@@ -264,7 +266,8 @@ Als Head of IT war ich für Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-A
 
 *Habona Invest GmbH, Frankfurt am Main*
 
-Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT übernommen und ein internes Team für das HelpDesk, Serverbetrieb und Webentwicklung aufgebaut.
+Ich habe eine hinsichtlich Personal fast vollständig an Dienstleister ausgelagerte IT-Abteilung übernommen und ein 
+internes Team für das HelpDesk, Applikationsbetrieb und Webentwicklung aufgebaut.
 
 ### **Projektschwerpunkte**
 
@@ -280,8 +283,9 @@ Als Head of IT habe ich eine vollständig an Dienstleister ausgelagerte IT über
 
 *Habona Invest GmbH, Frankfurt am Main*
 
-Als Head of IT war ich verantwortlich für die Modernisierung von End-of-Life-Serverhardware und veralteten Microsoft Produkten mit einem Hybrid Cloud Ansatz.
-Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid Systemen.
+Ich habe mit der Modernisierung von End-of-Life-Serverhardware und veralteten Microsoft
+Produkten die Habona Invest Group für das Zeitalter des hybriden Arbeitens neu aufgestellt
+
 
 ### **Projektschwerpunkte**
 
@@ -296,7 +300,8 @@ Migration von Microsoft On-Premises-Systemen wie Active Directory, Exchange Serv
 
 *Habona Invest GmbH, Frankfurt am Main*
 
-Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive automatisierter Erstellung von Vertragsdokumenten und einer interaktiven Karte des Areals.
+Ich habe die entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive automatisierter Erstellung von 
+Vertragsdokumenten und einer interaktiven Karte des Areals geleitet und teilweise implementiert.
 
 ### **Projektschwerpunkte**
 
@@ -313,7 +318,7 @@ Entwicklung einer Webseite für den Vertrieb von Ferienimmobilien, inklusive aut
 
 *Union Investment (Union IT-Services GmbH), Frankfurt am Main*
 
-Als festangestellter Organisations- und IT-Berater war ich für eine Reihe von Projekten und Betriebsthemen verantwortlich:
+Als festangestellter Organisations- und IT-Berater habe ich für eine Reihe von Projekten verschiedene Rollen eingenommen:
 
 - Architekturverantwortung für die Weiterentwicklung der Systemlandschaft
 - Projektbetreuung für neue Reporting-Anwendungen zur Erfüllung gesetzlicher Auflagen von Ausschreibungen, über Konzeption bis Inbetriebnahme
@@ -358,6 +363,7 @@ Bestandteile aller ihrer Fonds über mehrere Monate voraus im Überblick zu habe
 
 Hierzu wurden zahlreiche Datenquellen zusammengeführt, täglich analytisch ausgewertet und damit dem Asset Management 
 als Dashboard zur Verfügung gestellt, welches die gesetzeskonforme Vorausplanung von Transaktionen erleichtert.
+
 Ich habe nach der halben Projektlaufzeit die Leitung eines fünfköpfigen Entwicklerteams in agiler 
 Projektorganisation übernommen, dabei die Rolle des Scrum Master, als auch die Architektur weiterentwickelt.
 
