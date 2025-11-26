@@ -69,8 +69,6 @@ Um das zu verhindern, nutzen wir ein **Headless Bundle**. Das ist ein Verzeichni
 2.  Erstelle darin eine Datei namens `index.md`.
 3.  Füge folgenden Frontmatter in die `index.md` ein:
 
-<!-- end list -->
-
 ```yaml
 ---
 title: "Includes"
@@ -82,13 +80,13 @@ Der Parameter `headless: true` ist hier der Schlüssel. Er sagt Hugo, dass diese
 
 Jetzt kannst du deine wiederverwendbaren Markdown-Dateien in diesen Ordner legen (z.B. `content/includes/newsletter-cta.md`).
 
-## Der Shortcode
+## Shortcode erstellen
 
 Nun, da wir einen Speicherort haben, brauchen wir einen Mechanismus, um diesen Inhalt abzurufen und in unsere Posts zu injizieren. In Hugo machen wir das mit einem Custom Shortcode.
 
-Erstelle eine neue Datei unter `layouts/shortcodes/include.html` und füge folgende Logik ein:
+Erstelle eine neue Datei unter `layouts/shortcodes/include-md.html` und füge folgende Logik ein:
 
-```gotemplate
+```html
 {{/* Referenz auf das "headless" bundle holen */}}
 {{ $headless := .Site.GetPage "/includes" }}
 
@@ -109,16 +107,27 @@ Erstelle eine neue Datei unter `layouts/shortcodes/include.html` und füge folge
 
 ## Den Shortcode im Markdown nutzen
 
-Da die Infrastruktur nun steht, wird das Zusammensetzen von Dokumenten extrem einfach. Du kannst deine Schnipsel überall in deine Markdown-Dateien injizieren.
+Der Inhalt der Markdown Dokumente lässt sich nun per Shortcode in anderen Markdown Dokumenten einfügen. Eine Beispiel eines Markdown Dokumentes in meinem `/content/..` Verzeichnis:
 
 ```markdown
 # Meine Erfahrung
 
 Meine Erfahrung verteilt sich auf folgende Technologien und Industrien.
 
-{{< include "experience.md" >}}
+{{</* include "experience.md" */>}}
 
 # Meine Schwerpunkte
 
-{{< include "focus-areas.md" >}}
+{{</* include "focus-areas.md" */>}}
+
+# Mehr Bla Bla
+
+{{</* include "bla.md" */>}}
+```
+
+Dieser Ansatz harmoniert mit einer mehrspraching Hugo Seite, da man den `/includes` Ordner jeweils in den Sprachordner anlegen kann.
+
+Diese Syntax sucht sich damit die passende Übersetzung aus dem Dateibaum.
+```markdown
+{{</* include "focus-areas.md" */>}}
 ```

@@ -85,7 +85,7 @@ Now that we have a storage location, we need a mechanism to fetch that content a
 
 Create a new file at `layouts/shortcodes/include.html` and paste the following logic:
 
-```gotemplate
+```html
 {{/* Get the "headless" bundle page reference */}}
 {{ $headless := .Site.GetPage "/includes" }}
 
@@ -106,16 +106,28 @@ Create a new file at `layouts/shortcodes/include.html` and paste the following l
 
 ## Using the Shortcode in Markdown Content
 
-With the infrastructure in place, composing documents becomes incredibly simple. You can inject your snippets anywhere in your markdown files.
+Content from markdown documents can now be inserted into other markdown documents using the shortcode:
 
 ```markdown
 # My Experience
 
 My experience is distributed across technologies and industries as follows.
 
-{{< include "experience.md" >}}
+{{</* include "experience.md" */>}}
 
 # My Focus Areas
 
-{{< include "focus-areas.md" >}}
+{{</* include "focus-areas.md" */>}}
+
+# More Blah Blah
+
+{{</* include "bla.md" */>}}
+```
+
+This approach plays nicely with multi-language Hugo sites, as you can create the /includes folder within each language directory.
+
+This syntax automatically picks the correct translation from the file tree.
+
+```markdown
+{{</* include "focus-areas.md" */>}}
 ```
