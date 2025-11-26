@@ -162,6 +162,12 @@
     --flow-space: var(--space-xl);
 }
 
+@media screen and (max-width: 850px) {
+    .prose .row + .row {
+        --flow-space: 0;
+    }
+}
+
 .prose > svg,
 .prose > .row > .column-short > svg,
 .prose > a > svg,

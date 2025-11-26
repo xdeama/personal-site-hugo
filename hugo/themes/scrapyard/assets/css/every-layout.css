@@ -223,8 +223,11 @@ Consistent block padding for page sections
 }
 
 @media screen and (max-width: 850px) {
-    .row {
-        margin-top: 0;
+    h1 > .row,
+    h2 > .row,
+    h3 > .row,
+    h4 > .row {
+        margin-top: var(--flow-space);
     }
 
     .column-short, .column-long {
