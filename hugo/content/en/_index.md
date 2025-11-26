@@ -22,10 +22,13 @@ energy sectors is my craft.
 
 Does your project need support? Reach out to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;or contact me directly via [Email](mailto:kontakt@dmalo.de).
+
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}
+
 {{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
+
 {{< column-end >}}
 
 {{< row-end >}}
@@ -33,8 +36,11 @@ Does your project need support? Reach out to me on [LinkedIn](https://www.linked
 {{< row >}}
 
 {{< column-short-hide-on-mobile >}}
+
 {{< rawhtml >}} <br><br> {{< /rawhtml >}}
+
 {{< embed-svg "static/svg/software-engineering.svg" >}}
+
 {{< column-end >}}
 
 {{< column-long >}}
@@ -44,13 +50,11 @@ Does your project need support? Reach out to me on [LinkedIn](https://www.linked
 
 {{< include "focus.md" >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
-
 {{< column-end >}}
 
 {{< row-end >}}
 
-
+{{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 
 {{< row >}}
 

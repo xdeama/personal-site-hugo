@@ -22,10 +22,13 @@ Energiesektor ist mein Handwerk.
 
 Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
 {{< linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
+
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}
+
 {{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
+
 {{< column-end >}}
 
 {{< row-end >}}
@@ -33,8 +36,11 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 {{< row >}}
 
 {{< column-short-hide-on-mobile >}}
+
 {{< rawhtml >}} <br><br> {{< /rawhtml >}}
+
 {{< embed-svg "static/svg/software-engineering.svg" >}}
+
 {{< column-end >}}
 
 {{< column-long >}}
@@ -44,13 +50,11 @@ Benötigt dein Projekt Unterstützung? Schreibe mir auf [LinkedIn](https://www.l
 
 {{< include "focus.md" >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
-
 {{< column-end >}}
 
 {{< row-end >}}
 
-
+{{< embed-svg-hidden-on-desktop "static/svg/software-engineering.svg" >}}
 
 {{< row >}}
 
@@ -76,7 +80,7 @@ und Organisationserfahrung in Softwareprojekte ein, die zum wirtschaftlichen Erf
 
 {{< column-end >}}
 
-Zum weiterlesen:
+Zum Weiterlesen:
 - Meine Technologie- und Branchenerfahrung [in Jahren aufsummiert]({{< ref "consulting" >}}) 
 - Mein [CV]({{< ref "/about/cv" >}}) mit sehr kurzen Beschreibungen zu einzelnen Stationen
 - Und mein [Projektportfolio]({{< ref "projects" >}}) mit detaillierten Informationen zu den gesammelten Erfahrungen
