@@ -39,7 +39,7 @@ aliases:
 
 In diesem Beispiel sind bereits drei Seiten-Aliases enthalten: */auch-die-homepage*, */homepage* und */qr-code*. Das bedeutet zusätzlich zu */index* soll diese Seiten als */auch-die-homepage*, */homepage* und */qr-code* erreichbar sein.
 
-Falls du noch keine *.eleventy.js* in deinem Eleventy Projekt Rootverzeichnis hast, erstelle die Default-Konfiguration nach der [aktuellen Dokumentation](https://www.11ty.dev/docs/config/). Beispiel:
+Falls Sie noch keine *.eleventy.js* in Ihrem Eleventy Projekt Rootverzeichnis haben, erstellen Sie die Default-Konfiguration nach der [aktuellen Dokumentation](https://www.11ty.dev/docs/config/). Beispiel:
 
 **.eleventy.js**
 ```javascript
@@ -54,7 +54,7 @@ module.exports = function(eleventyConfig) {
 };
 ```
 
-Erweitere dann deine .eleventy.js-Datei mit der folgenden Logik, um 'Aliases' aus dem Frontmatter aller deiner Markdown-Dateien in einer Collection namens frontmatterAliases zu sammeln.ie Filteranweisung *src/**/*.md* sollte an deine Projektstruktur angepasst werden. 
+Erweitern Sie dann Ihre .eleventy.js-Datei mit der folgenden Logik, um 'Aliases' aus dem Frontmatter aller Ihrer Markdown-Dateien in einer Collection namens frontmatterAliases zu sammeln. Die Filteranweisung *src/**/*.md* sollte an Ihre Projektstruktur angepasst werden. 
 
 
 **.eleventy.js**
@@ -100,7 +100,7 @@ return {
 ```
 
 ## Schritt 2: Für jeden Seiten-Alias automatisiert eine Seite anlegen
-In deinem Content Ordner, in meinem Fall */src/* legst du eine Template-Datei *redirects.njk*. Ich verwende in diesem Beispiel [Nunjucks Templates](https://mozilla.github.io/nunjucks/). Der Ansatz funktioniert äquivalent mit anderen Templating Engines, sofern du folgende Logik abbildest:
+In Ihrem Content Ordner, in meinem Fall */src/* legen Sie eine Template-Datei *redirects.njk*. Ich verwende in diesem Beispiel [Nunjucks Templates](https://mozilla.github.io/nunjucks/). Der Ansatz funktioniert äquivalent mit anderen Templating Engines, sofern Sie folgende Logik abbilden:
 
 **redirects.njk**
 ```markdown
@@ -125,9 +125,9 @@ Generiert man anstelle des Ordners lediglich eine *permalink: "{{redirect[1]}}"*
 
 
 ## Schritt 3: Layout Template mit Weiterleitung erstellen
-Falls deine Layouts in einem anderen Pfad liegen, so passe den Pfad in Schritt 2 unter *layout:* an und erstelle nun *redirect.njk* am Pfad deiner Wahl. Deine *redirect.njk* sollte im selben Ordner wie deine Index-Datei (*index.md*) liegen.
+Falls Ihre Layouts in einem anderen Pfad liegen, so passen Sie den Pfad in Schritt 2 unter *layout:* an und erstellen Sie nun *redirect.njk* am Pfad Ihrer Wahl. Ihre *redirect.njk* sollte im selben Ordner wie Ihre Index-Datei (*index.md*) liegen.
 
-Der Inhalt des Layouts sollte eine vollständige Website sein, die deine Metadaten (Seitentitel und Co), CSS, einen Hinweis auf die Weiterleitung ud die Weiterleitung selbst implementiert. Ein Minimalbeispiel, welches nicht Verwendung gedacht ist wäre:
+Der Inhalt des Layouts sollte eine vollständige Website sein, die Ihre Metadaten (Seitentitel und Co), CSS, einen Hinweis auf die Weiterleitung und die Weiterleitung selbst implementiert. Ein Minimalbeispiel, welches nicht Verwendung gedacht ist wäre:
 
 **redirect.njk**
 ```html
@@ -167,7 +167,7 @@ Grundsätzlich für alle Endgeräte ohne JavaScript. Funktioniert leider nicht m
 ```
 
 ### Erweiterbares Layout Beispiel
-Hier ist mein vollständiges Beispiel. In der Layout Datei *layouts/page.njk* sind jeweils Nunjucks Blöcke integriert, um die interessanten Stellen erweitern zu können. Du kannst daher auch dieses Beispiel nutzen und dir eine äquivalente *page.njk* entwickeln, die dein Layout mit Nunjuck *{block }* erweiterbar macht.
+Hier ist mein vollständiges Beispiel. In der Layout Datei *layouts/page.njk* sind jeweils Nunjucks Blöcke integriert, um die interessanten Stellen erweitern zu können. Sie können daher auch dieses Beispiel nutzen und sich eine äquivalente *page.njk* entwickeln, die Ihr Layout mit Nunjuck *{block }* erweiterbar macht.
 
 **redirect.njk**
 ```html
@@ -195,7 +195,7 @@ Hier ist mein vollständiges Beispiel. In der Layout Datei *layouts/page.njk* si
 ```
 
 ## Aliases Verwenden
-Um deine Aliases zu verwenden kannst du nun im Frontmatter deiner Seitendefinitionen Aliases definieren. Beispiel:
+Um Ihre Aliases zu verwenden können Sie nun im Frontmatter Ihrer Seitendefinitionen Aliases definieren. Beispiel:
 ```markdown
 ---
 title: Meine Homepage
@@ -207,9 +207,9 @@ aliases:
 ---
 ```
 
-Bei deinem nächsten Eleventy build, oder *npm start*, sollte nun automatisch für alle von dir vergebenen Alias Definitionenn jeweils eine Seite mit dem redirect.njk Layour erstellt werden. Falls nicht empfehle ich die Pfade erneut zu prüfen und im Anschluss die Prozesskette entlang auf Fehlersuche zu gehen. In deiner *.eleventy.json* Konfiguration wird JavaScript verwendet, du kannst also im Zweifel logging einbauen um zu sehen ob Eleventy Aliases findet und in die Sammlung schreibt.
+Bei Ihrem nächsten Eleventy build, oder *npm start*, sollte nun automatisch für alle von Ihnen vergebenen Alias Definitionen jeweils eine Seite mit dem redirect.njk Layout erstellt werden. Falls nicht empfehle ich die Pfade erneut zu prüfen und im Anschluss die Prozesskette entlang auf Fehlersuche zu gehen. In Ihrer *.eleventy.js* Konfiguration wird JavaScript verwendet, Sie können also im Zweifel logging einbauen um zu sehen ob Eleventy Aliases findet und in die Sammlung schreibt.
 
-Im Eleventy Build Log sollten deine Alias Erzeugungen sichtbar sein:
+Im Eleventy Build Log sollten Ihre Alias Erzeugungen sichtbar sein:
 ```
 [11ty] Writing _site/homepage/index.html from ./src/redirects.njk
 [11ty] Writing _site/auch-die-homepage/index.html from ./src/redirects.njk

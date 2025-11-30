@@ -20,9 +20,7 @@ ich bin Denis. Freiberuflicher Full Stack Developer, Software-Architekt und Mitg
 Die Konzeption und Entwicklung [anspruchsvoller Softwarelösungen]({{< ref "projects" >}}) 
 für die Sektoren Finanzen und Energie ist mein Handwerk.
 
-Benötigt dein Projekt professionelle Unterstützung? 
-Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
-{{< linkedin-icon >}} oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
+{{< include "contact.md" >}}
 
 {{< column-end >}}
 
@@ -111,5 +109,3 @@ und Steuerberatung.
 
 So bauen wir bei DenktMit gemeinsam ein Umfeld auf, was alleine zu aufwändig, riskant oder kostspielig wäre, während jeder
 von uns seine unternehmerische Unabhängigkeit behält.
-
-

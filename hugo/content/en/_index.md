@@ -20,8 +20,7 @@ I'm Denis. Freelance Full Stack Developer, Software Architect, and co-founder of
 I specialize in designing and developing [sophisticated software solutions]({{< ref "projects" >}}) for the finance 
 and energy sectors.
 
-Does your project need professional support? Reach out to me on [LinkedIn](https://www.linkedin.com/in/dmalolepszy)
-{{< linkedin-icon >}}&nbsp;or contact me directly via [Email](mailto:kontakt@dmalo.de).
+{{< include "contact.md" >}}
 
 {{< column-end >}}
 
@@ -110,5 +109,3 @@ software developers to support large projects to shared DevOps cloud infrastruct
 
 At DenktMit, we are working together to build an environment that would be too complex, risky or costly to create 
 on our own, while each of us retains our entrepreneurial independence.
-
-

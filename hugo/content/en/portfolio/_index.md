@@ -40,8 +40,7 @@ are distributed across technologies and industries as follows.
 
 
 ## Contact
-Does your project need professional support? Message me via [Email](mailto:kontakt@dmalo.de)
-or on {{< linkedin-icon >}} [LinkedIn](https://www.linkedin.com/in/dmalolepszy).
+{{< include "contact.md" >}}
 
 {{< rawhtml >}}<div class="print-only" style="font-style: italic" id="current-date-placeholder">Denis Malolepszy, Frankfurt am Main,
 <span id="current-date"></span></div>{{< /rawhtml >}}

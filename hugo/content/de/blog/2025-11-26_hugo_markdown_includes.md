@@ -61,13 +61,13 @@ Ich bin ehrlich gesagt nicht sicher, warum die Lösung, die ich nutze, nicht sta
 
 ## Wiederverwendbares als Headless Bundle speichern
 
-Bevor wir den Code schreiben, brauchen wir einen Ort, um unsere Schnipsel zu speichern. Wir können sie nicht einfach in das normale Post-Verzeichnis legen, da Hugo versuchen würde, daraus eigenständige, besuchbare Seiten zu bauen (z.B. `deineseite.de/posts/my-snippet`).
+Bevor wir den Code schreiben, brauchen wir einen Ort, um unsere Schnipsel zu speichern. Wir können sie nicht einfach in das normale Post-Verzeichnis legen, da Hugo versuchen würde, daraus eigenständige, besuchbare Seiten zu bauen (z.B. `IhreSeite.de/posts/my-snippet`).
 
 Um das zu verhindern, nutzen wir ein **Headless Bundle**. Das ist ein Verzeichnis, das Content-Ressourcen enthält, aber selbst keine Seite veröffentlicht.
 
-1.  Erstelle einen neuen Ordner unter `content/includes`.
-2.  Erstelle darin eine Datei namens `index.md`.
-3.  Füge folgenden Frontmatter in die `index.md` ein:
+1.  Erstellen Sie einen neuen Ordner unter `content/includes`.
+2.  Erstellen Sie darin eine Datei namens `index.md`.
+3.  Fügen Sie folgenden Frontmatter in die `index.md` ein:
 
 ```yaml
 ---
@@ -78,13 +78,13 @@ headless: true
 
 Der Parameter `headless: true` ist hier der Schlüssel. Er sagt Hugo, dass dieser Ordner als Container für Ressourcen (Bilder, Markdown, Daten) dienen soll, auf die programmatisch zugegriffen wird, für die aber niemals eine öffentliche URL generiert werden darf.
 
-Jetzt kannst du deine wiederverwendbaren Markdown-Dateien in diesen Ordner legen (z.B. `content/includes/newsletter-cta.md`).
+Jetzt können Sie Ihre wiederverwendbaren Markdown-Dateien in diesen Ordner legen (z.B. `content/includes/newsletter-cta.md`).
 
 ## Shortcode erstellen
 
 Nun, da wir einen Speicherort haben, brauchen wir einen Mechanismus, um diesen Inhalt abzurufen und in unsere Posts zu injizieren. In Hugo machen wir das mit einem Custom Shortcode.
 
-Erstelle eine neue Datei unter `layouts/shortcodes/include-md.html` und füge folgende Logik ein:
+Erstellen Sie eine neue Datei unter `layouts/shortcodes/include-md.html` und fügen Sie folgende Logik ein:
 
 ```html
 {{/* Referenz auf das "headless" bundle holen */}}
@@ -102,8 +102,8 @@ Erstelle eine neue Datei unter `layouts/shortcodes/include-md.html` und füge fo
 ### Erklärung
 
 * **`.Site.GetPage "/includes"`**: Dies sucht unser Headless Bundle anhand des Pfades.
-* **`.Resources.GetMatch`**: Dies sucht innerhalb des Bundles nach einer Ressource, die dem Dateinamen entspricht, den du im Shortcode angibst.
-* **`.Content`**: Das ist der entscheidende Schritt. Er nimmt das rohe Markdown aus deiner Schnipsel-Datei und rendert es zu HTML, genau so, als wäre es Teil des Hauptposts.
+* **`.Resources.GetMatch`**: Dies sucht innerhalb des Bundles nach einer Ressource, die dem Dateinamen entspricht, den Sie im Shortcode angeben.
+* **`.Content`**: Das ist der entscheidende Schritt. Er nimmt das rohe Markdown aus Ihrer Schnipsel-Datei und rendert es zu HTML, genau so, als wäre es Teil des Hauptposts.
 
 ## Den Shortcode im Markdown nutzen
 

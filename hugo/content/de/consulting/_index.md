@@ -44,10 +44,7 @@ Details zu meinen individuellen Erfahrungen bietet mein [Projektportfolio]({{< r
 {{< column-end >}}
 
 {{< column-long >}}
-Benötigt dein Projekt professionelle Unterstützung?
-
-Schreibe mir auf [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{<
-linkedin-icon >}}&nbsp;oder kontaktiere mich direkt per [E-Mail](mailto:kontakt@dmalo.de).
+{{< include "contact.md" >}}
 
 Kann ich selbst nicht weiterhelfen, empfehle ich bei Interesse
 gerne einen geeigneten und zuverlässigen Experten

@@ -52,11 +52,11 @@ Durch unsere Kooperations- und Verwertungsgesellschaft sind wir in einer stärke
 Die Genossenschaft ist eine besondere Rechtsform mit hoher Gleichberechtigung der einzelnen Genossen, demokratischem Ansatz und dem Zweck ihre Genossen zu fördern. Wir sind daher kein Startup Vehikel mit dem Traum vom schnellen Geld, sondern ein Kooperationsnetzwerk in Unternehmensform.
 
 ## Werbeblock
-Du bist IT-Spezialist auf der Suche nach neuen Herausforderungen und Netzwerkmöglichkeiten? Dann bist Du [bei uns](https://denktmit.de) genau richtig! 
+Sie sind ein IT-Spezialist auf der Suche nach neuen Herausforderungen und Netzwerkmöglichkeiten? Dann sind Sie [bei uns](https://denktmit.de) genau richtig! 
 
 Wir sind eine Genossenschaft aus IT-Experten, die sich für eine partizipative Form der Zusammenarbeit entschieden haben. 
 
-Bei uns bleibst Du selbstständig, profitierst aber von einem starken Netzwerk, Basisdemokratie, Ressourcen und der Chance auf größere Projekte, die alleine nur schwer umsetzbar wären.
+Bei uns bleiben Sie selbstständig und profitieren von einem starken Netzwerk, Basisdemokratie, Ressourcen und der Chance auf größere Projekte, die alleine nur schwer umsetzbar wären.
 
 [Zu denktmit.de](https://denktmit.de)
 

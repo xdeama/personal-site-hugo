@@ -12,7 +12,7 @@ robots:
 
 ## Hallo,
 
-ich bin Denis. Freiberuflicher **Full Stack Developer**, **Software Architect** und Mitgründer von
+ich bin Denis Malolepszy. Freiberuflicher **Full Stack Developer**, **Software Architect** und Mitgründer von
 [DenktMit]({{< ref "/denktmit" >}}), einem Experten-Netzwerk selbstständiger IT-Spezialisten. 
 Konzeption und Entwicklung anspruchsvoller Softwarelösungen 
 für die Sektoren Finanzen und Energie ist mein Handwerk.
@@ -41,8 +41,7 @@ verteilen sich wie folgt auf Technologien und Branchen.
 
 
 ## Kontakt
-Benötigt dein Projekt professionelle Unterstützung? Schreibe mir per [E-Mail](mailto:kontakt@dmalo.de)
-oder auf {{< linkedin-icon >}} [LinkedIn](https://www.linkedin.com/in/dmalolepszy).
+{{< include "contact.md" >}}
 
 {{< rawhtml >}}<div class="print-only" style="font-style: italic" id="current-date-placeholder">Denis Malolepszy, Frankfurt am Main,
 den <span id="current-date"></span></div>{{< /rawhtml >}}
