@@ -4,6 +4,7 @@ import json
 import base64
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
 
 def send_devtools_command(driver, cmd, params={}):
     resource = f"/session/{driver.session_id}/chromium/send_command_and_get_result"
@@ -14,6 +15,8 @@ def send_devtools_command(driver, cmd, params={}):
 
 def print_to_pdf(driver, source_url, output_file):
     driver.get(source_url)
+    # Wait for fonts to be ready to prevent race conditions
+    WebDriverWait(driver, 10).until(lambda d: d.execute_script('return document.fonts.ready.then(() => true)'))
 
     # A4 paper size dimensions in inches
     a4_width_in_inches = 210 / 25.4  # Convert 210mm to inches
@@ -23,10 +26,11 @@ def print_to_pdf(driver, source_url, output_file):
         "landscape": False,
         "printBackground": False,
         "scale": 0.75,
-        "marginBottom": 0.39,
-        "marginTop": 0.39,
-        "marginLeft": 0.39,
-        "marginRight": 0.39,
+        # 0.39 is default for Chrome in image seleniarm/standalone-chromium:124.0
+        #  "marginBottom": 0.39,
+        #   "marginTop": 0.39,
+        #   "marginLeft": 0.39,
+        #   "marginRight": 0.39,
         "ignoreCache": True,
         "paperWidth": a4_width_in_inches,
         "paperHeight": a4_height_in_inches,
@@ -47,7 +51,7 @@ def main():
     current_date_iso_8601 = datetime.datetime.now().strftime('%Y-%m-%d')
 
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless=new")
 
     driver = webdriver.Remote(
         command_executor='http://localhost:4444',
