@@ -1,3 +1,41 @@
+## Real-time Wide Area Monitoring System (WAMS)
+
+### **Dez 2025 — heute** | Software Engineer
+
+*DenktMit eG, Oberursel*
+
+Im Rahmen einer strategischen Initiative zweier europäischer Übertragungsnetzbetreiber arbeite ich an der Weiterentwicklung einer Plattform zur Verbesserung der Echtzeit-Netzüberwachung und operativen Entscheidungsfindung.
+Der Fokus liegt auf der Integration hochauflösender Messdaten in eine modulare Leitsystem-Architektur zur Analyse komplexer Netzphänomene.
+
+**Tätigkeitsschwerpunkte:**
+
+* **PDC Gateway:** Entwicklung eines software-basierten Phasor Data Concentrator (PDC) als zentrales Gateway zur Verarbeitung von PMU-Phasor-Messdaten gemäß IEEE C37.118 Standard.
+* **High-Performance Ingestion:** Konzeption und Implementierung der Datenstrecke mittels Apache Druid zur performanten Langzeitspeicherung (Historian) und Aggregation hochfrequenter Messwerte.
+* **Visualisierung:** Realisierung spezialisierter Grafana-Dashboards auf Basis der Druid-Datenquellen zur Echtzeit-Visualisierung von Netzdaten und historischen Analysen.
+
+### **Technologien**
+
+{{< div class="list-with-columns" >}}
+
+* Java 21
+* Spring Boot (WebFlux & Reactive)
+* Java Operator SDK
+* Kubernetes
+* Apache Kafka (Strimzi)
+* Apache Druid
+* RabbitMQ
+* ArgoCD & Helm
+* PostgreSQL
+* Keycloak (OAuth2/OIDC)
+* Grafana with Druid Datasource
+* Prometheus
+* Testcontainers
+* Docker
+* OpenAPI
+
+{{< /div >}}
+
+
 ## Outage Planning Coordination Plattform
 
 ### **Mai 2024 — Mai 2025** | Software Engineer

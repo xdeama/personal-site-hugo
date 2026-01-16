@@ -1,3 +1,41 @@
+## Real-time Wide Area Monitoring System (WAMS)
+
+### **Dec 2025 — Present** | Software Engineer
+
+*DenktMit eG, Oberursel, Germany*
+
+As part of a strategic initiative by two European transmission system operators, I am working on the further development of a platform to improve real-time grid awareness and operational decision-making.
+The focus is on integrating high-resolution measurement data into a modular control center architecture for the analysis of complex grid phenomena.
+
+**Key Activities:**
+
+* **PDC Gateway:** Development of a software-based Phasor Data Concentrator (PDC) acting as a central gateway for processing PMU phasor measurement data according to the IEEE C37.118 standard.
+* **High-Performance Ingestion:** Conception and implementation of the data pipeline using Apache Druid for high-performance long-term storage (historian) and aggregation of high-frequency measurement values.
+* **Visualization:** Implementation of specialized Grafana dashboards based on Druid data sources for the real-time visualization of grid data and historical analyses.
+
+### **Technologies**
+
+{{< div class="list-with-columns" >}}
+
+* Java 21
+* Spring Boot (WebFlux & Reactive)
+* Java Operator SDK
+* Kubernetes
+* Apache Kafka (Strimzi)
+* Apache Druid
+* RabbitMQ
+* ArgoCD & Helm
+* PostgreSQL
+* Keycloak (OAuth2/OIDC)
+* Grafana with Druid Datasource
+* Prometheus
+* Testcontainers
+* Docker
+* OpenAPI
+
+{{< /div >}}
+
+
 ## Outage Planning Coordination Platform
 
 ### **May 2024 — May 2025** | Software Engineer
