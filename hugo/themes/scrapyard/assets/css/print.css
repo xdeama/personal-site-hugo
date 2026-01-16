@@ -89,3 +89,39 @@
         display: block;
     }
 }
+
+@media print {
+    /* --- 1. Headings --- */
+    /* Keep all headings glued to the content that follows them */
+    h1, h2, h3, h4, h5, h6 {
+        break-after: avoid;
+        page-break-after: avoid; /* Critical for older PDF engines */
+        break-inside: avoid;     /* Prevent the heading itself from splitting */
+        page-break-inside: avoid;
+    }
+
+    /* --- 2. The Resume "Job Title" Fix --- */
+    /* This specifically glues the "Company Name" (which is the <p> immediately
+       after the <h3>) to the "Job Description" (the next element).
+       Chain: H3 (glued) -> P (glued) -> P (start of text)
+    */
+    h3 + p {
+        break-after: avoid;
+        page-break-after: avoid;
+        break-inside: avoid;
+    }
+
+    /* --- 3. General Text Flow --- */
+    /* Prevent single lines of text from appearing alone at top/bottom of pages */
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
+    /* --- 4. Visual Assets --- */
+    /* Ensure images/charts are never cut in half */
+    img, figure {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
