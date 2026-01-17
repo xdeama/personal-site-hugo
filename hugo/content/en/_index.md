@@ -1,6 +1,6 @@
 ---
 translationKey: home
-title: Home
+title: Denis Malolepszy Software Engineering
 description: Cloud Native Full Stack Java Developer & Software Architect from Frankfurt am Main
 date: 2023-01-01T08:00:00-07:00
 draft: false

@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="{{ .Description }}">
 
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<title>{{ site.Title }}</title>
 
 <!--CSS-->
 {{ $reset := resources.Get "css/reset.css" }}
