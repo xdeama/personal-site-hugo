@@ -68,7 +68,7 @@ To prevent this, we use a **Headless Bundle**. This is a directory that contains
 2.  Inside that directory, create a file named `index.md`.
 3.  Add the following Frontmatter to `index.md`:
 
-```yaml
+```text
 ---
 title: "Includes"
 headless: true
@@ -85,7 +85,7 @@ Now that we have a storage location, we need a mechanism to fetch that content a
 
 Create a new file at `layouts/shortcodes/include.html` and paste the following logic:
 
-```html
+```text
 {{/* Get the "headless" bundle page reference */}}
 {{ $headless := .Site.GetPage "/includes" }}
 
@@ -108,7 +108,7 @@ Create a new file at `layouts/shortcodes/include.html` and paste the following l
 
 Content from markdown documents can now be inserted into other markdown documents using the shortcode:
 
-```
+```text
 # My Experience
 
 My experience is distributed across technologies and industries as follows.
@@ -128,6 +128,6 @@ This approach plays nicely with multi-language Hugo sites, as you can create the
 
 This syntax automatically picks the correct translation from the file tree.
 
-```
+```text
 {{</* include "focus-areas.md" */>}}
 ```

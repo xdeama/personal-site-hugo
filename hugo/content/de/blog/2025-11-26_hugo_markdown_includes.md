@@ -69,7 +69,7 @@ Um das zu verhindern, nutzen wir ein **Headless Bundle**. Das ist ein Verzeichni
 2.  Erstellen Sie darin eine Datei namens `index.md`.
 3.  Fügen Sie folgenden Frontmatter in die `index.md` ein:
 
-```yaml
+```text
 ---
 title: "Includes"
 headless: true
@@ -86,7 +86,7 @@ Nun, da wir einen Speicherort haben, brauchen wir einen Mechanismus, um diesen I
 
 Erstellen Sie eine neue Datei unter `layouts/shortcodes/include-md.html` und fügen Sie folgende Logik ein:
 
-```html
+```text
 {{/* Referenz auf das "headless" bundle holen */}}
 {{ $headless := .Site.GetPage "/includes" }}
 
@@ -109,7 +109,7 @@ Erstellen Sie eine neue Datei unter `layouts/shortcodes/include-md.html` und fü
 
 Der Inhalt der Markdown Dokumente lässt sich nun per Shortcode in anderen Markdown Dokumenten einfügen. Eine Beispiel eines Markdown Dokumentes in meinem `/content/..` Verzeichnis:
 
-```
+```text
 # Meine Erfahrung
 
 Meine Erfahrung verteilt sich auf folgende Technologien und Industrien.
@@ -128,6 +128,6 @@ Meine Erfahrung verteilt sich auf folgende Technologien und Industrien.
 Dieser Ansatz harmoniert mit einer mehrspraching Hugo Seite, da man den `/includes` Ordner jeweils in den Sprachordner anlegen kann.
 
 Diese Syntax sucht sich damit die passende Übersetzung aus dem Dateibaum.
-```
+```text
 {{</* include "focus-areas.md" */>}}
 ```
