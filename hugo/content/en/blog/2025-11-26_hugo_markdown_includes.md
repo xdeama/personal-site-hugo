@@ -108,7 +108,7 @@ Create a new file at `layouts/shortcodes/include.html` and paste the following l
 
 Content from markdown documents can now be inserted into other markdown documents using the shortcode:
 
-```markdown
+```
 # My Experience
 
 My experience is distributed across technologies and industries as follows.
@@ -128,6 +128,6 @@ This approach plays nicely with multi-language Hugo sites, as you can create the
 
 This syntax automatically picks the correct translation from the file tree.
 
-```markdown
+```
 {{</* include "focus-areas.md" */>}}
 ```

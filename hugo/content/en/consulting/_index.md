@@ -40,7 +40,7 @@ My [project portfolio]({{< ref "projects" >}}) and my [CV]({{< ref "/consulting/
 {{< row >}}
 
 {{< column-short-hide-on-mobile >}}
-{{< embed-svg "static/svg/online-career.svg" >}}
+{{< embed-svg "static/svg/team.svg" >}}
 {{< column-end >}}
 
 {{< column-long >}}
@@ -56,4 +56,4 @@ from [DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT sp
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/online-career.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}

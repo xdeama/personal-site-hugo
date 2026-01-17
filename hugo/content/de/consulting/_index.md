@@ -40,7 +40,7 @@ Details zu meinen individuellen Erfahrungen bietet mein [Projektportfolio]({{< r
 {{< row >}}
 
 {{< column-short-hide-on-mobile >}}
-{{< embed-svg "static/svg/online-career.svg" >}}
+{{< embed-svg "static/svg/team.svg" >}}
 {{< column-end >}}
 
 {{< column-long >}}
@@ -54,4 +54,4 @@ von [DenktMit]({{< ref "/denktmit" >}}), meinem Experten-Netzwerk selbstständig
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/online-career.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/team.svg" >}}

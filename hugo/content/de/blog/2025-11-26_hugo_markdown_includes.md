@@ -109,7 +109,7 @@ Erstellen Sie eine neue Datei unter `layouts/shortcodes/include-md.html` und fü
 
 Der Inhalt der Markdown Dokumente lässt sich nun per Shortcode in anderen Markdown Dokumenten einfügen. Eine Beispiel eines Markdown Dokumentes in meinem `/content/..` Verzeichnis:
 
-```markdown
+```
 # Meine Erfahrung
 
 Meine Erfahrung verteilt sich auf folgende Technologien und Industrien.
@@ -128,6 +128,6 @@ Meine Erfahrung verteilt sich auf folgende Technologien und Industrien.
 Dieser Ansatz harmoniert mit einer mehrspraching Hugo Seite, da man den `/includes` Ordner jeweils in den Sprachordner anlegen kann.
 
 Diese Syntax sucht sich damit die passende Übersetzung aus dem Dateibaum.
-```markdown
+```
 {{</* include "focus-areas.md" */>}}
 ```
