@@ -1,6 +1,6 @@
 ---
 translationKey: consulting
-title: Consulting
+title: Cloud Consulting & Engineering | Denis Malolepszy
 description: Java & Cloud Native Entwicklung für wartbare, testbare und skalierbare Softwarelösungen. Hier das Projektportfolio einsehen.
 date: 2023-01-01T08:00:00-07:00
 draft: false
