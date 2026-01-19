@@ -1,6 +1,6 @@
 ---
 translationKey: home
-title: Denis Malolepszy | Software Architect & Java Developer
+title: Software Architect & Java Developer Denis Malolepszy
 description: Cloud Native Full Stack Java Developer & Software Architect aus Frankfurt am Main
 date: 2023-01-01T08:00:00-07:00
 draft: false

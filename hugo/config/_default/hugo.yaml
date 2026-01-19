@@ -42,3 +42,7 @@ markup:
 
 sitemap:
   changeFreq: monthly
+
+params:
+  images:
+    - /icon.png

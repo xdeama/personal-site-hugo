@@ -1,8 +1,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<meta name="description" content="{{ .Description }}">
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ i18n "default-description" }}{{ end }}">
 
-<title>{{ site.Title }}</title>
+<title>{{ .Title }}</title>
+<link rel="canonical" href="{{ .Permalink }}">
 
 {{ range .AllTranslations }}
     <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
@@ -10,6 +11,12 @@
         <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
     {{ end }}
 {{ end }}
+
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ i18n "default-description" }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ with .Params.images }}{{ index . 0 | absURL }}{{ else }}{{ index .Site.Params.images 0 | absURL }}{{ end }}">
 
 {{ $reset := resources.Get "css/reset.css" }}
 {{ $fonts := resources.Get "css/fonts.css" }}
