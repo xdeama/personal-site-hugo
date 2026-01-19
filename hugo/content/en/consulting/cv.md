@@ -1,6 +1,7 @@
 ---
 translationKey: cv
 title: CV
+description: My CV as a Cloud Native Full Stack Java Developer & Software Architect
 heading: CV
 date: 2023-01-01T08:00:00-07:00
 draft: false

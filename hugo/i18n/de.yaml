@@ -17,3 +17,4 @@ greetings: 'Hallo, ich bin'
 blog-contact-text1: 'ich bin freiberuflicher Software Architekt, Full Stack Developer und Mitgründer von'
 blog-contact-text2: 'einem Experten-Netzwerk selbstständiger IT-Spezialisten.'
 blog-contact-text3: 'Haben Sie Fragen oder eine Projektidee? Dann kontaktieren Sie mich auf <a href="https://www.linkedin.com/in/dmalolepszy">LinkedIn</a> oder per <a href="mailto:kontakt@dmalo.de">E-Mail</a>.'
+404-message: Zurück zur Startseite

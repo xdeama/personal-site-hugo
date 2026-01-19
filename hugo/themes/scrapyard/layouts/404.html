@@ -5,12 +5,12 @@
             <h1 id="title">404 NOT FOUND</h1>
         </div>
         <div>
-            <h2>Unter dieser Adresse existiert keine Seite</h2>
-            <a href="{{ "" | relLangURL }}">Zurück zur Startseite</a>
+            <h2>There's no page for this address</h2>
+            <a href="{{ .Site.BaseURL }}en/">{{ i18n "404-message" | safeHTML }}</a>
         </div>
         <div>
-            <h2>There's no page for this address</h2>
-            <a href="{{ .Site.BaseURL }}en/">Back to the home page</a>
+            <h2>Unter dieser Adresse existiert keine Seite</h2>
+            <a href="{{ .Site.BaseURL }}de/">{{ i18n "404-message" | safeHTML }}</a>
         </div>
     </article>
 </main>
