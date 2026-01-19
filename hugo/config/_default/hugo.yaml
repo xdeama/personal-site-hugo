@@ -3,7 +3,7 @@ theme: scrapyard
 
 title: Denis Malolepszy Software Engineering
 
-defaultContentLanguage: de
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 languages:
   de:
@@ -24,7 +24,6 @@ languages:
 disableKinds:
   - taxonomy
   - term
-  - sitemap
 
 markup:
   highlight:
