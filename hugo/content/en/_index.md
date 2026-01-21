@@ -1,7 +1,7 @@
 ---
 translationKey: home
 title: Software Architect & Java Developer Denis Malolepszy
-description: Cloud Native Full Stack Java Developer & Software Architect from Frankfurt am Main
+description: Freelance Full Stack Developer, Software Architect, and co-founder of DenktMit, an expert network of independent IT specialists
 date: 2023-01-01T08:00:00-07:00
 draft: false
 ---
