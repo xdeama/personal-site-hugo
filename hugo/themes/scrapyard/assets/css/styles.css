@@ -462,7 +462,9 @@
 }
 
 .chroma {
-    border-radius: 0.5em;
+    border-color: var(--color-mid);
+    border-width: 1px;
+    border-style: solid;
 }
 
 .grid-list {
