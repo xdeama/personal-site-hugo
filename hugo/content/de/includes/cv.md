@@ -14,14 +14,19 @@ Studium der Wirtschaftsinformatik (B.Sc.)
 
 ## Berufserfahrung
 
+### **Aufsichtsrat** | Januar 2026 — heute
+
+_[DenktMit eG]({{< ref "/denktmit" >}}), Oberursel_
+
+Aufsichtsratsmitglied eines Experten-Netzwerks erfahrener IT-Spezialisten in Form einer Genossenschaft
+
 ### **Elternzeit** | Juni 2025 — Dezember 2025
 
 _Kinderbetreuung auf Reisen in Norwegen_
 
 Personal Trainer für Laufen, Sprechen und mit dem Löffel essen
 
-
-### **Aufsichtsrat** | Juni 2022 — November 2024
+### **Aufsichtsratsvorsitzender** | Juni 2022 — November 2024
 
 _[DenktMit eG]({{< ref "/denktmit" >}}), Oberursel_
 
