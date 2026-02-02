@@ -1,7 +1,7 @@
 ---
 translationKey: home
 title: Software Architect & Java Developer Denis Malolepszy
-description: Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von DenktMit, dem Experten-Netzwerk selbstständiger IT-Spezialisten
+description: Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von DenktMit, dem Experten-Netzwerk selbstständiger IT-Spezialisten.
 date: 2023-01-01T08:00:00-07:00
 draft: false
 ---
@@ -10,9 +10,9 @@ draft: false
 
 {{< column-long >}}
 
-# Hallo,
+# Hallo, ich bin Denis. 
 
-ich bin Denis. Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von 
+Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von 
 [DenktMit]({{< ref "/denktmit" >}}), dem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
