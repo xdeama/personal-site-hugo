@@ -191,6 +191,35 @@ bei einem Übertragungsnetzbetreiber evaluiert. Meine Aufgaben umfassten:
 {{< /div >}}
 
 
+## JCR Media Library für eine Kotlin Web-App
+
+### **Dezember 2023 — Februar 2024** | Software Engineer
+
+*DenktMit eG, Oberursel*
+
+In Zusammenarbeit mit dem DenktMit-Team wurde eine schwer wartbare und nicht erweiterbare Web-Anwendung für 
+eine Brand-Building-Beratung durch ein Kotlin-basiertes System ersetzt, welches Server-Side Rendering nutzt.
+
+Um von Anwendern hochgeladene Bilder und Dokumente zu verwalten und im integrierten Web-Texteditor als einfügbaren Inhalt anzubieten,
+entwickelte ich eine modulare Media Library,
+die den [JCR-Standard](https://en.wikipedia.org/wiki/Content_repository_API_for_Java)
+mit [Apache Jackrabbit](https://jackrabbit.apache.org/jcr/index.html) implementiert.
+
+{{< div class="list-with-columns" >}}
+### **Technologien**
+- Kotlin
+- Spring Boot
+- Spring Web
+- Spring Data
+- Apache Jackrabbit
+- Thymeleaf
+- CSS
+- Docker
+- Maven
+- Git
+{{< /div >}}
+
+
 ## Web-Crawler-basiertes Archivsystem
 
 ### **Dezember 2022 — Januar 2023** | Software Engineer

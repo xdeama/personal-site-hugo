@@ -186,6 +186,35 @@ for a transmission system operator:
 {{< /div >}}
 
 
+## JCR Media Library for a Kotlin Web App
+
+### **December 2023 — February 2024** | Software Engineer
+
+*DenktMit eG, Oberursel*
+
+Collaborated with the DenktMit team to replace a legacy, non-extensible web application for a 
+brand-building consultancy with a modern Kotlin-based system utilizing Server-Side Rendering.
+
+I developed a modular media library to manage user uploads and provide assets as embeddable content for 
+the integrated web-text editor. 
+The implementation leveraged [Apache Jackrabbit](https://jackrabbit.apache.org/jcr/index.html) 
+to adhere to the [Content Repository API for Java (JCR)](https://en.wikipedia.org/wiki/Content_repository_API_for_Java) standard.
+
+{{< div class="list-with-columns" >}}
+### **Technologies**
+- Kotlin
+- Spring Boot
+- Spring Web
+- Spring Data
+- Apache Jackrabbit
+- Thymeleaf
+- CSS
+- Docker
+- Maven
+- Git
+  {{< /div >}}
+
+
 ## Web Crawler-Based Archiving System
 ### **December 2022 — January 2023** | Software Engineer
 *Denis Malolepszy Software Engineering, Frankfurt am Main, Germany*
