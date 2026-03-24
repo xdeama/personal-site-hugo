@@ -42,26 +42,34 @@ Der Fokus liegt auf der Integration hochauflösender Messdaten in eine modulare 
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-Ich habe den Entwurf und die Entwicklung eines Outage Planning Coordination (OPC) Systems für einen deutschen 
-Übertragungsnetzbetreiber federführend gestartet. 
-Von Projektstart an habe ich beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als 
-Software Engineer hinaus:
+Ich habe die Solution-Architektur und Entwicklung eines Outage Planning
+Coordination (OPC) Systems für einen deutschen Übertragungsnetzbetreiber
+in der Startphase federführend mitgestaltet. Gemeinsam mit einem schnell
+wachsenden Projektteam habe ich, aufbauend auf der fachlichen Voranalyse
+von Bestandsanwendungen und den ENTSO-E-Vorgaben, die technische Architektur
+entworfen und in konkrete Umsetzungspakete strukturiert.
 
-- die Anforderungsanalyse,
-- den Entwurf der Solution Architektur
-- die Konzeption der Datenschnittstellen
-- und das UI/UX Design übernommen.
+Geschaffen wurde ein vollständig neu entwickeltes, cloud-natives System
+basierend auf Open-Source-Technologien, um eine bewährte, aber
+dezentrale Systemlandschaft in einer zentralen Plattform zu
+konsolidieren. Dadurch wurden redundante Datenhaltungen und manuelle
+Medienbrüche zwischen zwei Altsystemen strukturiert aufgelöst.
 
-Mit dem wachsenden Projektteam habe ich die jeweiligen Ressorts an dedizierte Projektmitarbeiter übergeben und mich auf 
-die Front- und Backend-Entwicklung fokussiert.
-
-Als Grundlage wurden mehrere Bestandsanwendungen analysiert und individuelle Anforderungen von Fachabteilungen und des 
-Verbandes der Übertragungsnetzbetreiber ENTSO-E aufgenommen. 
-
-Geschaffen wurde ein vollständig neu entwickeltes Cloud-natives System basierend auf Open Source Technologien, 
-um ein historisch gewachsenes Konglomerat aus manuellen Datenübertragungen und Medienbrüchen abzulösen. 
-Automatisierte Datenschnittstellen und eine Prozessunterstützung unterstützen die 
-jeweiligen Planungsverantwortlichen, insbesondere bei den Übergängen zwischen verantwortlichen Rollen und Abteilungen.
+* Entwurf der grundlegenden
+  Systemarchitektur sowie Konzeption der externen Datenschnittstellen
+  und Datenaustauschformate zur Erfüllung der europäischen
+  ENTSO-E-Vorgaben.
+* Entwurf eines Datenmodells, das fachliche Kontexte so vernetzt, dass deren
+  Relationen Transparenz schaffen und die effiziente Ermittlung problematischer
+  Datenkonstellationen ermöglichen.
+* Implementierung automatisierter
+  Datenschnittstellen und Prozessunterstützungen, die den
+  Planungsverantwortlichen mehr Kontext bieten und insbesondere die
+  Übergänge zwischen Rollen und Abteilungen erleichtern.
+* Mit dem wachsenden Projektteam
+  Übergabe der Konzeptionsressorts an dedizierte Projektmitarbeiter und
+  anschließende Fokussierung auf die komplexe Front- und
+  Backend-Entwicklung zur Umsetzung der entworfenen Architektur.
 
 
 {{< div class="list-with-columns" >}}

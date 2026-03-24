@@ -42,25 +42,29 @@ The focus is on integrating high-resolution measurement data into a modular cont
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
-I spearheaded the design and development of an Outage Planning Coordination (OPC) system for a German transmission 
-system operator. From the start of the project, I helped build an agile project team and, beyond my role as a 
-Software Engineer, I assumed responsibility for:
+During the initial phase, I played a leading role in shaping the solution
+architecture and development of an Outage Planning Coordination (OPC) system
+for a German transmission system operator. Together with a rapidly growing
+project team, and building upon the business analysis of legacy applications
+and ENTSO-E guidelines, I designed the technical architecture and structured
+it into concrete implementation packages for the development team.
 
-- Requirements analysis,
-- Solution architecture design,
-- Conception of data interfaces,
-- And UI/UX design.
+A completely newly developed, cloud-native system based on open-source
+technologies was created to consolidate a proven but decentralized system
+landscape into a central platform. This systematically resolved redundant
+data storage and manual media breaks between two legacy systems.
 
-As the project team grew, I handed over these respective areas to dedicated project members and focused on front-end 
-and back-end development.
-
-As a foundation, several existing applications were analyzed, and individual requirements from specialist departments 
-and the association of transmission system operators (ENTSO-E) were gathered.
-
-A completely newly developed cloud-native system based on open-source technologies was created to replace a 
-historically grown conglomerate of manual data transfers and media breaks.
-Automated data interfaces and process support in the user interface assist planning supervisors, particularly 
-during transitions between responsible roles and departments.
+* Designed the foundational system architecture and external data interfaces,
+  establishing data exchange formats to fulfill European ENTSO-E requirements.
+* Designed a data model that interconnects domain contexts, establishing
+  transparent relationships that enable the efficient identification of
+  problematic data constellations.
+* Implemented automated data interfaces and process support that provide
+  planning supervisors with more context and facilitate transitions between
+  roles and departments.
+* Transitioned conceptual responsibilities to dedicated team members as the
+  project scaled, focusing my efforts on the complex front-end and back-end
+  development to implement the designed architecture.
 
 
 {{< div class="list-with-columns" >}}
