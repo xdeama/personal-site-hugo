@@ -54,6 +54,7 @@ technologies was created to consolidate a proven but decentralized system
 landscape into a central platform. This systematically resolved redundant
 data storage and manual media breaks between two legacy systems.
 
+My work was focused on:
 * Designed the foundational system architecture and external data interfaces,
   establishing data exchange formats to fulfill European ENTSO-E requirements.
 * Designed a data model that interconnects domain contexts, establishing

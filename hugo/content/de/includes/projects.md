@@ -55,6 +55,7 @@ dezentrale Systemlandschaft in einer zentralen Plattform zu
 konsolidieren. Dadurch wurden redundante Datenhaltungen und manuelle
 Medienbrüche zwischen zwei Altsystemen strukturiert aufgelöst.
 
+Meine Arbeit umfasste hautpsächlich:
 * Entwurf der grundlegenden
   Systemarchitektur sowie Konzeption der externen Datenschnittstellen
   und Datenaustauschformate zur Erfüllung der europäischen
