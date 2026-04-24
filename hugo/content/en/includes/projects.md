@@ -1,6 +1,6 @@
 ## Real-time Wide Area Monitoring System (WAMS)
 
-### **Dec 2025 — Present** | Software Engineer
+### **December 2025 — March 2026** | Software Engineer
 
 *DenktMit eG, Oberursel, Germany*
 
@@ -38,7 +38,7 @@ Key Activities:
 
 ## Outage Planning Coordination Platform
 
-### **May 2024 — May 2025** | Software Engineer
+### **May 2024 — Present** | Software Engineer
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 

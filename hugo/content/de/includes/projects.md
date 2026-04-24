@@ -1,6 +1,6 @@
 ## Real-time Wide Area Monitoring System (WAMS)
 
-### **Dez 2025 — heute** | Software Engineer
+### **Dezember 2025 — März 2026** | Software Engineer
 
 *DenktMit eG, Oberursel*
 
@@ -38,7 +38,7 @@ Tätigkeitsschwerpunkte:
 
 ## Outage Planning Coordination Plattform
 
-### **Mai 2024 — Mai 2025** | Software Engineer
+### **Mai 2024 — heute** | Software Engineer
 
 *Denis Malolepszy Software Engineering, Frankfurt am Main*
 
