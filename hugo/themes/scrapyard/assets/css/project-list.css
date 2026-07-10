@@ -47,7 +47,7 @@
 }
 
 .prose .project-list > li + li {
-    margin-top: var(--space-l);
+    margin-top: var(--space-m);
 }
 
 /* Entry titles are real h2 elements: they inherit the theme's '##'
@@ -58,8 +58,14 @@
     margin: 0;
 }
 
+/* Each entry is grounded by a faintly tinted panel with a hairline
+   border; both derive from the mid tone via color-mix, so light and
+   dark mode need no separate values. */
 .prose .project-list > li {
-    padding-left: 0;
+    border: 1px solid color-mix(in srgb, var(--color-mid) 35%, transparent);
+    background: color-mix(in srgb, var(--color-mid) 5%, transparent);
+    border-radius: var(--border-radius);
+    padding: var(--space-s);
 }
 
 .prose .project-list > li::before {
