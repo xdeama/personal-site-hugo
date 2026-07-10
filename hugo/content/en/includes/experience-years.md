@@ -1,4 +1,4 @@
-### Technology Experience
+### Technologies
 
 | Technology           | Experience |
 |:---------------------|:-----------|
@@ -14,7 +14,7 @@
 | Kotlin               | 2 years    |
 
 
-### Architecture Experience
+### Architecture
 | Architecture  | Experience |
 |:--------------|:-----------|
 | Microservices | 6 years    |
@@ -22,14 +22,14 @@
 | Event-Driven  | 3 years    |
 
 
-### Method Experience
+### Methods
 | Method | Experience |
 |:-------|:-----------|
 | Scrum  | 6 years    |
 | SAFe   | 1.5 years  |
 
 
-### Industry Experience
+### Industries
 | Industry   | Experience |
 |:-----------|:-----------|
 | Finance    | 8 years    |
