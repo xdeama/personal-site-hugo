@@ -154,18 +154,13 @@
     text-decoration: underline;
 }
 
-/* Experience tables on screen: no rules, muted small headers, zebra
-   row bands, aligned with the prose text edge. Scoped to screen -
-   the printed portfolio keeps the classic lined, centered tables. */
+/* Experience tables on screen: no rules, zebra row bands, aligned
+   with the prose text edge. Column headers keep the default bold
+   body color for legibility. Scoped to screen - the printed
+   portfolio keeps the classic lined, centered tables. */
 @media screen {
     .prose thead {
         border-bottom: none;
-    }
-
-    .prose thead th {
-        color: var(--color-mid-glare);
-        font-size: var(--size-step-0);
-        font-weight: 400;
     }
 
     .prose table tr:not(:last-child) {
