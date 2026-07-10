@@ -1,6 +1,7 @@
 ---
 translationKey: project-internal-it-department
 title: "Establishment of an Internal IT Department"
+description: "I took over an IT department that was almost fully outsourced and built an internal team for HelpDesk, application operations, and web development, backed by an IT strategy derived from corporate needs."
 date: 2018-10-01T08:00:00+01:00
 draft: false
 layout: project

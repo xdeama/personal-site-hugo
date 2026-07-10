@@ -1,6 +1,7 @@
 ---
 translationKey: project-wams
 title: Real-time Wide Area Monitoring System (WAMS)
+description: "Für eine strategische Initiative zweier europäischer Übertragungsnetzbetreiber entwickle ich eine Plattform für Echtzeit-Netzüberwachung weiter, die hochauflösende Messdaten in eine modulare Leitsystem-Architektur integriert."
 date: 2025-12-01T08:00:00+01:00
 draft: false
 layout: project

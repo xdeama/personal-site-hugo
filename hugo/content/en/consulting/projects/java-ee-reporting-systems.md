@@ -1,6 +1,7 @@
 ---
 translationKey: project-java-ee-reporting-systems
 title: "Reporting Systems Based on Java EE"
+description: "I designed and implemented several regulatory reporting systems based on Java EE, Oracle SQL, Camunda, and Vaadin, partly from business requirements and partly by migrating existing applications."
 date: 2015-03-01T08:00:00+01:00
 draft: false
 layout: project

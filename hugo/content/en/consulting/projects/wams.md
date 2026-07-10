@@ -1,6 +1,7 @@
 ---
 translationKey: project-wams
 title: Real-time Wide Area Monitoring System (WAMS)
+description: "For a strategic initiative of two European transmission system operators, I am evolving a platform for real-time grid awareness that integrates high-resolution measurement data into a modular control center architecture."
 date: 2025-12-01T08:00:00+01:00
 draft: false
 layout: project

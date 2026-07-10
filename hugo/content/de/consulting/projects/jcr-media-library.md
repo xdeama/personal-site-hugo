@@ -1,6 +1,7 @@
 ---
 translationKey: project-jcr-media-library
 title: "JCR Media Library für eine Kotlin Web-App"
+description: "Mit dem DenktMit-Team habe ich eine schwer wartbare Web-Anwendung einer Brand-Building-Beratung durch ein Kotlin-basiertes System ersetzt und dessen modulare JCR Media Library auf Basis von Apache Jackrabbit entwickelt."
 date: 2023-12-01T08:00:00+01:00
 draft: false
 layout: project

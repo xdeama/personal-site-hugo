@@ -1,6 +1,7 @@
 ---
 translationKey: project-vehicle-product-data-management
 title: "Product Data Management in Vehicle Development"
+description: "As a working student, I initiated product data management in the in-house inventory software jEDWIN, replacing error-prone spreadsheet exchanges, proved the concept with a prototype, and dedicated my bachelor thesis to it."
 date: 2010-08-01T08:00:00+01:00
 draft: false
 layout: project

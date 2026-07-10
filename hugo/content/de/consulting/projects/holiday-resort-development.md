@@ -1,6 +1,7 @@
 ---
 translationKey: project-holiday-resort-development
 title: "Projektentwicklung eines Ferienresorts"
+description: "Als Head of IT habe ich die digitalen Aspekte der Projektentwicklung eines Ferienresorts an der Adria verantwortet, von Netzwerk- und Schließtechnik bis zur Hotelverwaltungssoftware der neu gegründeten Tochterfirma Pareus."
 date: 2018-10-01T08:00:00+01:00
 draft: false
 layout: project

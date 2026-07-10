@@ -1,6 +1,7 @@
 ---
 translationKey: project-investment-advice-analytics
 title: "Investment Advice Analytics System and Dashboard"
+description: "I led the development of an analytics system that merges numerous data sources into daily evaluations and a dashboard, giving asset managers the months of forward visibility the Investment Tax Reform Act demands."
 date: 2016-12-01T08:00:00+01:00
 draft: false
 layout: project

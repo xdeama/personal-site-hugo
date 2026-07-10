@@ -1,6 +1,7 @@
 ---
 translationKey: project-legacy-integration-tso
 title: "Legacy-Integration für einen Übertragungsnetzbetreiber"
+description: "Ich habe einen Cloud-nativen Adapter entwickelt, der die Veröffentlichung von Outage-Planning-Informationen aus einer Bestandssoftware zur ENTSO-E-Plattform automatisiert und manuelle Arbeitsschritte auf ein Minimum reduziert."
 date: 2024-05-01T08:00:00+01:00
 draft: false
 layout: project

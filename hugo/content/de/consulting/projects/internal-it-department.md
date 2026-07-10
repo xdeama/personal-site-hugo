@@ -1,6 +1,7 @@
 ---
 translationKey: project-internal-it-department
 title: "Aufbau interner IT-Abteilung"
+description: "Ich habe eine fast vollständig an Dienstleister ausgelagerte IT-Abteilung übernommen und ein internes Team für HelpDesk, Applikationsbetrieb und Webentwicklung aufgebaut, gestützt auf eine am Unternehmensbedarf ausgerichtete IT-Strategie."
 date: 2018-10-01T08:00:00+01:00
 draft: false
 layout: project

@@ -1,6 +1,7 @@
 ---
 translationKey: project-it-infrastructure-modernization
 title: "Modernization of IT Infrastructure"
+description: "I administered Microsoft workstations, mail, and file servers for the Ulenspiegel bookstore, including an in-house batch data backup with retention logic that saved significant licensing costs."
 date: 2009-01-01T08:00:00+01:00
 draft: false
 layout: project

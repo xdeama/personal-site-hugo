@@ -1,6 +1,7 @@
 ---
 translationKey: project-afrr-software-evaluation
 title: "Software-Evaluierung zur Regelung von Sekundärregelleistung"
+description: "Ich habe ein Softwareprodukt für automatic Frequency Restoration Reserve (aFRR) bei einem Übertragungsnetzbetreiber auf Quellcode-Ebene evaluiert, von der Qualitätsanalyse bis zur Aufwandsschätzung für die Integration."
 date: 2024-03-01T08:00:00+01:00
 draft: false
 layout: project

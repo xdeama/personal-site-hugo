@@ -1,6 +1,7 @@
 ---
 translationKey: project-holiday-properties-website
 title: "Website for the Sale of Holiday Properties"
+description: "I led and partly implemented a website for selling holiday properties with Contao CMS, including automated purchase contract documents and an interactive map of the resort area."
 date: 2018-10-01T08:00:00+01:00
 draft: false
 layout: project

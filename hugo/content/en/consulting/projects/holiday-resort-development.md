@@ -1,6 +1,7 @@
 ---
 translationKey: project-holiday-resort-development
 title: "Development of a Holiday Resort Project"
+description: "As Head of IT, I was responsible for everything digital in a holiday resort development on the Adriatic coast, from network and locking systems to hospitality software for the newly founded subsidiary Pareus."
 date: 2018-10-01T08:00:00+01:00
 draft: false
 layout: project

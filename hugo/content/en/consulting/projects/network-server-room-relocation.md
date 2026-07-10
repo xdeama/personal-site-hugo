@@ -1,6 +1,7 @@
 ---
 translationKey: project-network-server-room-relocation
 title: "Relocation of Network and Server Room"
+description: "I planned and executed a company site relocation covering network technology, on-premises server systems, and workplace IT, including provider selection and construction supervision."
 date: 2019-10-01T08:00:00+01:00
 draft: false
 layout: project
