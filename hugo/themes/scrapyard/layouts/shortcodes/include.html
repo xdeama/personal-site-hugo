@@ -1,6 +1,12 @@
 {{ $headless := .Site.GetPage "/includes" }}
+{{- if not $headless }}
+    {{- errorf "include shortcode: headless bundle /includes not found (used on %s)" .Page.Path }}
+{{- end }}
 
 {{ $snippet := $headless.Resources.GetMatch (.Get 0) }}
+{{- if not $snippet }}
+    {{- errorf "include shortcode: resource %q not found in /includes bundle (used on %s)" (.Get 0) .Page.Path }}
+{{- end }}
 {{ with $snippet }}
     {{ .Content }}
 {{ end }}

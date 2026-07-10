@@ -32,7 +32,7 @@ Meine Erfahrungen verteilen sich wie folgt auf Technologien und Branchen.
 
 {{< include "experience-years.md" >}}
 
-Details zu meinen individuellen Erfahrungen bietet mein [Projektportfolio]({{< ref "projects" >}}) und mein [CV]({{< ref "/consulting/cv" >}}).
+Details zu meinen individuellen Erfahrungen bietet mein [Projektportfolio]({{< ref "/consulting/projects" >}}) und mein [CV]({{< ref "/consulting/cv" >}}).
 
 
 ## Beratung

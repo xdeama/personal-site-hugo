@@ -17,7 +17,7 @@ Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 
-Die Konzeption und Entwicklung [anspruchsvoller Softwarelösungen]({{< ref "projects" >}}) 
+Die Konzeption und Entwicklung [anspruchsvoller Softwarelösungen]({{< ref "/consulting/projects" >}}) 
 für die Sektoren Finanzen und Energie ist mein Handwerk.
 
 {{< include "contact.md" >}}

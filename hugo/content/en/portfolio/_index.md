@@ -14,7 +14,7 @@ robots:
 
 I'm Denis Malolepszy. Freelance **Full Stack Developer**, **Software Architect**, and co-founder of
 [DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT specialists.
-I specialize in designing and developing [sophisticated software solutions]({{< ref "projects" >}}) for the finance
+I specialize in designing and developing [sophisticated software solutions]({{< ref "/consulting/projects" >}}) for the finance
 and energy sectors.
 
 {{< include "experience-text.md" >}}

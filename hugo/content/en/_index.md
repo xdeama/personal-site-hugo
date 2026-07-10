@@ -17,7 +17,7 @@ Freelance Full Stack Developer, Software Architect, and co-founder of
 
 {{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
 
-I specialize in designing and developing [sophisticated software solutions]({{< ref "projects" >}}) for the finance 
+I specialize in designing and developing [sophisticated software solutions]({{< ref "/consulting/projects" >}}) for the finance 
 and energy sectors.
 
 {{< include "contact.md" >}}

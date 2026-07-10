@@ -32,7 +32,7 @@ My experience is distributed across technologies and industries as follows.
 
 {{< include "experience-years.md" >}}
 
-My [project portfolio]({{< ref "projects" >}}) and my [CV]({{< ref "/consulting/cv" >}}) provide details on my individual experiences.
+My [project portfolio]({{< ref "/consulting/projects" >}}) and my [CV]({{< ref "/consulting/cv" >}}) provide details on my individual experiences.
 
 
 ## Consulting
