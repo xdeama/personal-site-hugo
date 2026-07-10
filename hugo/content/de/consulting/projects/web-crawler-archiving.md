@@ -1,7 +1,7 @@
 ---
 translationKey: project-web-crawler-archiving
 title: "Web-Crawler-basiertes Archivsystem"
-description: "Mit meinem Team von DenktMit habe ich ein Web-Crawler-basiertes Archivsystem für einen Schweizer Softwarehersteller entwickelt: Kotlin- und Selenium-Crawler für gerenderte Webseiten, React-Suchportal und Apache-Solr-Index."
+description: "Für die Intranet-Migration eines Schweizer Softwareherstellers habe ich mit DenktMit ein Web-Crawler-basiertes Archivsystem entwickelt: Kotlin- und Selenium-Crawler für gerenderte Webseiten, React-Suchportal und Apache-Solr-Index."
 date: 2022-12-01T08:00:00+01:00
 draft: false
 layout: project

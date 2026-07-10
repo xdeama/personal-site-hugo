@@ -1,7 +1,7 @@
 ---
 translationKey: project-gis-showcase
 title: "Showcase für Geografisches Informationssystem"
-description: "Ich habe einen in Verzug geratenen Technologie-Showcase für Cloud-native Geoinformationssysteme kurzfristig unterstützt und eine deck.gl React App um interaktive Kartenelemente sowie REST-, WebSocket- und Kafka-Schnittstellen erweitert."
+description: "Kurzfristig eingestiegen, habe ich eine deck.gl React App für einen Cloud-native-GIS-Showcase um interaktive Kartenelemente sowie REST-, WebSocket- und Kafka-Schnittstellen erweitert."
 date: 2025-01-01T08:00:00+01:00
 draft: false
 layout: project

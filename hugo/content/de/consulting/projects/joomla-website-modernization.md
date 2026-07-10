@@ -1,7 +1,7 @@
 ---
 translationKey: project-joomla-website-modernization
 title: "Modernisierung einer Joomla Webseite"
-description: "Ich habe die Joomla-Webseite des Antiquariats Ulenspiegel in Fulda und Ravensburg mit Schwerpunkt auf Anwenderfreundlichkeit für das Ladenpersonal modernisiert."
+description: "Die Joomla-Webseite des Antiquariats Ulenspiegel in Fulda und Ravensburg habe ich mit Schwerpunkt auf Anwenderfreundlichkeit für das Ladenpersonal modernisiert."
 date: 2012-08-01T08:00:00+01:00
 draft: false
 layout: project

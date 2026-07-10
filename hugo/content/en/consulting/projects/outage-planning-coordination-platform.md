@@ -1,7 +1,7 @@
 ---
 translationKey: project-outage-planning-coordination-platform
 title: "Outage Planning Coordination Platform"
-description: "I shaped the solution architecture of an Outage Planning Coordination (OPC) system for a German transmission system operator and develop it with a growing agile team: a cloud-native platform that consolidates a decentralized legacy landscape."
+description: "The outage planning of a German transmission system operator is moving onto one cloud-native platform: I shaped the OPC system's solution architecture and develop it with a growing agile team, consolidating a decentralized legacy landscape."
 date: 2024-05-01T08:00:00+01:00
 draft: false
 layout: project

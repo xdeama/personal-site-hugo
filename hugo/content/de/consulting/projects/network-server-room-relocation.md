@@ -1,7 +1,7 @@
 ---
 translationKey: project-network-server-room-relocation
 title: "Standortumzug Netzwerk und Serverraum"
-description: "Ich habe einen Firmenstandortumzug mit Netzwerktechnik, On-Premises-Serversystemen und Arbeitsplatz-IT geplant und durchgeführt, inklusive Anbieterauswahl und Begleitung der Baumaßnahmen."
+description: "Netzwerktechnik, On-Premises-Server und Arbeitsplatz-IT: Einen kompletten Firmenstandortumzug habe ich geplant und durchgeführt, inklusive Anbieterauswahl und Begleitung der Baumaßnahmen."
 date: 2019-10-01T08:00:00+01:00
 draft: false
 layout: project

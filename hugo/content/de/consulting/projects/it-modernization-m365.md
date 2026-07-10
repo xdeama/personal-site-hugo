@@ -1,7 +1,7 @@
 ---
 translationKey: project-it-modernization-m365
 title: "IT-Modernisierung und Microsoft 365 Einführung"
-description: "Ich habe End-of-Life-Serverhardware und veraltete Microsoft-Produkte mit einem Hybrid-Cloud-Ansatz modernisiert: Einführung von Microsoft 365 mit Teams und SharePoint, Migration von Active Directory, Exchange und Fileservern."
+description: "Hybrid Cloud statt End-of-Life-Hardware: Ich habe veraltete Microsoft-Produkte modernisiert, Microsoft 365 mit Teams und SharePoint eingeführt und Active Directory, Exchange und Fileserver migriert."
 date: 2018-10-01T08:00:00+01:00
 draft: false
 layout: project

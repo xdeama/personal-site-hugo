@@ -1,7 +1,7 @@
 ---
 translationKey: project-afrr-software-evaluation
 title: "Software Evaluation for Secondary Control Power Regulation"
-description: "I evaluated a software product for automatic Frequency Restoration Reserve (aFRR) at source code level for a transmission system operator, from quality analysis to integration effort estimates."
+description: "On behalf of a transmission system operator, I evaluated a software product for automatic Frequency Restoration Reserve (aFRR) at source code level, from quality analysis to integration effort estimates."
 date: 2024-03-01T08:00:00+01:00
 draft: false
 layout: project

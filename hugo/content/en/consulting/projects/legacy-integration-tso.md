@@ -1,7 +1,7 @@
 ---
 translationKey: project-legacy-integration-tso
 title: "Legacy Integration for a Transmission System Operator"
-description: "I built a cloud-native adapter that automates publishing outage planning information from legacy software to the ENTSO-E platform, reducing manual work steps to a minimum."
+description: "A cloud-native adapter I built automates publishing outage planning information from legacy software to the ENTSO-E platform, reducing manual work steps to a minimum."
 date: 2024-05-01T08:00:00+01:00
 draft: false
 layout: project

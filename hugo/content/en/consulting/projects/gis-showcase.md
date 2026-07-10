@@ -1,7 +1,7 @@
 ---
 translationKey: project-gis-showcase
 title: "Showcase for Geographic Information System"
-description: "I stepped into a delayed technology showcase for cloud-native Geographic Information Systems and extended a deck.gl React app with interactive map elements and REST, WebSocket, and Kafka interfaces."
+description: "Stepping in on short notice, I extended a deck.gl React app for a cloud-native Geographic Information Systems showcase with interactive map elements and REST, WebSocket, and Kafka interfaces."
 date: 2025-01-01T08:00:00+01:00
 draft: false
 layout: project
