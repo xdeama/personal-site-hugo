@@ -153,3 +153,49 @@
     color: var(--color-hover);
     text-decoration: underline;
 }
+
+/* Experience tables on screen: no rules, muted small headers, zebra
+   row bands, aligned with the prose text edge. Scoped to screen -
+   the printed portfolio keeps the classic lined, centered tables. */
+@media screen {
+    .prose thead {
+        border-bottom: none;
+    }
+
+    .prose thead th {
+        color: var(--color-mid-glare);
+        font-size: var(--size-step-0);
+        font-weight: 400;
+    }
+
+    .prose table tr:not(:last-child) {
+        border-bottom: none;
+    }
+
+    .prose tr,
+    .prose td {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .prose td {
+        padding-left: var(--space-2xs);
+        padding-right: var(--space-2xs);
+    }
+
+    .prose td:last-child {
+        color: var(--color-mid);
+    }
+
+    .prose tbody tr:nth-child(odd) {
+        background: color-mix(in srgb, var(--color-mid) 7%, transparent);
+    }
+}
+
+@media screen and (min-width: 580px) {
+    .prose table {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
