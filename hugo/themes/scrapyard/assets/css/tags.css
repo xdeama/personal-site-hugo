@@ -1,26 +1,7 @@
-/* Tag chips for project pages and taxonomy pages.
-   Two visually distinct pools: technologies (mid border) and
-   business areas (primary border). Chips rely on borders only -
+/* Tag chips: bordered pills, used on the taxonomy landing pages.
+   List entries and project page footers override this into hash-tag
+   rows via .hash-tags (project-list.css). Chips rely on borders only -
    the PDF export prints without backgrounds (printBackground: false). */
-
-.tag-group {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-3xs);
-    margin-top: var(--space-2xs);
-}
-
-.tag-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-3xs);
-    align-items: center;
-}
-
-.tag-label {
-    color: var(--color-mid);
-    font-size: var(--size-step-0);
-}
 
 .tag-list {
     display: flex;
@@ -64,7 +45,6 @@
 
 /* Tags must never appear in the printed portfolio PDF. */
 @media print {
-    .tag-group,
     .tag-list {
         display: none !important;
     }

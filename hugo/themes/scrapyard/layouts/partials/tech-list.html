@@ -1,14 +1,22 @@
 {{- /*
 Renders the technology list of a project page from .Params.techstack.
-The emitted markup must stay identical to what goldmark produced for the
-former includes/projects.md source: an h3 with a <strong> label followed by
+Accepts a page or (dict "page" . "level" 2) to choose the heading level;
+the default h3 is the print contract. The emitted markup must stay
+identical to what goldmark produced for the former includes/projects.md
+source: a heading with a <strong> label followed by
 <div class="list-with-columns"> with the <ul> as its DIRECT child - the
 .list-with-columns > ul selector and the print pagination depend on it.
 Load-bearing for the printed portfolio PDF.
 */ -}}
+{{- $page := . -}}
+{{- $level := 3 -}}
+{{- if reflect.IsMap . -}}
+    {{- $page = .page -}}
+    {{- $level = .level | default 3 -}}
+{{- end -}}
 {{- $label := T "technologies" -}}
-{{- with .Params.techstack -}}
-<h3 id="{{ $label | anchorize }}"><strong>{{ $label }}</strong></h3>
+{{- with $page.Params.techstack -}}
+<h{{ $level }} id="{{ $label | anchorize }}"><strong>{{ $label }}</strong></h{{ $level }}>
 <div class="list-with-columns"><ul>{{ range . }}
 <li>{{ . }}</li>{{ end }}
 </ul>

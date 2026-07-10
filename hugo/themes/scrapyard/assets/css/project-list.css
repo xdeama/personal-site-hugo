@@ -77,24 +77,12 @@
     margin-bottom: 0;
 }
 
-/* Tag treatment on the list page: hash-prefixed text links instead
-   of bordered pills, so the tags read as entry metadata. Technology
-   and business-area tags share one line; business-area tags keep the
-   accent color to stay distinguishable. */
-.project-list .tag-group {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    column-gap: var(--space-xs);
-    row-gap: var(--space-3xs);
-    margin-top: var(--space-2xs);
-}
-
-/* .prose :is(ol, ul) outranks the .tag-list reset in tags.css and
-   indents the tag line relative to the summary; realign it. The label
-   li and the anchor line boxes differ in height, so align the row on
-   the text baseline. */
-.prose .project-list .tag-list {
+/* Hash-tag rows: hash-prefixed text links instead of bordered pills,
+   so the tags read as entry metadata. Used on list entries and in the
+   project page footer. .prose :is(ol, ul) outranks the .tag-list reset
+   in tags.css and indents the row; realign it. The label li and the
+   anchor line boxes differ in height, so align on the text baseline. */
+.prose .hash-tags {
     align-items: baseline;
     column-gap: var(--space-2xs);
     padding-inline-start: 0;
@@ -120,38 +108,38 @@
     text-decoration: underline;
 }
 
-.project-list .tag-list a {
+.hash-tags a {
     border: none;
     border-radius: 0;
     padding: 0;
     color: var(--color-mid);
 }
 
-.project-list .tag-line-label {
+.hash-tags .tag-line-label {
     color: var(--color-mid-glare);
     font-size: var(--size-step-0);
 }
 
-.dark-mode .project-list .tag-line-label {
+.dark-mode .hash-tags .tag-line-label {
     color: var(--color-mid);
 }
 
-.dark-mode .project-list .tag-list-tech a {
+.dark-mode .hash-tags a {
     color: var(--color-mid-glare);
 }
 
-.project-list .tag-list a::before {
+.hash-tags a::before {
     content: '#';
 }
 
-.project-list .tag-list-area a {
-    color: var(--color-primary);
-}
-
-.project-list .tag-list a:hover,
-.project-list .tag-list a:focus-visible {
+.hash-tags a:hover,
+.hash-tags a:focus-visible {
     color: var(--color-hover);
     text-decoration: underline;
+}
+
+.project-footer p {
+    margin-top: var(--space-2xs);
 }
 
 /* Experience tables on screen: no rules, zebra row bands, aligned

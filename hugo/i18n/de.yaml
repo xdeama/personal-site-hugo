@@ -23,9 +23,12 @@ technologies: Technologien
 businessAreas: Branchen
 businessArea: Branche
 backToProjects: Alle Projekte
+returnToProjects: Zurück zur Projektübersicht
+moreProjectsWith: Mehr Projekte mit
 readMore: Weiterlesen
 period: Zeitraum
 role: Rolle
+company: Unternehmen
 published: Veröffentlicht
 projectsUsingTech: 'Projekte, in denen ich {{ . }} eingesetzt habe:'
 projectsInArea: 'Meine Projekte in der Branche {{ . }}:'

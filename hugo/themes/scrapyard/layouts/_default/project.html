@@ -3,17 +3,29 @@
 
     {{ partial "heading.html" . }}
 
-    <h3><strong>{{ .Params.daterange | markdownify }}</strong> | {{ .Params.role }}</h3>
-    <p><em>{{ .Params.company }}</em></p>
-
-    {{ partial "project-tags.html" (dict "page" . "labels" true) }}
+    {{- $date := "" }}
+    {{- with .Params.daterange }}{{ $date = . | markdownify }}{{ end }}
+    <span class="entry-meta">
+        {{- if $date }}<span class="meta-item"><span class="meta-label">{{ T "period" }}:</span> {{ $date }}</span>{{ end }}
+        {{- with .Params.role }}<span class="meta-item"><span class="meta-label">{{ T "role" }}:</span> {{ . }}</span>{{ end }}
+        {{- with .Params.company }}<span class="meta-item"><span class="meta-label">{{ T "company" }}:</span> {{ . }}</span>{{ end }}
+        {{- with .GetTerms "business-areas" }}<span class="meta-item"><span class="meta-label">{{ if gt (len .) 1 }}{{ T "businessAreas" }}{{ else }}{{ T "businessArea" }}{{ end }}:</span> {{ range $i, $a := . }}{{ if $i }} {{ end }}<a class="area-tag" href="{{ $a.RelPermalink }}">{{ $a.LinkTitle }}</a>{{ end }}</span>{{ end -}}
+    </span>
 
     {{ .Content }}
 
-    {{ partial "tech-list.html" . }}
+    {{ partial "tech-list.html" (dict "page" . "level" 2) }}
 
-    <div>
-        <a href="{{ .CurrentSection.RelPermalink }}">{{ T "backToProjects" }}</a>
+    <div class="project-footer">
+        {{- with .GetTerms "technologies" }}
+        <ul class="tag-list hash-tags" aria-label="{{ T "technologies" }}">
+            <li class="tag-line-label" aria-hidden="true">{{ T "moreProjectsWith" }}:</li>
+            {{- range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+            {{- end }}
+        </ul>
+        {{- end }}
+        <p><a href="{{ .CurrentSection.RelPermalink }}">{{ T "returnToProjects" }}</a></p>
     </div>
 
 </article>
