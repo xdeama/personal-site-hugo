@@ -25,7 +25,7 @@ techstack:
   - "Jenkins"
   - "Sonar and Sonatype Nexus"
   - "Solaris"
-  - "Subversion und Git"
+  - "Subversion and Git"
 technologies:
   - "Java"
   - "Java EE"

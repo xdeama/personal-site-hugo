@@ -12,7 +12,7 @@ company: "Cofinpro AG, Frankfurt am Main, Germany"
 techstack:
   - "IT concept with arc42"
   - "Java EE 6 (SE 6 & 7)"
-  - "JBoos Application Server"
+  - "JBoss Application Server"
   - "Oracle SQL"
   - "Camunda"
   - "Drools BRMS"
