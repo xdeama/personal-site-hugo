@@ -10,10 +10,10 @@
 
         {{ .Content }}
 
-        <ul>
+        <ul class="project-list">
         {{ range .Pages.ByWeight }}
-            <li class="li-more-padding">
-                <strong><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></strong>
+            <li class="project-entry">
+                <h2 class="entry-title" id="{{ .Title | anchorize }}"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
                 {{- with .Params.daterange }}
                 <span class="entry-meta">{{ . | markdownify | plainify }}</span>
                 {{- end }}

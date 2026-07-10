@@ -20,6 +20,22 @@
     margin-top: var(--space-l);
 }
 
+/* Entry titles are real h2 elements: they inherit the theme's '##'
+   marker and heading typography, sized down for list context. The
+   prose '- ' li dash is redundant next to the marker and is removed. */
+.project-list .entry-title {
+    font-size: var(--size-step-1);
+    margin: 0;
+}
+
+.prose .project-list > li {
+    padding-left: 0;
+}
+
+.prose .project-list > li::before {
+    content: none;
+}
+
 .project-list .entry-summary {
     margin-top: var(--space-2xs);
     margin-bottom: 0;
