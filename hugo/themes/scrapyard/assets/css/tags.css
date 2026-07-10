@@ -19,9 +19,16 @@
     list-style: none;
 }
 
-/* Neutralize the .prose ul li '- ' dash and its indent inside chip rows. */
+/* Neutralize the .prose ul li '- ' dash, its indent, and the
+   .prose li + li vertical rhythm inside chip rows - the sibling
+   margin pushes every chip except the first down; the flex gap
+   already provides spacing, including between wrapped lines. */
 .prose .tag-list li {
     padding-left: 0;
+}
+
+.prose .tag-list li + li {
+    margin-top: 0;
 }
 
 .prose .tag-list li::before {
