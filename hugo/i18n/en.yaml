@@ -22,5 +22,10 @@ blog-contact-text3: 'Got questions or a project in mind? Get in touch via <a hre
 404-message: Back to the home page
 technologies: Technologies
 businessAreas: Business areas
-backToProjects: back to all projects
+businessArea: Business area
+backToProjects: all projects
 readMore: read more
+projectsUsingTech: 'Projects in which I used {{ . }}:'
+projectsInArea: 'My projects in the {{ . }} business area:'
+allTechnologies: all technologies
+allBusinessAreas: all business areas

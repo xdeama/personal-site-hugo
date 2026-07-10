@@ -1,25 +1,40 @@
 {{- /*
 Renders the two tag pools of a project as separate chip rows.
+Accepts either a page context or (dict "page" . "labels" true); with
+labels enabled each row is prefixed with its pool name so a reader can
+tell technology tags and business-area tags apart.
 Never rendered on the /portfolio print page; tags.css additionally hides
 .tag-group under @media print as a safety net.
 */ -}}
-{{- $tech := .GetTerms "technologies" -}}
-{{- $areas := .GetTerms "business-areas" -}}
+{{- $page := . -}}
+{{- $labels := false -}}
+{{- if reflect.IsMap . -}}
+    {{- $page = .page -}}
+    {{- $labels = .labels -}}
+{{- end -}}
+{{- $tech := $page.GetTerms "technologies" -}}
+{{- $areas := $page.GetTerms "business-areas" -}}
 {{- if or $tech $areas }}
 <div class="tag-group">
     {{- with $tech }}
-    <ul class="tag-list tag-list-tech" aria-label="{{ T "technologies" }}">
-        {{- range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-        {{- end }}
-    </ul>
+    <div class="tag-row">
+        {{- if $labels }}<span class="tag-label">{{ T "technologies" }}:</span>{{ end }}
+        <ul class="tag-list tag-list-tech" aria-label="{{ T "technologies" }}">
+            {{- range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+            {{- end }}
+        </ul>
+    </div>
     {{- end }}
     {{- with $areas }}
-    <ul class="tag-list tag-list-area" aria-label="{{ T "businessAreas" }}">
-        {{- range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-        {{- end }}
-    </ul>
+    <div class="tag-row">
+        {{- if $labels }}<span class="tag-label">{{ if gt (len .) 1 }}{{ T "businessAreas" }}{{ else }}{{ T "businessArea" }}{{ end }}:</span>{{ end }}
+        <ul class="tag-list tag-list-area" aria-label="{{ T "businessAreas" }}">
+            {{- range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+            {{- end }}
+        </ul>
+    </div>
     {{- end }}
 </div>
 {{- end }}

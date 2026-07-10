@@ -10,6 +10,18 @@
     margin-top: var(--space-2xs);
 }
 
+.tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3xs);
+    align-items: center;
+}
+
+.tag-label {
+    color: var(--color-mid);
+    font-size: var(--size-step-0);
+}
+
 .tag-list {
     display: flex;
     flex-wrap: wrap;

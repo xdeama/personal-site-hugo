@@ -1,6 +1,13 @@
 {{ define "main" }}
     <article class="wrapper region prose flow">
         {{ partial "heading.html" . }}
+
+        {{ if eq .Data.Plural "technologies" }}
+        <p>{{ T "projectsUsingTech" .Title }}</p>
+        {{ else }}
+        <p>{{ T "projectsInArea" .Title }}</p>
+        {{ end }}
+
         {{ .Content }}
 
         <ul>
@@ -13,7 +20,9 @@
         </ul>
 
         <div>
-            <a href="{{ .Parent.RelPermalink }}">{{ .Parent.LinkTitle }}</a>
+            <a href="{{ .Parent.RelPermalink }}">{{ if eq .Data.Plural "technologies" }}{{ T "allTechnologies" }}{{ else }}{{ T "allBusinessAreas" }}{{ end }}</a>
+            &middot;
+            <a href="{{ (site.GetPage "/consulting/projects").RelPermalink }}">{{ T "backToProjects" }}</a>
         </div>
     </article>
 {{ end }}

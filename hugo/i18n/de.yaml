@@ -21,5 +21,10 @@ blog-contact-text3: 'Haben Sie Fragen oder eine Projektidee? Dann kontaktieren S
 404-message: Zurück zur Startseite
 technologies: Technologien
 businessAreas: Branchen
-backToProjects: Zurück zu allen Projekten
+businessArea: Branche
+backToProjects: Alle Projekte
 readMore: Weiterlesen
+projectsUsingTech: 'Projekte, in denen ich {{ . }} eingesetzt habe:'
+projectsInArea: 'Meine Projekte in der Branche {{ . }}:'
+allTechnologies: Alle Technologien
+allBusinessAreas: Alle Branchen
