@@ -62,11 +62,6 @@
     border-color: var(--color-hover);
 }
 
-.tag-list-area a {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
-}
-
 /* Tags must never appear in the printed portfolio PDF. */
 @media print {
     .tag-group,

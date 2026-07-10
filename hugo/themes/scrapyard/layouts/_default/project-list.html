@@ -11,12 +11,13 @@
             <li class="project-entry">
                 <h2 class="entry-title" id="{{ .Title | anchorize }}"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
                 {{- if or $date .Params.role $areas }}
-                <span class="entry-meta">{{ $date }}{{ if and $date .Params.role }} &middot; {{ end }}{{ .Params.role }}{{ range $areas }} &middot; <a class="area-tag" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</span>
+                <span class="entry-meta">{{ $date }}{{ if and $date .Params.role }} &middot; {{ end }}{{ .Params.role }}{{ if $areas }} &middot; {{ if gt (len $areas) 1 }}{{ T "businessAreas" }}{{ else }}{{ T "businessArea" }}{{ end }}: {{ range $i, $a := $areas }}{{ if $i }} {{ end }}<a class="area-tag" href="{{ $a.RelPermalink }}">{{ $a.LinkTitle }}</a>{{ end }}{{ end }}</span>
                 {{- end }}
                 <p class="entry-summary">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | chomp | truncate 220 }}{{ end }}
                     <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a></p>
                 {{- with .GetTerms "technologies" }}
                 <ul class="tag-list tag-list-tech" aria-label="{{ T "technologies" }}">
+                    <li class="tag-line-label" aria-hidden="true">{{ T "technologies" }}:</li>
                     {{- range . }}
                     <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
                     {{- end }}

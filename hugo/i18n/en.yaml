@@ -21,11 +21,11 @@ blog-contact-text3: 'Got questions or a project in mind? Get in touch via <a hre
   or <a href="mailto:kontakt@dmalo.de">email</a>.'
 404-message: Back to the home page
 technologies: Technologies
-businessAreas: Business areas
-businessArea: Business area
+businessAreas: Sectors
+businessArea: Sector
 backToProjects: all projects
 readMore: read more
 projectsUsingTech: 'Projects in which I used {{ . }}:'
-projectsInArea: 'My projects in the {{ . }} business area:'
+projectsInArea: 'My projects in the {{ . }} sector:'
 allTechnologies: all technologies
-allBusinessAreas: all business areas
+allBusinessAreas: all sectors

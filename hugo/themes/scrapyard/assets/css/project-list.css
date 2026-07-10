@@ -63,10 +63,11 @@
     line-height: 1.4;
 }
 
-/* Business-area tags live inline in the meta line, styled like the
-   hash tags but in the accent color. */
+/* Business-area tags live inline in the meta line after a "Sector:"
+   label; they inherit the muted meta color (the accent blue stays
+   reserved for hyperlinks). */
 .entry-meta .area-tag {
-    color: var(--color-primary);
+    color: inherit;
     text-decoration: none;
 }
 
@@ -85,6 +86,15 @@
     border-radius: 0;
     padding: 0;
     color: var(--color-mid);
+}
+
+.project-list .tag-line-label {
+    color: var(--color-mid);
+    font-size: var(--size-step-0);
+}
+
+.dark-mode .project-list .tag-line-label {
+    color: var(--color-mid-glare);
 }
 
 .dark-mode .project-list .tag-list-tech a {
