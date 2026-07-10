@@ -1,0 +1,22 @@
+---
+translationKey: project-joomla-website-modernization
+title: "Modernisierung einer Joomla Webseite"
+date: 2012-08-01T08:00:00+01:00
+draft: false
+layout: project
+weight: 170
+daterange: "August 2012 — Dezember 2012"
+role: "Webentwickler"
+company: "Selbstständig als Nebenjob zum Studium für ein Antiquariat, Fulda"
+techstack:
+  - "Joomla"
+  - "JavaScript"
+  - "CSS/HTML"
+technologies:
+  - "Joomla"
+  - "JavaScript"
+business-areas:
+  - "Commerce"
+---
+Modernisierung einer Joomla Webseite mit Schwerpunkt auf der Anwenderfreundlichkeit für das Ladenpersonal eines 
+Antiquariates. Umfasste die Gestaltung und Implementierung der Webseite der Buchhaltung Ulenspiegel in Fulda und Ravensburg.

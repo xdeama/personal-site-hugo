@@ -3,7 +3,7 @@
 
     {{ partial "heading.html" . }}
 
-    <h3><strong>{{ .Params.daterange }}</strong> | {{ .Params.role }}</h3>
+    <h3><strong>{{ .Params.daterange | markdownify }}</strong> | {{ .Params.role }}</h3>
     <p><em>{{ .Params.company }}</em></p>
 
     {{ partial "project-tags.html" . }}

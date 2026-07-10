@@ -1,0 +1,43 @@
+---
+translationKey: project-gis-showcase
+title: "Showcase für Geografisches Informationssystem"
+date: 2025-01-01T08:00:00+01:00
+draft: false
+layout: project
+weight: 30
+daterange: "Januar 2025 — Februar 2025"
+role: "Software Engineer"
+company: "Denis Malolepszy Software Engineering, Frankfurt am Main"
+techstack:
+  - "React"
+  - "deck.gl"
+  - "WebSocket (STOMP)"
+  - "Protobuf"
+  - "Kotlin"
+  - "Spring Boot"
+  - "TimescaleDB"
+  - "Kafka"
+  - "Azure DevOps"
+  - "Kubernetes"
+  - "Argo CD"
+  - "Gradle"
+  - "Git"
+technologies:
+  - "React"
+  - "deck.gl"
+  - "Kotlin"
+  - "Spring Boot"
+  - "Kafka"
+  - "TimescaleDB"
+  - "Kubernetes"
+  - "Azure DevOps"
+  - "Argo CD"
+business-areas:
+  - "Energy"
+---
+Ich habe eine in Verzug geratene Entwicklung eines Technologieträger-Showcase 
+zur Präsentation der Fähigkeiten von Cloud-nativen Systemen im Kontext Geografischer Informationssysteme für 
+Übertragungsnetzbetreiber kurzfristig unterstützt.
+
+Im Schwerpunkt habe ich eine deck.gl React App um interaktive Elemente erweitert, als auch deren
+Schnittstellen über REST, WebSocket und Kafka.
