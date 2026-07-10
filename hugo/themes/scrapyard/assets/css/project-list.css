@@ -16,6 +16,16 @@
     color: var(--color-mid-glare);
 }
 
+/* Labels inside metadata recede one shade behind their values,
+   in both color schemes. */
+.meta-label {
+    color: var(--color-mid-glare);
+}
+
+.dark-mode .meta-label {
+    color: var(--color-mid);
+}
+
 .prose .project-list > li + li {
     margin-top: var(--space-l);
 }
@@ -55,8 +65,11 @@
 }
 
 /* .prose :is(ol, ul) outranks the .tag-list reset in tags.css and
-   indents the tag line relative to the summary; realign it. */
+   indents the tag line relative to the summary; realign it. The label
+   li and the anchor line boxes differ in height, so align the row on
+   the text baseline. */
 .prose .project-list .tag-list {
+    align-items: baseline;
     column-gap: var(--space-2xs);
     padding-inline-start: 0;
     margin-block-start: var(--space-2xs);
@@ -89,12 +102,12 @@
 }
 
 .project-list .tag-line-label {
-    color: var(--color-mid);
+    color: var(--color-mid-glare);
     font-size: var(--size-step-0);
 }
 
 .dark-mode .project-list .tag-line-label {
-    color: var(--color-mid-glare);
+    color: var(--color-mid);
 }
 
 .dark-mode .project-list .tag-list-tech a {

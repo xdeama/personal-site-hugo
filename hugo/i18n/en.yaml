@@ -25,6 +25,8 @@ businessAreas: Sectors
 businessArea: Sector
 backToProjects: all projects
 readMore: read more
+period: Period
+role: Role
 projectsUsingTech: 'Projects in which I used {{ . }}:'
 projectsInArea: 'My projects in the {{ . }} sector:'
 allTechnologies: all technologies

@@ -11,7 +11,11 @@
             <li class="project-entry">
                 <h2 class="entry-title" id="{{ .Title | anchorize }}"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
                 {{- if or $date .Params.role $areas }}
-                <span class="entry-meta">{{ $date }}{{ if and $date .Params.role }} &middot; {{ end }}{{ .Params.role }}{{ if $areas }} &middot; {{ if gt (len $areas) 1 }}{{ T "businessAreas" }}{{ else }}{{ T "businessArea" }}{{ end }}: {{ range $i, $a := $areas }}{{ if $i }} {{ end }}<a class="area-tag" href="{{ $a.RelPermalink }}">{{ $a.LinkTitle }}</a>{{ end }}{{ end }}</span>
+                <span class="entry-meta">
+                    {{- if $date }}<span class="meta-label">{{ T "period" }}:</span> {{ $date }}{{ end }}
+                    {{- if .Params.role }}{{ if $date }} &middot; {{ end }}<span class="meta-label">{{ T "role" }}:</span> {{ .Params.role }}{{ end }}
+                    {{- if $areas }}{{ if or $date .Params.role }} &middot; {{ end }}<span class="meta-label">{{ if gt (len $areas) 1 }}{{ T "businessAreas" }}{{ else }}{{ T "businessArea" }}{{ end }}:</span> {{ range $i, $a := $areas }}{{ if $i }} {{ end }}<a class="area-tag" href="{{ $a.RelPermalink }}">{{ $a.LinkTitle }}</a>{{ end }}{{ end -}}
+                </span>
                 {{- end }}
                 <p class="entry-summary">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | chomp | truncate 220 }}{{ end }}
                     <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a></p>
