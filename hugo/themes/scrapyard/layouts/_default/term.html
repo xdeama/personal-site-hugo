@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <article class="wrapper region prose flow">
+        {{ partial "heading.html" . }}
+        {{ .Content }}
+
+        <ul>
+        {{ range .Pages.ByWeight }}
+            <li class="li-more-padding">
+                <strong><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></strong>
+                {{ with .Params.daterange }} <span class="color-mid font-size-06 keeptogether">{ {{ . }} }</span>{{ end }}
+            </li>
+        {{ end }}
+        </ul>
+
+        <div>
+            <a href="{{ .Parent.RelPermalink }}">{{ .Parent.LinkTitle }}</a>
+        </div>
+    </article>
+{{ end }}

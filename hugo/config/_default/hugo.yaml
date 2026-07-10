@@ -21,9 +21,14 @@ languages:
     languageName: English
     weight: 2
 
-disableKinds:
-  - taxonomy
-  - term
+# Explicit map replaces Hugo's default tags/categories taxonomies,
+# so the stray "tags:" front matter in old blog posts stays inert.
+taxonomies:
+  technology: technologies
+  business-area: business-areas
+
+# Term page titles keep the exact term string (e.g. "jOOQ", "deck.gl").
+capitalizeListTitles: false
 
 markup:
   highlight:

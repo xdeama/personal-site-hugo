@@ -1,0 +1,25 @@
+{{- /*
+Renders the two tag pools of a project as separate chip rows.
+Never rendered on the /portfolio print page; tags.css additionally hides
+.tag-group under @media print as a safety net.
+*/ -}}
+{{- $tech := .GetTerms "technologies" -}}
+{{- $areas := .GetTerms "business-areas" -}}
+{{- if or $tech $areas }}
+<div class="tag-group">
+    {{- with $tech }}
+    <ul class="tag-list tag-list-tech" aria-label="{{ T "technologies" }}">
+        {{- range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{- end }}
+    </ul>
+    {{- end }}
+    {{- with $areas }}
+    <ul class="tag-list tag-list-area" aria-label="{{ T "businessAreas" }}">
+        {{- range . }}
+        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{- end }}
+    </ul>
+    {{- end }}
+</div>
+{{- end }}

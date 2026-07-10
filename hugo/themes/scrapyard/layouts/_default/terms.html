@@ -1,0 +1,12 @@
+{{ define "main" }}
+    <article class="wrapper region prose flow">
+        {{ partial "heading.html" . }}
+        {{ .Content }}
+
+        <ul class="tag-list {{ if eq .Data.Plural "technologies" }}tag-list-tech{{ else }}tag-list-area{{ end }}">
+        {{ range .Pages.ByTitle }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> ({{ len .Pages }})</li>
+        {{ end }}
+        </ul>
+    </article>
+{{ end }}

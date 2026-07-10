@@ -1,0 +1,56 @@
+/* Tag chips for project pages and taxonomy pages.
+   Two visually distinct pools: technologies (mid border) and
+   business areas (primary border). Chips rely on borders only -
+   the PDF export prints without backgrounds (printBackground: false). */
+
+.tag-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3xs);
+    margin-top: var(--space-2xs);
+}
+
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3xs);
+    padding-left: 0;
+    list-style: none;
+}
+
+/* Neutralize the .prose ul li '- ' dash and its indent inside chip rows. */
+.prose .tag-list li {
+    padding-left: 0;
+}
+
+.prose .tag-list li::before {
+    content: none;
+}
+
+.tag-list a {
+    display: inline-block;
+    border: 1px solid var(--color-mid);
+    border-radius: 999px;
+    padding: 0 0.6em;
+    font-size: var(--size-step-0);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.tag-list a:hover {
+    color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+
+.tag-list-area a {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
+/* Tags must never appear in the printed portfolio PDF. */
+@media print {
+    .tag-group,
+    .tag-list {
+        display: none !important;
+    }
+}

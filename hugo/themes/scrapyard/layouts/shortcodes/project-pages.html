@@ -1,0 +1,15 @@
+{{- /*
+Inlines every project page in full, ordered by weight. Used by the
+/portfolio pages, which are printed to PDF - failures must be loud,
+a silently empty output would ship an empty portfolio PDF.
+*/ -}}
+{{- $section := site.GetPage "/consulting/projects" -}}
+{{- if not $section -}}
+    {{- errorf "project-pages shortcode: section /consulting/projects not found (used on %s)" .Page.Path -}}
+{{- end -}}
+{{- if not $section.RegularPages -}}
+    {{- errorf "project-pages shortcode: no project pages under /consulting/projects (used on %s)" .Page.Path -}}
+{{- end -}}
+{{- range $section.RegularPages.ByWeight }}
+{{ partial "project-full.html" . }}
+{{- end }}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <article class="wrapper region prose flow">
+        {{ partial "heading.html" . }}
+        {{ .Content }}
+
+        <ul class="project-list">
+        {{ range .Pages.ByWeight }}
+            <li class="li-more-padding">
+                <strong><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></strong>
+                <span class="color-mid font-size-06 keeptogether">{ {{ .Params.daterange }} }</span>
+                <br>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | chomp }}{{ end }}
+                <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a>
+                {{ partial "project-tags.html" . }}
+            </li>
+        {{ end }}
+        </ul>
+    </article>
+{{ end }}

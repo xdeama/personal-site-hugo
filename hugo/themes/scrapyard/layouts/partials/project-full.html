@@ -1,0 +1,12 @@
+{{- /*
+Renders one project in full, as inlined into the /portfolio print page.
+The heading structure (h2 title, h3 date | role, em company) must match the
+goldmark output of the former includes/projects.md source exactly: project
+titles must stay h2 (print.css h1 { page-break-before: always }) and the
+h3 + p sequence feeds the print glue rules. Load-bearing for the PDF.
+*/ -}}
+<h2 id="{{ .Title | anchorize }}">{{ .Title }}</h2>
+<h3 id="{{ printf "%s | %s" .Params.daterange .Params.role | anchorize }}"><strong>{{ .Params.daterange }}</strong> | {{ .Params.role }}</h3>
+<p><em>{{ .Params.company }}</em></p>
+{{ .Content }}
+{{- partial "tech-list.html" . }}
