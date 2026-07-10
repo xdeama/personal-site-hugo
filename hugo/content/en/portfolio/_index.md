@@ -59,4 +59,4 @@ content can be found in the subsequent [project portfolio]({{< relref "/consulti
 
 My project portfolio includes projects from my time as a freelancer as well as from permanent positions.
 
-{{< include "projects.md" >}}
+{{< project-pages >}}

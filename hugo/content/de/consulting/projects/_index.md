@@ -4,7 +4,7 @@ title: Projektportfolio
 description: Meine Erfahrung als Cloud Native Full Stack Java Developer & Software Architect
 date: 2023-01-01T08:00:00-07:00
 draft: false
-layout: standalone
+layout: project-list
 ---
 
 {{< row >}}
@@ -29,4 +29,3 @@ Meine Technologie- und Branchenerfahrung habe ich [hier nach Jahren aufsummiert]
 
 {{< embed-svg-hidden-on-desktop "static/svg/tech-stack2.svg" >}}
 
-{{< include "projects.md" >}}

@@ -60,4 +60,4 @@ im anschließenden [Projektportfolio]({{< relref "/consulting/projects" >}}).
 
 Mein Projektportfolio enthält Projekte sowohl aus meiner Zeit als Freiberufler als auch aus Festanstellungen.
 
-{{< include "projects.md" >}}
+{{< project-pages >}}
