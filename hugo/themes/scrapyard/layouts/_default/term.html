@@ -15,7 +15,7 @@
             <li class="project-entry">
                 <h2 class="entry-title" id="{{ .Title | anchorize }}"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
                 {{- with .Params.daterange }}
-                <span class="entry-meta"><span class="meta-label">{{ T "period" }}:</span> {{ . | markdownify | plainify }}</span>
+                <span class="entry-meta"><span class="meta-item"><span class="meta-label">{{ T "period" }}:</span> {{ . | markdownify | plainify }}</span></span>
                 {{- end }}
             </li>
         {{ end }}

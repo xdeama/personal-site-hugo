@@ -4,10 +4,30 @@
    and a single tag line. Entries separate through whitespace alone,
    no boxes, to keep the plain markdown look of the site. */
 
+/* On narrow viewports each meta segment (period, role, sector) gets
+   its own line with breathing room under the headline; from tablet
+   width up they join into one line with middot separators. */
 .entry-meta {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.2em;
+    margin-top: var(--space-2xs);
     color: var(--color-mid);
     font-size: var(--size-step-0);
+}
+
+@media (min-width: 715px) {
+    .entry-meta {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 0.6ch;
+        margin-top: 0;
+    }
+
+    .entry-meta .meta-item + .meta-item::before {
+        content: '\00B7';
+        margin-right: 0.6ch;
+    }
 }
 
 /* Metadata lines sit near the contrast floor on the dark background;
