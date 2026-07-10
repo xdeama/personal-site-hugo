@@ -1,0 +1,22 @@
+{{ define "main" }}
+<article class="wrapper region prose flow">
+
+    {{ partial "heading.html" . }}
+    {{ .Content }}
+
+    {{ range .Params.cv }}
+    <h2 id="{{ .section | anchorize }}">{{ .section }}</h2>
+    <ul class="project-list">
+        {{ range .stations }}
+        <li class="project-entry">
+            <h3 class="entry-title">{{ .title }}</h3>
+            <span class="entry-meta"><span class="meta-item"><span class="meta-label">{{ T "period" }}:</span> {{ .daterange }}</span></span>
+            <p class="entry-summary"><em>{{ $.Page.RenderString .org }}</em></p>
+            {{ $.Page.RenderString (dict "display" "block") .text }}
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+
+</article>
+{{ end }}

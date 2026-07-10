@@ -53,7 +53,7 @@ Abriss der jeweiligen Stationen mit Zeitraum, Position und Unternehmen.
 Mehr Details zu den jeweiligen Aufgabenfeldern und Projektinhalten befinden sich 
 im anschließenden [Projektportfolio]({{< relref "/consulting/projects" >}}).
 
-{{< include "cv.md" >}}
+{{< cv-print >}}
 
 
 # Projektportfolio Denis Malolepszy

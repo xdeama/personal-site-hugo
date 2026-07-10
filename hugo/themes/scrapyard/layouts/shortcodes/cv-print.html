@@ -1,0 +1,23 @@
+{{- /*
+Inlines the CV stations from the consulting/cv page front matter into
+the printed portfolio, reproducing the goldmark DOM of the former
+includes/cv.md source: h2 section, h3 with bold title and date range,
+em org line, plain paragraphs. Load-bearing for the PDF; failures must
+be loud.
+*/ -}}
+{{- $cvPage := site.GetPage "/consulting/cv" -}}
+{{- if not $cvPage -}}
+    {{- errorf "cv-print shortcode: page /consulting/cv not found (used on %s)" .Page.Path -}}
+{{- end -}}
+{{- if not $cvPage.Params.cv -}}
+    {{- errorf "cv-print shortcode: no cv front matter on /consulting/cv (used on %s)" .Page.Path -}}
+{{- end -}}
+{{- $p := .Page -}}
+{{- range $cvPage.Params.cv }}
+<h2 id="{{ .section | anchorize }}">{{ .section }}</h2>
+{{- range .stations }}
+<h3 id="{{ printf "%s | %s" .title .daterange | anchorize }}"><strong>{{ .title }}</strong> | {{ .daterange }}</h3>
+<p><em>{{ $p.RenderString .org }}</em></p>
+{{ $p.RenderString (dict "display" "block") .text }}
+{{- end }}
+{{- end }}

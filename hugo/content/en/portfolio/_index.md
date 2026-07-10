@@ -52,7 +52,7 @@ are distributed across technologies and industries as follows.
 Chronological CV with time period, position, and company. Details on the respective areas of responsibility and project
 content can be found in the subsequent [project portfolio]({{< relref "/consulting/projects" >}}).
 
-{{< include "cv.md" >}}
+{{< cv-print >}}
 
 
 # Project Portfolio Denis Malolepszy
