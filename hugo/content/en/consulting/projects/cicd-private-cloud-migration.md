@@ -30,7 +30,8 @@ techstack:
   - "Git"
 technologies:
   - "Java"
-  - "Spring Boot"
+  - "Spring"
+  - "Kubernetes"
   - "Angular"
   - "TypeScript"
   - "Kafka"

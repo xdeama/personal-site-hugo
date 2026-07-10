@@ -8,6 +8,10 @@ weight: 130
 daterange: "Oktober 2018 — Juli 2021"
 role: "Head of IT"
 company: "Habona Invest GmbH, Frankfurt am Main"
+technologies:
+  - "PHP"
+  - "TypeScript"
+  - "Contao"
 business-areas:
   - "Real Estate"
 ---

@@ -61,3 +61,4 @@ build-iPhoneSimulator/
 /venv/
 /markdown2docx/output/
 /website2pdf/output/
+.DS_Store
