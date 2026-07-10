@@ -59,8 +59,25 @@
 .prose .project-list .tag-list {
     column-gap: var(--space-2xs);
     padding-inline-start: 0;
-    margin-block-start: 0;
+    margin-block-start: var(--space-2xs);
     line-height: 1.4;
+}
+
+/* Business-area tags live inline in the meta line, styled like the
+   hash tags but in the accent color. */
+.entry-meta .area-tag {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.entry-meta .area-tag::before {
+    content: '#';
+}
+
+.entry-meta .area-tag:hover,
+.entry-meta .area-tag:focus-visible {
+    color: var(--color-hover);
+    text-decoration: underline;
 }
 
 .project-list .tag-list a {
