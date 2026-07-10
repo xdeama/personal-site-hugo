@@ -26,6 +26,7 @@ backToProjects: Alle Projekte
 readMore: Weiterlesen
 period: Zeitraum
 role: Rolle
+published: Veröffentlicht
 projectsUsingTech: 'Projekte, in denen ich {{ . }} eingesetzt habe:'
 projectsInArea: 'Meine Projekte in der Branche {{ . }}:'
 allTechnologies: Alle Technologien
