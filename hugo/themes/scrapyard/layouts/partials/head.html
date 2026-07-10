@@ -27,12 +27,13 @@
 
 {{ $styles := resources.Get "css/styles.css" }}
 {{ $tags := resources.Get "css/tags.css" }}
+{{ $projectList := resources.Get "css/project-list.css" }}
 {{ $print := resources.Get "css/print.css" }}
 
 {{ $lightbox := resources.Get "css/lightbox.css" }}
 {{ $chroma := resources.Get "css/chroma.css" }}
 
-{{ $cssBundle := slice $reset $fonts $variables $layout $globalstyles $styles $tags $print $lightbox $chroma | resources.Concat "css/global.css" }}
+{{ $cssBundle := slice $reset $fonts $variables $layout $globalstyles $styles $tags $projectList $print $lightbox $chroma | resources.Concat "css/global.css" }}
 
 {{- with $cssBundle }}
 {{- if eq hugo.Environment "development" }}

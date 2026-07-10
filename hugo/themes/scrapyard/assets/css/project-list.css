@@ -1,0 +1,97 @@
+/* Project list and term list entries.
+   Each entry is one typographic block: bold title, a muted meta
+   line (date range and role) directly under the title, the summary,
+   and a single tag line. Entries separate through whitespace alone,
+   no boxes, to keep the plain markdown look of the site. */
+
+.entry-meta {
+    display: block;
+    color: var(--color-mid);
+    font-size: var(--size-step-0);
+}
+
+/* Metadata lines sit near the contrast floor on the dark background;
+   lift them one shade there. */
+.dark-mode .entry-meta {
+    color: var(--color-mid-glare);
+}
+
+.prose .project-list > li + li {
+    margin-top: var(--space-l);
+}
+
+/* A left rule spanning title to tag line groups each entry into one
+   visual unit; it replaces the prose '- ' dash for these entries. */
+.prose .project-list > li {
+    padding-left: var(--space-s);
+    border-left: 2px solid var(--color-mid-glare);
+}
+
+.prose .project-list > li::before {
+    content: none;
+}
+
+.prose .project-list > li:hover {
+    border-left-color: var(--color-primary);
+}
+
+.project-list .entry-summary {
+    margin-top: var(--space-2xs);
+    margin-bottom: 0;
+}
+
+/* Tag treatment on the list page: hash-prefixed text links instead
+   of bordered pills, so the tags read as entry metadata. Technology
+   and business-area tags share one line; business-area tags keep the
+   accent color to stay distinguishable. */
+.project-list .tag-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: var(--space-xs);
+    row-gap: var(--space-3xs);
+    margin-top: var(--space-2xs);
+}
+
+/* .prose :is(ol, ul) outranks the .tag-list reset in tags.css and
+   indents the tag line relative to the summary; realign it. */
+.prose .project-list .tag-list {
+    column-gap: var(--space-2xs);
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    line-height: 1.4;
+}
+
+.project-list .tag-list a {
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    color: var(--color-mid);
+}
+
+.project-list .tag-list a::before {
+    content: '#';
+}
+
+.dark-mode .project-list .tag-list-tech a {
+    color: var(--color-mid-glare);
+}
+
+/* Business-area tags keep a small pill so the two tag kinds differ by
+   shape as well as color. */
+.project-list .tag-list-area a {
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 999px;
+    padding: 0 0.5em;
+}
+
+.project-list .tag-list-area a::before {
+    content: none;
+}
+
+.project-list .tag-list a:hover,
+.project-list .tag-list a:focus-visible {
+    color: var(--color-hover);
+    text-decoration: underline;
+}
