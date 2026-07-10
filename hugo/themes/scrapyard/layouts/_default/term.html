@@ -7,7 +7,7 @@
         {{ range .Pages.ByWeight }}
             <li class="li-more-padding">
                 <strong><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></strong>
-                {{ with .Params.daterange }} <span class="color-mid font-size-06 keeptogether">{ {{ . }} }</span>{{ end }}
+                {{ with .Params.daterange }} <span class="color-mid font-size-06 keeptogether">{ {{ . | markdownify | plainify }} }</span>{{ end }}
             </li>
         {{ end }}
         </ul>
