@@ -15,7 +15,7 @@ draft: false
 Freelance Full Stack Developer, Software Architect, and co-founder of
 [DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT specialists.
 
-{{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" >}}
+{{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" width="554" height="485" >}}
 
 I specialize in designing and developing [sophisticated software solutions]({{< ref "/consulting/projects" >}}) for the finance 
 and energy sectors.
@@ -26,7 +26,7 @@ and energy sectors.
 
 {{< column-short-hide-on-mobile >}}
 
-{{< static-img src="denis.png" class="profile-img frame" alt="Denis" >}}
+{{< static-img src="denis.png" class="profile-img frame" alt="Denis" width="554" height="485" >}}
 
 {{< column-end >}}
 

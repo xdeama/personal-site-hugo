@@ -18,7 +18,7 @@
                 </span>
                 {{- end }}
                 <p class="entry-summary">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | chomp | truncate 220 }}{{ end }}
-                    <a href="{{ .RelPermalink }}">{{ T "readMore" }}</a></p>
+                    <a href="{{ .RelPermalink }}">{{ T "readMore" }}<span class="visually-hidden">: {{ .LinkTitle }}</span></a></p>
                 {{- with .GetTerms "technologies" }}
                 <ul class="tag-list hash-tags" aria-label="{{ T "technologies" }}">
                     <li class="tag-line-label" aria-hidden="true">{{ T "technologies" }}:</li>
