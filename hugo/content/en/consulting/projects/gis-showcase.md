@@ -8,7 +8,7 @@ layout: project
 weight: 30
 daterange: "January 2025 — February 2025"
 role: "Software Engineer"
-company: "Denis Malolepszy Software Engineering, Frankfurt am Main"
+company: "Denis Malolepszy Software Engineering, Frankfurt am Main, Germany"
 techstack:
   - "React"
   - "deck.gl"

@@ -1,12 +1,12 @@
 ---
 translationKey: project-vehicle-product-data-management
 title: "Produktdatenmanagement in der Fahrzeugentwicklung"
-description: "Als Werkstudent habe ich das Produktdatenmanagement in der hauseigenen Inventarisierungssoftware jEDWIN angestoßen, fehleranfällige Tabellenkalkulationen abgelöst, das Konzept per Prototyp erprobt und meine Bachelor-Thesis dem Thema gewidmet."
+description: "Als Werkstudent habe ich das Produktdatenmanagement in der hauseigenen Inventarisierungssoftware jEDWIN angestoßen, um fehleranfällige Tabellenkalkulationen abzulösen; ich habe das Konzept per Prototyp erprobt und meine Bachelor-Thesis dem Thema gewidmet."
 date: 2010-08-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 190
-daterange: "August 2010 - März 2012 (mit Unterbrechungen, siehe [CV](/de/consulting/cv/))"
+daterange: "August 2010 — März 2012 (mit Unterbrechungen, siehe [CV](/de/consulting/cv/))"
 role: "Werkstudent"
 company: "EDAG GmbH & Co. KGaA, Fulda"
 techstack:

@@ -1,7 +1,7 @@
 ---
 translationKey: project-investment-advice-analytics
 title: "Investment Advice Analytics System und Dashboard"
-description: "Das Investmentsteuerreformgesetz verlangt monatelangen Weitblick über Dividendenausschüttungen: Ich habe die Entwicklung eines Analysesystems geleitet, das zahlreiche Datenquellen zu täglichen Auswertungen und einem Dashboard für Asset Manager zusammenführt."
+description: "Das Investmentsteuerreformgesetz verlangt eine mehrmonatige Vorausschau auf Dividendenausschüttungen: Ich habe die Entwicklung eines Analysesystems geleitet, das zahlreiche Datenquellen zu täglichen Auswertungen und einem Dashboard für Asset Manager zusammenführt."
 date: 2016-12-01T08:00:00+01:00
 draft: false
 layout: project

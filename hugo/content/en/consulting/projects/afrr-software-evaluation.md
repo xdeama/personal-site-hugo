@@ -8,7 +8,7 @@ layout: project
 weight: 50
 daterange: "March 2024 — November 2024"
 role: "Software Engineer"
-company: "Denis Malolepszy Software Engineering, Frankfurt am Main"
+company: "Denis Malolepszy Software Engineering, Frankfurt am Main, Germany"
 techstack:
   - ".Net 8"
   - "Next.js"

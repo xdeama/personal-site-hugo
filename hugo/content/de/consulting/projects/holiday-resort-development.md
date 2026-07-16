@@ -12,18 +12,18 @@ company: "Habona Invest GmbH, Frankfurt am Main"
 business-areas:
   - "Real Estate"
 ---
-Als Head of IT war ich für digitalen Aspekte der Projektentwicklung eines Ferienresorts an der Adria verantwortlich. 
+Als Head of IT war ich für die digitalen Aspekte der Projektentwicklung eines Ferienresorts an der Adria verantwortlich. 
 Im Namen der neu gegründeten Tochterfirma Pareus wurde ein Areal neu erschlossen und mit Ferienwohnungen bebaut, 
-die im Stil eines Hotel Resorts zentral mit WLAN, TV, Telefon, Schließanlage und Hotelverwaltungsystem zu versorgen 
+die im Stil eines Hotel Resorts zentral mit WLAN, TV, Telefon, Schließanlage und Hotelverwaltungssystem zu versorgen 
 waren.
 
-Als erstes Pareus Resorts, bot dieses Greenfield Projekt während der Coronapandemie besondere Herausforderungen im 
+Als erstes Projekt von Pareus Resorts bot dieses Greenfield-Projekt während der Coronapandemie besondere Herausforderungen im 
 Bauprojekt und im Aufbau von Expertise und Personal.
 
 ### **Projektschwerpunkte**
 
 - Netzwerktechnik und On-Premises-Serversysteme
 - Property Management System
-- Hotel-TV, Gäste-WLAN, Schließsysteme und Co.
+- Hotel-TV, Gäste-WLAN, Schließsysteme usw.
 - Buchungssystem und Onlinewerbung
 - Teamaufbau und Baubegleitung

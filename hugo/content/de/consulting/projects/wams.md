@@ -17,10 +17,10 @@ techstack:
   - Apache Kafka (Strimzi)
   - Apache Druid
   - RabbitMQ
-  - ArgoCD & Helm
+  - Argo CD & Helm
   - PostgreSQL
   - Keycloak (OAuth2/OIDC)
-  - Grafana with Druid Datasource
+  - Grafana mit Druid-Datasource
   - Prometheus
   - Testcontainers
   - Docker

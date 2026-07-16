@@ -1,6 +1,6 @@
 ---
 translationKey: project-regulatory-reporting-software
-title: "Entwicklung und Betrieb von Meldewesen Software"
+title: "Entwicklung und Betrieb von Meldewesen-Software"
 description: "Als Organisations- und IT-Berater habe ich die Architekturverantwortung für eine Meldewesen-Systemlandschaft getragen und neue Reporting-Anwendungen von der Ausschreibung über die Konzeption bis zur Inbetriebnahme betreut."
 date: 2017-07-01T08:00:00+01:00
 draft: false

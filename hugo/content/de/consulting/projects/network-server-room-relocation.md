@@ -12,7 +12,7 @@ company: "Habona Invest GmbH, Frankfurt am Main"
 business-areas:
   - "Real Estate"
 ---
-Ich habe den Umzug des Firmenstandortes inklusive Netzwerktechnik, Serversysteme und Arbeitsplatz-IT-Ausstattung vollständig geplant und durchgeführt.
+Ich habe den Umzug des Firmenstandortes inklusive Netzwerktechnik, Serversystemen und Arbeitsplatz-IT-Ausstattung vollständig geplant und durchgeführt.
 
 ### **Projektschwerpunkte**
 

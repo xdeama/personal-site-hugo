@@ -22,5 +22,5 @@ I led the implementation of a website for the sale of holiday properties, includ
 - Implementation with PHP, TypeScript, CSS, and Contao CMS
 - Extension of Contao CMS with a maintenance interface for property information
 - Automated creation of individual purchase contracts
-- Scrollable and zoomable sitemap for holiday property advertising
+- Scrollable and zoomable map of the development area for advertising the holiday properties
 - Coordination of web developers and designers

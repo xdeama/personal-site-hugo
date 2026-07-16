@@ -1,14 +1,14 @@
 ---
 translationKey: project-outage-planning-coordination-platform
 title: "Outage Planning Coordination Platform"
-description: "The outage planning of a German transmission system operator is moving onto one cloud-native platform: I shaped the OPC system's solution architecture and develop it with a growing agile team, consolidating a decentralized legacy landscape."
+description: "The outage planning of a German transmission system operator is moving onto one cloud-native platform: I shaped the OPC system's solution architecture and am developing it with a growing agile team, consolidating a decentralized legacy landscape."
 date: 2024-05-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 20
 daterange: "May 2024 — Present"
 role: "Software Engineer"
-company: "Denis Malolepszy Software Engineering, Frankfurt am Main"
+company: "Denis Malolepszy Software Engineering, Frankfurt am Main, Germany"
 techstack:
   - "Kotlin"
   - "Spring Boot"
@@ -45,7 +45,7 @@ I spearheaded the design and development of an Outage Planning Coordination (OPC
 
 - Requirements analysis,
 - Solution architecture design,
-- Conception of data interfaces,
+- Design of data interfaces,
 - And UI/UX design.
 
 As the project team grew, I handed over these respective areas to dedicated project members and focused on back-end development and DevOps.

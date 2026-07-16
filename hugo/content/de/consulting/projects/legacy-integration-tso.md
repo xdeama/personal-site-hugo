@@ -40,7 +40,7 @@ Für einen deutschen Übertragungsnetzbetreiber habe ich einen cloud-nativen Ada
 
 Dazu habe ich:
 
-- Eine Cloud-native Datenintegrationssoftware auf Basis von Spring Boot entwickelt
+- Eine cloud-native Datenintegrationssoftware auf Basis von Spring Boot entwickelt
 - Die SFTP/MFT-Dateiübertragung des Bestandssystems über ein Claim-Check-Pattern an eine ereignisgesteuerte Pipeline angebunden
 - Mehrere XML-Dokumente in ein standardisiertes ENTSO-E-Format zur Veröffentlichung überführt
 - Eine Angular-Webapp zur Nachverfolgung veröffentlichter Meldungen implementiert

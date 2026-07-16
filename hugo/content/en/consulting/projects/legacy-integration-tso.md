@@ -8,7 +8,7 @@ layout: project
 weight: 40
 daterange: "May 2024 — January 2025"
 role: "Software Engineer"
-company: "Denis Malolepszy Software Engineering, Frankfurt am Main"
+company: "Denis Malolepszy Software Engineering, Frankfurt am Main, Germany"
 techstack:
   - "Java (v21)"
   - "Spring Boot"

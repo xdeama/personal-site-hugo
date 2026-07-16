@@ -1,6 +1,6 @@
 ---
 translationKey: project-cicd-private-cloud-migration
-title: "CI/CD für Private Cloud Migration modernisieren"
+title: "CI/CD für Private-Cloud-Migration modernisieren"
 description: "DevOps- und Java-Entwicklung für die Private-Cloud-Migration einer großen internationalen Bank: Migration eines CI/CD-Portals und seiner Spring Microservices zu Azure DevOps und OpenShift sowie Automatisierung komplexer VM-Deployments mit Ansible."
 date: 2022-03-01T08:00:00+01:00
 draft: false
@@ -45,7 +45,7 @@ technologies:
 business-areas:
   - "Finance"
 ---
-Java- und DevOps-Entwicklung für die Private Cloud Migration einer großen internationalen Bank. Schwerpunkte waren die Containerisierung bestehender Workloads, die Automatisierung von Deployment-Prozessen und die Begleitung von Migrationsprojekten durch interne Governance-Strukturen:
+Java- und DevOps-Entwicklung für die Private-Cloud-Migration einer großen internationalen Bank. Schwerpunkte waren die Containerisierung bestehender Workloads, die Automatisierung von Deployment-Prozessen und die Begleitung von Migrationsprojekten durch interne Governance-Strukturen:
 
 - Spring-Microservices von VM-Betrieb auf OpenShift-Container migriert, einschließlich abhängiger Datenbank- und Observability-Komponenten
 - Komplexe VM-Deployment-Mechanismen mit Ansible und Reactive Spring automatisiert (u.a. Batch-Deployments mit Abhängigkeitssteuerung und automatische Sidecars)

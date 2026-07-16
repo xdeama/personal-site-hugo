@@ -1,6 +1,6 @@
 ---
 translationKey: project-java-ee-reporting-systems
-title: "Reporting Systeme auf Java EE Basis"
+title: "Reportingsysteme auf Java-EE-Basis"
 description: "Für das gesetzliche Meldewesen habe ich mehrere Reportingsysteme auf Basis von Java EE, Oracle SQL, Camunda und Vaadin konzipiert und implementiert, teils nach fachlichen Vorgaben, teils durch Migration bestehender Anwendungen."
 date: 2015-03-01T08:00:00+01:00
 draft: false

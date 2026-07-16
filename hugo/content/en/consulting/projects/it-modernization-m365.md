@@ -1,6 +1,6 @@
 ---
 translationKey: project-it-modernization-m365
-title: "IT Modernization and Microsoft 365 Introduction"
+title: "IT Modernization and Microsoft 365 Rollout"
 description: "Hybrid cloud instead of end-of-life hardware: a complete digital workplace overhaul with Microsoft 365, Teams and SharePoint, VPN remote access, and softphones replacing the physical telephone system."
 date: 2018-10-01T08:00:00+01:00
 draft: false

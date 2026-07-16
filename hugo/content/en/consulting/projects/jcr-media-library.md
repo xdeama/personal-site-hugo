@@ -8,7 +8,7 @@ layout: project
 weight: 60
 daterange: "December 2023 — February 2024"
 role: "Software Engineer"
-company: "DenktMit eG, Oberursel"
+company: "DenktMit eG, Oberursel, Germany"
 techstack:
   - "Kotlin"
   - "Spring Boot"

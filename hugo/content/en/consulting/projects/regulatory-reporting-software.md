@@ -1,7 +1,7 @@
 ---
 translationKey: project-regulatory-reporting-software
 title: "Development and Operation of Regulatory Reporting Software"
-description: "As organizational and IT consultant, I carried architectural responsibility for a regulatory reporting landscape and supported new reporting applications from tender through conception to commissioning."
+description: "As an organizational and IT consultant, I carried architectural responsibility for a regulatory reporting landscape and supported new reporting applications from tender through conception to commissioning."
 date: 2017-07-01T08:00:00+01:00
 draft: false
 layout: project
