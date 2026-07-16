@@ -42,6 +42,7 @@ technologies:
   - "Keycloak"
   - "Ansible"
   - "Azure DevOps"
+  - "Helm"
 business-areas:
   - "Finance"
 ---

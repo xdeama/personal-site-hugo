@@ -34,6 +34,11 @@ technologies:
   - Kubernetes
   - PostgreSQL
   - Keycloak
+  - Java Operator SDK
+  - RabbitMQ
+  - Helm
+  - Prometheus
+  - Testcontainers
 business-areas:
   - Energy
 ---

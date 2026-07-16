@@ -33,6 +33,9 @@ technologies:
   - "Camunda"
   - "Vaadin"
   - "Jenkins"
+  - "Apache Camel"
+  - "Drools BRMS"
+  - "Liquibase"
 business-areas:
   - "Finance"
 ---

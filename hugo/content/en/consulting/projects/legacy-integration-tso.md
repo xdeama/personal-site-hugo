@@ -33,6 +33,7 @@ technologies:
   - "Kubernetes"
   - "Azure DevOps"
   - "Argo CD"
+  - "Helm"
 business-areas:
   - "Energy"
 ---

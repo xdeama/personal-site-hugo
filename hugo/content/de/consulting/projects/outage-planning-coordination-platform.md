@@ -38,6 +38,8 @@ technologies:
   - "Azure DevOps"
   - "Argo CD"
   - "Keycloak"
+  - "NgRx"
+  - "Helm"
 business-areas:
   - "Energy"
 ---
