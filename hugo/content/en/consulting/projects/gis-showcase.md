@@ -36,5 +36,4 @@ technologies:
 business-areas:
   - "Energy"
 ---
-Technology showcase to present the capabilities of cloud-native systems in the context of Geographic Information Systems for transmission system operators.
-In particular, I extended a deck.gl React app with interactive elements as well as its interfaces via REST, WebSocket, and Kafka.
+I stepped in to support the development of a technology showcase presenting cloud-native GIS capabilities for transmission system operators. I extended a deck.gl React application with interactive map elements and expanded its data interfaces via REST, WebSocket, and Kafka.

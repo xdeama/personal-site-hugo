@@ -15,6 +15,4 @@ techstack:
 business-areas:
   - "Commerce"
 ---
-Administration of Microsoft workstations, mail, and file servers for the Ulenspiegel bookstore in Fulda and Ravensburg. 
-An in-house implemented data backup on a batch basis with retention logic and error handling was surely not state of the art, 
-but it saved significant licensing costs.
+Administration of Microsoft workstations, mail, and file servers for the Ulenspiegel bookstore in Fulda and Ravensburg. A custom batch-based backup solution with retention logic and error handling replaced commercial backup software and measurably reduced the client's licensing costs.

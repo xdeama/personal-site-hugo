@@ -36,12 +36,12 @@ technologies:
 business-areas:
   - "Finance"
 ---
-As a permanent organizational and IT consultant, I was responsible for a range of projects and operational topics:
+As an organizational and IT consultant in a permanent position, I took on various roles across development, operations, and architecture:
 
 - Architectural responsibility for the further development of the system landscape
-- Project support for new reporting applications to meet legal requirements from tenders, through conception to commissioning
-- Migration from JBoss AS 7 server group with 45 servers to standalone Wildfly servers
+- End-to-end project support for new reporting applications to meet legal requirements, from conception to commissioning
+- Migration of a JBoss AS 7 server group with 45 servers to standalone Wildfly servers
 - Further development of build and deployment automation with Maven, Jenkins, Sonar, and Sonatype Nexus
 - Operation of build and deployment tools for deployments on 45 Java EE servers
-- Development of automated integration tests for reporting backend with Java EE, Maven, Jenkins, and Docker
-- Development of automated integration tests for reporting frontend with Robot Framework
+- Development of automated integration tests for the reporting backend (Java EE, Maven, Jenkins, Docker)
+- Development of automated integration tests for the reporting frontend with Robot Framework

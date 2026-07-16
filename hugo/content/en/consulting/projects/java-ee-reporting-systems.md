@@ -37,5 +37,4 @@ technologies:
 business-areas:
   - "Finance"
 ---
-I designed and implemented several reporting systems for legal regulatory reporting based on Java EE, Oracle SQL, Camunda, and Vaadin. 
-This was partly based on business requirements and partly through technical migration of existing applications.
+I designed and implemented several reporting systems for legal regulatory reporting based on Java EE, Oracle SQL, Camunda, and Vaadin, both from new business requirements and through technical migration of existing applications.

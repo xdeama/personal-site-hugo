@@ -41,32 +41,16 @@ technologies:
 business-areas:
   - "Energy"
 ---
-Ich habe die Solution-Architektur und Entwicklung eines Outage Planning
-Coordination (OPC) Systems für einen deutschen Übertragungsnetzbetreiber
-in der Startphase federführend mitgestaltet. Gemeinsam mit einem schnell
-wachsenden Projektteam habe ich, aufbauend auf der fachlichen Voranalyse
-von Bestandsanwendungen und den ENTSO-E-Vorgaben, die technische Architektur
-entworfen und in konkrete Umsetzungspakete strukturiert.
+Ich habe den Entwurf und die Entwicklung eines Outage Planning Coordination (OPC) Systems für einen deutschen Übertragungsnetzbetreiber federführend gestartet, dessen Go-live für Ende 2026 geplant ist. Von Projektstart an habe ich beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als
+Software Engineer hinaus:
 
-Geschaffen wurde ein vollständig neu entwickeltes, cloud-natives System
-basierend auf Open-Source-Technologien, um eine bewährte, aber
-dezentrale Systemlandschaft in einer zentralen Plattform zu
-konsolidieren. Dadurch wurden redundante Datenhaltungen und manuelle
-Medienbrüche zwischen zwei Altsystemen strukturiert aufgelöst.
+- die Anforderungsanalyse,
+- den Entwurf der Solution-Architektur,
+- die Konzeption der Datenschnittstellen
+- und das UI/UX Design verantwortet.
 
-Meine Arbeit umfasste hautpsächlich:
-* Entwurf der grundlegenden
-  Systemarchitektur sowie Konzeption der externen Datenschnittstellen
-  und Datenaustauschformate zur Erfüllung der europäischen
-  ENTSO-E-Vorgaben.
-* Entwurf eines Datenmodells, das fachliche Kontexte so vernetzt, dass deren
-  Relationen Transparenz schaffen und die effiziente Ermittlung problematischer
-  Datenkonstellationen ermöglichen.
-* Implementierung automatisierter
-  Datenschnittstellen und Prozessunterstützungen, die den
-  Planungsverantwortlichen mehr Kontext bieten und insbesondere die
-  Übergänge zwischen Rollen und Abteilungen erleichtern.
-* Mit dem wachsenden Projektteam
-  Übergabe der Konzeptionsressorts an dedizierte Projektmitarbeiter und
-  anschließende Fokussierung auf die komplexe Front- und
-  Backend-Entwicklung zur Umsetzung der entworfenen Architektur.
+Mit wachsendem Projektteam habe ich die jeweiligen Bereiche an dedizierte Projektmitarbeiter übergeben und mich auf die Backend-Entwicklung und DevOps fokussiert.
+
+Als Grundlage wurden mehrere Bestandsanwendungen analysiert sowie individuelle Anforderungen der Fachabteilungen und des Verbandes der Übertragungsnetzbetreiber ENTSO-E aufgenommen.
+
+Das entstandene Cloud-native System auf Basis von Open-Source-Technologien löst ein historisch gewachsenes Konglomerat aus vollständig manuellen Arbeitsschritten und Medienbrüchen ab. Es reduziert Planungsfehler, indem es unwahrscheinliche Kombinationen bei der Abschaltplanung hervorhebt. Durch die gemeinsam nutzbare Planungsplattform entfällt ein Großteil der bisherigen telefonischen und persönlichen Abstimmung, sodass die verbleibenden jährlichen Präsenzplanungssitzungen hocheffizient ablaufen können.

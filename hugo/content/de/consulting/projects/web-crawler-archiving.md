@@ -25,9 +25,8 @@ technologies:
 business-areas:
   - "Software Industry"
 ---
-Ich habe erfolgreich gemeinsam mit meinem [Team von DenktMit]({{< ref "/denktmit" >}}) ein Web-Crawler-basiertes 
-Archivsystem für die Migration des Intranet-Systems eines Schweizer Softwareherstellers entwickelt:
+Gemeinsam mit dem [DenktMit-Team]({{< ref "/denktmit" >}}) habe ich ein web-crawler-basiertes Archivsystem für die Intranet-Migration eines Schweizer Softwareherstellers entwickelt:
 
-- Implementierung eines Web-Crawlers in Kotlin und Selenium zum Extrahieren von Webseiten mit gerendertem JavaScript
-- Implementierung einer React Webapp als Einstiegs- und Suchportal
-- Setup und Tuning eines Suchindex mit Apache Solr
+- Entwicklung eines Web-Crawlers in Kotlin und Selenium zur Extraktion von Seiten mit gerendertem JavaScript
+- Implementierung einer React-Webapp als Such- und Einstiegsportal
+- Aufbau und Tuning eines Suchindex mit Apache Solr

@@ -28,10 +28,6 @@ technologies:
 business-areas:
   - "Marketing"
 ---
-Collaborated with the DenktMit team to replace a legacy, non-extensible web application for a 
-brand-building consultancy with a modern Kotlin-based system utilizing Server-Side Rendering.
+As part of a DenktMit project, an unmaintainable and non-extensible web application for a brand-building consultancy was replaced with a modern Kotlin-based system using Server-Side Rendering.
 
-I developed a modular media library to manage user uploads and provide assets as embeddable content for 
-the integrated web-text editor. 
-The implementation leveraged [Apache Jackrabbit](https://jackrabbit.apache.org/jcr/index.html) 
-to adhere to the [Content Repository API for Java (JCR)](https://en.wikipedia.org/wiki/Content_repository_API_for_Java) standard.
+I developed a modular media library to manage user-uploaded images and documents and provide them as embeddable content in the integrated web text editor. The implementation adheres to the [Content Repository API for Java (JCR)](https://en.wikipedia.org/wiki/Content_repository_API_for_Java) standard using [Apache Jackrabbit](https://jackrabbit.apache.org/jcr/index.html).

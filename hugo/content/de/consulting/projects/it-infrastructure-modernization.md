@@ -15,6 +15,4 @@ techstack:
 business-areas:
   - "Commerce"
 ---
-Administration von Microsoft Workstations, Mail- und Fileserver der Buchhaltung Ulenspiegel in Fulda und Ravensburg. 
-Eine eigen implementierte Datensicherung auf Batch Basis mit Aufbewahrungslogik und Fehlerbehandlung war nicht Stand
-der Technik, hat aber dem Kunden deutlich Lizenzkosten gespart.
+Administration von Microsoft-Workstations, Mail- und Fileservern der Buchhandlung Ulenspiegel in Fulda und Ravensburg. Eine selbst implementierte Batch-basierte Datensicherung mit Aufbewahrungslogik und Fehlerbehandlung ersetzte kostenpflichtige Backup-Software und reduzierte die Lizenzkosten des Kunden messbar.

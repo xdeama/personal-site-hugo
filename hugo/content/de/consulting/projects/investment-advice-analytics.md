@@ -37,11 +37,6 @@ technologies:
 business-areas:
   - "Finance"
 ---
-Das Investmentsteuerreformgesetz stellt Asset Manager vor die Herausforderung Details zu Dividendenausschüttungen der 
-Bestandteile aller ihrer Fonds über mehrere Monate voraus im Überblick zu haben, um gesetzeskonform arbeiten zu können.
+Das Investmentsteuerreformgesetz verpflichtet Asset Manager, Dividendenausschüttungen aller Fondsbestandteile mehrere Monate im Voraus zu überblicken. Hierzu wurden zahlreiche Datenquellen konsolidiert, täglich analytisch ausgewertet und als Dashboard zur gesetzeskonformen Transaktionsplanung bereitgestellt.
 
-Hierzu wurden zahlreiche Datenquellen zusammengeführt, täglich analytisch ausgewertet und damit dem Asset Management 
-als Dashboard zur Verfügung gestellt, welches die gesetzeskonforme Vorausplanung von Transaktionen erleichtert.
-
-Ich habe nach der halben Projektlaufzeit die Leitung eines fünfköpfigen Entwicklerteams in agiler 
-Projektorganisation übernommen, dabei die Rolle des Scrum Master, als auch die Architektur weiterentwickelt.
+Nach der halben Projektlaufzeit habe ich die Leitung eines fünfköpfigen Entwicklerteams in agiler Projektorganisation übernommen und dabei sowohl die Scrum-Master-Rolle als auch die Architekturverantwortung ausgeübt.

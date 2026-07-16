@@ -14,11 +14,12 @@ technologies:
 business-areas:
   - "Real Estate"
 ---
-Ich habe mit der Modernisierung von End-of-Life-Serverhardware und veralteten Microsoft
-Produkten die Habona Invest Group für das Zeitalter des hybriden Arbeitens neu aufgestellt
+Die IT-Infrastruktur der Habona Invest Group war historisch gewachsen, spärlich dokumentiert und wurde von einem externen Dienstleister verwaltet, dessen Anreiz eher in der Erweiterung bestehender Abhängigkeiten als in deren Abbau lag. Ich habe diese Systemlandschaft analysiert, bewertet und die Migration zu Microsoft Cloud Hybrid-Lösungen durchgeführt.
+
+Die zentrale architektonische Herausforderung bestand darin, produktive Systeme ohne Test- oder Staging-Umgebung zu migrieren: Die betroffenen Systeme (Active Directory, Exchange Server, File Server) existierten ausschließlich als produktive Einzelinstanz.
 
 ### **Projektschwerpunkte**
 
-- Einführung von Microsoft 365 inkl. Teams und Sharepoint
-- Anwenderschulung für neue Arbeitsmethoden mit Microsoft Teams und Sharepoint
-- Migration von On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid Lösungen
+- Einführung von Microsoft 365 inkl. Teams und SharePoint
+- Anwenderschulung für neue Arbeitsmethoden mit Microsoft Teams und SharePoint
+- Migration von On-Premises-Systemen wie Active Directory, Exchange Server und File Server zu Microsoft Cloud Hybrid-Lösungen

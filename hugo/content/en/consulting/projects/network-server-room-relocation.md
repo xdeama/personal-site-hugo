@@ -12,7 +12,7 @@ company: "Habona Invest GmbH, Frankfurt am Main, Germany"
 business-areas:
   - "Real Estate"
 ---
-As Head of IT, I was responsible for network technology, server systems, and workplace IT equipment during a site relocation.
+I planned and executed the full relocation of the company site, including network infrastructure, server systems, and workplace IT equipment.
 
 ### **Project Highlights**
 - Planning of network technology and supervision of construction measures

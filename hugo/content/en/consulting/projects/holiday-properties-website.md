@@ -1,7 +1,7 @@
 ---
 translationKey: project-holiday-properties-website
 title: "Website for the Sale of Holiday Properties"
-description: "Holiday properties needed a sales channel: I led and partly implemented a Contao CMS website with automated purchase contract documents and an interactive map of the resort area."
+description: "Holiday properties needed a sales channel: I led the implementation of a Contao CMS website with automated purchase contract documents and an interactive map of the development area."
 date: 2018-10-01T08:00:00+01:00
 draft: false
 layout: project
@@ -16,7 +16,7 @@ technologies:
 business-areas:
   - "Real Estate"
 ---
-Development of a website for the sale of holiday properties, including automated contract document creation and an interactive map of the area.
+I led the implementation of a website for the sale of holiday properties, including automated generation of contract documents and an interactive map of the development area.
 
 ### **Project Highlights**
 - Implementation with PHP, TypeScript, CSS, and Contao CMS

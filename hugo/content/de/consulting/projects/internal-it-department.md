@@ -12,8 +12,7 @@ company: "Habona Invest GmbH, Frankfurt am Main"
 business-areas:
   - "Real Estate"
 ---
-Ich habe eine hinsichtlich Personal fast vollständig an Dienstleister ausgelagerte IT-Abteilung übernommen und ein 
-internes Team für das HelpDesk, Applikationsbetrieb und Webentwicklung aufgebaut.
+Ich habe eine nahezu vollständig an externe Dienstleister ausgelagerte IT-Abteilung übernommen und ein internes Team für HelpDesk, Applikationsbetrieb und Webentwicklung aufgebaut.
 
 ### **Projektschwerpunkte**
 

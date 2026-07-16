@@ -1,7 +1,7 @@
 ---
 translationKey: project-wams
 title: Real-time Wide Area Monitoring System (WAMS)
-description: "Für eine strategische Initiative zweier europäischer Übertragungsnetzbetreiber entwickle ich eine Plattform für Echtzeit-Netzüberwachung weiter, die hochauflösende Messdaten in eine modulare Leitsystem-Architektur integriert."
+description: "Für eine technische Studie bei einem europäischen Übertragungsnetzbetreiber habe ich einen eigenen Phasor Data Concentrator (PDC) entwickelt, der den vollständigen Datenpfad von PMUs bis zum LFR IEEE C37.118-konform nachwies."
 date: 2025-12-01T08:00:00+01:00
 draft: false
 layout: project
@@ -37,11 +37,10 @@ technologies:
 business-areas:
   - Energy
 ---
-Im Rahmen einer strategischen Initiative zweier europäischer Übertragungsnetzbetreiber arbeite ich an der Weiterentwicklung einer Plattform zur Verbesserung der Echtzeit-Netzüberwachung und operativen Entscheidungsfindung.
-Der Fokus liegt auf der Integration hochauflösender Messdaten in eine modulare Leitsystem-Architektur zur Analyse komplexer Netzphänomene.
+Im Rahmen einer technischen Studie bei einem europäischen Übertragungsnetzbetreiber habe ich einen eigenen Phasor Data Concentrator (PDC) entwickelt, der den vollständigen Datenpfad von PMUs bis zum LFR nachwies. Die Studie belegte, dass hochauflösende Synchrophasordaten IEEE C37.118-konform erfasst, über eine eigene PDC-Implementierung konzentriert und in eine modulare Leitsystem-Architektur integriert werden können.
 
-Tätigkeitsschwerpunkte:
+**Tätigkeitsschwerpunkte:**
 
-* Entwicklung eines software-basierten Phasor Data Concentrator (PDC) als zentrales Gateway zur Verarbeitung von PMU-Phasor-Messdaten gemäß IEEE C37.118 Standard.
-* Konzeption und Implementierung der Datenstrecke mittels Apache Druid zur performanten Langzeitspeicherung (Historian) und Aggregation hochfrequenter Messwerte.
-* Realisierung spezialisierter Grafana-Dashboards auf Basis der Druid-Datenquellen zur Echtzeit-Visualisierung von Netzdaten und historischen Analysen.
+* **PDC Gateway:** Eigenentwicklung eines software-basierten Phasor Data Concentrators (PDC) als zentrales Gateway zur Verarbeitung von PMU-Phasor-Messdaten gemäß IEEE C37.118 Standard.
+* **High-Performance Ingestion:** Konzeption und Implementierung der Datenstrecke mittels Apache Druid zur performanten Langzeitspeicherung (Historian) und Aggregation hochfrequenter Messwerte.
+* **Visualisierung:** Realisierung spezialisierter Grafana-Dashboards auf Basis der Druid-Datenquellen zur Echtzeit-Visualisierung von Netzdaten und historischen Analysen.

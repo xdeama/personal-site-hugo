@@ -36,15 +36,12 @@ technologies:
 business-areas:
   - "Energy"
 ---
-Ein neu entwickelter automatisierter Adapter zwischen einer Bestandssoftware und einer Veröffentlichungsplattform des Verbandes
-der Übertragungsnetzbetreiber (ENTSO-E) reduziert die manuellen Arbeitsschritte im Kontext der Veröffentlichung 
-von Outage Planning Coordination (OPC) Informationen auf ein Minimum.
+Für einen deutschen Übertragungsnetzbetreiber habe ich einen cloud-nativen Adapter zwischen einer Bestandssoftware und der Veröffentlichungsplattform des Verbandes der Übertragungsnetzbetreiber ENTSO-E entwickelt. Der Adapter automatisiert die Veröffentlichung von Outage Planning Coordination (OPC) Informationen, die zuvor manuell übertragen wurden.
 
 Dazu habe ich:
 
-- Eine Cloud-native Datenintegrationssoftware auf Spring Boot Basis entwickelt
-- Diese per Event-Streaming-Plattform Kafka mit dem Bestandssystem integriert
-- Mehrere XML-Dokumente in ein standardisiertes Format überführt
-- Welches zur Veröffentlichung an eine Verbandsplattform übermittelt wird
-- Und in einer Angular Webapp zur Nachverfolgung aufgeschlüsselt wird
-- Oder per Webhook Fehlermeldungen an Kollaborationssysteme (MS Teams) übergibt
+- Eine Cloud-native Datenintegrationssoftware auf Basis von Spring Boot entwickelt
+- Die SFTP/MFT-Dateiübertragung des Bestandssystems über ein Claim-Check-Pattern an eine ereignisgesteuerte Pipeline angebunden
+- Mehrere XML-Dokumente in ein standardisiertes ENTSO-E-Format zur Veröffentlichung überführt
+- Eine Angular-Webapp zur Nachverfolgung veröffentlichter Meldungen implementiert
+- Und Fehlermeldungen per Webhook an ein Kollaborationssystem (MS Teams) übergeben

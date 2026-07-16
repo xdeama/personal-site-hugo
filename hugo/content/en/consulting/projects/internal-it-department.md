@@ -12,7 +12,7 @@ company: "Habona Invest GmbH, Frankfurt am Main, Germany"
 business-areas:
   - "Real Estate"
 ---
-As Head of IT, I took over an IT department that was completely outsourced to service providers and built an internal team for HelpDesk, application operations, and web development.
+I took over an IT department that was almost entirely outsourced to external service providers and built an internal team for HelpDesk, application operations, and web development.
 
 ### **Project Highlights**
 - Determining corporate needs and developing an IT strategy

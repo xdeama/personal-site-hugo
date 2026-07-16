@@ -19,5 +19,4 @@ technologies:
 business-areas:
   - "Commerce"
 ---
-Modernization of a Joomla website focusing on user-friendliness for the staff of a bookstore. 
-Involved the design and implementation of the website for the Ulenspiegel bookstore in Fulda and Ravensburg.
+Modernization of a Joomla website focusing on usability for shop staff. Covered design and implementation of the website for the Ulenspiegel bookstore in Fulda and Ravensburg.

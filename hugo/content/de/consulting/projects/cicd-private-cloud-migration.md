@@ -45,11 +45,9 @@ technologies:
 business-areas:
   - "Finance"
 ---
-DevOps und Java Entwicklungen für die Private Cloud Migration einer großen internationalen Bank:
+Java- und DevOps-Entwicklung für die Private Cloud Migration einer großen internationalen Bank. Schwerpunkte waren die Containerisierung bestehender Workloads, die Automatisierung von Deployment-Prozessen und die Begleitung von Migrationsprojekten durch interne Governance-Strukturen:
 
-- Azure DevOps Migration eines CI/CD-Portals für Container, VM und Datenbank Deployments
-- Spring Microservices von VMs zu Containern und abhängige Systeme wie Datenbanken und Observability zu OpenShift migrieren
-- Automatisierung von komplexen Deployment-Mechanismen für VMs mit Ansible und Reactive Spring (z.B. Batch Deployments mit abhängigen Komponenten, und automatische Sidecars)
-- Erprobung von Architektur- und IT-Risk-Governance-Prozesse zur Private Cloud Migration
-- Analyse, Containerisierung und Portierung einer bestehenden Datenbank-Anonymisierungslösung
-- Migration von Jenkins Deployment Pipelines zu Azure DevOps
+- Spring-Microservices von VM-Betrieb auf OpenShift-Container migriert, einschließlich abhängiger Datenbank- und Observability-Komponenten
+- Komplexe VM-Deployment-Mechanismen mit Ansible und Reactive Spring automatisiert (u.a. Batch-Deployments mit Abhängigkeitssteuerung und automatische Sidecars)
+- Erste Migrationsprojekte durch interne Architektur- und IT-Risk-Governance-Prozesse geführt
+- Bestehende Datenbank-Anonymisierungslösung analysiert, containerisiert und portiert

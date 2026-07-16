@@ -28,10 +28,6 @@ technologies:
 business-areas:
   - "Marketing"
 ---
-In Zusammenarbeit mit dem DenktMit-Team wurde eine schwer wartbare und nicht erweiterbare Web-Anwendung für 
-eine Brand-Building-Beratung durch ein Kotlin-basiertes System ersetzt, welches Server-Side Rendering nutzt.
+Im Rahmen eines DenktMit-Projekts wurde eine nicht mehr wartbare und nicht erweiterbare Web-Anwendung einer Brand-Building-Beratung durch ein Kotlin-basiertes System mit Server-Side Rendering ersetzt.
 
-Um von Anwendern hochgeladene Bilder und Dokumente zu verwalten und im integrierten Web-Texteditor als einfügbaren Inhalt anzubieten,
-entwickelte ich eine modulare Media Library,
-die den [JCR-Standard](https://en.wikipedia.org/wiki/Content_repository_API_for_Java)
-mit [Apache Jackrabbit](https://jackrabbit.apache.org/jcr/index.html) implementiert.
+Ich habe eine modulare Media Library entwickelt, die von Anwendern hochgeladene Bilder und Dokumente verwaltet und als einfügbaren Inhalt im integrierten Web-Texteditor bereitstellt. Die Implementierung folgt dem [JCR-Standard](https://en.wikipedia.org/wiki/Content_repository_API_for_Java) auf Basis von [Apache Jackrabbit](https://jackrabbit.apache.org/jcr/index.html).

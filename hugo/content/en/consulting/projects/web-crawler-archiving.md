@@ -25,8 +25,8 @@ technologies:
 business-areas:
   - "Software Industry"
 ---
-In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web crawler-based archiving system for a Swiss software manufacturer to facilitate the migration of an intranet system:
+In collaboration with [DenktMit]({{< ref "/denktmit" >}}), I developed a web crawler-based archiving system to support the intranet migration of a Swiss software manufacturer:
 
-- Developed a web crawler in Kotlin and Selenium for extracting web pages with rendered JavaScript
-- Implemented a React web app to serve as an entry and search portal
+- Developed a web crawler in Kotlin and Selenium for extracting pages with rendered JavaScript
+- Implemented a React web app as a search and entry portal
 - Set up and optimized a search index using Apache Solr

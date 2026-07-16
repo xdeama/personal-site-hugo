@@ -31,10 +31,9 @@ technologies:
 business-areas:
   - "Energy"
 ---
-Evaluation of a software product at source code level in the area of automatic Frequency Restoration Reserve (aFRR) 
-for a transmission system operator:
+I evaluated a third-party software product at source code level in the area of automatic Frequency Restoration Reserve (aFRR) on behalf of a German transmission system operator:
 
 - Quality analysis at source code level
 - Showcase operation for technical evaluation
-- Verification of specification and function
-- Estimation of efforts for integration  into the client's existing system landscape
+- Verification of specification against actual function
+- Estimation of integration effort into the client's existing system landscape

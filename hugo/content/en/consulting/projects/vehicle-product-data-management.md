@@ -19,9 +19,6 @@ technologies:
 business-areas:
   - "Automotive"
 ---
-As a working student, I initiated a project to enable product data management in vehicle development in the in-house 
-inventory software jEDWIN. So far product data was managed and exchanged with customers and suppliers in spreadsheets. 
-However, since product data represents a graph rather than a tree structure, this approach had significant difficulties 
-with data duplication.
+As a working student, I initiated a project to enable product data management in vehicle development within the in-house inventory software jEDWIN. The existing approach of managing and exchanging product data in spreadsheets caused significant data inconsistencies, since product data represents a graph rather than a tree structure.
 
-I developed a concept and a prototype, tested it with a vehicle development team, and dedicated my bachelor's thesis to the topic.
+I developed a concept and a prototype, validated it with a vehicle development team, and dedicated my bachelor's thesis to the subject.

@@ -36,15 +36,12 @@ technologies:
 business-areas:
   - "Energy"
 ---
-A newly developed automated adapter between legacy software and a publication platform of the association of 
-transmission system operators (ENTSO-E) minimizes manual work steps in the context of publishing information to the 
-Outage Planning Coordination (OPC) platform.
+For a German transmission system operator, I developed a cloud-native adapter between legacy software and the publication platform of the association of transmission system operators (ENTSO-E). The adapter automates the publication of Outage Planning Coordination (OPC) information that was previously transferred manually.
 
 For this purpose, I:
 
 - Developed cloud-native data integration software based on Spring Boot,
-- Integrated it with the legacy system via a Kafka event streaming platform,
-- Transformed multiple XML documents into a standardized format,
-- Which is transmitted to an association platform for publication,
-- And broken down in an Angular web app for tracking,
-- Or passes error messages to collaboration systems (MS Teams) via webhook.
+- Bridged the legacy system's SFTP/MFT file transfer to an event-driven pipeline using a claim-check pattern,
+- Transformed multiple XML documents into a standardized ENTSO-E format for publication,
+- Implemented an Angular web app for tracking published notifications,
+- And connected error notifications to MS Teams via webhook.

@@ -19,10 +19,6 @@ technologies:
 business-areas:
   - "Automotive"
 ---
-Als Werksstudent habe ich ein Projekt gestartet, um das Produktdatenmanagement in der Fahrzeugentwicklung in der 
-hauseigenen Inventarisierungssoftware jEDWIN zu ermöglichen. Bisher wurden Produktdaten in Tabellenkalkulationsprogrammen 
-verwaltet und mit Kunden und Zulieferern ausgetauscht. Da Produktdaten jedoch keine Baumstruktur, sondern einen 
-Graphen darstellen, hatte dieser Ansatz erhebliche Schwierigkeiten mit der Duplikation von Daten.
+Als Werkstudent habe ich ein Projekt initiiert, um Produktdatenmanagement in der Fahrzeugentwicklung in der hauseigenen Inventarisierungssoftware jEDWIN abzubilden. Der bisherige Ansatz, Produktdaten in Tabellenkalkulationsprogrammen zu verwalten und mit Kunden sowie Zulieferern auszutauschen, führte zu erheblichen Dateninkonsistenzen, da Produktdaten einen Graphen und keine Baumstruktur darstellen.
 
-Ich habe ein Konzept und einen Prototypen entwickelt, mit einem Fahrzeugentwicklungsteam erprobt und 
-meine Bachelor Thesis dem Thema gewidmet.
+Ich habe ein Konzept und einen Prototypen entwickelt, ihn mit einem Fahrzeugentwicklungsteam erprobt und die Ergebnisse als Bachelor-Thesis dokumentiert.

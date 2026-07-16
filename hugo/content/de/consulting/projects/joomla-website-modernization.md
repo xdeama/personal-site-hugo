@@ -19,5 +19,4 @@ technologies:
 business-areas:
   - "Commerce"
 ---
-Modernisierung einer Joomla Webseite mit Schwerpunkt auf der Anwenderfreundlichkeit für das Ladenpersonal eines 
-Antiquariates. Umfasste die Gestaltung und Implementierung der Webseite der Buchhaltung Ulenspiegel in Fulda und Ravensburg.
+Modernisierung einer Joomla-Webseite mit Schwerpunkt auf der Benutzerfreundlichkeit für das Ladenpersonal eines Antiquariates. Umfasste Gestaltung und Implementierung des Webauftritts der Buchhandlung Ulenspiegel in Fulda und Ravensburg.

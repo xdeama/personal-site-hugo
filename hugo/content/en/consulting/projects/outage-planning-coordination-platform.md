@@ -41,27 +41,15 @@ technologies:
 business-areas:
   - "Energy"
 ---
-During the initial phase, I played a leading role in shaping the solution
-architecture and development of an Outage Planning Coordination (OPC) system
-for a German transmission system operator. Together with a rapidly growing
-project team, and building upon the business analysis of legacy applications
-and ENTSO-E guidelines, I designed the technical architecture and structured
-it into concrete implementation packages for the development team.
+I spearheaded the design and development of an Outage Planning Coordination (OPC) system for a German transmission system operator, scheduled for go-live at the end of 2026. From the start of the project, I helped build an agile project team and, beyond my role as Software Engineer, assumed responsibility for:
 
-A completely newly developed, cloud-native system based on open-source
-technologies was created to consolidate a proven but decentralized system
-landscape into a central platform. This systematically resolved redundant
-data storage and manual media breaks between two legacy systems.
+- Requirements analysis,
+- Solution architecture design,
+- Conception of data interfaces,
+- And UI/UX design.
 
-My work was focused on:
-* Designed the foundational system architecture and external data interfaces,
-  establishing data exchange formats to fulfill European ENTSO-E requirements.
-* Designed a data model that interconnects domain contexts, establishing
-  transparent relationships that enable the efficient identification of
-  problematic data constellations.
-* Implemented automated data interfaces and process support that provide
-  planning supervisors with more context and facilitate transitions between
-  roles and departments.
-* Transitioned conceptual responsibilities to dedicated team members as the
-  project scaled, focusing my efforts on the complex front-end and back-end
-  development to implement the designed architecture.
+As the project team grew, I handed over these respective areas to dedicated project members and focused on back-end development and DevOps.
+
+As a foundation, several existing applications were analyzed and individual requirements from specialist departments and the association of transmission system operators (ENTSO-E) were gathered.
+
+The resulting cloud-native system based on open-source technologies replaces a historically grown conglomerate of entirely manual data transfers and media breaks. It reduces planning errors by highlighting improbable outage combinations. By providing all stakeholders with shared planning context on a single platform, the system eliminates the majority of phone and in-person coordination, making the remaining annual in-person planning meetings highly efficient.

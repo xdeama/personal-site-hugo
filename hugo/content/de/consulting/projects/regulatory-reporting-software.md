@@ -36,12 +36,12 @@ technologies:
 business-areas:
   - "Finance"
 ---
-Als festangestellter Organisations- und IT-Berater habe ich für eine Reihe von Projekten verschiedene Rollen eingenommen:
+Als Organisations- und IT-Berater habe ich in einer Festanstellung verschiedene Rollen in Entwicklung, Betrieb und Architektur übernommen:
 
 - Architekturverantwortung für die Weiterentwicklung der Systemlandschaft
-- Projektbetreuung für neue Reporting-Anwendungen zur Erfüllung gesetzlicher Auflagen von Ausschreibungen, über Konzeption bis Inbetriebnahme
-- Migration von JBoss AS 7 Server Group mit 45 Servern auf Standalone Wildfly Server
-- Weiterentwicklung der Build- und Deployment-Automatisierung mit Maven, Jenkins, Sonar, und Sonatype Nexus
-- Betrieb der Build- und Deployment Tools für Deployments auf 45 Java EE Server
-- Entwicklung automatisierter Integrationstests für Reporting Backend mit Java EE, Maven, Jenkins und Docker
-- Entwicklung automatisierter Integrationstests für Reporting Frontend mit Robot Framework
+- Begleitung neuer Reporting-Anwendungen zur Erfüllung gesetzlicher Auflagen von der Konzeption bis zur Inbetriebnahme
+- Migration einer JBoss AS 7 Server Group mit 45 Servern auf Standalone-Wildfly-Server
+- Weiterentwicklung der Build- und Deployment-Automatisierung mit Maven, Jenkins, Sonar und Sonatype Nexus
+- Betrieb der Build- und Deployment-Tools für Deployments auf 45 Java EE Servern
+- Entwicklung automatisierter Integrationstests für das Reporting Backend (Java EE, Maven, Jenkins, Docker)
+- Entwicklung automatisierter Integrationstests für das Reporting Frontend mit Robot Framework

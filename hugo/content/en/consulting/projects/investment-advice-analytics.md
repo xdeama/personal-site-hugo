@@ -37,7 +37,6 @@ technologies:
 business-areas:
   - "Finance"
 ---
-The Investment Tax Reform Act presents asset managers with the challenge of having details of dividend distributions of all components of their funds several months in advance in order to comply with the law.
+The Investment Tax Reform Act requires asset managers to have visibility into dividend distributions of all fund components several months in advance. To meet this requirement, numerous data sources were consolidated, analyzed daily, and provided as a dashboard to facilitate legally compliant transaction planning.
 
-For this purpose, numerous data sources were merged, analyzed daily, and presented as a dashboard to asset management, facilitating the legally compliant planning of transactions.
-Halfway through the project, I took over the leadership of a five-member development team in an agile project organization, assuming the role of *Scrum Master* and further developing the architecture.
+Halfway through the project, I took over the leadership of a five-member development team in an agile project organization, assuming both the Scrum Master role and architectural responsibility.

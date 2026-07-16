@@ -31,10 +31,9 @@ technologies:
 business-areas:
   - "Energy"
 ---
-Ich habe ein Softwareprodukt auf Quellcode-Ebene für den Bereich automatic Frequency Restoration Reserve (aFRR)
-bei einem Übertragungsnetzbetreiber evaluiert. Meine Aufgaben umfassten:
+Ich habe ein Drittanbieter-Softwareprodukt für den Bereich Automatic Frequency Restoration Reserve (aFRR) im Auftrag eines deutschen Übertragungsnetzbetreibers auf Quellcode-Ebene evaluiert. Grundlage der Evaluation waren:
 
 - Qualitätsanalyse auf Quellcode-Ebene
-- Showcase-Betrieb für fachliche Evaluation
-- Verifizierung von Spezifikation und Funktion
-- Schätzung von Aufwänden zur Integration in die bestehende Systemlandschaft des Auftraggebers
+- Showcase-Betrieb für die fachliche Evaluation
+- Abgleich von Spezifikation und tatsächlicher Funktion
+- Aufwandsschätzung für die Integration in die bestehende Systemlandschaft des Auftraggebers

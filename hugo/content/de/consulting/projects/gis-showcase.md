@@ -36,9 +36,4 @@ technologies:
 business-areas:
   - "Energy"
 ---
-Ich habe eine in Verzug geratene Entwicklung eines Technologieträger-Showcase 
-zur Präsentation der Fähigkeiten von Cloud-nativen Systemen im Kontext Geografischer Informationssysteme für 
-Übertragungsnetzbetreiber kurzfristig unterstützt.
-
-Im Schwerpunkt habe ich eine deck.gl React App um interaktive Elemente erweitert, als auch deren
-Schnittstellen über REST, WebSocket und Kafka.
+Ich habe kurzfristig die Entwicklung eines Technologie-Showcases zur Darstellung cloud-nativer GIS-Fähigkeiten für Übertragungsnetzbetreiber unterstützt und eine deck.gl React-Applikation um interaktive Kartenelemente erweitert sowie deren Datenschnittstellen über REST, WebSocket und Kafka ausgebaut.

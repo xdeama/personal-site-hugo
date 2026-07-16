@@ -37,6 +37,4 @@ technologies:
 business-areas:
   - "Finance"
 ---
-Ich habe für das gesetzliche Meldewesen mehrere Reportingsysteme auf Basis von Java EE, Oracle SQL, Camunda und Vaadin 
-konzipiert und implementiert. Dies geschah zum Teil auf Basis von fachlichen Vorgaben, teilweise durch technische 
-Migration von bestehenden Anwendungen.
+Ich habe für das gesetzliche Meldewesen mehrere Reporting-Systeme auf Basis von Java EE, Oracle SQL, Camunda und Vaadin konzipiert und implementiert, sowohl auf Grundlage fachlicher Vorgaben als auch durch technische Migration bestehender Anwendungen.
