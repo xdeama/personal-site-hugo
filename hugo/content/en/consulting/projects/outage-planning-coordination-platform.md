@@ -41,7 +41,7 @@ technologies:
 business-areas:
   - "Energy"
 ---
-I spearheaded the design and development of an Outage Planning Coordination (OPC) system for a German transmission system operator, scheduled for go-live at the end of 2026. From the start of the project, I helped build an agile project team and, beyond my role as Software Engineer, assumed responsibility for:
+I spearheaded the design and development of an Outage Planning Coordination (OPC) system for a German transmission system operator. From the start of the project, I helped build an agile project team and, beyond my role as Software Engineer, assumed responsibility for:
 
 - Requirements analysis,
 - Solution architecture design,
@@ -52,4 +52,4 @@ As the project team grew, I handed over these respective areas to dedicated proj
 
 As a foundation, several existing applications were analyzed and individual requirements from specialist departments and the association of transmission system operators (ENTSO-E) were gathered.
 
-The resulting cloud-native system based on open-source technologies replaces a historically grown conglomerate of entirely manual data transfers and media breaks. It reduces planning errors by highlighting improbable outage combinations. By providing all stakeholders with shared planning context on a single platform, the system eliminates the majority of phone and in-person coordination, making the remaining annual in-person planning meetings highly efficient.
+The resulting cloud-native system based on open-source technologies brings previously separate, manual data transfers together on a single platform. It helps prevent planning errors by highlighting improbable outage combinations. By providing all stakeholders with shared planning context on a single platform, the system eliminates the majority of phone and in-person coordination, making the remaining annual in-person planning meetings highly efficient.

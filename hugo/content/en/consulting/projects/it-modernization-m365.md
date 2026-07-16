@@ -14,7 +14,7 @@ technologies:
 business-areas:
   - "Real Estate"
 ---
-To position the Habona Invest Group for hybrid work, I modernized end-of-life server hardware and an outdated Microsoft product landscape with a hybrid cloud approach. Building on an analysis and assessment of the existing system landscape, I planned and executed a complete digital workplace overhaul.
+To position the Habona Invest Group for hybrid work, I modernized end-of-life server hardware and moved the Microsoft product landscape to a hybrid cloud approach. Building on an analysis and assessment of the existing system landscape, I planned and executed a complete digital workplace overhaul.
 
 ### **Project Highlights**
 - Introduction of Microsoft 365 including Teams and SharePoint

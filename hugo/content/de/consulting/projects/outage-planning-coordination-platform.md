@@ -41,7 +41,7 @@ technologies:
 business-areas:
   - "Energy"
 ---
-Ich habe den Entwurf und die Entwicklung eines Outage Planning Coordination (OPC) Systems für einen deutschen Übertragungsnetzbetreiber federführend gestartet, dessen Go-live für Ende 2026 geplant ist. Von Projektstart an habe ich beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als
+Ich habe den Entwurf und die Entwicklung eines Outage Planning Coordination (OPC) Systems für einen deutschen Übertragungsnetzbetreiber federführend gestartet. Von Projektstart an habe ich beim Aufbau eines agilen Projektteams mitgewirkt und über meine Rolle als
 Software Engineer hinaus:
 
 - die Anforderungsanalyse,
@@ -53,4 +53,4 @@ Mit wachsendem Projektteam habe ich die jeweiligen Bereiche an dedizierte Projek
 
 Als Grundlage wurden mehrere Bestandsanwendungen analysiert sowie individuelle Anforderungen der Fachabteilungen und des Verbandes der Übertragungsnetzbetreiber ENTSO-E aufgenommen.
 
-Das entstandene cloud-native System auf Basis von Open-Source-Technologien löst ein historisch gewachsenes Konglomerat aus vollständig manuellen Arbeitsschritten und Medienbrüchen ab. Es reduziert Planungsfehler, indem es unwahrscheinliche Kombinationen bei der Abschaltplanung hervorhebt. Durch die gemeinsam nutzbare Planungsplattform entfällt ein Großteil der bisherigen telefonischen und persönlichen Abstimmung, sodass die verbleibenden jährlichen Präsenzplanungssitzungen hocheffizient ablaufen können.
+Das entstandene cloud-native System auf Basis von Open-Source-Technologien führt bisher getrennte, manuelle Datenübertragungen auf einer gemeinsamen Plattform zusammen. Es beugt Planungsfehlern vor, indem es unwahrscheinliche Kombinationen bei der Abschaltplanung hervorhebt. Durch die gemeinsam nutzbare Planungsplattform entfällt ein Großteil der bisherigen telefonischen und persönlichen Abstimmung, sodass die verbleibenden jährlichen Präsenzplanungssitzungen hocheffizient ablaufen können.
