@@ -188,6 +188,15 @@ Consistent block padding for page sections
     position: relative;
 }
 
+/* Phones: the clamped gutter costs too much of the viewport width;
+   tighten it below the first column breakpoint. */
+@media (max-width: 449px) {
+    .wrapper {
+        padding-left: var(--space-xs);
+        padding-right: var(--space-xs);
+    }
+}
+
 .frame {
     aspect-ratio: var(--n) / var(--d);
     overflow: hidden;

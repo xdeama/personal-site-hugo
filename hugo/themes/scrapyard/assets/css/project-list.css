@@ -46,8 +46,27 @@
     color: var(--color-mid);
 }
 
+/* The prose list indent (.prose :is(ol, ul) padding-inline-start)
+   must not apply to the panel container itself: it shifted every
+   panel to the right of the text edge. */
+.prose .project-list {
+    padding-inline-start: 0;
+}
+
 .prose .project-list > li + li {
     margin-top: var(--space-m);
+}
+
+/* On phones the panels use more of the device width and the block
+   under the meta lines sits closer to them. */
+@media (max-width: 714px) {
+    .prose .project-list > li {
+        padding: var(--space-2xs) var(--space-xs);
+    }
+
+    .project-list .entry-summary {
+        margin-top: var(--space-3xs);
+    }
 }
 
 /* Entry titles are real h2 elements: they inherit the theme's '##'
