@@ -37,7 +37,7 @@ technologies:
 business-areas:
   - Energy
 ---
-Im Rahmen einer technischen Studie bei einem europäischen Übertragungsnetzbetreiber habe ich einen cloud-nativen Phasor Data Concentrator (PDC) entwickelt, der den vollständigen Datenpfad von PMUs bis zum LFR nachwies. Die Studie belegte, dass hochauflösende Synchrophasordaten IEEE C37.118-konform erfasst, über die cloud-native PDC-Implementierung konzentriert und in eine modulare Leitsystem-Architektur integriert werden können.
+Im Rahmen einer technischen Studie bei einem europäischen Übertragungsnetzbetreiber habe ich einen cloud-nativen Phasor Data Concentrator (PDC) entwickelt und damit den vollständigen Datenpfad von PMUs bis zum LFR umgesetzt. Die Studie zeigte, dass hochauflösende Synchrophasordaten IEEE C37.118-konform erfasst, über die cloud-native PDC-Implementierung konzentriert und in eine modulare Leitsystem-Architektur integriert werden können.
 
 **Tätigkeitsschwerpunkte:**
 
