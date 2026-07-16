@@ -1,7 +1,7 @@
 ---
 translationKey: project-wams
 title: Real-time Wide Area Monitoring System (WAMS)
-description: "For a technical study at a European transmission system operator, I developed a custom Phasor Data Concentrator (PDC) that demonstrated the complete data path from PMUs to LFR in compliance with IEEE C37.118."
+description: "For a technical study at a European transmission system operator, I developed a cloud-native Phasor Data Concentrator (PDC) that demonstrated the complete data path from PMUs to LFR in compliance with IEEE C37.118."
 date: 2025-12-01T08:00:00+01:00
 draft: false
 layout: project
@@ -37,7 +37,7 @@ technologies:
 business-areas:
   - Energy
 ---
-As part of a technical study at a European transmission system operator, I developed a custom Phasor Data Concentrator (PDC) that demonstrated the complete data path from PMUs to LFR. The study validated that high-resolution synchrophasor data can be captured in compliance with IEEE C37.118, concentrated through a custom PDC implementation, and integrated into a modular control center architecture.
+As part of a technical study at a European transmission system operator, I developed a cloud-native Phasor Data Concentrator (PDC) that demonstrated the complete data path from PMUs to LFR. The study validated that high-resolution synchrophasor data can be captured in compliance with IEEE C37.118, concentrated through the cloud-native PDC implementation, and integrated into a modular control center architecture.
 
 **Key Activities:**
 
