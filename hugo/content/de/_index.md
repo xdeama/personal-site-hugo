@@ -15,7 +15,7 @@ draft: false
 Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von 
 [DenktMit]({{< ref "/denktmit" >}}), dem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
-{{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" width="554" height="485" >}}
+{{< static-img src="denis.png" class="profile-img frame hidden-on-desktop" alt="Denis" width="554" height="485" fetchpriority="high" >}}
 
 Die Konzeption und Entwicklung [anspruchsvoller Softwarelösungen]({{< ref "/consulting/projects" >}}) 
 für die Sektoren Finanzen und Energie ist mein Handwerk.
@@ -26,7 +26,7 @@ für die Sektoren Finanzen und Energie ist mein Handwerk.
 
 {{< column-short-hide-on-mobile >}}
 
-{{< static-img src="denis.png" class="profile-img frame" alt="Denis" width="554" height="485" >}}
+{{< static-img src="denis.png" class="profile-img frame" alt="Denis" width="554" height="485" fetchpriority="high" >}}
 
 {{< column-end >}}
 

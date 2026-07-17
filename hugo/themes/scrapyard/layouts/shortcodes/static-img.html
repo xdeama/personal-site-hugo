@@ -1,1 +1,8 @@
-<img class="{{ .Get "class" }}" src="{{ (print "/images/" (.Get "src")) | relURL }}" alt="{{ .Get "alt" }}"{{ with .Get "width" }} width="{{ . }}"{{ end }}{{ with .Get "height" }} height="{{ . }}"{{ end }} style="{{ .Get "style" }}">
+{{- $img := resources.Get (print "images/" (.Get "src")) -}}
+{{- if not $img -}}{{ errorf "static-img: images/%s not found in assets" (.Get "src") -}}{{- end -}}
+{{- $small := $img.Process "resize 476x webp q85" -}}
+{{- $full := $img.Process "webp q85" -}}
+<picture>
+    <source type="image/webp" srcset="{{ $small.RelPermalink }} 476w, {{ $full.RelPermalink }} {{ $img.Width }}w" sizes="(min-width: 715px) 476px, 90vw">
+    <img class="{{ .Get "class" }}" src="{{ $img.RelPermalink }}" alt="{{ .Get "alt" }}"{{ with .Get "width" }} width="{{ . }}"{{ end }}{{ with .Get "height" }} height="{{ . }}"{{ end }}{{ with .Get "fetchpriority" }} fetchpriority="{{ . }}"{{ end }} style="{{ .Get "style" }}">
+</picture>
