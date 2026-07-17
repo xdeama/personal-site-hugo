@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ i18n "default-description" }}{{ end }}">
 
-<title>{{ .Title }}</title>
+<title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <link rel="canonical" href="{{ .Permalink }}">
 
 {{ range .AllTranslations }}

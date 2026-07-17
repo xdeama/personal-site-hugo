@@ -1,6 +1,8 @@
 ---
 translationKey: consulting
 title: Consulting & Engineering
+aliases:
+  - /about/
 description: Java & Cloud Native Entwicklung für wartbare, testbare und skalierbare Softwarelösungen. Hier das Projektportfolio einsehen.
 date: 2023-01-01T08:00:00-07:00
 draft: false
