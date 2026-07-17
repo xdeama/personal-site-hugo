@@ -1,6 +1,6 @@
 ---
 translationKey: home
-title: Denis Malolepszy Software Engineering - Software Architect & Java Developer
+title: Software Architect & Java Developer - Denis Malolepszy Software Engineering
 description: Freelance Full Stack Developer, Software Architect, and co-founder of DenktMit, an expert network of independent IT specialists.
 date: 2023-01-01T08:00:00-07:00
 draft: false

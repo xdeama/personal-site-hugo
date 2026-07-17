@@ -16,6 +16,7 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ i18n "default-description" }}{{ end }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:image" content="{{ with .Params.images }}{{ index . 0 | absURL }}{{ else }}{{ index .Site.Params.images 0 | absURL }}{{ end }}">
 
 {{ $reset := resources.Get "css/reset.css" }}
@@ -46,6 +47,15 @@
 {{- end }}
 
 {{ if .IsHome }}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.Title }}",
+        "alternateName": "dmalo.de",
+        "url": "{{ site.BaseURL }}"
+    }
+</script>
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
