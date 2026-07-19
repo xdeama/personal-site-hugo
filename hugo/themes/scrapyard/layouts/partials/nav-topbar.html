@@ -1,0 +1,24 @@
+{{- /*
+Horizontal top bar: logo, flat page links, then language and theme
+switchers in matching style. Collapses to logo plus hamburger below
+46em; the drawer panel is rendered by baseof.
+*/ -}}
+{{- $page := . -}}
+{{ partial "logo.html" "bar-logo" }}
+<nav class="bar-links" aria-label="primary">
+    <ul role="list">
+        {{- range site.Menus.main }}
+        <li><a href="{{ .URL }}"
+            {{- if $page.IsMenuCurrent "main" . }} class="active" aria-current="page"
+            {{- else if $page.HasMenuCurrent "main" . }} class="ancestor" aria-current="true"
+            {{- end }}>{{ .Name }}</a></li>
+        {{- end }}
+    </ul>
+</nav>
+<div class="bar-utils">
+    {{ partial "language-links.html" (dict "page" $page "icon" true) }}
+    {{ partial "theme-links.html" . }}
+</div>
+<button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-nav-panel" aria-label="{{ T "menuToggle" }}">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+</button>

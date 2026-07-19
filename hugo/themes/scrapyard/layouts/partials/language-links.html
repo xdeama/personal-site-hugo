@@ -1,0 +1,24 @@
+{{- /*
+Renders all site languages as short codes, current one muted and not a
+link. Falls back to the other language's homepage when the current page
+has no translation. Context: dict "page" page, optional "icon" bool for
+the translate glyph (Material Design icons, Apache-2.0).
+*/ -}}
+{{- $page := .page -}}
+{{- $current := $page.Language.Lang -}}
+<span class="lang-links">
+    {{- if .icon -}}
+    <svg class="translate-icon" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12.87 15.07l-2.54-2.51.03-.03c1.74-1.94 2.98-4.17 3.71-6.53H17V4h-7V2H8v2H1v1.99h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12zm-2.62 7l1.62-4.33L19.12 17h-3.24z"/></svg>
+    {{- end -}}
+    {{- range $i, $s := site.Sites -}}
+        {{- $lang := $s.Language.Lang -}}
+        {{- if gt $i 0 }}<span class="lang-sep" aria-hidden="true">|</span>{{ end -}}
+        {{- if eq $lang $current -}}
+        <span class="lang-current" aria-current="true">{{ $lang }}</span>
+        {{- else -}}
+        {{- $target := $s.Home.Permalink -}}
+        {{- range $page.Translations }}{{ if eq .Lang $lang }}{{ $target = .Permalink }}{{ end }}{{ end -}}
+        <a href="{{ $target }}" hreflang="{{ $lang }}" lang="{{ $lang }}" title="{{ $s.Language.LanguageName }}">{{ $lang }}</a>
+        {{- end -}}
+    {{- end -}}
+</span>

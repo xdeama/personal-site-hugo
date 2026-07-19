@@ -34,3 +34,7 @@ projectsUsingTech: 'Projekte, in denen ich {{ . }} eingesetzt habe:'
 projectsInArea: 'Meine Projekte in der Branche {{ . }}:'
 allTechnologies: Alle Technologien
 allBusinessAreas: Alle Branchen
+themeToggle: Farbschema umschalten
+menuToggle: "Menü"
+themeLight: hell
+themeDark: dunkel

@@ -3,23 +3,23 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function initializeThemeToggle() {
-    console.log("initializeThemeToggle")
-    const toggleButton = document.getElementById('dark-mode-toggle');
+    const toggleButtons = document.querySelectorAll('.dark-mode-toggle');
+    const themeOptions = document.querySelectorAll('.theme-option');
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
     function setTheme(mode, updateUrl = true) {
-        const sunIcon = document.getElementById('icon-sun');
-        const moonIcon = document.getElementById('icon-moon');
-
-        if (mode === 'dark') {
-            document.body.classList.add('dark-mode');
-            sunIcon.style.display = 'block';
-            moonIcon.style.display = 'none';
-        } else {
-            document.body.classList.remove('dark-mode');
-            sunIcon.style.display = 'none';
-            moonIcon.style.display = 'block';
-        }
+        document.body.classList.toggle('dark-mode', mode === 'dark');
+        document.querySelectorAll('.icon-sun').forEach(icon => {
+            icon.style.display = mode === 'dark' ? 'block' : 'none';
+        });
+        document.querySelectorAll('.icon-moon').forEach(icon => {
+            icon.style.display = mode === 'dark' ? 'none' : 'block';
+        });
+        themeOptions.forEach(option => {
+            const active = option.dataset.theme === mode;
+            option.classList.toggle('current', active);
+            option.setAttribute('aria-pressed', String(active));
+        });
         if (updateUrl) {
             updateUrlParam(mode);
         }
@@ -33,7 +33,6 @@ function initializeThemeToggle() {
     }
 
     function updateAllInternalLinks() {
-        console.log("updateAllInternalLinks")
         const currentParams = new URLSearchParams(window.location.search);
 
         document.querySelectorAll('a').forEach(link => {
@@ -55,9 +54,17 @@ function initializeThemeToggle() {
         setTheme(prefersDarkScheme.matches ? 'dark' : 'light', false);
     }
 
-    toggleButton.addEventListener('click', () => {
-        const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
-        setTheme(newTheme);
+    toggleButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+            setTheme(newTheme);
+        });
+    });
+
+    themeOptions.forEach(option => {
+        option.addEventListener('click', () => {
+            setTheme(option.dataset.theme);
+        });
     });
 
     prefersDarkScheme.addEventListener('change', (e) => {

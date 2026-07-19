@@ -5,10 +5,13 @@
         {{ partial "robots.html" . }}
     </head>
     <body>
-        <div class="sticky-wrapper outer-site-header">
-            <header role="banner" class="site-header inner-site-header repel">
-                {{ partial "header.html" . }}
+        <div class="site-bar-wrapper">
+            <header role="banner" class="site-bar">
+                {{ partial "nav-topbar.html" . }}
             </header>
+            <div class="site-drawer" id="site-nav-panel">
+                {{ partial "site-nav-vertical.html" . }}
+            </div>
         </div>
         <main>
             {{ block "main" . }}{{ end }}

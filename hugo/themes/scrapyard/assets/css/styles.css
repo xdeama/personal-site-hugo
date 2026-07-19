@@ -313,72 +313,6 @@
     }
 }
 
-.sticky-wrapper {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background-color: var(--color-secondary);
-}
-
-.site-header {
-    width: var(--wrapper-width);
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: var(--gutter);
-    padding-right: var(--gutter);
-}
-
-.outer-site-header {
-    height: 70px;
-    top: -28px;
-    display: flex;
-    align-content: center;
-    position: sticky;
-
-    @media (max-width: 46em) {
-        height: 100px;
-        top: -42px;
-        align-items: center;
-    }
-}
-
-
-/*try out https://css-tricks.com/how-to-create-a-shrinking-header-on-scroll-without-javascript/*/
-.inner-site-header {
-    height: 42px;
-    position: sticky;
-    top: 0;
-    margin-top: 13px; /*TODO: why is this workaround needed?*/
-
-    @media (max-width: 46em) {
-        height: 58px;
-        margin-top: 0; /*TODO: why is this workaround needed?*/
-    }
-}
-
-.site-header nav ul {
-    margin: 0;
-
-    @media (max-width: 46em) {
-        gap: 5px var(--space-s);
-        justify-content: center;
-    }
-}
-
-.site-header-logo {
-    display: inline-block;
-    font-size: 1.8rem;
-    height: 2.5rem;
-    color: var(--color-header-logo);
-    transform: translate(0, 2px);
-}
-
-@media screen and (max-width: 46em) {
-    .site-header-logo {
-        display: none;
-    }
-}
-
 .flow-space-s {
     --flow-space: var(--space-s);
 }
@@ -455,7 +389,7 @@
     }
 }
 
-#dark-mode-toggle {
+.dark-mode-toggle {
     background: none;
     border: none;
     cursor: pointer;

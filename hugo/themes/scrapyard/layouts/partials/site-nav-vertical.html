@@ -1,0 +1,19 @@
+{{- /*
+Vertical menu for the mobile drawer: page links stacked one per line,
+hairline, then the language and theme switchers.
+*/ -}}
+{{- $page := . -}}
+<nav class="v-nav" aria-label="primary">
+    <ul role="list" class="v-nav-pages">
+        {{- range site.Menus.main }}
+        <li><a href="{{ .URL }}"
+            {{- if $page.IsMenuCurrent "main" . }} class="active" aria-current="page"
+            {{- else if $page.HasMenuCurrent "main" . }} class="ancestor" aria-current="true"
+            {{- end }}>{{ .Name }}</a></li>
+        {{- end }}
+    </ul>
+    <div class="v-nav-power">
+        <div class="power-row">{{ partial "language-links.html" (dict "page" $page "icon" true) }}</div>
+        <div class="power-row">{{ partial "theme-links.html" $page }}</div>
+    </div>
+</nav>

@@ -35,3 +35,7 @@ projectsUsingTech: 'Projects in which I used {{ . }}:'
 projectsInArea: 'My projects in the {{ . }} sector:'
 allTechnologies: all technologies
 allBusinessAreas: all sectors
+themeToggle: toggle color theme
+menuToggle: menu
+themeLight: light
+themeDark: dark
