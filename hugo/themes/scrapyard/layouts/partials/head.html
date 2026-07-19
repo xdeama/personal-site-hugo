@@ -3,6 +3,8 @@
 <link rel="preload" href="/fonts/noto-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/noto-sans-latin-bold.woff2" as="font" type="font/woff2" crossorigin>
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ i18n "default-description" }}{{ end }}">
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
 <link rel="canonical" href="{{ .Permalink }}">
