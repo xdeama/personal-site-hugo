@@ -98,7 +98,7 @@ just consultants.
 
 We share knowledge and experience and support each other in solving problems and brokering
 projects.
-[Together](https://denktmit.de/team/), we invest in our corporate infrastructure – from employed
+Together, [we](https://denktmit.de/team/) invest in our corporate infrastructure – from employed
 software developers to support large projects to shared DevOps cloud infrastructure and tax consulting.
 
 {{< embed-svg-link-hidden-on-desktop path="static/svg/denktmit-logo.svg" url="https://denktmit.de">}}

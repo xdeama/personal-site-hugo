@@ -97,7 +97,7 @@ Gefährten - mehr als nur Berater.
 
 Wir teilen Wissen, Erfahrungen und unterstützen uns gegenseitig bei der Lösung von Problemen und Vermittlung
 von Projekten.
-[Gemeinsam](https://denktmit.de/team/) investieren wir in unsere Unternehmensinfrastruktur – von angestellten 
+Gemeinsam investieren [wir](https://denktmit.de/team/) in unsere Unternehmensinfrastruktur – von angestellten 
 Softwareentwicklern zur Unterstützung in großen Projekten bis hin zur gemeinsam genutzten DevOps Cloud-Infrastruktur 
 und Steuerberatung.
 
