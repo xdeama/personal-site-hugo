@@ -1,5 +1,5 @@
 main:
-  - name: home
+  - name: hello
     pageRef: /
     weight: 10
 #  - name: about
