@@ -334,6 +334,17 @@
     flex-basis: max-content;
 }
 
+/* Centered once the switcher stacks the footer on narrow screens. */
+@media (max-width: 47em) {
+    .footer {
+        --cluster-horizontal-alignment: center;
+    }
+
+    .footer > div:first-child {
+        text-align: center;
+    }
+}
+
 .margin-workaround {
     margin-top: 0;
 }
