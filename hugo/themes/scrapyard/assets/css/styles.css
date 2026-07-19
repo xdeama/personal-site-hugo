@@ -330,6 +330,10 @@
     --gutter: var(--space-xs);
 }
 
+.footer > div:first-child {
+    flex-basis: max-content;
+}
+
 .margin-workaround {
     margin-top: 0;
 }
@@ -372,27 +376,6 @@
 
 .linkedin-svg:hover {
     color: var(--color-primary);
-}
-
-.dark-mode-icon {
-    display: inline-block;
-    font-size: 1rem;
-    height: 1.5rem;
-
-    & svg {
-        color: var(--color-primary);
-        display: inline-block;
-
-        :hover {
-            color: var(--color-primary-shade);
-        }
-    }
-}
-
-.dark-mode-toggle {
-    background: none;
-    border: none;
-    cursor: pointer;
 }
 
 .chroma {

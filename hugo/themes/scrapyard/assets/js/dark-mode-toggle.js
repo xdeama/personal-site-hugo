@@ -3,18 +3,11 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function initializeThemeToggle() {
-    const toggleButtons = document.querySelectorAll('.dark-mode-toggle');
     const themeOptions = document.querySelectorAll('.theme-option');
     const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
 
     function setTheme(mode, updateUrl = true) {
         document.body.classList.toggle('dark-mode', mode === 'dark');
-        document.querySelectorAll('.icon-sun').forEach(icon => {
-            icon.style.display = mode === 'dark' ? 'block' : 'none';
-        });
-        document.querySelectorAll('.icon-moon').forEach(icon => {
-            icon.style.display = mode === 'dark' ? 'none' : 'block';
-        });
         themeOptions.forEach(option => {
             const active = option.dataset.theme === mode;
             option.classList.toggle('current', active);
@@ -53,13 +46,6 @@ function initializeThemeToggle() {
     } else {
         setTheme(prefersDarkScheme.matches ? 'dark' : 'light', false);
     }
-
-    toggleButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
-            setTheme(newTheme);
-        });
-    });
 
     themeOptions.forEach(option => {
         option.addEventListener('click', () => {
