@@ -7,7 +7,7 @@
             <li class="project-entry">
                 <h2 class="entry-title" id="{{ .Title | anchorize }}"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
                 {{- if .Date }}
-                <span class="entry-meta"><span class="meta-item"><span class="meta-label">{{ T "published" }}:</span> {{ .Date | dateFormat "2006-01-02" }}</span></span>
+                <span class="entry-meta"><span class="meta-item"><span class="meta-label">{{ T "published" }}:</span> {{ .Date | time.Format ":date_long" }}</span></span>
                 {{- end }}
                 {{- with .Description }}
                 <p class="entry-summary">{{ . }}</p>

@@ -4,6 +4,13 @@
    and a single tag line. Entries separate through whitespace alone,
    no boxes, to keep the plain markdown look of the site. */
 
+/* Warm-shifted mid tone shared by the card panels and the experience
+   table zebra so both read less cool/blue. Built from --color-mid, so it
+   resolves correctly in light and dark mode. */
+.prose {
+    --panel-tone: color-mix(in srgb, var(--color-mid) 62%, #8a6d3b);
+}
+
 /* On narrow viewports each meta segment (period, role, sector) gets
    its own line with breathing room under the headline; from tablet
    width up they join into one line with middot separators. */
@@ -54,6 +61,56 @@
     margin-top: var(--space-m);
 }
 
+/* Homepage blog teaser reuses the entry card but lays the cards out as a
+   grid instead of a vertical list: two per row while the page is in its
+   two-column layout, one per row once it collapses to a single column
+   (the same 851px breakpoint the .row columns use). The third post card
+   drops on small screens, leaving two posts plus the "view all" card. */
+.blog-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-s);
+    margin-block: var(--space-xs) 0;
+}
+
+.prose .blog-cards > li + li {
+    margin-top: 0;
+}
+
+/* The homepage cards drop the heading marker and shrink the title a
+   step; unlike the /blog and /projects lists, they carry no label
+   before the date. */
+.prose .blog-cards .entry-title {
+    font-size: var(--size-step-075);
+}
+
+/* Card titles drop the markdown-style heading marker (the section and
+   page headings keep theirs; only the entry titles inside cards lose
+   it). */
+.project-list .entry-title::before {
+    content: none;
+}
+
+.blog-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: var(--size-step-075);
+}
+
+@media (min-width: 851px) {
+    .blog-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 850px) {
+    .blog-card-extra {
+        display: none;
+    }
+}
+
 /* On phones the panels use more of the device width and the block
    under the meta lines sits closer to them. */
 @media (max-width: 714px) {
@@ -78,8 +135,8 @@
    border; both derive from the mid tone via color-mix, so light and
    dark mode need no separate values. */
 .prose .project-list > li {
-    border: 1px solid color-mix(in srgb, var(--color-mid) 35%, transparent);
-    background: color-mix(in srgb, var(--color-mid) 5%, transparent);
+    border: 1px solid color-mix(in srgb, var(--panel-tone) 35%, transparent);
+    background: color-mix(in srgb, var(--panel-tone) 3%, transparent);
     border-radius: var(--border-radius);
     padding: var(--space-s);
 }
@@ -184,7 +241,7 @@
     }
 
     .prose tbody tr:nth-child(odd) {
-        background: color-mix(in srgb, var(--color-mid) 7%, transparent);
+        background: color-mix(in srgb, var(--panel-tone) 7%, transparent);
     }
 }
 

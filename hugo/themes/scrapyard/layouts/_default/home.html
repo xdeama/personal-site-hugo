@@ -2,15 +2,19 @@
     <article class="wrapper region prose flow">
         {{ .Content }}
 
-        <h2 class="hide-on-print">Blog</h2>
         <div class="hide-on-print">
-            <ul class="flow" role="list">
-                {{ range (where .Site.RegularPages "Section" "blog") }}
-                    <li>
-                        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-                        <span class="color-mid font-size-06 keeptogether">{ {{ .Date | dateFormat "2006-01-02" }} }</span>
+            <h2>Blog</h2>
+            <ul class="project-list blog-cards" role="list">
+                {{ range $i, $p := first 3 (where .Site.RegularPages "Section" "blog") }}
+                    <li class="project-entry{{ if eq $i 2 }} blog-card-extra{{ end }}">
+                        <h3 class="entry-title"><a href="{{ $p.RelPermalink }}">{{ $p.LinkTitle }}</a></h3>
+                        <span class="entry-meta"><span class="meta-item">{{ $p.Date | time.Format ":date_long" }}</span></span>
+                        {{ with $p.Description }}<p class="entry-summary">{{ . }}</p>{{ end }}
                     </li>
                 {{ end }}
+                <li class="project-entry blog-cta">
+                    <a href="{{ (site.GetPage "blog/_index.md").Permalink }}">{{ T "blogReadAll" }} <span aria-hidden="true">&rarr;</span></a>
+                </li>
             </ul>
         </div>
     </article>
