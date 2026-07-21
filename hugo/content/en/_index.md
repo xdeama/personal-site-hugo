@@ -38,7 +38,7 @@ and energy sectors.
 
 {{< rawhtml >}} <br><br> {{< /rawhtml >}}
 
-{{< embed-svg "static/svg/programming.svg" >}}
+{{< embed-svg "static/svg/programming.svg" "svg-emphasis" >}}
 
 {{< column-end >}}
 

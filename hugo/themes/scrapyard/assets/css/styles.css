@@ -182,6 +182,16 @@
     color: var(--color-dark);
 }
 
+.prose > .row > .column-short > svg.svg-emphasis {
+    width: 17rem;
+    height: 17rem;
+}
+
+.prose > .row > .column-short > svg.svg-small {
+    width: 11rem;
+    height: 11rem;
+}
+
 .prose > svg,
 .prose > a > svg,
 .prose > .row > .column-short > a > svg,

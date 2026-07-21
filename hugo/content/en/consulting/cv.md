@@ -94,11 +94,11 @@ I have summarised my technology and industry experience [here by year]({{< ref "
 
 {{< column-short-hide-on-mobile >}}
 
-{{< embed-svg "static/svg/cv.svg" >}}
+{{< embed-svg "static/svg/cv2.svg" >}}
 
 {{< column-end >}}
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/cv.svg" >}}
+{{< embed-svg-hidden-on-desktop "static/svg/cv2.svg" >}}
 

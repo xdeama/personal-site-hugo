@@ -11,7 +11,7 @@ layout: standalone
 
 {{< column-short-hide-on-mobile >}}
 
-{{< embed-svg "static/svg/chat.svg" >}}
+{{< embed-svg "static/svg/social.svg" "svg-small" >}}
 
 {{< column-end >}}
 
@@ -19,10 +19,12 @@ layout: standalone
 
 For initial contact, I am available via [email](mailto:kontakt@dmalo.de) or [LinkedIn](https://www.linkedin.com/in/dmalolepszy) {{< linkedin-icon >}}&nbsp;to arrange a phone call or video chat.
 
+{{< embed-svg-hidden-on-desktop "static/svg/social.svg" >}}
+
 To concentrate on client projects, I do not publish a phone number for initial contact.
 
 {{< column-end >}}
 
 {{< row-end >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/chat.svg" >}}
+

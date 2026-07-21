@@ -11,4 +11,4 @@ Für den Erstkontakt stehe ich per [E-Mail](mailto:kontakt@dmalo.de) oder [Linke
 
 Um konzentriert an Kundenprojekten arbeiten zu können, veröffentliche ich keine Telefonnummer für den Erstkontakt.
 
-{{< embed-svg "static/svg/chat.svg" >}}
+{{< embed-svg "static/svg/social.svg" "svg-small" >}}
