@@ -1,17 +1,17 @@
 ---
 translationKey: ai-agent-security
 title: "Architectural Security: Isolation for AI CLI and MCP Workflows"
-description: "Why containers fall short and how hardware-enforced isolation with Lima secures AI agents and MCP servers."
+description: "To isolate AI agents for coding, virtual machines are often more suitable than containers."
 heading: "Hardware Virtualization for AI CLI Security"
 date: 2026-02-11T20:00:00+01:00
 draft: false
 ---
 
-AI plugins and command-line tools are incredibly practical—but they also open exciting attack vectors for data theft. You don't have to look far for examples of problems that arise when the security mechanisms of AI models and their integrations into IDEs and command lines fail.
+AI plugins and command-line tools are very practical—but they also open new attack vectors for data theft. You don't have to look far for examples of problems that arise when the security mechanisms of AI models and their integrations into IDEs and command lines fail.
 
 What alternatives are available if you simply cannot do without them?
 
-Surprisingly, containers are not the right answer this time. Let me explain why.
+This time, containers are often not the best fit. Let me explain why.
 
 ## Architectural Security: Virtualization for AI CLI and MCP Workflows
 
@@ -54,16 +54,16 @@ A third approach utilizes a dedicated **Virtual Machine (VM)**. This shifts the 
 
 ### Conclusion
 
-Deciding where to run AI orchestration tools involves a trade-off between setup speed and specific security requirements. While direct host installations and containers offer convenience, the VM architecture provides the most robust protection for the underlying operating system. By isolating the AI and its tools at the hardware level, you can leverage the potential of the Model Context Protocol while maintaining a strictly controlled environment.
+Deciding where to run AI orchestration tools is a trade-off between setup speed and specific security requirements. Direct host installations and containers are convenient; a VM moves the boundary to the hardware level, which—depending on how each side is configured—is generally harder to cross than shared-kernel container isolation. No boundary is absolute (hypervisors have their own vulnerabilities), but it raises the bar while still letting you use the Model Context Protocol in a controlled environment.
 
 ## Practical Example: Isolation with macOS & Lima
 
-The technical implementation of this architecture is achieved using **Lima (Linux Machines)**. This tool leverages the native Virtualization.framework (`vz`) on macOS to run Linux guests with minimal overhead.
+The approach here is the VM itself, not any particular tool. **Lima (Linux Machines)** is simply the option I used on macOS—one of several ways to run a local VM. It leverages the native Virtualization.framework (`vz`) to run Linux guests with minimal overhead.
 
 My project **[lima-ai-cli-sandbox](https://github.com/xdeama/lima-ai-cli-sandbox)** implements the described isolation through the following mechanisms:
 
 ### Filesystem Restriction
-The decisive security factor of this setup is the deliberate restriction of file access by the user. In the `lima-gemini.yaml`, access to the host is explicitly limited:
+A key security factor of this setup is the deliberate restriction of file access by the user. In the `lima-gemini.yaml`, access to the host is explicitly limited:
 
 * Instead of sharing the entire user directory, only the specific project directory is mounted to `/tmp/repository`.
 * Sensitive host data (SSH keys, browser profiles, documents) are not addressable by the VM.
@@ -81,4 +81,4 @@ The decisive security factor of this setup is the deliberate restriction of file
 
 
 
-Through this structure, the attack surface is reduced compared to a host-level Gemini CLI installation, while the functionality of AI CLIs and MCP workflows remains fully preserved.
+Through this structure, the attack surface is reduced compared to a host-level Gemini CLI installation, while the functionality of AI CLIs and MCP workflows remains available.
