@@ -137,7 +137,7 @@
 .prose .project-list > li {
     border: 1px solid color-mix(in srgb, var(--panel-tone) 35%, transparent);
     background: color-mix(in srgb, var(--panel-tone) 3%, transparent);
-    border-radius: var(--border-radius);
+    border-radius: 0;
     padding: var(--space-s);
 }
 
