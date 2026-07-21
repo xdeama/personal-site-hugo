@@ -1,19 +1,7 @@
-/* Project list and term list entries.
-   Each entry is one typographic block: bold title, a muted meta
-   line (date range and role) directly under the title, the summary,
-   and a single tag line. Entries separate through whitespace alone,
-   no boxes, to keep the plain markdown look of the site. */
-
-/* Warm-shifted mid tone shared by the card panels and the experience
-   table zebra so both read less cool/blue. Built from --color-mid, so it
-   resolves correctly in light and dark mode. */
 .prose {
     --panel-tone: color-mix(in srgb, var(--color-mid) 62%, #8a6d3b);
 }
 
-/* On narrow viewports each meta segment (period, role, sector) gets
-   its own line with breathing room under the headline; from tablet
-   width up they join into one line with middot separators. */
 .entry-meta {
     display: flex;
     flex-direction: column;
@@ -37,22 +25,15 @@
     }
 }
 
-/* Metadata lines sit near the contrast floor on the dark background;
-   lift them one shade there. */
 .dark-mode .entry-meta {
     color: var(--color-mid-glare);
 }
 
-/* Labels inside metadata differentiate from their values by italic;
-   both use the mid tone, which keeps AA contrast in light mode. */
 .meta-label {
     color: var(--color-mid);
     font-style: italic;
 }
 
-/* The prose list indent (.prose :is(ol, ul) padding-inline-start)
-   must not apply to the panel container itself: it shifted every
-   panel to the right of the text edge. */
 .prose .project-list {
     padding-inline-start: 0;
 }
@@ -61,11 +42,6 @@
     margin-top: var(--space-m);
 }
 
-/* Homepage blog teaser reuses the entry card but lays the cards out as a
-   grid instead of a vertical list: two per row while the page is in its
-   two-column layout, one per row once it collapses to a single column
-   (the same 851px breakpoint the .row columns use). The third post card
-   drops on small screens, leaving two posts plus the "view all" card. */
 .blog-cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -77,16 +53,10 @@
     margin-top: 0;
 }
 
-/* The homepage cards drop the heading marker and shrink the title a
-   step; unlike the /blog and /projects lists, they carry no label
-   before the date. */
 .prose .blog-cards .entry-title {
     font-size: var(--size-step-075);
 }
 
-/* Card titles drop the markdown-style heading marker (the section and
-   page headings keep theirs; only the entry titles inside cards lose
-   it). */
 .project-list .entry-title::before {
     content: none;
 }
@@ -111,8 +81,6 @@
     }
 }
 
-/* On phones the panels use more of the device width and the block
-   under the meta lines sits closer to them. */
 @media (max-width: 714px) {
     .prose .project-list > li {
         padding: var(--space-2xs) var(--space-xs);
@@ -123,17 +91,11 @@
     }
 }
 
-/* Entry titles are real h2 elements: they inherit the theme's '##'
-   marker and heading typography, sized down for list context. The
-   prose '- ' li dash is redundant next to the marker and is removed. */
 .project-list .entry-title {
     font-size: var(--size-step-1);
     margin: 0;
 }
 
-/* Each entry is grounded by a faintly tinted panel with a hairline
-   border; both derive from the mid tone via color-mix, so light and
-   dark mode need no separate values. */
 .prose .project-list > li {
     border: 1px solid color-mix(in srgb, var(--panel-tone) 35%, transparent);
     background: color-mix(in srgb, var(--panel-tone) 3%, transparent);
@@ -150,11 +112,6 @@
     margin-bottom: 0;
 }
 
-/* Hash-tag rows: hash-prefixed text links instead of bordered pills,
-   so the tags read as entry metadata. Used on list entries and in the
-   project page footer. .prose :is(ol, ul) outranks the .tag-list reset
-   in tags.css and indents the row; realign it. The label li and the
-   anchor line boxes differ in height, so align on the text baseline. */
 .prose .hash-tags {
     align-items: baseline;
     column-gap: var(--space-2xs);
@@ -163,9 +120,6 @@
     line-height: 1.4;
 }
 
-/* Business-area tags live inline in the meta line after a "Sector:"
-   label; they inherit the muted meta color (the accent blue stays
-   reserved for hyperlinks). */
 .entry-meta .area-tag {
     color: inherit;
     text-decoration: none;
@@ -212,10 +166,7 @@
     margin-top: var(--space-2xs);
 }
 
-/* Experience tables on screen: no rules, zebra row bands, aligned
-   with the prose text edge. Column headers keep the default bold
-   body color for legibility. Scoped to screen - the printed
-   portfolio keeps the classic lined, centered tables. */
+/* @media screen only: the printed portfolio keeps the classic lined tables. */
 @media screen {
     .prose thead {
         border-bottom: none;
@@ -253,8 +204,6 @@
     }
 }
 
-/* Screen-reader-only text, used to give generic link labels their
-   target context. */
 .visually-hidden {
     position: absolute;
     width: 1px;
