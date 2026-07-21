@@ -11,7 +11,7 @@
 | [Kubernetes](/de/technologies/kubernetes/)           | 3 Jahre   |
 | [TypeScript](/de/technologies/typescript/)           | 3 Jahre   |
 | [Angular](/de/technologies/angular/)              | 3 Jahre   |
-| [Kotlin](/de/technologies/kotlin/)               | 2 Jahre   |
+| [Kotlin](/de/technologies/kotlin/)               | 2,5 Jahre |
 
 
 ### Architektur
@@ -26,13 +26,13 @@
 | Methode | Erfahrung |
 |:--------|:----------|
 | Scrum   | 6 Jahre   |
-| SAFe    | 1,5 Jahre |
+| SAFe    | 2 Jahre   |
 
 
 ### Branchen
 | Branche   | Erfahrung |
 |:----------|:----------|
-| Finanz    | 8 Jahre   |
-| Energie   | 1,5 Jahre |
-| Automobil | 1,5 Jahre |
+| [Finanz](/de/business-areas/finance/)    | 8 Jahre   |
+| [Energie](/de/business-areas/energy/)   | 2 Jahre   |
+| [Automobil](/de/business-areas/automotive/) | 1,5 Jahre |
 | Andere    | 1,5 Jahre |
