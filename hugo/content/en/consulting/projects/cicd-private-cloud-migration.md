@@ -11,7 +11,7 @@ role: "DevOps Engineer"
 company: "Denis Malolepszy Software Engineering, Frankfurt am Main, Germany"
 techstack:
   - "Java 8 to 17"
-  - "Spring (Cloud, Data, Reactive, Security, Web, Gateway)"
+  - "Spring (Boot, Cloud, Data, Reactive, Security, Web, Gateway)"
   - "Reactive Streams"
   - "Angular (PrimeFaces)"
   - "TypeScript"
@@ -31,7 +31,7 @@ techstack:
   - "Git"
 technologies:
   - "Java"
-  - "Spring"
+  - "Spring Framework"
   - "Kubernetes"
   - "Angular"
   - "TypeScript"

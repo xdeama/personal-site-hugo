@@ -29,7 +29,7 @@ techstack:
   - "Git"
 technologies:
   - "Kotlin"
-  - "Spring Boot"
+  - "Spring Framework"
   - "Kafka"
   - "PostgreSQL"
   - "jOOQ"

@@ -31,6 +31,11 @@
         white-space: nowrap;
     }
 
+    .prose td a {
+        color: inherit;
+        text-decoration: none;
+    }
+
     .dark-mode {
         --color-dark: var(--lightmode-color-dark);
         --color-light: var(--lightmode-color-light);

@@ -27,7 +27,7 @@ technologies:
   - "React"
   - "deck.gl"
   - "Kotlin"
-  - "Spring Boot"
+  - "Spring Framework"
   - "Kafka"
   - "TimescaleDB"
   - "Kubernetes"

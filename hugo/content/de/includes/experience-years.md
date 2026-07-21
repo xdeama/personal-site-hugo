@@ -2,16 +2,16 @@
 
 | Technologie          | Erfahrung |
 |:---------------------|:----------|
-| Java                 | 8 Jahre   |
+| [Java](/de/technologies/java/)                 | 8 Jahre   |
 | SQL / RDB            | 8 Jahre   |
 | Webentwicklung       | 7 Jahre   |
 | CI/CD & DevOps Tools | 7 Jahre   |
-| Spring               | 4 Jahre   |
-| JavaEE / JakartaEE   | 4 Jahre   |
-| Kubernetes           | 3 Jahre   |
-| TypeScript           | 3 Jahre   |
-| Angular              | 3 Jahre   |
-| Kotlin               | 2 Jahre   |
+| [Spring Framework](/de/technologies/spring-framework/) | 4 Jahre   |
+| [JavaEE / JakartaEE](/de/technologies/java-ee/)   | 4 Jahre   |
+| [Kubernetes](/de/technologies/kubernetes/)           | 3 Jahre   |
+| [TypeScript](/de/technologies/typescript/)           | 3 Jahre   |
+| [Angular](/de/technologies/angular/)              | 3 Jahre   |
+| [Kotlin](/de/technologies/kotlin/)               | 2 Jahre   |
 
 
 ### Architektur

@@ -17,6 +17,8 @@ An overview of my employers can be found in my [CV]({{< ref "/consulting/cv" >}}
 
 I have summarised my technology and industry experience [here by year]({{< ref "consulting" >}}).
 
+You can also browse the projects by [technology]({{< ref "/technologies" >}}).
+
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}

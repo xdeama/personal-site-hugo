@@ -25,7 +25,7 @@ techstack:
   - "Git"
 technologies:
   - "Java"
-  - "Spring Boot"
+  - "Spring Framework"
   - "Kafka"
   - "PostgreSQL"
   - "jOOQ"

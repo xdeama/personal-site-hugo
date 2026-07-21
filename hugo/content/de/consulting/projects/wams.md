@@ -27,7 +27,7 @@ techstack:
   - OpenAPI
 technologies:
   - Java
-  - Spring Boot
+  - Spring Framework
   - Kafka
   - Apache Druid
   - Grafana

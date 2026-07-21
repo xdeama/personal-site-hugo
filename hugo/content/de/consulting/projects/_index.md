@@ -17,6 +17,8 @@ Eine Übersicht meiner Arbeitgeber enthält mein [CV]({{< ref "/consulting/cv" >
 
 Meine Technologie- und Branchenerfahrung habe ich [hier nach Jahren aufsummiert]({{< ref "consulting" >}}).
 
+Die Projekte lassen sich außerdem nach [Technologie]({{< ref "/technologies" >}}) durchstöbern.
+
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}

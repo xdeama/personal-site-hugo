@@ -22,7 +22,7 @@ techstack:
   - "Git"
 technologies:
   - "Kotlin"
-  - "Spring Boot"
+  - "Spring Framework"
   - "Apache Jackrabbit"
   - "Thymeleaf"
 business-areas:
