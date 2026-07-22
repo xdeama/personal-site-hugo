@@ -17,9 +17,9 @@
 ### Architektur
 | Architektur   | Erfahrung |
 |:--------------|:----------|
-| Microservices | 6 Jahre   |
-| Cloud-Native  | 3 Jahre   |
-| Event-Driven  | 3 Jahre   |
+| [Microservices](/de/portfolio/groups/microservices/) | 6 Jahre   |
+| [Cloud-Native](/de/portfolio/groups/cloud-native/)  | 3 Jahre   |
+| [Event-Driven](/de/portfolio/groups/event-driven/)  | 3 Jahre   |
 
 
 ### Methoden
