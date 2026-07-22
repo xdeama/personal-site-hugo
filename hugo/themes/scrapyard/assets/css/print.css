@@ -31,9 +31,16 @@
         white-space: nowrap;
     }
 
-    .prose td a {
+    /* Print cannot follow a web link, so render off-document links as plain
+       text. In-document links (the table of contents) carry a fragment and
+       keep their underline so they stay usable in a PDF viewer. */
+    .prose a {
         color: inherit;
         text-decoration: none;
+    }
+
+    .prose a[href*="#"] {
+        text-decoration: underline;
     }
 
     .dark-mode {
