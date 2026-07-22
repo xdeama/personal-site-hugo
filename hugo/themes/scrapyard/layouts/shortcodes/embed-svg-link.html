@@ -1,11 +1,14 @@
 {{ $path := .Get "path" }}
 {{ $url := .Get "url" }}
-{{ $svgContent := readFile $path | safeHTML }}
+{{ with .Get "ref" }}{{ with site.GetPage . }}{{ $url = .RelPermalink }}{{ end }}{{ end }}
+{{ $svg := readFile $path }}
+{{ with .Get "class" }}{{ $svg = replace $svg "<svg " (printf "<svg class=%q " .) 1 }}{{ end }}
+{{ $svg = $svg | safeHTML }}
 
 {{ if $url }}
 <a href="{{ $url }}">
-    {{ $svgContent }}
+    {{ $svg }}
 </a>
 {{ else }}
-{{ $svgContent }}
+{{ $svg }}
 {{ end }}

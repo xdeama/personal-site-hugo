@@ -182,7 +182,8 @@
     color: var(--color-dark);
 }
 
-.prose > .row > .column-short > svg.svg-emphasis {
+.prose > .row > .column-short > svg.svg-emphasis,
+.prose > .row > .column-short > a > svg.svg-emphasis {
     width: 17rem;
     height: 17rem;
 }
