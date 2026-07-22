@@ -37,6 +37,7 @@ groupedTechnologies: Technologien in dieser Gruppe
 projectsInArea: 'Meine Projekte in der Branche {{ . }}:'
 allTechnologies: Alle Technologien
 allBusinessAreas: Alle Branchen
+technologyGroups: Technologiegruppen
 themeToggle: Farbschema umschalten
 menuToggle: "Menü"
 themeLight: hell

@@ -8,5 +8,16 @@
             <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a> ({{ len .Pages }})</li>
         {{ end }}
         </ul>
+
+        {{- if eq .Data.Plural "technologies" }}
+        {{- with where site.RegularPages "Params.group_tags" "!=" nil }}
+        <h2>{{ T "technologyGroups" }}</h2>
+        <ul class="tag-list tag-list-tech">
+        {{ range .ByTitle }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+        </ul>
+        {{- end }}
+        {{- end }}
     </article>
 {{ end }}
