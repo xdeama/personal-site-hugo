@@ -323,6 +323,12 @@
     }
 }
 
+@media screen and (max-width: 57.99em) {
+    .prose :is(ul, ol) {
+        padding-inline-start: var(--space-2xs);
+    }
+}
+
 .flow-space-s {
     --flow-space: var(--space-s);
 }
