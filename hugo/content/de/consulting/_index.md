@@ -14,7 +14,7 @@ layout: standalone
 {{< column-long >}}
 
 
-In meinen 12 Jahren Berufserfahrung im IT-Umfeld habe ich Softwareprojekte aus verschiedenen Perspektiven zum 
+In meinen 13 Jahren Berufserfahrung im IT-Umfeld habe ich Softwareprojekte aus verschiedenen Perspektiven zum 
 Erfolg geführt: als leitender Manager, konzipierender Architekt, umsetzender Entwickler und im operativen Betrieb.
 
 Meine Erfahrungen verteilen sich wie folgt auf Technologien und Branchen.

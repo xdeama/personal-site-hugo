@@ -33,7 +33,7 @@ My portfolio contains:
 
 
 ## Project Experience
-More than 12 years of professional experience in the IT environment
+More than 13 years of professional experience in the IT environment
 spanning various roles in IT management and software engineering
 are distributed across technologies and industries as follows.
 

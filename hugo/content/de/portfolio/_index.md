@@ -33,7 +33,7 @@ Mein Portfolio enthält:
 
 
 ## Projekterfahrung
-Mehr als 12 Jahre Berufserfahrungen aus dem IT-Umfeld
+Mehr als 13 Jahre Berufserfahrungen aus dem IT-Umfeld
 und in verschiedenen Rollen im IT-Management und Software-Engineering 
 verteilen sich wie folgt auf Technologien und Branchen.
 
