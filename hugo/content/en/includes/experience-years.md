@@ -3,9 +3,9 @@
 | Technology           | Experience |
 |:---------------------|:-----------|
 | [Java](/en/technologies/java/)                 | 8 years    |
-| SQL / RDB            | 8 years    |
-| Web Development      | 7 years    |
-| CI/CD & DevOps Tools | 7 years    |
+| [SQL / RDB](/en/portfolio/groups/sql-rdb/)            | 8 years    |
+| [Web Development](/en/portfolio/groups/web-development/)      | 7 years    |
+| [CI/CD & DevOps Tools](/en/portfolio/groups/ci-cd-devops/) | 7 years    |
 | [Spring Framework](/en/technologies/spring-framework/) | 4 years    |
 | [JavaEE / JakartaEE](/en/technologies/java-ee/)   | 4 years    |
 | [Kubernetes](/en/technologies/kubernetes/)           | 3 years    |

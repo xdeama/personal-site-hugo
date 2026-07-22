@@ -32,6 +32,8 @@ role: Rolle
 company: Unternehmen
 published: Veröffentlicht
 projectsUsingTech: 'Projekte, in denen ich {{ . }} eingesetzt habe:'
+projectsInGroup: 'Projekte, in denen ich diese Technologien eingesetzt habe:'
+groupedTechnologies: Technologien in dieser Gruppe
 projectsInArea: 'Meine Projekte in der Branche {{ . }}:'
 allTechnologies: Alle Technologien
 allBusinessAreas: Alle Branchen

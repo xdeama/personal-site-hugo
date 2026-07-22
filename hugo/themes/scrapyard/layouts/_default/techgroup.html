@@ -1,0 +1,44 @@
+{{ define "main" }}
+    <article class="wrapper region prose flow">
+        {{ partial "heading.html" . }}
+
+        <p>{{ T "projectsInGroup" }}</p>
+
+        {{ $group := .Params.group_tags }}
+        {{- with $group }}
+        <ul class="tag-list hash-tags" aria-label="{{ T "groupedTechnologies" }}">
+            <li class="tag-line-label" aria-hidden="true">{{ T "groupedTechnologies" }}:</li>
+            {{- range (site.GetPage "/technologies").Pages }}
+            {{- if in $group .Title }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+            {{- end }}
+            {{- end }}
+        </ul>
+        {{- end }}
+
+        {{ .Content }}
+
+        <ul class="project-list">
+        {{- range (site.GetPage "/consulting/projects").RegularPages.ByWeight }}
+            {{- $match := false }}
+            {{- range (.Params.technologies | default slice) }}
+                {{- if in $group . }}{{ $match = true }}{{ end }}
+            {{- end }}
+            {{- if $match }}
+            <li class="project-entry">
+                <h2 class="entry-title" id="{{ .Title | anchorize }}"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+                {{- with .Params.daterange }}
+                <span class="entry-meta"><span class="meta-item"><span class="meta-label">{{ T "period" }}:</span> {{ . | markdownify | plainify }}</span></span>
+                {{- end }}
+            </li>
+            {{- end }}
+        {{- end }}
+        </ul>
+
+        <div>
+            <a href="{{ (site.GetPage "/technologies").RelPermalink }}">{{ T "allTechnologies" }}</a>
+            &middot;
+            <a href="{{ (site.GetPage "/consulting/projects").RelPermalink }}">{{ T "backToProjects" }}</a>
+        </div>
+    </article>
+{{ end }}
