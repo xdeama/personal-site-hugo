@@ -12,6 +12,7 @@
         {{- if eq .Data.Plural "technologies" }}
         {{- with where site.RegularPages "Params.group_tags" "!=" nil }}
         <h2>{{ T "technologyGroups" }}</h2>
+        <p>{{ T "technologyGroupsLead" }}</p>
         <ul class="tag-list tag-list-tech">
         {{ range .ByTitle }}
             <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>

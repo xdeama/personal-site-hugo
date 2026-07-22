@@ -38,7 +38,8 @@ groupedTechnologies: Technologies in this group
 projectsInArea: 'My projects in the {{ . }} sector:'
 allTechnologies: all technologies
 allBusinessAreas: all sectors
-technologyGroups: Technology groups
+technologyGroups: Technology Groups
+technologyGroupsLead: 'Each group links to the projects in which I used any of its technologies.'
 themeToggle: toggle color theme
 menuToggle: menu
 themeLight: light

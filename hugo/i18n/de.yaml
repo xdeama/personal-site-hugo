@@ -38,6 +38,7 @@ projectsInArea: 'Meine Projekte in der Branche {{ . }}:'
 allTechnologies: Alle Technologien
 allBusinessAreas: Alle Branchen
 technologyGroups: Technologiegruppen
+technologyGroupsLead: 'Jede Gruppe führt zu den Projekten, in denen ich eine ihrer Technologien eingesetzt habe.'
 themeToggle: Farbschema umschalten
 menuToggle: "Menü"
 themeLight: hell
