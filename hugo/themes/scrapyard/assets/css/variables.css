@@ -9,6 +9,7 @@
   --lightmode-color-light: #ffffff;
   --lightmode-color-secondary: #fafafa;
   --lightmode-color-mid: #666;
+  --lightmode-color-muted: #393939;
   --lightmode-color-mid-glare: #b3b3b3;
   --lightmode-color-primary: #089ce7;
   --lightmode-color-primary-shade: #167caf;
@@ -47,6 +48,7 @@
   --darkmode-color-secondary: #2a2a2a;
   --darkmode-color-light: #e8e8e8;
   --darkmode-color-mid: #8C8C8CFF;
+  --darkmode-color-muted: #cccccc;
   --darkmode-color-mid-glare: #b3b3b3;
   --darkmode-color-primary: #089ce7;
   --darkmode-color-primary-glare: #167caf;
@@ -146,6 +148,7 @@
   --color-light: var(--lightmode-color-light);
   --color-secondary: var(--lightmode-color-secondary);
   --color-mid: var(--lightmode-color-mid);
+  --color-muted: var(--lightmode-color-muted);
   --color-mid-glare: var(--lightmode-color-mid-glare);
   --color-primary: var(--lightmode-color-primary);
   --color-primary-glare: var(--lightmode-color-primary-glare);
@@ -184,6 +187,7 @@
   --color-light: var(--darkmode-color-dark);
   --color-secondary: var(--darkmode-color-secondary);
   --color-mid: var(--darkmode-color-mid);
+  --color-muted: var(--darkmode-color-muted);
   --color-mid-glare: var(--darkmode-color-mid-glare);
   --color-primary: var(--darkmode-color-primary);
   --color-primary-glare: var(--darkmode-color-primary-glare);

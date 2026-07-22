@@ -340,6 +340,7 @@
     max-width: 60rem;
     line-height: 1.8;
     font-size: var(--size-step-0);
+    color: var(--color-muted);
     --cluster-horizontal-alignment: flex-end;
 
     --switcher-vertical-alignment: flex-start;
