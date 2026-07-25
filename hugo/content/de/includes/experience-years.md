@@ -2,14 +2,14 @@
 
 | Technologie          | Erfahrung |
 |:---------------------|:----------|
-| [Java](/de/technologies/java/)                 | 8 Jahre   |
-| [SQL / RDB](/de/portfolio/groups/sql-rdb/)            | 8 Jahre   |
-| [Webentwicklung](/de/portfolio/groups/web-development/)       | 7 Jahre   |
-| [CI/CD & DevOps Tools](/de/portfolio/groups/ci-cd-devops/) | 7 Jahre   |
+| [Java](/de/technologies/java/)                 | 9 Jahre   |
+| [SQL / RDB](/de/portfolio/groups/sql-rdb/)            | 9 Jahre   |
+| [Webentwicklung](/de/portfolio/groups/web-development/)       | 8 Jahre   |
+| [CI/CD & DevOps Tools](/de/portfolio/groups/ci-cd-devops/) | 8 Jahre   |
 | [Spring Framework](/de/technologies/spring-framework/) | 4 Jahre   |
 | [JavaEE / JakartaEE](/de/technologies/java-ee/)   | 4 Jahre   |
 | [Kubernetes](/de/technologies/kubernetes/)           | 3 Jahre   |
-| [TypeScript](/de/technologies/typescript/)           | 3 Jahre   |
+| [TypeScript](/de/technologies/typescript/)           | 3,5 Jahre   |
 | [Angular](/de/technologies/angular/)              | 3 Jahre   |
 | [Kotlin](/de/technologies/kotlin/)               | 2,5 Jahre |
 
@@ -17,7 +17,7 @@
 ### Architektur
 | Architektur   | Erfahrung |
 |:--------------|:----------|
-| [Microservices](/de/portfolio/groups/microservices/) | 6 Jahre   |
+| [Microservices](/de/portfolio/groups/microservices/) | 7 Jahre   |
 | [Cloud-Native](/de/portfolio/groups/cloud-native/)  | 3 Jahre   |
 | [Event-Driven](/de/portfolio/groups/event-driven/)  | 3 Jahre   |
 
