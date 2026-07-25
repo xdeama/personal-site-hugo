@@ -12,10 +12,10 @@ layout: standalone
 {{< column-long >}}
 
 
-With more than 13 years of professional experience in the IT environment, I have led software projects to success 
+With more than 15 years of professional experience in the IT environment, I have led software projects to success 
 from various perspectives: as a leading manager, conceptual architect, implementing developer, and in operations.
 
-My experience is distributed across technologies and industries as follows.
+More than 13 years of project experience are distributed across technologies and industries as follows.
 
 {{< column-end >}}
 
