@@ -82,6 +82,12 @@ b, strong {
   line-height: 1.2;
 }
 
+@media screen {
+  :is(h1, h2, h3) {
+    margin-inline-start: -0.04em;
+  }
+}
+
 :is(h1, h2, h3)::before {
   color: var(--color-mid);
 }
