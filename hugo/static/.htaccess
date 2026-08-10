@@ -388,7 +388,7 @@ AddDefaultCharset utf-8
     # (3)
     # Redirect root page to english content
     # 301 Redirect root to /en/
-    RewriteRule ^$ /en/ [L,R=301]
+    RewriteRule ^(index\.html)?$ /en/ [L,R=301]
 
     ErrorDocument 404 /en/404.html
 
