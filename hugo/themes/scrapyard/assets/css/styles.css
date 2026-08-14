@@ -386,10 +386,6 @@
     48px 48px 0 -42px var(--color-profile-frame);
 }
 
-.profile-img.hidden-on-desktop {
-    margin-bottom: 1rem;
-}
-
 .profile-printable-img {
     --n: 500;
     --d: 500;
