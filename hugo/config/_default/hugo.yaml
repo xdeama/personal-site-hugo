@@ -1,5 +1,6 @@
 baseURL: https://dmalo.de
 theme: scrapyard
+enableGitInfo: true
 
 title: Denis Malolepszy Software Engineering
 
