@@ -1,10 +1,6 @@
 # personal-site-hugo
 My personal website https://dmalo.de made with Hugo, a custom theme and fluid responsive CSS. Inspired by https://andy-bell.co.uk/ and his guide on CSS https://every-layout.dev. 
 
-# status
-Theme and CSS in need of cleanup and are not yet standalone usable. 
-Markdown to PDF and DOCX conversion is experimental and might not work on your machine.
-
 # features
 - language switcher that keeps you on the current page
 - dark mode switcher with minimal JS
