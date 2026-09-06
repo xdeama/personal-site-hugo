@@ -11,7 +11,7 @@ role: "DevOps Engineer"
 company: "Denis Malolepszy Software Engineering, Frankfurt am Main"
 techstack:
   - "Java 8 bis 17"
-  - "Spring (Boot, Cloud, Data, Reactive, Security, Web, Gateway)"
+  - "Spring (Boot, Cloud, Data, WebFlux, Security, Web, Gateway)"
   - "Reactive Streams"
   - "Angular (PrimeFaces)"
   - "TypeScript"
@@ -49,6 +49,6 @@ business-areas:
 Java- und DevOps-Entwicklung für die Private-Cloud-Migration einer großen internationalen Bank. Schwerpunkte waren die Containerisierung bestehender Workloads, die Automatisierung von Deployment-Prozessen und die Begleitung von Migrationsprojekten durch interne Governance-Strukturen:
 
 - Spring-Microservices von VM-Betrieb auf OpenShift-Container migriert, einschließlich abhängiger Datenbank- und Observability-Komponenten
-- Komplexe VM-Deployment-Mechanismen mit Ansible und Reactive Spring automatisiert (u.a. Batch-Deployments mit Abhängigkeitssteuerung und automatische Sidecars)
+- Komplexe VM-Deployment-Mechanismen mit Ansible sowie Reactive Streams mit Spring WebFlux automatisiert (u.a. Batch-Deployments mit Abhängigkeitssteuerung und automatische Sidecars)
 - Erste Migrationsprojekte durch interne Architektur- und IT-Risk-Governance-Prozesse geführt
 - Bestehende Datenbank-Anonymisierungslösung analysiert, containerisiert und portiert

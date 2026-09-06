@@ -12,7 +12,7 @@ role: Software Engineer
 company: DenktMit eG, Oberursel, Germany
 techstack:
   - Java 21
-  - Spring Boot (WebFlux & Reactive)
+  - Spring Boot (WebFlux)
   - Java Operator SDK
   - Kubernetes
   - Apache Kafka (Strimzi)

@@ -1,7 +1,7 @@
 ---
 translationKey: project-holiday-properties-website
-title: "Webseite für Vertrieb von Ferienimmobilien"
-description: "Ferienimmobilien brauchten einen Vertriebskanal: Ich habe die Implementierung einer Contao-CMS-Webseite mit automatisierten Vertragsdokumenten und einer interaktiven Karte des Areals geleitet."
+title: "Digitales Portfolio für Vertrieb von Ferienimmobilien"
+description: "Ich habe die Implementierung eines digitalen Portfolios für den Vertrieb von Ferienimmobilien mit interaktiver Arealkarte und automatisierter Vertragserstellung geleitet."
 date: 2018-10-01T08:00:00+01:00
 draft: false
 layout: project
@@ -17,7 +17,7 @@ technologies:
 business-areas:
   - "Real Estate"
 ---
-Ich habe die Implementierung einer Webseite für den Vertrieb von Ferienimmobilien geleitet, inklusive automatisierter Erstellung von Vertragsdokumenten und einer interaktiven Karte des Areals.
+Ich habe die Implementierung eines digitalen Portfolios für den Vertrieb von Ferienimmobilien geleitet, inklusive automatisierter Erstellung von Vertragsdokumenten und einer interaktiven Karte des Areals.
 
 ### **Projektschwerpunkte**
 - Implementierung mit PHP, TypeScript, CSS und Contao CMS
