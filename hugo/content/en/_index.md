@@ -24,7 +24,7 @@ and energy sectors.
 
 {{< column-short >}}
 
-{{< static-img src="denis.png" class="profile-img frame" alt="Denis Malolepszy" width="554" height="485" fetchpriority="high" >}}
+{{< static-img src="denis.jpeg" class="profile-img frame" alt="Denis Malolepszy" width="555" height="485" fetchpriority="high" >}}
 
 {{< column-end >}}
 
