@@ -1,7 +1,7 @@
 ---
 translationKey: project-wams
 title: Real-time Wide Area Monitoring System (WAMS)
-description: "Für eine technische Studie bei einem europäischen Übertragungsnetzbetreiber habe ich einen cloud-nativen Phasor Data Concentrator (PDC) entwickelt und damit den vollständigen Datenpfad von PMUs bis zum LFR IEEE C37.118-konform umgesetzt."
+description: "Für eine technische Studie bei einem europäischen Übertragungsnetzbetreiber habe ich einen cloud-nativen Phasor Data Concentrator (PDC) entwickelt und die durchgängige Verarbeitung von der IEEE-C37.118-konformen PMU-Anbindung bis zu Echtzeit-Dashboards umgesetzt."
 date: 2025-12-01T08:00:00+01:00
 draft: false
 layout: project
@@ -16,9 +16,11 @@ techstack:
   - Java Operator SDK
   - Kubernetes
   - Apache Kafka (Strimzi)
+  - Protobuf
   - Apache Druid
   - RabbitMQ
-  - Argo CD & Helm
+  - Argo CD
+  - Helm
   - PostgreSQL
   - Keycloak (OAuth2/OIDC)
   - Grafana mit Druid-Datasource
@@ -42,7 +44,7 @@ technologies:
 business-areas:
   - Energy
 ---
-Im Rahmen einer technischen Studie bei einem europäischen Übertragungsnetzbetreiber habe ich einen cloud-nativen Phasor Data Concentrator (PDC) entwickelt und damit den vollständigen Datenpfad von PMUs bis zum LFR umgesetzt. Die Studie zeigte, dass hochauflösende Synchrophasordaten IEEE C37.118-konform erfasst, über die cloud-native PDC-Implementierung konzentriert und in eine modulare Leitsystem-Architektur integriert werden können.
+Im Rahmen einer technischen Studie bei einem europäischen Übertragungsnetzbetreiber habe ich einen cloud-nativen Phasor Data Concentrator (PDC) entwickelt und die durchgängige Verarbeitung von der PMU-Anbindung bis zu Echtzeit-Dashboards umgesetzt. Die Studie zeigte, dass hochauflösende Synchrophasordaten IEEE C37.118-konform erfasst, über die cloud-native PDC-Implementierung konzentriert und in eine modulare Leitsystem-Architektur integriert werden können.
 
 **Tätigkeitsschwerpunkte:**
 
