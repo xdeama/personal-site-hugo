@@ -12,7 +12,7 @@
                         {{ with $p.Description }}<p class="entry-summary">{{ . }}</p>{{ end }}
                     </li>
                 {{ end }}
-                <li class="project-entry blog-cta">
+                <li class="project-entry card-cta">
                     <a href="{{ (site.GetPage "blog/_index.md").Permalink }}">{{ T "blogReadAll" }} <span aria-hidden="true">&rarr;</span></a>
                 </li>
             </ul>

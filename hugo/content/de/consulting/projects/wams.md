@@ -6,6 +6,7 @@ date: 2025-12-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 10
+featured: true
 daterange: Dezember 2025 — März 2026
 role: Software Engineer
 company: DenktMit eG, Oberursel

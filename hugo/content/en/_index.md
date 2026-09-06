@@ -34,26 +34,11 @@ and energy sectors.
 
 {{< column-short-hide-on-mobile >}}
 
-{{< rawhtml >}} <br><br> {{< /rawhtml >}}
+{{< rawhtml >}} <br> {{< /rawhtml >}}
 
-{{< embed-svg-link path="static/svg/programming.svg" ref="/technologies" class="svg-emphasis" >}}
-
-{{< column-end >}}
-
-{{< column-long >}}
-
-
-## Tech Stack
-
-{{< include "focus.md" >}}
+{{< embed-svg-link path="static/svg/programming.svg" ref="/consulting/projects" >}}
 
 {{< column-end >}}
-
-{{< row-end >}}
-
-{{< embed-svg-hidden-on-desktop "static/svg/programming.svg" >}}
-
-{{< row >}}
 
 {{< column-long >}}
 
@@ -61,25 +46,40 @@ and energy sectors.
 
 {{< include "experience-text.md" >}}
 
-{{< embed-svg-hidden-on-desktop "static/svg/experience.svg" >}}
-
-{{< column-end >}}
-
-{{< column-short-hide-on-mobile >}}
-
-{{< rawhtml >}} <br> {{< /rawhtml >}}
-
-{{< embed-svg-link path="static/svg/experience.svg" ref="/consulting/projects" >}}
-
-{{< column-end >}}
-
-{{< row-end >}}
-
 Further reading:
 - Summarized [project experience]({{< ref "consulting" >}}) by technology, architecture, methods, and industries
 - [My CV]({{< ref "/consulting/cv" >}}) with an outline of the respective roles
 - And my [project portfolio]({{< ref "/consulting/projects" >}}) with descriptions of individual project assignments
 
+{{< embed-svg-hidden-on-desktop "static/svg/programming.svg" >}}
+
+{{< column-end >}}
+
+{{< row-end >}}
+
+## Latest Projects
+
+{{< featured-projects >}}
+
+{{< row >}}
+
+{{< column-long >}}
+
+## Tech Stack
+
+{{< include "focus.md" >}}
+
+{{< column-end >}}
+
+{{< column-short-hide-on-mobile >}}
+
+{{< embed-svg-link path="static/svg/microservices2.svg" ref="/technologies" class="svg-emphasis" >}}
+
+{{< column-end >}}
+
+{{< row-end >}}
+
+{{< embed-svg-hidden-on-desktop "static/svg/microservices2.svg" >}}
 
 {{< row >}}
 

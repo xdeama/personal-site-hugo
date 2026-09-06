@@ -34,6 +34,7 @@ company: Company
 published: Published
 furtherProjects: Further Projects
 furtherReading: 'Full descriptions of these and all other projects:'
+projectsViewAll: View all projects
 projectsUsingTech: 'Projects in which I used {{ . }}:'
 projectsInGroup: 'Projects in which I used these technologies:'
 groupedTechnologies: Technologies in this group

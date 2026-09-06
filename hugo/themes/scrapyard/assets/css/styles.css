@@ -226,6 +226,10 @@
     margin-block-start: var(--space-xs);
 }
 
+.prose p + :is(ol, ul) {
+    margin-block-start: var(--space-3xs-2xs);
+}
+
 .prose ol li::marker {
     color: var(--color-mid);
 }

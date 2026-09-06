@@ -6,6 +6,7 @@ date: 2024-05-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 20
+featured: true
 daterange: "May 2024 — Present"
 role: "Software Engineer"
 company: "Denis Malolepszy Software Engineering, Frankfurt am Main, Germany"
