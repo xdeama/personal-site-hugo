@@ -9,7 +9,7 @@
     {{- end }}
     {{- if .IsTranslated }}
     {{- range .AllTranslations }}
-    <xhtml:link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}"/>
+    <xhtml:link rel="alternate" hreflang="{{ .Language.Name }}" href="{{ .Permalink }}"/>
     {{- end }}
     {{- end }}
   </url>

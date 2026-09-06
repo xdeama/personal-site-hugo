@@ -10,16 +10,16 @@ languages:
   de:
     contentDir: content/de
     disabled: false
-    languageCode: de-DE
-    languageDirection: ltr
-    languageName: Deutsch
+    locale: de-DE
+    direction: ltr
+    label: Deutsch
     weight: 1
   en:
     contentDir: content/en
     disabled: false
-    languageCode: en-US
-    languageDirection: ltr
-    languageName: English
+    locale: en-US
+    direction: ltr
+    label: English
     weight: 2
 
 # Explicit map replaces Hugo's default tags/categories taxonomies,
