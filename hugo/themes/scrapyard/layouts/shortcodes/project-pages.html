@@ -1,7 +1,10 @@
 {{- /*
-Inlines every project page in full, ordered by weight. Used by the
-/portfolio pages, which are printed to PDF - failures must be loud,
-a silently empty output would ship an empty portfolio PDF.
+Inlines project pages ordered by weight. Pages flagged `print: summary`
+render as short summary entries at the end; all others (the default,
+`print: full`) render completely. The full block must be contiguous at the
+top of the weight order so the printed portfolio stays chronological.
+Used by the /portfolio pages, which are printed to PDF - failures must be
+loud, a silently empty output would ship an empty portfolio PDF.
 */ -}}
 {{- $section := site.GetPage "/consulting/projects" -}}
 {{- if not $section -}}
@@ -10,6 +13,27 @@ a silently empty output would ship an empty portfolio PDF.
 {{- if not $section.RegularPages -}}
     {{- errorf "project-pages shortcode: no project pages under /consulting/projects (used on %s)" .Page.Path -}}
 {{- end -}}
-{{- range $section.RegularPages.ByWeight }}
+{{- $summaries := slice -}}
+{{- range $section.RegularPages.ByWeight -}}
+    {{- $print := .Params.print | default "full" -}}
+    {{- if eq $print "full" -}}
+        {{- if $summaries -}}
+            {{- errorf "project-pages shortcode: %s prints full but has a higher weight than a summarized project - the full block must be contiguous at the top" .Path -}}
+        {{- end }}
 {{ partial "project-full.html" . }}
+    {{- else if eq $print "summary" -}}
+        {{- $summaries = $summaries | append . -}}
+    {{- else -}}
+        {{- errorf "project-pages shortcode: invalid print value %q on %s (expected full or summary)" $print .Path -}}
+    {{- end -}}
+{{- end -}}
+{{- with $summaries }}
+<h2 id="{{ i18n "furtherProjects" | anchorize }}">{{ i18n "furtherProjects" }}</h2>
+{{- range . }}
+<h3 id="{{ .Title | anchorize }}">{{ .Title }}</h3>
+<p><strong>{{ .Params.daterange | markdownify | plainify }}</strong></p>
+<p>{{ .Description | plainify }}</p>
+<p>{{ i18n "readMore" }}: <a href="{{ .Permalink }}">{{ .Permalink }}</a></p>
+{{- end }}
+<p>{{ i18n "furtherReading" }} <a href="{{ $section.Permalink }}#{{ (index . 0).Title | anchorize }}">{{ $section.Permalink }}</a></p>
 {{- end }}

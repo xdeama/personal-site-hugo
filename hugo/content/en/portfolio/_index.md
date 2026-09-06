@@ -57,6 +57,7 @@ content can be found in the subsequent [project portfolio]({{< relref "/consulti
 
 # Project Portfolio Denis Malolepszy
 
-My project portfolio includes projects from my time as a freelancer as well as from permanent positions.
+My project portfolio shows the projects from my freelance work in detail.
+Projects before 2022 are summarized at the end.
 
 {{< project-pages >}}

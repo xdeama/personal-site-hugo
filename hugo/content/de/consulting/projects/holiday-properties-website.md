@@ -6,6 +6,7 @@ date: 2018-10-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 130
+print: summary
 daterange: "Oktober 2018 — Juli 2021"
 role: "Head of IT"
 company: "Habona Invest GmbH, Frankfurt am Main"

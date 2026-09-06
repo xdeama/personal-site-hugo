@@ -6,6 +6,7 @@ date: 2009-01-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 180
+print: summary
 daterange: "2009 — 2012"
 role: "IT-Administrator"
 company: "Selbstständige Nebentätigkeit für ein Antiquariat, Fulda"

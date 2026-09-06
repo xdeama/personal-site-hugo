@@ -32,6 +32,8 @@ period: Period
 role: Role
 company: Company
 published: Published
+furtherProjects: Further Projects
+furtherReading: 'Full descriptions of these and all other projects:'
 projectsUsingTech: 'Projects in which I used {{ . }}:'
 projectsInGroup: 'Projects in which I used these technologies:'
 groupedTechnologies: Technologies in this group

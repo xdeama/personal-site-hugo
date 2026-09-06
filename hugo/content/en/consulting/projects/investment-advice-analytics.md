@@ -6,6 +6,7 @@ date: 2016-12-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 150
+print: summary
 daterange: "December 2016 — July 2017"
 role: "Lead Developer"
 company: "Cofinpro AG, Frankfurt am Main, Germany"
