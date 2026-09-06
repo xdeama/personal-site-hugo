@@ -6,6 +6,7 @@ date: 2015-03-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 160
+print: summary
 daterange: "March 2015 — December 2016"
 role: "Software Engineer"
 company: "Cofinpro AG, Frankfurt am Main, Germany"

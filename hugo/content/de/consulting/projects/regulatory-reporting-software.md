@@ -6,6 +6,7 @@ date: 2017-07-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 140
+print: summary
 daterange: "Juli 2017 — September 2018"
 role: "Org & IT-Berater"
 company: "Union Investment (Union IT-Services GmbH), Frankfurt am Main"

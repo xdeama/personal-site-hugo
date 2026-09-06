@@ -6,6 +6,7 @@ date: 2012-08-01T08:00:00+01:00
 draft: false
 layout: project
 weight: 170
+print: summary
 daterange: "August 2012 — Dezember 2012"
 role: "Webentwickler"
 company: "Selbstständige Nebentätigkeit für ein Antiquariat, Fulda"

@@ -58,6 +58,6 @@ im anschließenden [Projektportfolio]({{< relref "/consulting/projects" >}}).
 
 # Projektportfolio Denis Malolepszy
 
-Mein Projektportfolio enthält Projekte sowohl aus meiner Zeit als Freiberufler als auch aus Festanstellungen.
+Mein Projektportfolio zeigt Projekte aus meiner Freiberuflichkeit im Detail. Projekte vor 2022 sind am Ende zusammengefasst.
 
 {{< project-pages >}}
