@@ -33,7 +33,6 @@ loud, a silently empty output would ship an empty portfolio PDF.
 <h3 id="{{ .Title | anchorize }}">{{ .Title }}</h3>
 <p><strong>{{ .Params.daterange | markdownify | plainify }}</strong></p>
 <p>{{ .Description | plainify }}</p>
-<p>{{ i18n "readMore" }}: <a href="{{ .Permalink }}">{{ .Permalink }}</a></p>
 {{- end }}
 <p>{{ i18n "furtherReading" }} <a href="{{ $section.Permalink }}#{{ (index . 0).Title | anchorize }}">{{ $section.Permalink }}</a></p>
 {{- end }}
