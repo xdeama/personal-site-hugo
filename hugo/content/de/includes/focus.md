@@ -6,5 +6,5 @@ headless: true
 - Event-basierte Architekturen mit [Kafka](/de/technologies/kafka/)
 - Prozessorchestrierung in BPMN mit [Camunda](/de/technologies/camunda/)
 - Entwicklung von [Web-Frontends](/de/portfolio/groups/web-development/) mit [Angular](/de/technologies/angular/) und [TypeScript](/de/technologies/typescript/)
-- [Continuous Delivery](/de/portfolio/groups/ci-cd-devops/) zu [Kubernetes](/de/technologies/kubernetes/) mit [Helm](/de/technologies/helm/), Artifactory, [Jenkins](/de/technologies/jenkins/) oder [Azure DevOps](/de/technologies/azure-devops/)
-- Continuous Integration mit Maven, Gradle, Git und Renovate
+- [Continuous Integration](/de/portfolio/groups/ci-cd-devops/) mit [Jenkins](/de/technologies/jenkins/) oder [Azure DevOps](/de/technologies/azure-devops/): Maven- und Gradle-Builds, Renovate-Updates
+- Continuous Delivery zu [Kubernetes](/de/technologies/kubernetes/) mit GitOps, [Argo CD](/de/technologies/argo-cd/) und [Helm](/de/technologies/helm/)

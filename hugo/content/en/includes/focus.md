@@ -6,5 +6,5 @@ headless: true
 - Event-based architectures with [Kafka](/en/technologies/kafka/)
 - Development of [web frontends](/en/portfolio/groups/web-development/) with [Angular](/en/technologies/angular/) and [TypeScript](/en/technologies/typescript/)
 - Process orchestration in BPMN with [Camunda](/en/technologies/camunda/)
-- [Continuous Delivery](/en/portfolio/groups/ci-cd-devops/) to [Kubernetes](/en/technologies/kubernetes/) using [Helm](/en/technologies/helm/), Artifactory, [Jenkins](/en/technologies/jenkins/), or [Azure DevOps](/en/technologies/azure-devops/)
-- Continuous Integration with Maven, Gradle, Git, and Renovate
+- [Continuous Integration](/en/portfolio/groups/ci-cd-devops/) with [Jenkins](/en/technologies/jenkins/) or [Azure DevOps](/en/technologies/azure-devops/): Maven and Gradle builds, Renovate dependency updates
+- Continuous Delivery to [Kubernetes](/en/technologies/kubernetes/) with GitOps, [Argo CD](/en/technologies/argo-cd/), and [Helm](/en/technologies/helm/)
