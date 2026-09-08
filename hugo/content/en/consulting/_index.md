@@ -30,10 +30,10 @@ from various perspectives: as a leading manager, conceptual architect, implement
 
 I design, implement, extend, and modernize cloud-native business systems:
 
-- **Architecture:** Solution architecture from domain analysis and technology selection to integration into your existing system landscape.
+- **Architecture:** Solution architecture from domain analysis and technology selection to integration into an existing system landscape.
 - **Implementation:** Hands-on full stack development of backend services and web frontends, including the automated tests and delivery pipelines that carry them into production.
 - **Extension:** Further development of systems in production, with new features, new interfaces, and the refactoring that keeps them maintainable and testable.
-- **Modernization:** Java and Spring upgrades and the adaptation of legacy applications for the cloud, renewing established systems step by step instead of rewriting them.
+- **Modernization:** Java and Spring upgrades and the adaptation of legacy applications for the cloud, renewing established systems step by step instead of redeveloping them.
 
 
 ## Project Experience
