@@ -15,12 +15,10 @@ layout: standalone
 With more than 15 years of professional experience in the IT environment, I have led software projects to success 
 from various perspectives: as a leading manager, conceptual architect, implementing developer, and in operations.
 
-More than 13 years of project experience are distributed across technologies and industries as follows.
-
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}
-{{< embed-svg "static/svg/digital.svg" >}}
+{{< embed-svg "static/svg/digital.svg" "svg-small svg-raise-to-title" >}}
 {{< column-end >}}
 
 {{< row-end >}}
@@ -28,7 +26,20 @@ More than 13 years of project experience are distributed across technologies and
 {{< embed-svg-hidden-on-desktop "static/svg/digital.svg" >}}
 
 
+## Services
+
+I design, implement, extend, and modernize cloud-native business systems:
+
+- **Architecture:** Solution architecture from domain analysis and technology selection to integration into your existing system landscape.
+- **Implementation:** Hands-on full stack development of backend services and web frontends, including the automated tests and delivery pipelines that carry them into production.
+- **Extension:** Further development of systems in production, with new features, new interfaces, and the refactoring that keeps them maintainable and testable.
+- **Modernization:** Java and Spring upgrades and the adaptation of legacy applications for the cloud, renewing established systems step by step instead of rewriting them.
+
+
 ## Project Experience
+
+More than 13 years of project experience are distributed across technologies and industries as follows.
+Each figure sums my hands-on time with that technology across all projects.
 
 {{< include "experience-years.md" >}}
 

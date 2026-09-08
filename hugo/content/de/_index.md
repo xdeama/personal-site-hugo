@@ -15,7 +15,8 @@ draft: false
 Freiberuflicher Full Stack Developer, Software-Architekt und Mitgründer von 
 [DenktMit]({{< ref "/denktmit" >}}), dem Experten-Netzwerk selbstständiger IT-Spezialisten.
 
-Die Konzeption und Entwicklung [anspruchsvoller Softwarelösungen]({{< ref "/consulting/projects" >}}) 
+Ich [konzipiere, implementiere, erweitere und modernisiere]({{< ref "/consulting" >}}) cloud-native
+Geschäftsanwendungen. Die Entwicklung [anspruchsvoller Softwarelösungen]({{< ref "/consulting/projects" >}})
 für die Sektoren Finanzen und Energie ist mein Handwerk.
 
 {{< include "contact.md" >}}

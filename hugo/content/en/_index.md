@@ -15,7 +15,8 @@ draft: false
 Freelance Full Stack Developer, Software Architect, and co-founder of
 [DenktMit]({{< ref "/denktmit" >}}), my expert network of independent IT specialists.
 
-I specialize in designing and developing [sophisticated software solutions]({{< ref "/consulting/projects" >}}) for the finance 
+I [design, implement, extend, and modernize]({{< ref "/consulting" >}}) cloud-native business systems.
+I specialize in [sophisticated software solutions]({{< ref "/consulting/projects" >}}) for the finance
 and energy sectors.
 
 {{< include "contact.md" >}}

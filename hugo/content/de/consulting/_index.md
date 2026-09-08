@@ -15,12 +15,10 @@ layout: standalone
 In über 15 Jahren Berufserfahrung im IT-Umfeld habe ich Softwareprojekte aus verschiedenen Perspektiven zum 
 Erfolg geführt: als leitender Manager, konzipierender Architekt, umsetzender Entwickler und im operativen Betrieb.
 
-Mehr als 13 Jahre Projekterfahrung verteilen sich wie folgt auf Technologien und Branchen.
-
 {{< column-end >}}
 
 {{< column-short-hide-on-mobile >}}
-{{< embed-svg "static/svg/digital.svg" >}}
+{{< embed-svg "static/svg/digital.svg" "svg-small svg-raise-to-title" >}}
 {{< column-end >}}
 
 {{< row-end >}}
@@ -28,7 +26,20 @@ Mehr als 13 Jahre Projekterfahrung verteilen sich wie folgt auf Technologien und
 {{< embed-svg-hidden-on-desktop "static/svg/digital.svg" >}}
 
 
+## Leistungen
+
+Ich konzipiere, implementiere, erweitere und modernisiere cloud-native Geschäftsanwendungen:
+
+- **Architektur:** Solution-Architektur von der fachlichen Analyse, über die Technologieauswahl bis zur Integration in eine bestehende Systemlandschaft. 
+- **Implementierung:** Umsetzung von Backend-Services und Web-Frontends als Full Stack Developer, einschließlich automatisierter Tests und der Delivery-Pipelines, die sie in Produktion bringen.
+- **Weiterentwicklung:** Ausbau produktiver Systeme um neue Funktionen und Schnittstellen, mit dem Refactoring, das sie wartbar und testbar hält.
+- **Modernisierung:** Java- und Spring-Upgrades und die Anpassung von Legacy-Anwendungen für die Cloud, um bewährte Systeme schrittweise zu erneuern, statt sie neu zu entwickeln.
+
+
 ## Projekterfahrung
+
+Mehr als 13 Jahre Projekterfahrung verteilen sich wie folgt auf Technologien und Branchen.
+Jede Angabe summiert über alle Projekte die Zeit, in der ich tatsächlich mit der jeweiligen Technologie gearbeitet habe.
 
 {{< include "experience-years.md" >}}
 

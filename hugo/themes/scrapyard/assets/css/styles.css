@@ -193,6 +193,12 @@
     height: 11rem;
 }
 
+/* Raises the illustration of a row that directly follows the page title so
+   its top aligns with the h1 (h1 line box plus the h1-to-row flow gap). */
+.prose > .row > .column-short > svg.svg-raise-to-title {
+    margin-top: calc(-1.2 * var(--size-step-3) - var(--space-m)) !important;
+}
+
 .prose > svg,
 .prose > a > svg,
 .prose > .row > .column-short > a > svg,
