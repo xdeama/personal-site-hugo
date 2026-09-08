@@ -98,6 +98,12 @@
     color: inherit;
 }
 
+/* The global button:hover background outranks the reset above in the hover
+   state, so it must be cancelled at hover specificity as well. */
+.theme-option:hover {
+    background: none;
+}
+
 .theme-option.current {
     color: var(--color-mid);
     cursor: default;
@@ -113,7 +119,7 @@
 .bar-utils .theme-option:hover,
 .site-drawer .lang-links a:hover,
 .site-drawer .theme-option:hover {
-    color: var(--bar-text-bright);
+    color: var(--color-primary);
 }
 
 .bar-utils .lang-current,
