@@ -2,13 +2,12 @@
 My personal website https://dmalo.de made with Hugo, a custom theme and fluid responsive CSS. Inspired by https://andy-bell.co.uk/ and his guide on CSS https://every-layout.dev. 
 
 # features
-- language switcher that keeps you on the current page
-- dark mode switcher with minimal JS
+- a language selector that does not navigate the user back to the start page when selecting a different language
+- cookie-free dark mode selector via URL-parameters with minimal dependency-free JavaScript (so we can say this website does not use cookies)
+- Hugo shortcodes for SVG images and a two-column layout controlled by markdown shortcodes
 - fluent CSS layout with https://every-layout.dev
-- language switching link that keeps the visitor on the same page url
-- dark mode switching without cookies
-- the theme uses JavaScript for darkmode toggling and a fullscreen overlay for images, so the website is usable and all information accessible without JavaScript enabled
-
+- usable with minimal feature loss when JavaScript disabled, losing dark mode toggle and image overlays
+- genuinely human made uglyness
 
 # documentation
 
